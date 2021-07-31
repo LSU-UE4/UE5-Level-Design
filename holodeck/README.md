@@ -46,7 +46,9 @@ Select the **Default** type of level.
 
 ##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
 
-![alt_text](images/.jpg)
+Go to **File | Save Current** and call the level `PhysicsTestLevel` and save it to the **Maps** folder. Press the **Save** button.
+
+![alt_text](images/image_23.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
