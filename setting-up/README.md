@@ -245,4 +245,4 @@ https://user-images.githubusercontent.com/5504953/127747095-54362efe-c04c-4607-8
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
 | [home](../README.md#user-content-ue4-hello-world) | [next](../camera-mechanics/README.md#user-content-lock-cameras-and-mechanics)|
-|---|---|---|
+|---|---|
