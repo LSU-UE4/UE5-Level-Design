@@ -77,6 +77,7 @@ Open the **Axis Mappings | Move Right** variable and press the **+** (plus symbo
 
 Run the game again and now the arrow keys act just like the **WASD** keys and we are at parity.  Try plugging in a controller to play it as well!
 
+https://user-images.githubusercontent.com/5504953/127748315-f24cc98e-51c8-4da0-aa54-86a93d065816.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
