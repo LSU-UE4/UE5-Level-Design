@@ -91,7 +91,7 @@ Open up the **ThirdPersonCharacter** blueprint and select the **CharacterMovemen
 
 ##### `Step 10.`\|`SUU&G`| :large_blue_diamond:
 
-![alt_text](images/.jpg)
+Press the **Compile** button on the blueprint and run the game.  Now look at how the player's gravity changes and the player floats more when jumping. The physics feel like you are on the moon.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
