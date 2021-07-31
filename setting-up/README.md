@@ -87,7 +87,7 @@ Go to the This will take you to a screen with a link to the repository.  Now we 
 
 Make sure you have a GitHub account and that you are logged into it. Click on [GitHub Classroom Introduction to Level Design Link](https://classroom.github.com/a/bV3pgozG) . Accept the prompt if it asks you go join the class and you should get to a Accept the Assignment – UE4-Hello-World-FA21. Press the Accept this assignment button.
 
-![alt text](images/image_10.jpg)
+![alt text](images/iAcceptGitHubClassroomInvite)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
