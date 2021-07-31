@@ -16,7 +16,7 @@ Now we normally create a level where we test out all of our mechanics to make su
 
 Lets organize the content folder for our project and start a new level. Lets add a floor to the game. We have two **Meshes** (geometry) folders.  One in the **Third Person** folder and the other in the **Geometry** folder.  Lets move the meshes from **Third Person** to the **Geometry | Meshes** folder.  Then delete the **Third Person** meshes folder.  Force the delete if needed.
 
-![alt_text](images/.jpg)
+https://user-images.githubusercontent.com/5504953/127749234-e5e290c4-14bb-4747-9584-e946d1057300.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
