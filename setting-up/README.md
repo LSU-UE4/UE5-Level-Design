@@ -71,13 +71,13 @@ https://user-images.githubusercontent.com/5504953/127741784-aa262ff8-e4be-4973-9
 
 We will turn this folder into a git repository.  We can do this inside of Unreal.  Right click on the bottom left in the *Content Browser* the icon next to **Filters**.  This opens up a menu that shows your **Content** folder.  Right click on the folder and select **Connect to Source Control**.  Then in the menu select **Git (beta version)** as the source control you will be using. Make sure you add a **.gitignore** file, a **README.md** file, a **.gitattributes for Git LFS** file and finally **Make the initial Git Commit** file.
 
-
-
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt text](images/.jpg)
+If you are in my class you will have an invite to a project.  Otherwise you can just go to GitHub and create a new project and call it `Intro-To-Level-Design`.  This will take you to a screen with a link to the repository.  Now we just need to include our **Unreal** project in this which we will do next.
+
+![New project website in Git"](images/image_10.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
