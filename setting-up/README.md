@@ -71,7 +71,7 @@ https://user-images.githubusercontent.com/5504953/127741784-aa262ff8-e4be-4973-9
 
 We will turn this folder into a git repository.  We can do this inside of Unreal.  Right click on the bottom left in the *Content Browser* the icon next to **Filters**.  This opens up a menu that shows your **Content** folder.  Right click on the folder and select **Connect to Source Control**.  Then in the menu select **Git (beta version)** as the source control you will be using. Make sure you add a **.gitignore** file, a **README.md** file, a **.gitattributes for Git LFS** file and finally **Make the initial Git Commit** file.
 
-
+https://user-images.githubusercontent.com/5504953/127741882-2ac736ef-158b-454f-b7b8-8ba473ccf2aa.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
