@@ -2,7 +2,7 @@
 
 ### Lock Cameras and Mechanics
 
-<sub>[previous](../setting-up/README.md#user-content-setting-up-unreal--github) • [home](../README.md#user-content-ue4-hello-world) • [next](../holodeck/README.md#user-content-lock-cameras-and-mechanics)</sub>
+<sub>[previous](../setting-up/README.md#user-content-setting-up-unreal--github) • [home](../README.md#user-content-ue4-hello-world) • [next](../holodeck/README.md#user-content-setting-up-holodeck)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -135,5 +135,5 @@ https://user-images.githubusercontent.com/5504953/127748602-74b22262-4dc7-41c8-9
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../setting-up/README.md#user-content-setting-up-unreal--github)| [home](../README.md#user-content-ue4-hello-world) | [next](../holodeck/README.md#user-content-lock-cameras-and-mechanics)|
+| [previous](../setting-up/README.md#user-content-setting-up-unreal--github)| [home](../README.md#user-content-ue4-hello-world) | [next](../holodeck/README.md#user-content-setting-up-holodeck)|
 |---|---|---|
