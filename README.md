@@ -10,7 +10,7 @@
 
 <!-- TOC -->
 ## Table of Contents
-<kbd></kbd> &nbsp;&nbsp; [Setting Up](setting-up/README.md#user-content-setting-up) <br>
+<kbd></kbd> &nbsp;&nbsp; [Setting Up Unreal & Github](setting-up/README.md#user-content-setting-up-unreal--github) <br>
 <kbd></kbd> &nbsp;&nbsp; [Lock Cameras and Mechanics](camera-mechanics/README.md#user-content-lock-cameras-and-mechanics) <br>
 
 <!-- LICENSE -->
