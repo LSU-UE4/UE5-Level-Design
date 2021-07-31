@@ -124,7 +124,7 @@ We will make one final change and have very snappy turning speed.  We will adjus
 
 ##### `Step 14.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Play the game and make any changes to what I suggested.  Get the player to move the way you envision a player should move in an arcady third person game.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
