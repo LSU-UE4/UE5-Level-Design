@@ -131,7 +131,7 @@ https://user-images.githubusercontent.com/5504953/127748602-74b22262-4dc7-41c8-9
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Create Holodeck">
+<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Holodeck">
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
