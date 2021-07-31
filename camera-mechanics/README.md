@@ -126,6 +126,8 @@ We will make one final change and have very snappy turning speed.  We will adjus
 
 Play the game and make any changes to what I suggested.  Get the player to move the way you envision a player should move in an arcady third person game.
 
+https://user-images.githubusercontent.com/5504953/127748602-74b22262-4dc7-41c8-9465-a3b14ce6b8e3.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: 
