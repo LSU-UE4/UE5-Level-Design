@@ -6,14 +6,15 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Lets organize the content folder for our project and start a new level. Lets add a floor to the game.
+Now we normally create a level where we test out all of our mechanics to make sure it works.  This is often refered to as a test level, gym or holodeck all representing a level that is not meant to be played by the user but is used for testing mechanics and assets for gray blocking. We will use this to understand the scale of the objects we need to build to match the mechanics.
 
 <br>
 
 ---
 
-
 ##### `Step 1.`\|`SUU&G`|:small_blue_diamond:
+
+Lets organize the content folder for our project and start a new level. Lets add a floor to the game. We have two **Meshes** (geometry) folders.  One in the **Third Person** folder and the other in the **Geometry** folder.  Lets move the meshes from **Third Person** to the **Geometry | Meshes** folder.  Then delete the **Third Person** meshes folder.  Force the delete if needed.
 
 ![alt_text](images/.jpg)
 
@@ -21,7 +22,7 @@ Lets organize the content folder for our project and start a new level. Lets add
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+![alt_text](images/image_25.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
