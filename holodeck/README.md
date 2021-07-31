@@ -72,7 +72,7 @@ Press **Settings | Project Settings** and change the **Editor Startup Map** and 
 
 Press play and notice that it uses the **Default Pawn**.  This is the character that is loaded in the default level.
 
-![alt_text](images/image_26.png)
+![play game and see use of default pawn](images/image_26.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -80,13 +80,15 @@ Press play and notice that it uses the **Default Pawn**.  This is the character 
 
 Press **Settings | Global Settings**.  Each map allows you to adjust the game mode settings.  There is a special **GameMode** blueprint that we already have included with this template. Go to **GameMode Override** and select `ThirdPersonGameMode`.
 
-![alt_text](images/image_27.jpg)
+![override gamemode settings with ThirdPersonGameMode blueprint](images/image_27.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`SUU&G`| :large_blue_diamond:
 
-![alt_text](images/.jpg)
+Now press play and we should have the character controls we had previously with all of its logic.  Press **Save All** and update Github by **committing** and **pushing** all the changes made. Next up we will start to figure out platform distances.
+
+![play with original character being loaded](images/image_28.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
