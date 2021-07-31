@@ -69,15 +69,18 @@ https://user-images.githubusercontent.com/5504953/127741784-aa262ff8-e4be-4973-9
 
 ##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We will turn this folder into a git repository.  We can do this inside of Unreal.  Right click on the bottom left in the *Content Browser* the icon next to **Filters**.  This opens up a menu that shows your **Content** folder.  Right click on the folder and select **Connect to Source Control**.  Then in the menu select **Git (beta version)** as the source control you will be using. Make sure you add a **.gitignore** file, a **README.md** file, a **.gitattributes for Git LFS** file and finally **Make the initial Git Commit** file.
+Make sure you have a GitHub account and that you are logged into it. Click on [GitHub Classroom Introduction to Level Design Link](https://classroom.github.com/a/bV3pgozG) . Accept the prompt if it asks you go join the class and you should get to a Accept the Assignment – UE4-Hello-World-FA21. Press the Accept this assignment button.
 
-https://user-images.githubusercontent.com/5504953/127741988-24cf6daa-9c21-4387-9420-c745cf0f635a.mp4
+![alt text](images/iAcceptGitHubClassroomInvite.jpg)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the This will take you to a screen with a link to the repository.  Now we just need to include our **Unreal** project in this which we will do next.
+Go back to **Unreal Engine** and press the <kbd>Source Control</kbd> button and select the **Provider** `None` dropdown.
+
+![select github for source control](images/SelectGitHubForSourceControl.jpg)
 
 ![New project website in Git"](images/image_10.jpg)
 
@@ -85,9 +88,7 @@ Go to the This will take you to a screen with a link to the repository.  Now we 
 
 ##### `Step 9.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Make sure you have a GitHub account and that you are logged into it. Click on [GitHub Classroom Introduction to Level Design Link](https://classroom.github.com/a/bV3pgozG) . Accept the prompt if it asks you go join the class and you should get to a Accept the Assignment – UE4-Hello-World-FA21. Press the Accept this assignment button.
 
-![alt text](images/iAcceptGitHubClassroomInvite)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
