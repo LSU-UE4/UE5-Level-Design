@@ -18,7 +18,6 @@ In this case I am envisioning a third person platformer like Matio and we will c
 
 ---
 
-
 ##### `Step 1.`\|`SUU&G`|:small_blue_diamond:
 
 Now open the **ThirdPersonCharacter** blueprint that you find in **Content | ThirdPersonBP | Blueprints | ThirdPersonCharacter**. Make sure you are in the **Viewport** tab. Now click on the **Camera Boom** component.  It is the parent of the FollowCamera.  This acts as a spring so that when the camera collides with geometry it acts as a spring to keep the camera from going into geometry. This is represented with the **red** arrow in the editor.
@@ -54,6 +53,7 @@ https://user-images.githubusercontent.com/5504953/127748065-7bff5778-c2d0-49a4-a
 
 Run the game again and look how the arrow keys for left and right differ from the a and d key in the game.  The **AWSD** moves the player and on the arrow keys left and right move the camera.  Lets make them the same.
 
+https://user-images.githubusercontent.com/5504953/127748151-95a8dc2a-8508-4d69-9ca6-1f58dbb5ea4a.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
