@@ -23,7 +23,7 @@ In this case I am envisioning a third person platformer like Matio and we will c
 
 Now open the **ThirdPersonCharacter** blueprint that you find in **Content | ThirdPersonBP | Blueprints | ThirdPersonCharacter**. Make sure you are in the **Viewport** tab. Now click on the **Camera Boom** component.  It is the parent of the FollowCamera.  This acts as a spring so that when the camera collides with geometry it acts as a spring to keep the camera from going into geometry. This is represented with the **red** arrow in the editor.
 
-![alt_text](images/image_04.jpg)
+![open the thirdpersonncharacter blueprint](images/image_04.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -31,13 +31,14 @@ Now open the **ThirdPersonCharacter** blueprint that you find in **Content | Thi
 
 The camera is very tight to the player light an action shooter.  We want a camera that is a bit further away.  In our charactre blueprint there is a boom that adjusts the distance and angle of the camera from the player. Select the **Camera Boom** component.  Change the **Target Arm Length** to a number like `750`.  Then adjust the **Target Offset Z** value to a value like `218`. Now the camera is above and further away but is not rotated facing the player.  Lets fix that.
 
-![alt_text](images/image_07.jpg)
+![pull camera away from the player](images/image_07.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+Now select the **FollowCamera** component and adjust the **Rotation Y** to `345`.  This will pitch the camera down 15 degrees pointing towards the back of the player's head.
 
-![alt_text](images/.jpg)
+![rotate camera to face player](images/image_20.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
