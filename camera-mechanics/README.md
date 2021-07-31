@@ -59,7 +59,9 @@ https://user-images.githubusercontent.com/5504953/127748151-95a8dc2a-8508-4d69-9
 
 ##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+The controls are defined in the project settings.  Select the **Settings** button and go to **Project Settings**.  Go to **Engine | Input** and open up the arrow next to **Axis Mappings**.  Go to **Left** and **Right** under **TurnRate** and press the **X** to delete both of them.
+
+![go to settings and remove turn rate](images/image_09.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
