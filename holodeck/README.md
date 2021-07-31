@@ -46,7 +46,7 @@ Select the **Default** type of level.
 
 ##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
 
-Go to **File | Save Current** and call the level `PhysicsTestLevel` and save it to the **Maps** folder. Press the **Save** button.
+Go to **File | Save Current** and call the level `Holodeck` and save it to the **Level** folder. Press the **Save** button.
 
 ![alt_text](images/image_23.png)
 
@@ -54,7 +54,9 @@ Go to **File | Save Current** and call the level `PhysicsTestLevel` and save it 
 
 ##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+So we should end up with the **Holodeck** in the **Level** folder.",
+
+![holodeck level in level folder](images/image_24.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
