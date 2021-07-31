@@ -77,7 +77,7 @@ https://user-images.githubusercontent.com/5504953/127741988-24cf6daa-9c21-4387-9
 
 ##### `Step 8.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-If you are in my class you will have an invite to a project.  Otherwise you can just go to GitHub and create a new project and call it `Intro-To-Level-Design`.  This will take you to a screen with a link to the repository.  Now we just need to include our **Unreal** project in this which we will do next.
+Go to the This will take you to a screen with a link to the repository.  Now we just need to include our **Unreal** project in this which we will do next.
 
 ![New project website in Git"](images/image_10.jpg)
 
@@ -85,7 +85,9 @@ If you are in my class you will have an invite to a project.  Otherwise you can 
 
 ##### `Step 9.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt text](images/.jpg)
+Make sure you have a GitHub account and that you are logged into it. Click on [GitHub Classroom Introduction to Level Design Link](https://classroom.github.com/a/bV3pgozG) . Accept the prompt if it asks you go join the class and you should get to a Accept the Assignment – UE4-Hello-World-FA21. Press the Accept this assignment button.
+
+![alt text](images/image_10.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
