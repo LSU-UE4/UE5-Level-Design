@@ -2,7 +2,7 @@
 
 ### Setting up Unreal & Github
 
-<sub>[previous](../README.md#user-content-first-hour-in-ue4) • [home](../README.md#user-content-ue4-hello-world) • [next](../readme/README.md#user-content-readmemd-file)</sub>
+<sub>[home](../README.md#user-content-ue4-hello-world) • [next](../camera-mechanics/README.md#user-content-lock-cameras-and-mechanics)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -244,5 +244,5 @@ https://user-images.githubusercontent.com/5504953/127747095-54362efe-c04c-4607-8
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../first-hour/README.md#user-content-first-hour-in-ue4)| [home](../README.md#user-content-ue4-hello-world) | [next](../readme/README.md#user-content-readmemd-file)|
+| [home](../README.md#user-content-ue4-hello-world) | [next](../camera-mechanics/README.md#user-content-lock-cameras-and-mechanics)|
 |---|---|---|
