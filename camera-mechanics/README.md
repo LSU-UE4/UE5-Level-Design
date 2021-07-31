@@ -67,7 +67,9 @@ The controls are defined in the project settings.  Select the **Settings** butto
 
 ##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Open the **Axis Mappings | Move Right** variable and press the **+** (plus symbol) button twice to add controls for left and right.  Add a **Right** keyboard button and set the **Scale** to `1.0` and a**Left** keyboard button with a **Scale** of `-1.0`. Press the **Compile** button in the blueprint.
+
+![add left and right controls to game](images/image_11.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
