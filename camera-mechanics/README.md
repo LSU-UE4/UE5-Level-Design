@@ -29,7 +29,9 @@ Now open the **ThirdPersonCharacter** blueprint that you find in **Content | Thi
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Select the **Camera Boom** component.  Change the **Target Arm Length** to a number like `750`.  Then adjust the **Target Offset Z** value to a value like `218`. Now the camera is above and further away but is not rotated facing the player.  Lets fix that.
+
+![alt_text](images/image_07.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
