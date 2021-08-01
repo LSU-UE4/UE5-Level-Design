@@ -29,7 +29,7 @@ Run the **Epic Games Launcher** and Press **Launch** button to go to the *Select
 
 ##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-You can pick from different starting templates with Games, Film/TV, Architecture and Design as options.  Lets start by selecting Games and then press the <kbd>Next</kbd> button.
+You can pick from different starting templates with Games, Film/TV, Architecture and Design as options.  Lets start by selecting **Games** and then press the <kbd>Next</kbd> button.
 
 ![Unreal Select or Create New Project screen](images/image_03.png)
 
