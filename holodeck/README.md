@@ -100,7 +100,7 @@ Press **Settings | World Settings**.  Each map allows you to adjust the game mod
 
 ##### `Step 10.`\|`SUU&G`| :large_blue_diamond:
 
-Now press play and we should have the character controls we had previously with all of its logic.  Press **Save All** and update Github by **committing** and **pushing** all the changes made. Next up we will start to figure out platform distances.
+Now press play and we should have the character controls we had previously with all of its logic.  Press **Save All** and update Github by **committing** and **pushing** all the changes made. Next up we will lay out the floor and select a custom material.
 
 ![play with original character being loaded](images/image_28.jpg)
 
