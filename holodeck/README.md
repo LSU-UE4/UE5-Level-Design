@@ -14,7 +14,11 @@ Now we normally create a level where we test out all of our mechanics to make su
 
 ##### `Step 1.`\|`SUU&G`|:small_blue_diamond:
 
-Lets organize the content folder for our project and start a new level. Lets add a floor to the game. We have two **Meshes** (geometry) folders.  One in the **Third Person** folder and the other in the **Geometry** folder.  Lets move the meshes from **Third Person** to the **Geometry | Meshes** folder.  Then delete the **Third Person** meshes folder.  Force the delete if needed.
+Lets organize the content folder for our project and start a new level. Lets add a floor to the game. We have two **Meshes** (geometry) folders.  One in the **Third Person** folder and the other in the **Geometry** folder.  Lets move the meshes from **Third Person** to the **Geometry | Meshes** folder.  
+
+Unreal redirects the files so it still looks to see that empty **Meshes** folder.  To have **Unreal** point to the new folder directly and automatically clean up the empty folder right click on **Content** and select `Fix Up Redirectors in Folder`.  This will take a bit and you will see that the folder is now gone and the files are in the new folder.
+
+Please note that the **Red X** icon indicates that it is not commited in Unreal.
 
 https://user-images.githubusercontent.com/5504953/127749234-e5e290c4-14bb-4747-9584-e946d1057300.mp4
 
