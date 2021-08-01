@@ -169,13 +169,16 @@ Now lets switch to the **Main** branch by typing
 git checkout main
 ```
 
-Now lets take all the work we have done to date on our computer and **Push** it to the server.  This will ensure that all the files are safely stored on the server.
+Now lets take all the work we have done to date on our computer and **Push** it to the server.  This will ensure that all the files are safely stored on the server. It will take a while then you should get a message confirming the branch creation and the push.
 
 ```
 git push -u origin main
 ```
 
 ![checkout main branch and push](images/GitCheckoutPush.jpg)
+
+![git confirmation message](images/GitConfirm.jpg)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -197,7 +200,7 @@ Now I tried doing the above step in **GitHub Desktop** but got some errors.  So 
 
 ##### `Step 20.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond:
 
-Locate the root folder of your project.  This is the folder that contains the `.git` folder.  This is the topmost folder of your Unreal project.
+Locate the root folder of your project.  This is the folder that contains the `.git` folder.  This is the top most folder of your Unreal project. In my case it is in the `Documents | Unreal Projects | OurFirstProject` folder.  Press the <kbd>Select Folder</kbd> button.
 
 ![find root of project](images/FindRootOfProject.jpg)
 
