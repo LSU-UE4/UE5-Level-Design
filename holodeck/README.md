@@ -20,7 +20,9 @@ Unreal redirects the files so it still looks to see that empty **Meshes** folder
 
 Please note that the **Red X** icon indicates that it is not commited in Unreal.
 
-https://user-images.githubusercontent.com/5504953/127749234-e5e290c4-14bb-4747-9584-e946d1057300.mp4
+![move meshes into folder](images/MoveMeshesFolder.jpg)
+
+![redirect folders to clean up hiearchy](images/RedirectFolder.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
