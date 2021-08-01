@@ -68,9 +68,9 @@ Go to **File | Save Current** and call the level `Holodeck` and save it to the *
 
 ##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
-So we should end up with the **Holodeck** in the **Level** folder.",
+So we should end up with the **Holodeck** in the **Levels** folder.
 
-![holodeck level in level folder](images/image_24.png)
+![holodeck level in level folder](images/image_24.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
