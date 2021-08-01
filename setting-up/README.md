@@ -210,7 +210,7 @@ Locate the root folder of your project.  This is the folder that contains the `.
 
 Press the <kbd>Add Repository</kbd> button to select this project. Then press the <kbd>Fetch origin</kbd> button to make sure that the permissions all work. 
 
-You will get a pop up asking to **Initialize Git LFS** you will press the <kbd>Accept</kbd> button.
+You will get a pop up asking to **Initialize Git LFS** you will press the <kbd>Initialize Git LFS</kbd> button.
 
 You should now see the message `Last feteched just now`. This means that we are ready to go. 
 
