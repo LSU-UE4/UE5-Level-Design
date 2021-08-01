@@ -78,7 +78,7 @@ So we should end up with the **Holodeck** in the **Levels** folder.
 
 Press **Settings | Project Settings** and change the **Editor Startup Map** and **Game Startup Map** to `Holodeck`",
 
-![change startup maps to Holodeck level](images/image_25.png)
+![change startup maps to Holodeck level](images/image_25.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
