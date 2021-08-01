@@ -23,7 +23,7 @@ If you have not installed the required software go and add [Epic Games Launcher]
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 Run the **Epic Games Launcher** and Press **Launch** button to go to the *Select or Create New Project* screen.
-![button to launch UE4](images/image_06.png)
+![button to launch UE4](images/LaunchUnrealEditor.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
