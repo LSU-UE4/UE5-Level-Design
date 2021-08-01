@@ -32,10 +32,10 @@ Please note that the **Red X** icon indicates that it is not commited in Unreal.
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
  Move the **Blueprints** and **Maps** folder from **ThirdPerson** to the root **Content** folder.  
- 
- Change the name of the folder **Maps** to `Levels`. Unreal uses both terms and I think **Levels** is more generally recognized.  
- 
+
  Right click on **Content** and select `Fix Up Redirectors in Folder` to clean up redirects and delete empty folders. 
+
+ Change the name of the folder **Maps** to `Levels`. Unreal uses both terms and I think **Levels** is more generally recognized.  
 
 ![move blueprints and map folder to root and rename maps to levels1. ](images/MoveFolders.jpg)
 
