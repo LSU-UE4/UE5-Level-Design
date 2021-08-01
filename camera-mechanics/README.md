@@ -133,7 +133,7 @@ https://user-images.githubusercontent.com/5504953/127748602-74b22262-4dc7-41c8-9
 
 ##### `Step 15.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: 
 
-Commit and push your changes to GitHub and we will move on to setting up a new level to do some prepatory work before we can commence gray blocking.
+Commit and push your changes in GitHub Desktop and we will move on to setting up a new level to do some prepatory work before we can commence gray blocking.
 
 ![commit and push changes to github](images/CommitChangesToGitHub.jpg)
 
