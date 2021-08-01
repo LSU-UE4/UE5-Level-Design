@@ -60,7 +60,7 @@ Select the **Default** type of level.
 
 ##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
 
-Go to **File | Save Current** and call the level `Holodeck` and save it to the **Level** folder. Press the **Save** button.
+Go to **File | Save Current** and call the level `Holodeck` and save it to the **Levels** folder. Press the **Save** button.
 
 ![alt_text](images/image_23.png)
 
@@ -70,7 +70,7 @@ Go to **File | Save Current** and call the level `Holodeck` and save it to the *
 
 So we should end up with the **Holodeck** in the **Level** folder.",
 
-![holodeck level in level folder](images/image_24.png)
+![holodeck level in level folder](images/image_24.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
