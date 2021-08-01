@@ -84,7 +84,7 @@ Press **Settings | Project Settings** and change the **Editor Startup Map** and 
 
 ##### `Step 8.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press play and notice that it uses the **Default Pawn**.  This is the character that is loaded in the default level.
+Press play and notice that it uses the **Default Pawn**.  This is the character that is loaded in the default level. It is a first person fly around view.  This is the default pawn if one is not specified in the **Game Mode** in either **Project Settings** or **World Settings**.
 
 ![play game and see use of default pawn](images/image_26.png)
 
