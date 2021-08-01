@@ -24,6 +24,9 @@ Please note that the **Red X** icon indicates that it is not commited in Unreal.
 
 ![redirect folders to clean up hiearchy](images/RedirectFolder.jpg)
 
+![no more second meshes folder and red x on new items](images/RedXs.jpg)
+
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
