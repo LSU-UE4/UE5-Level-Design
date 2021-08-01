@@ -243,7 +243,7 @@ Download a thumbnail that you can use on this project [Intro Thumbnail](images/I
 
 Go back to the game screen, press **Source Control** add a message and press submit.  Open up **GitHub** desktop and push to the server.
 
-https://user-images.githubusercontent.com/5504953/127746569-442bc515-e8fe-4106-8a9d-d8ffb69caefa.mp4
+https://user-images.githubusercontent.com/5504953/127775522-662de1a2-997c-4bbe-ae35-beb582a67cd1.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -253,6 +253,14 @@ https://user-images.githubusercontent.com/5504953/127746569-442bc515-e8fe-4106-8
 Press play and lets see what we get? Run around using the **UP | DOWN | LEFT | RIGHT** keys on the keyboard. Press **Space Bar** to jump.  Get used to teh controls - we will make some changes in the next section.
 
 https://user-images.githubusercontent.com/5504953/127747095-54362efe-c04c-4607-8cbc-e1adf34156e8.mp4
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 26.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: 
+
+OK, that is a good start for now.  Lets save and upload our progress to GitHub.  Open up **GitHub Desktop** and add a **Commit** message.  Press the <btn>Commit</btn> button.
+
+![find root of project](images/FindRootOfProject.jpg)
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
