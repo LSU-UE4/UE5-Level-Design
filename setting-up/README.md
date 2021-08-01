@@ -258,7 +258,7 @@ https://user-images.githubusercontent.com/5504953/127747095-54362efe-c04c-4607-8
 
 ##### `Step 26.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: 
 
-OK, that is a good start for now.  Lets save and upload our progress to GitHub.  Open up **GitHub Desktop** and add a **Commit** message.  Press the <btn>Commit to main</btn> button. All you need to do to get it to the server is the press the <kbd>Push origin</kbd> button.
+OK, that is a good start for now.  Lets save and upload our progress to GitHub.  Open up **GitHub Desktop** and add a **Commit** message.  Press the <kbd>Commit to main</kbd> button. All you need to do to get it to the server is the press the <kbd>Push origin</kbd> button.
 
 ![commit changes to main](images/CommitToMain.jpg)
 
