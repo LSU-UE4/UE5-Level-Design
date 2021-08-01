@@ -37,7 +37,7 @@ You can pick from different starting templates with Games, Film/TV, Architecture
 
 ##### `Step 4.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Unreal then allows us to have various starting point template for different genres of games.  We will be looking at these in later tutorials.  The sidescroller template would be interesting but it is for 2 dimensional movement and we want a fully navigatable 3-D level. For now lets just start with a **Third Person** template then press the **Next** button.
+**Unreal** has various boiler point template for different genres of games.  WThe sidescroller template would be interesting but it is for 2 dimensional movement and we want a fully navigatable 3-D level. For now lets just start with a **Third Person** template then press the <kbd>Next</kbd> button.
 
 ![select third person ue4 template](images/image_17.png)
 
