@@ -12,7 +12,7 @@ Now the first step before gray blocking is to make a final decision on physics o
 
 The same thing could be true of any other application.  Why not as an architect, build a very simple version of the structure and navigate it first.  See what you like and don't like about your rough draft.  Then when you are happy you can go back to your modelling software and prepare a final detailed structure.
 
-In this case I am envisioning a third person platformer like Matio and we will customize the default settings to alter the behabior to be more appropriate for this genre. Lets take a quick look at defining our paramters"
+In this case I am envisioning a third person platformer like **Mario** and we will customize the default settings to alter the behabior to be more appropriate for this genre. Lets take a quick look at defining our paramters"
 
 <br>
 
