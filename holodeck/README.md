@@ -31,15 +31,20 @@ Please note that the **Red X** icon indicates that it is not commited in Unreal.
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Move the **Blueprints** and **Maps** folder from **ThirdPerson** to the root **Content** folder.  Then delete all the contents of the **Third Person** folder.
+ Move the **Blueprints** and **Maps** folder from **ThirdPerson** to the root **Content** folder.  
+ 
+ Change the name of the folder **Maps** to `Levels`. Unreal uses both terms and I think **Levels** is more generally recognized.  
+ 
+ Right click on **Content** and select `Fix Up Redirectors in Folder` to clean up redirects and delete empty folders. 
 
-https://user-images.githubusercontent.com/5504953/127749304-1a83ba82-e484-431b-8108-dbd9a4ff5403.mp4
+![move blueprints and map folder to root and rename maps to levels1. ](images/MoveFolders.jpg)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Before we start a gray block level we need to create a test level to understand how our player moves and how high and far to make jumps.  We also want to create ramps for players to run up and down.  To do this we will create a test level just meant to test physics so we can get an understanding of how the player moves.  Select the **Maps** folder and press **File | New Level**:",
+Before we start a gray block level we need to create a test level to understand how our player moves and how high and far to make jumps.  We also want to create ramps for players to run up and down.  To do this we will create a test level just meant to test physics so we can get an understanding of how the player moves.  Select the **Maps** folder and press **File | New Level**.
 
 ![add new level](images/image_21.png)
 
