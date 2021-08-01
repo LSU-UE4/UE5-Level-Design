@@ -208,9 +208,16 @@ Locate the root folder of your project.  This is the folder that contains the `.
 
 ##### `Step 21.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Press the <kbd>Add Repository</kbd> button to select this project. Then press the <kbd>Fetch origin</kbd> button to make sure that the permissions all work. You should see the message `Last feteched just now`. This means that we are ready to go.
+Press the <kbd>Add Repository</kbd> button to select this project. Then press the <kbd>Fetch origin</kbd> button to make sure that the permissions all work. 
+
+You will get a pop up asking to **Initialize Git LFS** you will press the <kbd>Accept</kbd> button.
+
+You should now see the message `Last feteched just now`. This means that we are ready to go. 
 
 ![add repository](images/AddRepository.jpg)
+
+![initialize git lfs](images/InitializeGitLFS.jpg)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
