@@ -89,7 +89,7 @@ You will get a message saying the repository is geing setup.  Refresh/Reload you
 
 Eventually you will get a link for the repository.  Click on this link:
 
-![link to new repository for assignment](images/NewHelloWorldRepository.jpg)
+![link to new repository for assignment](images/NewLevelDesignRepository.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
