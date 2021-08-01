@@ -112,7 +112,7 @@ Lets start by copying the link to the clipboard so we can add it to Unreal, and 
 
 ##### `Step 12.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Go back to **Unreal Engine** and press the <kbd>Source Control</kbd> button and select the **Provider** `None` dropdown.
+Go back to **Unreal Engine** and press the <kbd>Source Control</kbd> button and select the `Connect to Source Control...` dropdown.
 
 ![select github for source control](images/SelectGitHubForSourceControl.jpg)
 
