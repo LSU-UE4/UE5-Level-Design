@@ -112,7 +112,9 @@ Lets start by copying the link to the clipboard so we can add it to Unreal, and 
 
 ##### `Step 12.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Go back to **Unreal Engine** and press the <kbd>Source Control</kbd> button and select the `Connect to Source Control...` dropdown.
+Go back to **Unreal Engine** and press the <kbd>Source Control</kbd> button and select the `Connect to Source Control...` dropdown. This brings up the menu to select the source provider (in our game GitHub).
+
+![select github for source control](images/ConnectToSourceControl.jpg)
 
 ![select github for source control](images/SelectGitHubForSourceControl.jpg)
 
