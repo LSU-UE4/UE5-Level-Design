@@ -135,7 +135,9 @@ https://user-images.githubusercontent.com/5504953/127748602-74b22262-4dc7-41c8-9
 
 OK, lets save and update our repository.  Press **File | Save All** in **Unreal**. Commit and push your changes in **GitHub Desktop** and we will move on to setting up a new level to do some prepatory work before we can commence gray blocking.
 
-![commit and push changes to github](images/CommitChangesToGitHub.jpg)
+![save and commit changes to github](images/CommitChangesToGitHub.jpg)
+
+![push changes to github](images/PushChangesNow.jpg)
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
