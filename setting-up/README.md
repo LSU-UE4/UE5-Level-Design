@@ -122,7 +122,7 @@ Go back to **Unreal Engine** and press the <kbd>Source Control</kbd> button and 
 
 ##### `Step 13.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-In the menu select **Git (beta version)** as the source control you will be using. Paste the directory for your GitHub project into the **Url of the remote server 'origin'** in Unreal.  Then make sure you add a **.gitignore** file, a **README.md** file, a **.gitattributes for Git LFS** file and finally **Make the initial Git Commit** file.  Then press the <kbd>Initialize project with Git</git> button and on the next pop up press the **Accept Settings** button. You should see message pop up saying *Connection to source control was successful!*.
+In the menu select **Git (beta version)** as the source control you will be using. Paste the directory for your GitHub project into the **Url of the remote server 'origin'** in Unreal.  Then make sure you add a **.gitignore** file, a **README.md** file, a **.gitattributes for Git LFS** file and finally **Make the initial Git Commit** file.  Then press the <kbd>Initialize project with Git</kbd> button and on the next pop up press the **Accept Settings** button. You should see message pop up saying *Connection to source control was successful!*.
 
 ![setup github repository](images/SetupGitRepo.jpg)
 
