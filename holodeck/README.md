@@ -196,6 +196,14 @@ Lets organize the **World Outliner**.  Select all the floor pieces and right cli
 
 ##### `Step 22.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now press play and run the game with the simple floor and run around.  You can get a sense with this higher speed how fast we can move through this level.
+
+https://user-images.githubusercontent.com/5504953/127795765-918f0459-897b-425e-81cd-9bd491d92429.mp4
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 23.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 OK, lets save and update our repository.  Press **File | Save All** in **Unreal**. Press the <kbd>Source Control</kbd> button and select `Submit to Source Control...`. Add a **Commit** message and press the <kbd>Submit</kbd> button.
 
 Open **GitHub Desktop** and press <kbd>Push origin</kbd> to update the server.  If you do not do this it will be saved locally but not on **GitHub**.
@@ -205,7 +213,6 @@ We will move on next to adding our first ramp to the game.
 ![save and commit changes to github](images/CommitChangesToGitHub.jpg)
 
 ![push changes to github](images/PushChangesNow.jpg)
-
 ___
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
