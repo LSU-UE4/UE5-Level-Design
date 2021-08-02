@@ -196,13 +196,17 @@ Create a folder called **Ramps** and place the ramp and cylinder in it.  Rename 
 
 ##### `Step 20.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.jpg)
+OK, lets save and update our repository.  Press **File | Save All** in **Unreal**. Press the <kbd>Source Control</kbd> button and select `Submit to Source Control...`. Add a **Commit** message and press the <kbd>Submit</kbd> button.
+
+Open **GitHub Desktop** and press <kbd>Push origin</kbd> to update the server.  If you do not do this it will be saved locally but not on **GitHub**.
+
+We will move on next to adding our first ramp to the game.
+
+![save and commit changes to github](images/SaveAndCommit.jpg)
+
+![push changes to github](images/PushToOrigin.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 21.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.jpg)
 
 ___
 
