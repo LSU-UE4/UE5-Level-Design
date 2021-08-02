@@ -95,7 +95,7 @@ Go to **Geometry | Select | Select All Adjacent Surfaces** to select all faces o
 
 Now we need to make the column as tall as the ramp. We can use the **Geometry | Z** setting and make it ``.  Remember that it scales from the middle so the column could be buried under the ground.  Raise it and press the <btn>end</btn> key to place it back on the ground.
 
-![make z height of column (images/MatchHeight.jpg)
+![make z height of column](images/MatchHeight.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
