@@ -17,6 +17,7 @@ Lets create three more ramps at each other end of the the center platform.  We w
 
 Unlock the ramps transform movement and move <btn>alt</btn> click on the widget and make a duplicate and rotate it around to other side. Use your views to line up exactly in place.  You can also use <btn>End</btn> to make it stick to the ground if you moved it along the Z axis by accident.
 
+https://user-images.githubusercontent.com/5504953/127900627-d2023450-bba7-4461-af79-9691440a7ee8.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
