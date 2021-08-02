@@ -67,7 +67,9 @@ https://user-images.githubusercontent.com/5504953/127868139-d13a3926-b00b-415d-9
 
 ##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+So in a pinch we can use a geometry brush to create a static mesh without having to learn another software package. We want a cylinder in the middle of 4 ramps to act as a platform to connect them. Go to **Geometry | Cylinder** and drag on in front of the ramp.
+
+![add cylinder to level in front of ramp](images/CylinderInLevel.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
