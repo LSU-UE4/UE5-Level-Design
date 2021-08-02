@@ -176,7 +176,8 @@ https://user-images.githubusercontent.com/5504953/127881414-51b2b02f-7708-4400-a
 
 ##### `Step 18.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+
+![lock floor meshes](images/LockFloorMeshes.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
