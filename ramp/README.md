@@ -75,7 +75,7 @@ So in a pinch we can use a geometry brush to create a static mesh without having
 
 ##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we can move to **Top** view and change it to **Lit** mode so we can make the radius so that then column thickness matches the ramp thickness.  If found that a value of...
+Now we can move to **Top** view and change it to **Lit** mode so we can make the radius so that then column thickness matches the ramp thickness.  If found that a value for the **Outer Radius** of `600` matches the width nicely.
 
 ![alt_text](images/ScaleCylinderDiameter.jpg)
 
