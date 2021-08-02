@@ -128,7 +128,9 @@ Now to be more efficient we can convert this brush to a static mesh.  Select the
 
 ##### `Step 13.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Now it is converted to a static mesh so you can readjust the position if you had to move it back into the correct positoin.
+
+![reposition column](images/RepositionMesh.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
