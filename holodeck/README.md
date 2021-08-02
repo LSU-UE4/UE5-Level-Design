@@ -210,9 +210,9 @@ Open **GitHub Desktop** and press <kbd>Push origin</kbd> to update the server.  
 
 We will move on next to adding our first ramp to the game.
 
-![save and commit changes to github](images/CommitChangesToGitHub.jpg)
+![save and commit changes to github](images/SaveAndCommit.jpg)
 
-![push changes to github](images/PushChangesNow.jpg)
+![push changes to github](images/PushToOrigin.jpg)
 ___
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
