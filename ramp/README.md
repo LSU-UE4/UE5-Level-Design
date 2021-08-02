@@ -101,6 +101,8 @@ Now we need to make the column as tall as the ramp. We can use the **Geometry | 
 
 ##### `Step 10.`\|`SUU&G`| :large_blue_diamond:
 
+Now for brushes we can adjust the pivot point. Sometimes it is not where we want it to be. For objects that lie on the ground, it is common to have the pivot point in a bottom corner (usually the same one) or the bottom center (say for the player character).  We can see that the ramp and the cylinder have different locations for their pivot points.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
