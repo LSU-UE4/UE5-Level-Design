@@ -33,6 +33,7 @@ https://user-images.githubusercontent.com/5504953/127901204-ce6047d1-74d8-4719-b
 
 Go back to the game and now lets make the ramp a different slope.  Lets make it less steep.  Select the second ramp and change the **X** Brush Setting and make it `2000`.  This removes our edited ramp and it is rectangular again. This change will make it a cube again and get rid of the previous ramp.
 
+https://user-images.githubusercontent.com/5504953/127902011-7c375442-8faa-45f1-b8d2-bc4bf8894f14.mp4
 
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
