@@ -2,7 +2,7 @@
 
 ### Lock Cameras and Mechanics
 
-<sub>[previous](../setting-up/README.md#user-content-setting-up-unreal--github) • [home](../README.md#user-content-ue4-hello-world) • [next](../holodeck/README.md#user-content-setting-up-holodeck)</sub>
+<sub>[previous](../setting-up/README.md#user-content-setting-up-unreal--github) • [home](../README.md#uuser-content-ue4-intro-to-level-design) • [next](../holodeck/README.md#user-content-setting-up-holodeck)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -149,5 +149,5 @@ We will move on to setting up a new level to do some prepatory work before we ca
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../setting-up/README.md#user-content-setting-up-unreal--github)| [home](../README.md#user-content-ue4-hello-world) | [next](../holodeck/README.md#user-content-setting-up-holodeck)|
+| [previous](../setting-up/README.md#user-content-setting-up-unreal--github)| [home](../README.md#user-content-ue4-intro-to-level-design) | [next](../holodeck/README.md#user-content-setting-up-holodeck)|
 |---|---|---|

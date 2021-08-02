@@ -2,7 +2,7 @@
 
 ### Setting Up Holodeck
 
-<sub>[previous](../camera-mechanics/README.md#user-content-lock-cameras-and-mechanics) • [home](../README.md#user-content-ue4-hello-world) • [next](../ramp/README.md#user-content-creating-custom-meshes)</sub>
+<sub>[previous](../camera-mechanics/README.md#user-content-lock-cameras-and-mechanics) • [home](../README.md#user-content-ue4-intro-to-level-design) • [next](../ramp/README.md#user-content-creating-custom-meshes)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -225,5 +225,5 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../camera-mechanics/README.md#user-content-lock-cameras-and-mechanics)| [home](../README.md#user-content-ue4-hello-world) | [next](../ramp/README.md#user-content-creating-custom-meshes)|
+| [previous](../camera-mechanics/README.md#user-content-lock-cameras-and-mechanics)| [home](../README.md#user-content-ue4-intro-to-level-design) | [next](../ramp/README.md#user-content-creating-custom-meshes)|
 |---|---|---|
