@@ -162,7 +162,7 @@ https://user-images.githubusercontent.com/5504953/127878402-8ed214ca-144d-4d53-b
 
 So lets open up the **SM_Ramp_Cylinder** in the static mesh editor.  Notice that it only has 48 vertices, so we do not need a seperate smaller model for collisions and can use the same mesh for rendering as we do for collisions.  Go to **Collision | Colision Complexity** and change it from **Project Default** to `Use Complex As Simple`.  Now you can preview this in the editor by selecting **Collision | Simple**.  You will see the vertices light up.
 
-![alt_text](images/.jpg)
+![use complex as simple for collision on cylinder](images/SetComplexAsSimple.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
