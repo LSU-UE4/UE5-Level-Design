@@ -40,9 +40,9 @@ https://user-images.githubusercontent.com/5504953/127902011-7c375442-8faa-45f1-b
 
 ##### `Step 4.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets duplicate the final two ramps and rotate them 90 degrees into position.  Make the lenght on one `8` and the other `20`.
+Now lets duplicate the final two ramps and rotate them 90 degrees into position.  Make the lenght on one `8` and the other `15`.
 
-
+https://user-images.githubusercontent.com/5504953/127903077-5d5d8cde-12e8-4e70-81a5-20c1e386c46a.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
