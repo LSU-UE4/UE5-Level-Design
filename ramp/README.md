@@ -154,11 +154,11 @@ Now that it is a static mesh we can change the material to `M_LDGrid_Local`.
 
 Now run the game and go on the ramp.  Woops, there is an issue there is NO collision on this converted brush!  Lets fix that.
 
+https://user-images.githubusercontent.com/5504953/127878402-8ed214ca-144d-4d53-b6f4-4819be8e9a56.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-So lets open up the **SM_Ramp_Cylinder** in the static mesh editor.  Notice that it only has 48 vertices, so we do not need a seperate smaller model for collisions and can use the same mesh for rendering as we do for collisions.  Go to **Collision | Colision Complexity** and change it from **Project Default** to `Use Complex As Simple`.  Now you can preview this in the editor by selecting **Collision | Simple**.  You will see the vertices light up.
 
 ![alt_text](images/.jpg)
 
