@@ -164,7 +164,7 @@ To make placing the floor pieces easier we want the grid snap to be at 400 Unrea
 
 ##### `Step 18.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to **Edit | Editor Preferences** and type in the search window 
+Go to **Edit | Editor Preferences** and type in the search window type `snap` and look for **Decimal Grid Sizes** and on the `500` entry press the arrow and select **Insert**.  Then change this value to `400` and make sure it is between the **100** and **500** value.
 
 ![add a new snap to editor preferences of 400 units](images/400Snap.jpg)
 
