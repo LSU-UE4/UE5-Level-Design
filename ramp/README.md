@@ -152,7 +152,7 @@ Now that it is a static mesh we can change the material to `M_LDGrid_Local`.
 
 ##### `Step 15.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.jpg)
+Now run the game and go on the ramp.  Woops, there is an issue there is NO collision on this converted brush!  Lets fix that.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
