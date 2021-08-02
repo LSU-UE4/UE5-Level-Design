@@ -120,7 +120,7 @@ You need to switch to an orthographic view, I picked **Right**.  Then on a verti
 
 ##### `Step 12.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now to be more efficient we can convert this brush to a static mesh.  Select the cylinder brush and 
+Now to be more efficient we can convert this brush to a static mesh.  Select the cylinder brush and expand the **Brush Options** by pressing the arrow at the bottom exposing the **Create Static Mesh** button.  Press <kbd>Create Static Mesh</kbd> and select the **Geometry | Meshes** folder and call it `SM_Ramp_Cylinder` and press the green <kbd>Create Static Mesh</kbd> button on the **Select Path** pop-up.
 
 ![convert brush to static mesh](images/ConvertToStaticMesh.jpg)
 
