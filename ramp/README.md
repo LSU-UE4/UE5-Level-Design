@@ -93,7 +93,7 @@ Go to **Geometry | Select | Select All Adjacent Surfaces** to select all faces o
 
 ##### `Step 9.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to make the column as tall as the ramp. We can use the **Geometry | Z** setting and make it ``.  Remember that it scales from the middle so the column could be buried under the ground.  Raise it and press the <btn>end</btn> key to place it back on the ground.
+Now we need to make the column as tall as the ramp. We can use the **Geometry | Z** setting and make it `500`.  Remember that it scales from the middle so the column could be buried under the ground.  Raise it and press the <btn>end</btn> key to place it back on the ground.
 
 ![make z height of column](images/MatchHeight.jpg)
 
