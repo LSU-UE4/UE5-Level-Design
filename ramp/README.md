@@ -45,8 +45,7 @@ Now lets adjust the scale of the ramp.  Change the **Scale X** to `10.0`, **Scal
 
 Run the game and run up and down the ramp. I am happy with these settings.
 
-
-
+https://user-images.githubusercontent.com/5504953/127868743-810ccfed-6592-46d4-8e58-509b8083ed21.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
