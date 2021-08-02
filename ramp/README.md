@@ -85,7 +85,7 @@ Now we can move to **Top** view and change it to **Lit** mode so we can make the
 
 Now we can add materials to brushes just like we can to static meshes.  The problem is that each face is a separate material.  This means we have to select all the faces first.
 
-![alt_text](images/AddMaterialToBrush.jpg)
+![alt_text](images/AddMaterialToBrush2.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
