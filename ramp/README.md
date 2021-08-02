@@ -109,7 +109,11 @@ Now for brushes we can adjust the pivot point. Sometimes it is not where we want
 
 ##### `Step 11.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+You need to switch to an orthographic view, I picked **Right**.  Then on a vertice right mouse click to snap the pivot point.  I have to move the cylinder a bit out of the way of the other geometry to get this to work right.
+
+![right click on bottom vertice in right orthogrpahic view](images/MovePivotStep1.jpg)
+
+![pivot moved to this vertice](images/PivotMoved.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
