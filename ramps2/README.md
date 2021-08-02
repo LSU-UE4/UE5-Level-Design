@@ -50,9 +50,13 @@ https://user-images.githubusercontent.com/5504953/127903077-5d5d8cde-12e8-4e70-8
 
 Run the game and test the ramps out.  Again, look for issues with the camera.  In a later tutorial we will adjust the player angle and speed based on the ramp.
 
+https://user-images.githubusercontent.com/5504953/127903749-18c1504a-0e4e-46db-bbae-917d0a9691b0.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
+
+Name and lock the ramps again to organize the **World Outliner**.
 
 ![alt_text](images/.jpg)
 
