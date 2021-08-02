@@ -172,7 +172,9 @@ Go to **Edit | Editor Preferences** and type in the search window type `snap` an
 
 ##### `Step 19.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now you can set the snap to **400** in the game as it added this new value!
+
+![alt_text](images/SetSnapTo400.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
