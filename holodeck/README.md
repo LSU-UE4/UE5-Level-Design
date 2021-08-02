@@ -188,7 +188,8 @@ https://user-images.githubusercontent.com/5504953/127794749-addeda67-6832-433d-8
 
 ##### `Step 21.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Lets organize the **World Outliner**.  Select all the floor pieces and right click and select 
+![alt_text](images/OrganizeFolders.jpg)
 
 ___
 
