@@ -93,7 +93,7 @@ Go to **Geometry | Select | Select All Adjacent Surfaces** to select all faces o
 
 ##### `Step 9.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to make the column as tall as the ramp. We can use the **Geometry | Z** setting and make it `500`.  Remember that it scales from the middle so the column could be buried under the ground.  Raise it and press the <btn>end</btn> key to place it back on the ground.
+Now we need to make the column as tall as the ramp. We can use the **Geometry | Z** setting and make it `500`.  Remember that it scales from the middle so the column could be buried under the ground.  Raise it and press the <btn>end</btn> key to place it back on the ground. Also adjust it so that it lines up right at the end of the ramp.  Use the different views to properly align the shape.
 
 ![make z height of column](images/MatchHeight.jpg)
 
@@ -103,7 +103,7 @@ Now we need to make the column as tall as the ramp. We can use the **Geometry | 
 
 Now for brushes we can adjust the pivot point. Sometimes it is not where we want it to be. For objects that lie on the ground, it is common to have the pivot point in a bottom corner (usually the same one) or the bottom center (say for the player character).  We can see that the ramp and the cylinder have different locations for their pivot points.
 
-![alt_text](images/.jpg)
+![notice wrong pivot location for cylinder compared to ramp](images/WeirdPivots.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
