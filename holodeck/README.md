@@ -190,6 +190,8 @@ https://user-images.githubusercontent.com/5504953/127794749-addeda67-6832-433d-8
 
 Lets organize the **World Outliner**.  Select all the floor pieces and right click and select **Create New Folder**.  Call this folder `Floor`.  Now copy all the other items except for **Player Start** into a `Lighting & Sky` folder.
 
+Adjust the **Player Start** to be on the ground (you can press the <kbd>end</kbd> button so it snaps to the ground) and is in the center of the level.
+
 ![move floor pieces to floor folder and create lighting & sky folder](images/OrganizeFolders.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
