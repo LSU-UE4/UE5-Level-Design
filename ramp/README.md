@@ -170,6 +170,7 @@ So lets open up the **SM_Ramp_Cylinder** in the static mesh editor.  Notice that
 
 Run the game and you will see that the collisions are working again!
 
+https://user-images.githubusercontent.com/5504953/127881414-51b2b02f-7708-4400-adff-d4b4169864b9.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
