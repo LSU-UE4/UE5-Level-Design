@@ -128,7 +128,7 @@ Now to be more efficient we can convert this brush to a static mesh.  Select the
 
 ##### `Step 13.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now it is converted to a static mesh so you can readjust the position if you had to move it back into the correct positoin.
+Now it is converted to a static mesh so you can readjust the position if you had to move it back into the correct position.
 
 ![reposition column](images/RepositionMesh.jpg)
 
