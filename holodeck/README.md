@@ -188,8 +188,9 @@ https://user-images.githubusercontent.com/5504953/127794749-addeda67-6832-433d-8
 
 ##### `Step 21.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Lets organize the **World Outliner**.  Select all the floor pieces and right click and select 
-![alt_text](images/OrganizeFolders.jpg)
+Lets organize the **World Outliner**.  Select all the floor pieces and right click and select **Create New Folder**.  Call this folder `Floor`.  Now copy all the other items except for **Player Start** into a `Lighting & Sky` folder.
+
+![move floor pieces to floor folder and create lighting & sky folder](images/OrganizeFolders.jpg)
 
 ___
 
