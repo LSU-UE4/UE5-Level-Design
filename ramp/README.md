@@ -136,7 +136,9 @@ Now it is converted to a static mesh so you can readjust the position if you had
 
 ##### `Step 14.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Now that it is a static mesh we can change the material to `M_LDGrid_Local`.
+
+![change material to M_LDGrid_Local](images/ChangeSMMaterialToLocal.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
