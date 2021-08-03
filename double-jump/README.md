@@ -174,7 +174,9 @@ Connect the output of the **Switch on Int | 2** execution node to the **Launch C
 
 ##### `Step 20.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.jpg)
+Go to the blueprint an select the **Character Movement** component.  In the **Details** panel type in `jump` and look for **Jump Z Velocity**.  Change this to `500`.
+
+![alt_text](images/image_59.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
