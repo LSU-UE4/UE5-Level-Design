@@ -124,6 +124,8 @@ Open the **ThirdPersonCharacter** blueprint and select the **Event Graph** and g
 
 ##### `Step 14.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Right click on the open graph and add a **Event On Landed** node to the blueprint. Connect it to the **Stop Jumping** as we will stop jumping when the player hits the ground.  Disconnect ththe **Stop Jumping** node by right clicking on **InputAction Jump** and select **Break Link to Stop Jumping**. Press the **Compile** button and run the game and it should behave the same way as previously.
+
 https://user-images.githubusercontent.com/5504953/128031003-ef83222c-8552-4e3d-8310-369d8eb11a32.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
