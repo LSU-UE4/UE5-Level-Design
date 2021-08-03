@@ -56,9 +56,9 @@ https://user-images.githubusercontent.com/5504953/127903749-18c1504a-0e4e-46db-b
 
 ##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
-Name and lock the ramps again to organize the **World Outliner**.
+I renamed the ramps with a postfix indicating the different scalesz along **X**. I also froze the transforms on the ramps to properly organize the **World Outliner**.
 
-![alt_text](images/.jpg)
+![rename and freeze four ramps](images/FreezeTransformFourRamps.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
