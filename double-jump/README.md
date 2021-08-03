@@ -148,7 +148,9 @@ The output of the **DoN** pin is an integer (any whole number, either positive o
 
 ##### `Step 17.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Connect the output **Exit** execution pin from **DoN** to the **Switch on Int** node.  Make sure the output of the **Counter** pin goes to the **Switch on Int | Selection** pin.  Connect the output of **1** to the input execution pin of the **Jump** node.  Connect the execution pin from the output of the **Stop Jumping** node to the **Reset** pin of the **DoN** node.  This way the **DoN** resets the **N** integer to `0` when this is run when the player lands.So it starts at **0**, the player presses jump then the **Jump** node gets executed. When the player lands it resets back to 0 and the player can jump again.
+Connect the output **Exit** execution pin from **DoN** to the **Switch on Int** node.  Make sure the output of the **Counter** pin goes to the **Switch on Int | Selection** pin.  Press the **Add pin +** three times to get `0, 1, 2` execution pins for the switch statement.
+
+Connect the output of **1** to the input execution pin of the **Jump** node.  Connect the execution pin from the output of the **Stop Jumping** node to the **Reset** pin of the **DoN** node.  This way the **DoN** resets the **N** integer to `0` when this is run when the player lands.So it starts at **0**, the player presses jump then the **Jump** node gets executed. When the player lands it resets back to 0 and the player can jump again.
 
 ![alt_text](images/image_56.png)
 
