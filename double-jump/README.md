@@ -47,7 +47,9 @@ Add base material to jump platform.
 
 ##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
 
-![alt_text](images/.jpg)
+Press the <kbd>Enb</kbd> key to snap the platform to the ground.
+
+![press end key to lock to ground](images/PressEndToLockToGround.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
