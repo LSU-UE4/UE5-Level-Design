@@ -199,6 +199,9 @@ Now build lighting again and the problem should be fixed.
 
 ##### `Step 22.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now we do not judge the distances based on the player model as this is not used for collision.  It is the **Capsule Component** in the **Third Person Character** blueprint. Chnage the **Capsule Component | Rendering | Hiddent in Game** and deselect it.
+
+
 Run the game and press jump multiple times. You should notice a boost to vertical height on the second press but not a third press.  Also, if you double jump when falling downwards it pauses the player creating an odd hiccup.  On the next page we will fix this.
 
 ___
