@@ -55,7 +55,11 @@ Press the <kbd>Enb</kbd> key to snap the platform to the ground.
 
 ##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+The cool thing about BSP's is that we can not only add positive volumes, but we can subtract volumes to sculpt out more complex shapes.
+
+Now we need to cut a hole in this polygon for the player to jump through.  We can do this with the same BSP but change it to remove (subtract) the volume instead of adding to it.  We can use another box to cut a hole in the existin gobx.  Drag another **Box** into the scene and change the **Brush Type** to `Subtractive`.  This will subtract any brush volume in the level. Move it into the current box and see it cut a hole.",
+ 
+![add subtractive volume](images/SubtractVolume.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
