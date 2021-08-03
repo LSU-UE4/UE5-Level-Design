@@ -56,7 +56,7 @@ https://user-images.githubusercontent.com/5504953/127903749-18c1504a-0e4e-46db-b
 
 ##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
-I renamed the ramps with a postfix indicating the different scalesz along **X**. I also froze the transforms on the ramps to properly organize the **World Outliner**.
+Renamethe ramps with a postfix indicating the different scalesz along **X**. Freeze the transforms on the ramps to properly organize the **World Outliner**.
 
 ![rename and freeze four ramps](images/FreezeTransformFourRamps.jpg)
 
@@ -66,7 +66,7 @@ I renamed the ramps with a postfix indicating the different scalesz along **X**.
 
 Type `Text Render` in the modes panel to add a 2-D text to add on top of the ramps to identify it from afar.  Type in as the **Text** field: `Ramps`. Change the **Horizontal Alignment** to `Center`. Move it to ontop of the ramp.
 
-![alt_text](images/.jpg)
+![add ramps text render](images/AddRampsTextRender.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
