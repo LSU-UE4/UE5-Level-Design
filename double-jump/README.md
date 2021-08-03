@@ -166,7 +166,9 @@ Right click on the **Event Graph** and select a **Launch Character** node to giv
 
 ##### `Step 19.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Connect the output of the **Switch on Int | 2** execution node to the **Launch Character** execution pin. Change the **Z** value in **Launch Velocity** to `300`.
+
+![add upwards force](images/image_58.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
