@@ -152,7 +152,7 @@ Connect the output **Exit** execution pin from **DoN** to the **Switch on Int** 
 
 Connect the output of **1** to the input execution pin of the **Jump** node.  Connect the execution pin from the output of the **Stop Jumping** node to the **Reset** pin of the **DoN** node.  This way the **DoN** resets the **N** integer to `0` when this is run when the player lands.So it starts at **0**, the player presses jump then the **Jump** node gets executed. When the player lands it resets back to 0 and the player can jump again.
 
-![alt_text](images/image_56.png)
+![add three pins and connect 1 to jump](images/image_56.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
