@@ -31,7 +31,9 @@ Lets make it a big jump column with plenty of room to jump through.  Edit the **
 
 ##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![raise box and select adjascent surfaces](images/RaiseSelectAdjascentSurfaces.jpg)
+Lets raise the box as the pivot is centered and half of it is underground.  Right click on the box in the **World Outliner** and select **Geomoetry | Select All Adjacent Surfaces**.
+
+![raise box and select adjacent surfaces](images/RaiseSelectAdjascentSurfaces.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
