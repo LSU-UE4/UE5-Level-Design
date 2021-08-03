@@ -204,6 +204,8 @@ Now we do not judge the distances based on the player model as this is not used 
 
 Run the game and press jump multiple times. You should notice a boost to vertical height on the second press but not a third press.  Also, if you double jump when falling downwards it pauses the player creating an odd hiccup.  On the next page we will fix this.
 
+https://user-images.githubusercontent.com/5504953/128046337-9a2ae249-7847-40f4-a9a8-9e90c17a433d.mp4
+
 ___
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
