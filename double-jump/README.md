@@ -6,8 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Now we are going to figure out how high the player can jump for getting onto platforms.  This is our core mechanic so it is important to be happy with this and understand it better.  Lets start by making a hole in a column to vertically jump through.  This will give us information about the size of the portal to fit the player **and** the camera.  We will do this for easy single jump, hard single jump, easy double jump and hard double jump.   We also should add a double jump to the physics in the **ThirdPersonCharacter** blueprint.Lets get started.",
-    "image": "images/image_25.
+Now we are going to figure out how high the player can jump for getting onto platforms.  This is our core mechanic so it is important to be happy with this and understand it better.  Lets start by making a hole in a column to vertically jump through.  This will give us information about the size of the portal to fit the player **and** the camera.  We will do this for easy single jump, hard single jump, easy double jump and hard double jump.   We also should add a double jump to the physics in the **ThirdPersonCharacter** blueprint.
 
 <br>
 
@@ -16,7 +15,9 @@ Now we are going to figure out how high the player can jump for getting onto pla
 
 ##### `Step 1.`\|`SUU&G`|:small_blue_diamond:
 
-![alt_text](images/.jpg)
+Add a BSP **Box** to the level next to the ramps.  Give yourself lots of room. Move the **Player Start** component in front of it and rotate it so that the **Red** arrow faces the newly dropped box.
+
+![Add a bxp box and move player start in front of it](images/image_50.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
