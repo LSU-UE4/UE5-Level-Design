@@ -188,12 +188,16 @@ If you build lighting or run the game you will notice sometimes that the static 
 
 ![adjust lightmap resolution and index](images/AdjustLightmapIndex.jpg)
 
+![texture lit properly in game](images/FixedLightingOnModel.jpg)
+
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-___
 
 ##### `Step 22.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Run the game and press jump multiple times. You should notice a boost to vertical height on the second press but not a third press.  Also, if you double jump when falling downwards it pauses the player creating an odd hiccup.  On the next page we will fix this.
+
+___
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
