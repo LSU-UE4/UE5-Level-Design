@@ -118,15 +118,13 @@ https://user-images.githubusercontent.com/5504953/128029891-740da1f1-52d3-464b-9
 
 Open the **ThirdPersonCharacter** blueprint and select the **Event Graph** and go to the **Jump** section and make room to add nodes for double jumping.
 
-https://user-images.githubusercontent.com/5504953/128031003-ef83222c-8552-4e3d-8310-369d8eb11a32.mp4
-
 ![add room to jump section in thirdpersoncharacter blueprint](images/image_53.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+https://user-images.githubusercontent.com/5504953/128031003-ef83222c-8552-4e3d-8310-369d8eb11a32.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
