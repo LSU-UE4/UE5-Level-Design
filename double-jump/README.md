@@ -158,7 +158,9 @@ Connect the output of **1** to the input execution pin of the **Jump** node.  Co
 
 ##### `Step 18.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Right click on the **Event Graph** and select a **Launch Character** node to give the player an additional vertical force to make them double jump.
+
+![add launch character node](images/image_57.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
