@@ -67,21 +67,26 @@ Resize the brush to cut a hole from about 1 meter (each cube in the texture is a
 
 ##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Run the game and jump through the hole.
+Now lets fix the pivot so it is at the ground plane.  Change to **Front** view and right click the bottom right vertex.
 
+![fix pivot to bottom right](images/RightClickBottomRightVertice.jpg)
 
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Right click on the open graph and select **Pivot | Set as Pivot Offset**.
+
+![alt_text](images/SetPivotOffset.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now select **both** the additive and subtractive brushes and we will convert them to a single static mesh.  Press the <kbd>Create Static Mesh</kbd> button then select the **Geometry | Meshes** folder and call this mesh `SM_JumpPlatform_Low`. Press the green <kbd>Create Static Mesh</kbd> button to complete the conversion.
+
+![alt_text](convert to static mesh/ConvertToStaticMesh.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -92,7 +97,7 @@ Run the game and jump through the hole.
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: 
-
+Run the game and jump through the hole.
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
