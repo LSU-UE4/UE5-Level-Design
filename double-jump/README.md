@@ -98,13 +98,15 @@ Remember there is no collision volume. Open up **SM_JumpPlatform_Low** in the ed
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: 
-Run the game and jump through the hole.
-![alt_text](images/.jpg)
+
+Now we want to understand the scale of the world we need to build and this is based on the player physics.  If the player has real world physics we can use real world scale (a floor of a building is 20 feet tall for example).  But with exaggerated physics we need exagerated scale for it to work.  So run the game and jump and my character based on my settings can jump 3 meters (~9.8 feet).
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+Run the game and jump through the hole. Make sure the camera clears.  In my case it does.  But we need to add a double jump to the game to see if this causes a problem.
 
 ![alt_text](images/.jpg)
 
