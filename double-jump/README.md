@@ -25,7 +25,7 @@ Add a BSP **Box** to the level next to the ramps.  Give yourself lots of room. M
 
 Lets make it a big jump column with plenty of room to jump through.  Edit the **Brush Settings** to `400.0`, `800.0` and `1000.0`.
 
-![Resize box to make it larger](images/.jpg)
+![Resize box to make it larger](images/ResizeJumpVolume.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
