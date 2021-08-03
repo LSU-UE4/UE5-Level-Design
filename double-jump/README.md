@@ -214,7 +214,6 @@ https://user-images.githubusercontent.com/5504953/128046337-9a2ae249-7847-40f4-a
 
 ___
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
