@@ -184,6 +184,10 @@ Go to the blueprint an select the **Character Movement** component.  In the **De
 
 If you build lighting or run the game you will notice sometimes that the static meshes that go from a brush to a mesh in the editor will show up black.
 
+Open SM_JumpPlatform_Low and in **General Settings | Light Map Resolution** change the value to `256` and in **Light Map Coordinate Index** change this value to `1`.
+
+Now build lighting again and the problem should be fixed.
+
 ![black empty texture](images/NoTextures.jpg)
 
 ![adjust lightmap resolution and index](images/AdjustLightmapIndex.jpg)
