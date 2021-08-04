@@ -81,13 +81,13 @@ We do not measure the player but we measure the player's collision volume.  This
 
 ##### `Step 8.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now then we have the first entry in our Scale Register.
+Now then we have the first entry in our Scale Register. Since uu's default to cm we will stick with the metric system from now on.
 
 **Scale Register**
 |Item|Dimensions|
 |-------------|-------------|
 |Player Height | 1.92 m|
-|Player Width | .81 m|
+|Player Width | .84 m|
 
 ![player 192 uu tall by .84 uu wide ](images/HeightWidth.jpg)
 
