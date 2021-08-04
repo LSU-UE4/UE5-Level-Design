@@ -111,10 +111,9 @@ We now can go into the game and jump and double jump and measure roughly the dis
 |Element | Measure|
 |-------------|-------------|
 |Single Jump | ~180 |
-
 |Double Jump | ~255|
 
-![alt_text](images/GameplayRegisterJump.jpg)
+![alt_text](images/GameplayRegisterJump.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
