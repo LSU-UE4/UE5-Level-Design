@@ -137,7 +137,7 @@ We can now add this to our scale register.
 |Player Width | .84 m|
 |Double Jump Opening Height | 7.5 m|
 
-![7.5 meters for double jump size of opening](images/GameplayRegisterJump.jpg)
+![7.5 meters for double jump size of opening](images/DoubleJumpEntrySize.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
