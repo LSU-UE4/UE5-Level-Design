@@ -43,7 +43,9 @@ Now we need to check the **Z** component as this is the up and down vector. If i
 
 ##### `Step 4.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+We will need an if conditional state to check to see if the **Return Value Z** is greater than zero.  If so, the player is going up.  In blueprints this is done by right clicking and adding a **Branch** node to the graph.
+
+![add branch node to player graph](images/image_63.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
