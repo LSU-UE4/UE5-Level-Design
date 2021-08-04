@@ -63,6 +63,8 @@ A positing **Z** value is upwards movement.  So if it is above 0 the player is m
 
 Now test your work.  You should only be able to double jump when the player is rising and not falling.  This should get rid of the hiccup we previously had.
 
+https://user-images.githubusercontent.com/5504953/128200570-345e44eb-b148-4d4c-978c-1f2fe6b77704.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
