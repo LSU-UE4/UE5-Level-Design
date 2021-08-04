@@ -37,7 +37,7 @@ This node contains all of the axes for the velocity including its **X, Y & Z** v
 
 Now we need to check the **Z** component as this is the up and down vector. If it is positive it is going up and if it is negative then the character is falling.  Pull off of the **Get Velocity | Return Value Z** pin and type `>` (greater than symbol).  Then select `Float > Float`,
 
-![add greather than after retturn value z pin](images/images/image_62.png)
+![add greather than after retturn value z pin](images/image_62.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
