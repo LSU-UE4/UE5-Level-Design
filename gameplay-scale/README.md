@@ -119,14 +119,25 @@ We now can go into the game and jump and double jump and measure roughly the dis
 
 ##### `Step 11.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Now lets double jump and see if we have enough clearance.  In my case my camera can still clip the top of the platform ceiling which causes a glitch. Lets fix this. Make any adjustments but the height seems good for mine and no collision issues with the camera.
+
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+We can now add this to our scale register.
+
+**Scale Register**
+|Item|Dimensions|
+|-------------|-------------|
+|Player Height | 1.92 m|
+|Player Width | .84 m|
+|Double Jump Opening Height | 7.5 m|
+
+![7.5 meters for double jump size of opening](images/GameplayRegisterJump.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
