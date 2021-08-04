@@ -17,7 +17,11 @@ We will use this information to create more jump platforms.
 
 ##### `Step 1.`\|`SUU&G`|:small_blue_diamond:
 
-![alt_text](images/.jpg)
+So we should not let the player double jump when falling (it doesn't work right based on the current physics of this actor). We need to find out if the player is falling and not double jump if this is the case.  We need to access the character's velocity and look to see if it's **Z** component is positive or not.  Right click on the open graph and type `Get Velocity` and select this node.",
+    "alt": "",
+    "image": "images/image_60.png",
+
+![Add a bxp box and move player start in front of it](images/image_60.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
