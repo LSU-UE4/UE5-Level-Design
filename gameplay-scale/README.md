@@ -51,7 +51,7 @@ We will need an if conditional state to check to see if the **Return Value Z** i
 
 ##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
 
-Highjack the execution pin from **Switch on Int | 2** and send it to the input execution pin in the **Branch** node.  Then send the output to the **Launch Character** node.
+Highjack the execution pin from **Switch on Int | 2** and send it to the input execution pin in the **Branch** node.  Then send the **True** output pin to the **Launch Character** node. 
 
 ![alt_text](images/image_64.png)
 
