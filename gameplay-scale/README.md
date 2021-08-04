@@ -105,7 +105,16 @@ Now then we have the first entry in our Scale Register. Since uu's default to cm
 
 ##### `Step 10.`\|`SUU&G`| :large_blue_diamond:
 
-![alt_text](images/.jpg)
+We now can go into the game and jump and double jump and measure roughly the distances that we can make from standing.
+
+**Gameplay Register**
+|Element | Measure|
+|-------------|-------------|
+|Single Jump | ~180 |
+
+|Double Jump | ~255|
+
+![alt_text](images/GameplayRegisterJump.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
