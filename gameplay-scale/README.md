@@ -17,9 +17,9 @@ We will use this information to create more jump platforms.
 
 ##### `Step 1.`\|`SUU&G`|:small_blue_diamond:
 
-So we should not let the player double jump when falling (it doesn't work right based on the current physics of this actor). We need to find out if the player is falling and not double jump if this is the case.  We need to access the character's velocity and look to see if it's **Z** component is positive or not.  Right click on the open graph and type `Get Velocity` and select this node.",
-    "alt": "",
-    "image": "images/image_60.png",
+So we should not let the player double jump when falling (it doesn't work right based on the current physics of this actor). We need to find out if the player is falling and not double jump if this is the case.  We need to do this before we launch the character on the double jump.  It the player is rising then double jump if the player is falling then do not run this node.
+
+We need to access the character's velocity and look to see if it's **Z** component is positive or not.  Right click on the open graph and type `Get Velocity` and select this node.
 
 ![Add get velocity node to character blueprint](images/image_60.png)
 
@@ -29,13 +29,15 @@ So we should not let the player double jump when falling (it doesn't work right 
 
 This node contains all of the axes for the velocity including its **X, Y & Z** vector.  Right click on the **Get Velocity | Return Value** node and select **Split Struct Pin**.
 
-![alt_text](images/image_61.png)
+![split struct pin on get velocity node](images/image_61.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now we need to check the **Z** component as this is the up and down vector. If it is positive it is going up and if it is negative then the character is falling.  Pull off of the **Get Velocity | Return Value Z** pin and type `>` (greater than symbol).  Then select `Float > Float`,
+
+![add greather than after retturn value z pin](images/images/image_62.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
