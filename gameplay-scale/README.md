@@ -73,13 +73,23 @@ Now lets imagine that we have tested and tweaked the physics to be exactly what 
 
 We can easily measure scale by going in the editor and putting a player in the level (don't forget to remove them after) and change to an orthographic view like **Front**.  Hold the middle mouse button (can't seem to do this on a touchpad) and drag from one end to the other and you will get the result in unreal units (uu/cm).
 
+We do not measure the player but we measure the player's collision volume.  This is what determines where the player collides in the world. So if the collision volume doesn't pass through the player won't.  This is the **Capsule Component** in the player blueprint.  This is what we are measuring for.
+
 ![measure width and height of player](images/MeasureScale.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now then we have the first entry in our Scale Register.
+
+**Scale Register**
+|Item|Dimensions|
+|-------------|-------------|
+|Player Height | 1.92 m|
+|Player Width | .81 m|
+
+![player 192 uu tall by .84 uu wide ](images/HeightWidth.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
