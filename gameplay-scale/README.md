@@ -21,13 +21,15 @@ So we should not let the player double jump when falling (it doesn't work right 
     "alt": "",
     "image": "images/image_60.png",
 
-![Add a bxp box and move player start in front of it](images/image_60.png)
+![Add get velocity node to character blueprint](images/image_60.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+This node contains all of the axes for the velocity including its **X, Y & Z** vector.  Right click on the **Get Velocity | Return Value** node and select **Split Struct Pin**.
+
+![alt_text](images/image_61.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
