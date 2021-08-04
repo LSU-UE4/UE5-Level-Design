@@ -53,6 +53,8 @@ We will need an if conditional state to check to see if the **Return Value Z** i
 
 Highjack the execution pin from **Switch on Int | 2** and send it to the input execution pin in the **Branch** node.  Then send the **True** output pin to the **Launch Character** node. 
 
+A positing **Z** value is upwards movement.  So if it is above 0 the player is moving up.  We want to applly the double jump through this true pin.  If the player has stopped at the top of their apex (0) or are falling (< 0) then we do nothing and ignore this second jump button press.
+
 ![alt_text](images/image_64.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
