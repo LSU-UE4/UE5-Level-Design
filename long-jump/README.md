@@ -15,11 +15,16 @@ We also want to know how far a player can jump to overcome gaps in buildings or 
 
 ##### `Step 1.`\|`SUU&G`|:small_blue_diamond:
 
+Lets move to an empty side of the level where you will put the platforms. Duplicate a new title on top of that area and call it `Jump Ramps`. Create a new folder called `Jump Ramps` in the **World Outliner** and move the text into it. Rename the text appropriately.
+
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+
+For a change lets add a staircase instead of a ramp to run onto a flat ramp to jump over.  Add a **Geometry | Linear Stair Brush** to the level. Change **Number of Steps** to `15`.",
 
 ![alt_text](images/.jpg)
 
@@ -27,11 +32,18 @@ We also want to know how far a player can jump to overcome gaps in buildings or 
 
 ##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Since each step is 20 units this is `300` units high.  Add another **Box** bsp and make it `300` units high.  Line it up perfectly with the stairs. Make it narrow so that you have to do a standing jump.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+Lets make a change to the material. Lets color code it to warn the person playing it that there is a specific meaning to this area.  We can use the color green to indicate that the player will be constrained from running in some way.  Maybe there will be a cut scene and when they get to the top of the stairs that the exit will be blocked and all they can do is a standing jump.
+
+Now in gray blocking we can't implement all the mechanics of the level as we are just trying to get a sense of the space.  So we can create materials that indicate **beats** we want.
+
+We will use a material instance to alter the color of the texture.  Right click on **M_????** and rename it to `MI_????_ConstrainedMovement`.
 
 ![alt_text](images/.jpg)
 
