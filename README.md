@@ -20,6 +20,7 @@
 <kbd></kbd> &nbsp;&nbsp; [Double Jumping](double-jump/README.md#user-content-double-jumping) <br>
 <kbd></kbd> &nbsp;&nbsp; [Gameplay & Scale Register](gameplay-scale/README.md#user-content-gameplay--scale-register) <br>
 <kbd></kbd> &nbsp;&nbsp; [Long Jump](long-jump/README.md#user-content-long-jump) <br>
+<kbd></kbd> &nbsp;&nbsp; [Moving Platform](long-jump/README.md#user-content-moving-platform) <br>
 
 
 
