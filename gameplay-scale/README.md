@@ -222,8 +222,15 @@ Open up both models and change **Collision Complexity** to `Use Complex As Simpl
 
 ##### `Step 21.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Play the game and make sure you jumps are still working the way they were before they were turned into brushes.  Mine worked fine.
 
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 22.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Copy the text over and move it over the Jump Platforms, rename it and place it in the **Jump Platforms** folder.  Save all of your work, commit it and upload to **GitHub**.
+
+![add complex as simple to collisiona nd change index to 1 and resolution to 256](images/FixCollLightMaps.jpg)
 ___
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
