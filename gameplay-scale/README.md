@@ -15,6 +15,10 @@ We will use this information to create more jump platforms.
 ---
 
 
+https://user-images.githubusercontent.com/5504953/128358294-5dc50cb5-5e0d-4094-a3fc-c90c18aa9762.mp4
+
+
+
 ##### `Step 1.`\|`SUU&G`|:small_blue_diamond:
 
 So we should not let the player double jump when falling (it doesn't work right based on the current physics of this actor). We need to find out if the player is falling and not double jump if this is the case.  We need to do this before we launch the character on the double jump.  It the player is rising then double jump if the player is falling then do not run this node.
@@ -143,13 +147,21 @@ We can now add this to our scale register. We will round it up to 7.5.
 
 ##### `Step 13.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Our first jump platform we created was about 110 uu units high (1.1 meters).  The player can easily clear it with a single jump. Now lets make two more jump platforms.  One that can just clear a single jump.  And one that can just clear a double jump.
+Our first jump platform we created was about 110 uu units high (1.1 meters).  The player can easily clear it with a single jump. Now lets make two more jump platforms.  One that can just clear a single jump.  And one that can just clear a double jump. For these you will have to make the jump platforms taller to accomodate the higher positioning of the opening.
 
 Repeat the process and create another jump platform in a brush with a jump height of **180 uu's** with an opening of **750** and call it `BR_JumpPlatform_Mid`.
+
+
+https://user-images.githubusercontent.com/5504953/128357947-66d11e0f-3e15-4040-b437-d5b0b8bc9e23.mp4
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Run the game and test your work.  In my case I can easily clear the platform with a single jump.
+
+
 
 ![alt_text](images/.jpg)
 
