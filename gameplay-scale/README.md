@@ -14,11 +14,6 @@ We will use this information to create more jump platforms.
 
 ---
 
-
-https://user-images.githubusercontent.com/5504953/128358294-5dc50cb5-5e0d-4094-a3fc-c90c18aa9762.mp4
-
-
-
 ##### `Step 1.`\|`SUU&G`|:small_blue_diamond:
 
 So we should not let the player double jump when falling (it doesn't work right based on the current physics of this actor). We need to find out if the player is falling and not double jump if this is the case.  We need to do this before we launch the character on the double jump.  It the player is rising then double jump if the player is falling then do not run this node.
