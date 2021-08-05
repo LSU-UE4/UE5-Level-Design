@@ -74,7 +74,7 @@ Now do a standing jump while pressing forward (<kbd>up arrow</kbd> or <kbd>W</kb
 |-------------|-------------|
 |Single Jump | 200 |
 |Double Jump | 324|
-|Long Jump | ~600 | 
+|Standing Long Jump | ~600 | 
 
 ![alt_text](images/.jpg)
 
@@ -97,7 +97,7 @@ Test the short jump ramp and make adjustments.  You should be able to jump accro
 |-------------|-------------|
 |Single Jump | 200 |
 |Double Jump | 324|
-|Long Jump | 645 | 
+|Standing Long Jump | 645 | 
 
 ![alt_text](images/.jpg)
 
@@ -116,6 +116,16 @@ Select all brushes for the ramp and create a **Static Mesh** called `SM_LongJump
 
 ##### `Step 11.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: 
 
+Take the copy of standing jump ramps and lets make a medium jump.  You should not be able to make this from a standing jump but should be a relatively easy running jump.  Run along the ground and get a good running jump distance. Adjust the distance, update the name of the objects and the jump distance text.
+
+**Gameplay Register**
+|Element | Measure|
+|-------------|-------------|
+|Single Jump | 200 |
+|Double Jump | 324|
+|Standing Long Jump | 645 | 
+|Running Long Single Jump | ~900 |
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
@@ -123,11 +133,24 @@ Select all brushes for the ramp and create a **Static Mesh** called `SM_LongJump
 
 ##### `Step 12.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Make a third jump where you can't make it with a single running jump but need to double jump.  Should be easy to make. Adjust the distance, update the name of the objects and the jump distance text.
+
+**Gameplay Register**
+|Element | Measure|
+|-------------|-------------|
+|Single Jump | 200 |
+|Double Jump | 324|
+|Standing Long Jump | 645 | 
+|Running Long Single Jump | ~900 |
+| Running Long Double Jump | ~ 1300 | 
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Add to GitHub by checking in changes in Unreal and pushing to the server in **GitHub Desktop**.
 
 ![alt_text](images/.jpg)
 

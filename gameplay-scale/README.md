@@ -190,7 +190,7 @@ Now lets duplicate the middle brushes to create our third and final jump.  I cal
 
 ##### `Step 17.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a `Jump Platoforms` folder and add the three platforms to it.  It should have one static mesh and four brushes.
+Add a `Jump Platforms` folder and add the three platforms to it.  It should have one static mesh and four brushes.
 
 ![add jump platforms folder and move three platforms in it](images/OrganizeWO.jpg)
 
