@@ -141,11 +141,17 @@ Dupicate this Variable and call it `bSet End Position` and change the **Tooltip*
 
 ##### `Step 16.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Go to the **Construction Script** tab and lets put logic to set the start and end position.  Add a **Branch** node by right clicking on the graph in an empty section and type in **Branch** in the search window.  Press **Select** and you should see a **Branch**.
+
+The branch node takes a boolean (true or false) as an input and will run different execution pins if the value it **True** or **False**.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 17.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+When you set the **Set Start Position** boolean to true it will record its current world position then set the boolean back to false.  Drag the **bSet Start Position** variable to the graph and select **Get Set Start Position** (we are reading or \"getting it\" not setting it at this point).  Add connect the output of the **Set Start Position** pin to the **Branch Condition**  input pin in the **Branch** node.   Connect the execution pins between the **Construction Script** and **Branch** input.
 
 ![alt_text](images/.jpg)
 
@@ -153,11 +159,15 @@ Dupicate this Variable and call it `bSet End Position` and change the **Tooltip*
 
 ##### `Step 18.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Drag a **Set Starting Position** node and now select a **Setter** and connect it to the **True** execution pin from the **Branch** node. Add a **Set bSet Start Position** node and make sure it is set to `false`.  Add a **Get Actor Location** node and connect the output pin to the **Set Starting Position** node.  This sets the position to the current position of the actor in the room. Select all the nodes and press **C** to add comments and add `Set Starting Position of Actor in Level`.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Add another **Branch** node then connect the execution pin from the **False** execution pin from the previous **Branch** node.  So if the player doesn't press the **Set Start Position** then we need to check to see if they are pressing the **Set End Position**.  Then connect the output of **Set End Position** node to the **Condition** input pin in the **Branch** node. Add a **Get Set End Position** node to read this boolean.  If it is true then we will set the end position **Vector** variable. Drag and add a **Set Ending Position** to set the second destination location. Connect the execution pins from the **Set Ending Position** node to the **Set bSet End Position** node. With the mouse drag with left button pressed and highlight all the nodes and press the **C** button and add a comment `Set Start and End Location of Platform`.
 
 ![alt_text](images/.jpg)
 
@@ -165,13 +175,17 @@ Dupicate this Variable and call it `bSet End Position` and change the **Tooltip*
 
 ##### `Step 20.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond:
 
+Now lets test our work to see what this does.  First clean up our **World Outliner** and make sure all objects are named and in the appropriate folders. Go to the game window. Adjust the starting position for the platform and press the **Set Start Position** box in the **Details** panel.  Notice that the **Starting Position** vector updates with the current location.  Then move the platform and set the **Set End Position** and notice that it updates the **Ending Position** variable.  It should look like this:"
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 21.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+We need to add a new event that sends the platfrom to one location to another. Click on the **Event Graph** tab where we will put the logic to move the platform. .  Right click on the empty graph and lets add a **Add Custom Event** node. Name this event: `Go To Location And Back`.
+
+![alt_text](images/image_85.png)
 
 ___
 
