@@ -232,7 +232,10 @@ https://user-images.githubusercontent.com/5504953/128370608-e0f67775-84ed-46e1-a
 
 Copy the text over and move it over the Jump Platforms, rename it and place it in the **Jump Platforms** folder.  Save all of your work, commit it and upload to **GitHub**.
 
-![add complex as simple to collisiona nd change index to 1 and resolution to 256](images/FixCollLightMaps.jpg)
+![Add jump platforms text on top of jump platforms](images/AddTextToJumpPlatforms.jpg)
+
+![save and commit work to github](images/CommitWork.jpg)
+
 ___
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
