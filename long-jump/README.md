@@ -105,7 +105,12 @@ Test the short jump ramp and make adjustments.  You should be able to jump accro
 
 ##### `Step 10.`\|`SUU&G`| :large_blue_diamond:
 
-![alt_text](images/.jpg)
+
+Your world outliner should have all ramp objects in the **Jump Ramps** folder names appropriately. Duplicate it to have a copy as a starting point for the next ramp.
+
+Select all brushes for the ramp and create a **Static Mesh** called `SM_LongJump_Standing`. Fix any rendering Selissues or collision issues. Change **Collision Complexity** to `Use Complex As Simple` and adjust the **Light Map Coordinate Index** to `1`, and **Light Map Resolution** to `256`.
+
+![organize data in folder](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
