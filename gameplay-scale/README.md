@@ -158,13 +158,19 @@ Run the game and test your work.  In my case I can easily clear the platform wit
 
 https://user-images.githubusercontent.com/5504953/128358498-173a1f8f-d2fb-421d-8d62-122833a3c0b7.mp4
 
-![alt_text](images/.jpg)
-
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.jpg)
+In fact we clear it too easily.  After some trial and error I am much happier with a single jump height of 2 meters.  I update the gameplay register **and** the jump to reflect this adjustment.
+
+**Gameplay Register**
+|Element | Measure|
+|-------------|-------------|
+|Single Jump | ~180 |
+|Double Jump | ~255|
+
+![change mid jump height to 2 meters](images/MakeSingle2M.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
