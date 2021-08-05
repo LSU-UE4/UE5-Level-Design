@@ -109,7 +109,9 @@ Now we need a variable to set the speed the platform moves at in seconds.  Dupli
 
 ##### `Step 12.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Change the name to `Speed` and adjust the tooltip to `Speed to target in seconds`. 
+
+![add speed variable](images/image_82.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
