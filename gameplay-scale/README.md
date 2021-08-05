@@ -167,7 +167,7 @@ In fact we clear it too easily.  After some trial and error I am much happier wi
 **Gameplay Register**
 |Element | Measure|
 |-------------|-------------|
-|Single Jump | ~180 |
+|Single Jump | 200 |
 |Double Jump | ~255|
 
 ![change mid jump height to 2 meters](images/MakeSingle2M.jpg)
