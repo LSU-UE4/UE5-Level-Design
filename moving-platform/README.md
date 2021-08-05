@@ -91,7 +91,9 @@ The **Instance Editable** allows us to adjust this value in the game window to t
 
 ##### `Step 10.`\|`SUU&G`| :large_blue_diamond:
 
-![alt_text](images/.jpg)
+Duplicate the **Starting Position** variable and call it `End Position` and change the tooltip to `End location of platform`.
+
+![duplicate starting position ot create end position](images/image_80.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
