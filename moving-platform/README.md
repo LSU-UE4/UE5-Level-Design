@@ -133,7 +133,9 @@ Now since the consruction script runs anytime you make a change in the object in
 
 ##### `Step 15.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.jpg)
+Dupicate this Variable and call it `bSet End Position` and change the **Tooltip** to `Pressing this sets end position in world space`.
+
+![add send end position variable](images/image_84.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
