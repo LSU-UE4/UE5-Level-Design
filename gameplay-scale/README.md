@@ -144,7 +144,7 @@ We can now add this to our scale register. We will round it up to 7.5.
 
 Our first jump platform we created was about 110 uu units high (1.1 meters).  The player can easily clear it with a single jump. Now lets make two more jump platforms.  One that can just clear a single jump.  And one that can just clear a double jump. For these you will have to make the jump platforms taller to accomodate the higher positioning of the opening.
 
-Repeat the process and create another jump platform in a brush with a jump height of **180 uu's** with an opening of **750** and call it `BR_JumpPlatform_Mid`.
+Repeat the process and create another jump platform in a brush with a jump height of **180 uu's** with an opening of **750** and call it `BR_JumpPlatform_Mid` & `BR_JumpPlatform_Mid_Inner`.
 
 
 https://user-images.githubusercontent.com/5504953/128357947-66d11e0f-3e15-4040-b437-d5b0b8bc9e23.mp4
@@ -176,7 +176,15 @@ In fact we clear it too easily.  After some trial and error I am much happier wi
 
 ##### `Step 16.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Now lets duplicate the middle brushes to create our third and final jump.  I called them: `BR_JumpPlatform_Tall` & `BR_JumpPlatform_Tall_Inner`. Play around with the double jump height and update the register. I settled on 324 units as the setting I thought was right:
+
+**Gameplay Register**
+|Element | Measure|
+|-------------|-------------|
+|Single Jump | 200 |
+|Double Jump | 324|
+
+![alt_text](images/Create3rdRamp.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
