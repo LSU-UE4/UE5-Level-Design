@@ -128,7 +128,7 @@ https://user-images.githubusercontent.com/5504953/128208780-4f8313bc-33fb-42ce-9
 
 ##### `Step 12.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-We can now add this to our scale register.
+We can now add this to our scale register. We will round it up to 7.5.
 
 **Scale Register**
 |Item|Dimensions|
@@ -142,6 +142,10 @@ We can now add this to our scale register.
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Our first jump platform we created was about 110 uu units high (1.1 meters).  The player can easily clear it with a single jump. Now lets make two more jump platforms.  One that can just clear a single jump.  And one that can just clear a double jump.
+
+Repeat the process and create another jump platform in a brush with a jump height of **180 uu's** with an opening of **750** and call it `BR_JumpPlatform_Mid`.
 
 ![alt_text](images/.jpg)
 
