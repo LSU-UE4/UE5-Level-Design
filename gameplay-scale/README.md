@@ -184,19 +184,23 @@ Now lets duplicate the middle brushes to create our third and final jump.  I cal
 |Single Jump | 200 |
 |Double Jump | 324|
 
-![alt_text](images/Create3rdRamp.jpg)
+![create a third ramp with height of 324 uu](images/Create3rdRamp.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 17.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Add a `Jump Platoforms` folder and add the three platforms to it.  It should have one static mesh and four brushes.
+
+![add jump platforms folder and move three platforms in it](images/OrganizeWO.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 18.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now play the game and make sure you are happy with the brushes.  When you are lets convert them to static meshes.  The only difference this time is that you need to select **Two** objects the positive and negative space to export as a single mesh.  So select both brushes for the mid platform and press the <kbd>Create Static Mesh</kbd> button.  Select the **Geometry | Meshes** folder and call it `SM_JumpPlatform_Mid`.  Repeat this for the tall platform as well.
+
+![convert two brush platforms to static mesh](images/TurnToStaticMeshes.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
