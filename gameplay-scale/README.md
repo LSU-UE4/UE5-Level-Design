@@ -170,7 +170,7 @@ In fact we clear it too easily.  After some trial and error I am much happier wi
 |Single Jump | 200 |
 |Double Jump | ~255|
 
-![change mid jump height to 2 meters](images/MakeSingle2M.jpg)
+![change mid jump height to 2 meters](images/MakeSingle2Meters.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
