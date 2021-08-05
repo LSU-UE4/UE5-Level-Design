@@ -85,15 +85,16 @@ The **Instance Editable** allows us to adjust this value in the game window to t
 
 ##### `Step 9.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Duplicate the **Starting Position** variable and call it `End Position` and change the tooltip to `End location of platform`.
+
+![duplicate starting position ot create end position](images/image_80.png)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`SUU&G`| :large_blue_diamond:
 
-Duplicate the **Starting Position** variable and call it `End Position` and change the tooltip to `End location of platform`.
-
-![duplicate starting position ot create end position](images/image_80.png)
+Add a third variable that will affect how long the platform waits before it leaves and returns to its two locations.  Call it `Delay` and make it type **Float**.  Set **Private** to `true`, **Instance Editable** to `true`, **Category** to `Platform` and **Tooltip** to `Delay between targets in seconds`.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
