@@ -224,6 +224,8 @@ Open up both models and change **Collision Complexity** to `Use Complex As Simpl
 
 Play the game and make sure you jumps are still working the way they were before they were turned into brushes.  Mine worked fine.
 
+https://user-images.githubusercontent.com/5504953/128370608-e0f67775-84ed-46e1-ac37-d612c141dc75.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 22.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
