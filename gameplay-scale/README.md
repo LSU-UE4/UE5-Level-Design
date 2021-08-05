@@ -161,7 +161,7 @@ https://user-images.githubusercontent.com/5504953/128357947-66d11e0f-3e15-4040-b
 
 Run the game and test your work.  In my case I can easily clear the platform with a single jump.
 
-
+https://user-images.githubusercontent.com/5504953/128358498-173a1f8f-d2fb-421d-8d62-122833a3c0b7.mp4
 
 ![alt_text](images/.jpg)
 
