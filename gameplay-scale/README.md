@@ -206,13 +206,17 @@ Now play the game and make sure you are happy with the brushes.  When you are le
 
 ##### `Step 19.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now make sure you three static meshes are in the folder and are correctly named.  Also, press the <kbd>Build</kbd> button. Run the game.  The collisions are missing in the two new platforms and the material is not rendering it is black.
+
+![build lighting test collisions](images/LightingIssuesCollision.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.jpg)
+Open up both models and change **Collision Complexity** to `Use Complex As Simple` and adjust the **Light Map Coordinate Index** to `1`, and **Light Map Resolution** to `256`.
+
+![add complex as simple to collisiona nd change index to 1 and resolution to 256](images/FixCollLightMaps.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
