@@ -147,8 +147,6 @@ Our first jump platform we created was about 110 uu units high (1.1 meters).  Th
 
 Repeat the process and create another jump platform in a brush with a jump height of **180 uu's** with an opening of **750** and call it `BR_JumpPlatform_Mid`.
 
-![alt_text](images/.jpg)
-
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
