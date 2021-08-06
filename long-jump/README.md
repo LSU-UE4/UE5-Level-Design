@@ -147,7 +147,7 @@ https://user-images.githubusercontent.com/5504953/128525326-18904bf6-4afb-4f3b-9
 
 Add to GitHub by checking in changes in Unreal and pushing to the server in **GitHub Desktop**.
 
-![alt_text](images/.jpg)
+![alt_text](images/Github.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
