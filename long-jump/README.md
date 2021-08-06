@@ -75,34 +75,28 @@ https://user-images.githubusercontent.com/5504953/128516328-995951fc-83d0-4c31-8
 
 ##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Duplicate the stairs and the platform for the other end of the jump.
+Duplicate the stairs and the platform for the other end of the jump. Place it so that there is a 7 meter gap (7 cubes on the floor tile).
 
-
-
-![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Move player start in front of the ramp and rotate it so that it faces forward.  You should see a blue arrow that shows where the player will start pointing when you run the game.",
-
-![alt_text](images/.jpg)
+Run the game and jump.  Test the short jump ramp and make adjustments. I can clear 7 meters. too easily.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Test the short jump ramp and make adjustments.  You should be able to jump accross it from standing.  No running jump should be necessary.  Measure the jump distance and add text to the ramp by going into an orthoganal view and center right clicking on the middle mouse button and dragging to measure the distance in centimeters.  In my case it was `645` uu.  Finally name the files and organize them in the world outliner.
+Make the necessary adjustments. Measure the jump distance and add text to the ramp by going into an orthoganal view and center right clicking on the middle mouse button and dragging to measure the distance in centimeters.  In my case it was `800` uu.  Finally name the files and organize them in the world outliner.
 
 **Gameplay Register**
 |Element | Measure|
 |-------------|-------------|
 |Single Jump | 200 |
 |Double Jump | 324|
-|Standing Long Jump | 645 | 
+|Standing Long Jump | 800 | 
 
-![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
