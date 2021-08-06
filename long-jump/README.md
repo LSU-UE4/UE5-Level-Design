@@ -138,8 +138,7 @@ Repeat this entire process for a long double jump.  I made the running ramp 6 me
 |Standing Long Jump | 645 | 
 |Running Long Single Jump | 1600 |
 
-
-
+Uploading LongDoubleJump.mp4…
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
