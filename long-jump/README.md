@@ -91,7 +91,7 @@ https://user-images.githubusercontent.com/5504953/128517612-ccb7673a-6a7e-4946-a
 
 ##### `Step 9.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Make the necessary adjustments. Measure the jump distance and add text to the ramp by going into an orthoganal view and center right clicking on the middle mouse button and dragging to measure the distance in centimeters.  In my case it was `800` uu.  Finally name the files and organize them in the world outliner.
+Make the necessary adjustments. In my case I am happy with an 8 meter gap (800 uu).
 
 **Gameplay Register**
 |Element | Measure|
