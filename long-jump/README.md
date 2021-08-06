@@ -85,6 +85,8 @@ https://user-images.githubusercontent.com/5504953/128517445-057468e1-025f-4b53-b
 
 Run the game and jump.  Test the short jump ramp and make adjustments. I can clear 7 meters. too easily.
 
+https://user-images.githubusercontent.com/5504953/128517612-ccb7673a-6a7e-4946-a36b-67f3e58eb24f.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
