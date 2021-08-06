@@ -109,7 +109,11 @@ https://user-images.githubusercontent.com/5504953/128518129-dec0b276-9338-46dd-a
 
 Your world outliner should have all ramp objects in the **Jump Ramps** folder names appropriately. 
 
-Duplicate it to have a copy as a starting point for the next ramp. Take the copy of standing jump ramps and lets make a running single jump.  You should not be able to make this from a standing jump but should be able to jump with a single running jump (no double jumping).  Run along the ground and get a good running jump distance. Adjust the distance, update the name of the objects and the jump distance text.
+Duplicate it to have a copy as a starting point for the next ramp. Take the copy of standing jump ramps and lets make a running single jump.  Add another cube with 3 meters to run along before jumping.
+
+You should not be able to make this from a standing jump but should be able to jump with a single running jump (no double jumping).  Run along the ground and get a good running jump distance. Adjust the distance, update the name of the objects and the jump distance text.
+
+Mine ended up being 1100 uu's to make a good single jump distance that you can't make with a standing jump.
 
 **Gameplay Register**
 |Element | Measure|
