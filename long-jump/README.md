@@ -31,9 +31,8 @@ For a change lets add a staircase instead of a ramp to run onto a flat ramp to j
 
 ##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Since each step is 20 units this is `300` units high.  Add another **Box** bsp and make it `300` units high.  Line it up perfectly with the stairs. Make it narrow so that you have to do a standing jump.
+Rename **1M_Cube** to `SM_1MCube1`. Drag a coyp onto the level.  Now press the <kbd>end</kbd> key to snap the cube to the ground and move it to the back of the staircase.  This looks like it is 2 meters tall by wide.  Go to the **World Outliner** and change the **Scale Z | Y** to `2.0`.  Go to the **Top** and **Side** views and line up the piece perfectly.  Drop the `M_LDGrid_Local` onto the staircase and this cube.  
 
-![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
