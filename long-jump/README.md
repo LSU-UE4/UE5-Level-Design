@@ -98,7 +98,7 @@ Make the necessary adjustments. In my case I am happy with an 8 meter gap (800 u
 |-------------|-------------|
 |Single Jump | 200 |
 |Double Jump | 324|
-|Standing Long Jump | 800 | 
+|Standing Long Jump | ~800 | 
 
 https://user-images.githubusercontent.com/5504953/128518129-dec0b276-9338-46dd-a7b3-8ee178c52de3.mp4
 
@@ -107,17 +107,24 @@ https://user-images.githubusercontent.com/5504953/128518129-dec0b276-9338-46dd-a
 ##### `Step 10.`\|`SUU&G`| :large_blue_diamond:
 
 
-Your world outliner should have all ramp objects in the **Jump Ramps** folder names appropriately. Duplicate it to have a copy as a starting point for the next ramp.
+Your world outliner should have all ramp objects in the **Jump Ramps** folder names appropriately. 
 
-Select all brushes for the ramp and create a **Static Mesh** called `SM_LongJump_Standing`. Fix any rendering Selissues or collision issues. Change **Collision Complexity** to `Use Complex As Simple` and adjust the **Light Map Coordinate Index** to `1`, and **Light Map Resolution** to `256`.
+Duplicate it to have a copy as a starting point for the next ramp. Take the copy of standing jump ramps and lets make a running single jump.  You should not be able to make this from a standing jump but should be able to jump with a single running jump (no double jumping).  Run along the ground and get a good running jump distance. Adjust the distance, update the name of the objects and the jump distance text.
 
-![organize data in folder](images/.jpg)
+**Gameplay Register**
+|Element | Measure|
+|-------------|-------------|
+|Single Jump | 200 |
+|Double Jump | 324|
+|Standing Long Jump | 1100 | 
+
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: 
 
-Take the copy of standing jump ramps and lets make a medium jump.  You should not be able to make this from a standing jump but should be a relatively easy running jump.  Run along the ground and get a good running jump distance. Adjust the distance, update the name of the objects and the jump distance text.
+
 
 **Gameplay Register**
 |Element | Measure|
@@ -125,9 +132,9 @@ Take the copy of standing jump ramps and lets make a medium jump.  You should no
 |Single Jump | 200 |
 |Double Jump | 324|
 |Standing Long Jump | 645 | 
-|Running Long Single Jump | ~900 |
+|Running Long Single Jump | 1100 |
 
-![alt_text](images/.jpg)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
