@@ -23,9 +23,9 @@ Lets move to an empty side of the level where you will put the platforms. Duplic
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-For a change lets add a staircase instead of a ramp to run onto a flat ramp to jump over.  Add a **Geometry | Linear Stair Brush** to the level. Change **Number of Steps** to `15`.",
+For a change lets add a staircase instead of a ramp to run onto a flat ramp to jump over.  Add a **Geometry | Meshes | LinearStair_StaticMesh** to the level. Change the name to `SM_LinearStair` to be consistent with the other static meshes naming convention.",
 
-![alt_text](images/.jpg)
+![alt_text](images/AddREnameStaritcase.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
