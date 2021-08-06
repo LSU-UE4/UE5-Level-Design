@@ -52,30 +52,32 @@ https://user-images.githubusercontent.com/5504953/128514344-67818e4b-f304-4c90-a
 
 ##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
 
-Duplicate the stairs and the platform for the other end of the jump. 
+Organize the **World Outliner** by making sure the two static meshes are in the **Long Jump** folder. Now move the **Player Start** so the red arrow faces the staircase.
 
-![duplicate other end of jump platform](images/.jpg)
+![duplicate other end of jump platform](images/OrganizeFinder.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
-Use your views to line up the back ramp so that it matches the platform perfectly.  Leave a gap to jump over.  It shouldlook like:
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now do a standing jump while pressing forward (<kbd>up arrow</kbd> or <kbd>W</kbd>) key.  Count the number of tiles the player can cover.  Adjust the gap to match this.
+Now do a standing jump while pressing forward (<kbd>up arrow</kbd> or <kbd>W</kbd>) key.  Count the number of tiles the player can cover. I believe mine covered roughly 7 meters.
 
 **Gameplay Register**
 |Element | Measure|
 |-------------|-------------|
 |Single Jump | 200 |
 |Double Jump | 324|
-|Standing Long Jump | ~600 | 
+|Standing Long Jump | ~700 | 
+
+
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Duplicate the stairs and the platform for the other end of the jump.
+
+
 
 ![alt_text](images/.jpg)
 
