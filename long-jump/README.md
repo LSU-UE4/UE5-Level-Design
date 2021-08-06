@@ -133,8 +133,8 @@ Repeat this entire process for a long double jump.  I made the running ramp 6 me
 **Gameplay Register**
 |Element | Measure|
 |-------------|-------------|
-|Single Jump | 200 |
-|Double Jump | 324|
+|Single Jump Height | 200 |
+|Double Jump Height | 324|
 |Standing Long Jump | 645 | 
 |Running Long Single Jump | 1600 |
 
