@@ -128,7 +128,7 @@ https://user-images.githubusercontent.com/5504953/128521104-ff058a28-390d-46d5-9
 
 ##### `Step 11.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: 
 
-
+Repeat this entire process for a long double jump.  I made the running ramp 6 meters long.  After some trial and error I settled on a 16 meter gap.  This required a very well timed double jump.
 
 **Gameplay Register**
 |Element | Measure|
@@ -136,7 +136,8 @@ https://user-images.githubusercontent.com/5504953/128521104-ff058a28-390d-46d5-9
 |Single Jump | 200 |
 |Double Jump | 324|
 |Standing Long Jump | 645 | 
-|Running Long Single Jump | 1100 |
+|Running Long Single Jump | 1600 |
+
 
 
 
