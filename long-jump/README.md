@@ -46,7 +46,7 @@ We will use a material instance to alter the color of the texture.  Right click 
 
 Now double click the material instance and select the **Base Color** and **Line Color** for editing.  Give them both a distinct color that makes them stand out from gray.
 
-
+https://user-images.githubusercontent.com/5504953/128514344-67818e4b-f304-4c90-a361-f356922ea878.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
