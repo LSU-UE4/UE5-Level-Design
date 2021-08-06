@@ -15,7 +15,7 @@ We also want to know how far a player can jump to overcome gaps in buildings or 
 
 ##### `Step 1.`\|`SUU&G`|:small_blue_diamond:
 
-Lets move to an empty side of the level where you will put the platforms. Duplicate a new title on top of that area and call it `Jump Ramps`. Create a new folder called `Jump Ramps` in the **World Outliner** and move the text into it. Rename the text appropriately.
+Lets move to an empty side of the level where you will put the platforms. Duplicate a new title on top of that area and call it `Long Jumps`. Create a new folder called `Jump Ramps` in the **World Outliner** and move the text into it. Rename the text appropriately.
 
 
 ![alt_text](images/.jpg)
