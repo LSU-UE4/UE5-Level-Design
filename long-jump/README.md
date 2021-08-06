@@ -42,9 +42,11 @@ Lets make a change to the material. Lets color code it to warn the person playin
 
 Now in gray blocking we can't implement all the mechanics of the level as we are just trying to get a sense of the space.  So we can create materials that indicate **beats** we want.
 
-We will use a material instance to alter the color of the texture.  Right click on **M_????** and rename it to `MI_????_ConstrainedMovement`.
+We will use a material instance to alter the color of the texture.  Right click on **M_LDGrid_Basae** and select `Create Material Instance`.  This will create an **instance** of the material that we can edit certain parameters the creator of the material allows us to. rename it to `MI_LDGrid_Base_Constrain`.
 
-![alt_text](images/.jpg)
+Now double click the material instance and select the **Base Color** and **Line Color** for editing.  Give them both a distinct color that makes them stand out from gray.
+
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
