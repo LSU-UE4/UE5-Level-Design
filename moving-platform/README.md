@@ -298,6 +298,8 @@ Plug the output of the **Branch** node to the **Delay** node then onto the secon
 
 Go to the game window and select the platform.  Make sure **Platform is Looping** is set to `true` and then run the game.  The platform should move to the end postion then back to the start.
 
+https://user-images.githubusercontent.com/5504953/128611591-6c815996-321d-4834-b828-6aad58621d8d.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 30.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond: :large_blue_diamond:
