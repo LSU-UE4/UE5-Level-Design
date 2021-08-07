@@ -168,7 +168,7 @@ https://user-images.githubusercontent.com/5504953/128607910-26934174-3cff-4c77-b
 
 Drag a **Set Starting Position** node and now select a **Setter** and connect it to the **True** execution pin from the **Branch** node. Add a **Set bSet Start Position** node and make sure it is set to `false`.  Add a **Get Actor Location** node and connect the output pin to the **Set Starting Position** node.  This sets the position to the current position of the actor in the room. Select all the nodes and press **C** to add comments and add `Set Starting Position of Actor in Level`.
 
-
+https://user-images.githubusercontent.com/5504953/128608633-26f0639a-8fda-4344-bc30-3ed842d2211d.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
