@@ -247,6 +247,10 @@ Basically we are not resetting the actor to the begining before starting. Also, 
 
 Move the platform away from its start position.  Press the **Play** button and you will see it jump to the start position and move to the end position over 5 seconds.
 
+<<<<<<< HEAD
+=======
+https://user-images.githubusercontent.com/5504953/128610390-8fcf1ad3-76c3-4198-9b06-18d5d9b92d19.mp4
+>>>>>>> 6b266aafdd5b94f9493adf73b2dde310bfd5a595
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
