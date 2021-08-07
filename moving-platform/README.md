@@ -139,6 +139,8 @@ The platform will do a single trip from beginning to end, unless it is set to lo
 
 Now since the consruction script runs anytime you make a change in the object in the level we can use this to do things like set the starting and end position of the platform.  We will use a boolean to set a variable then reset the boolean to its previous state.  Duplicate the previous **Boolean** and call it `bSet Start Position` and change the **Tooltip** to `Pressing this sets the start position in world space`.
 
+Also make sure that the **Starting Position** and **Ending Position** variables are both in the **Platform** group.
+
 ![add a bSetStartPosition variable?](images/BSetStartPos.jpg)
 
 
