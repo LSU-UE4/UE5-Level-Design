@@ -131,7 +131,7 @@ Change the name to `Speed` and adjust the tooltip to `Speed to target in seconds
 
 The platform will do a single trip from beginning to end, unless it is set to looping.  This will have it go and back at infinitum.  Add another Variable called `bPlatform Is Looping?` and make it **Type** `Boolean`.  Set **Instance Editable** to `true`, **Private** to `true`, **Category** to `Platform` and **Tooltip** to `Keep going from starting to ending position and back`
 
-![alt_text](images/.jpg)
+![add a bPlatform Is Looping variable?](images/BPlatformIsLooping.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
