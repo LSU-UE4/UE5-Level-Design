@@ -218,16 +218,16 @@ https://user-images.githubusercontent.com/5504953/128609875-8979cd30-77ea-4438-a
 
 ##### `Step 23.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Add comment `Move Component` to the work done in the blueprint.
 
+![alt_text](images/image_87.png)
 
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 24.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add comment `Move Component` to the work done in the blueprint.
 
-![alt_text](images/image_87.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
