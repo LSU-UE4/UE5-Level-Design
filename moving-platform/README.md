@@ -17,6 +17,8 @@ Now a level will not be interesting unless we can allow you to exploit vertical 
 
 Copy the jump ramps title by select both actors then **Alt** dragging a copy to the right.  Call this new title `MovingPlatformText1` & `MovingPlatformText2`.  Add a folder called `Moving Platform`. Change the text to `Moving Platform` in both titles as well.  Give yourself room to place a single moving platform under the title.
 
+Now we can select both text actors and right click and select **Group**.  This means that all actors will move at the same time and you only need to select a single actor in the group.  It moves the origin widget to the average of all the group' scombined origins.
+
 ![Add moving platform title to level](images/AddMovingPlatformTextGroup.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
