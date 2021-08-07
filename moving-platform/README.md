@@ -69,9 +69,11 @@ https://user-images.githubusercontent.com/5504953/128603049-46f3b7fa-ecae-4b15-9
 
 ##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we don't want to change a single platform in this level.  We want to create a game actor that we can use multiple times in multiple levels.  In Unity these are called **Prefabs**, in Unreal these are **blueprints**.  Go back to the **World Outliner** and notice that it is no longer a BSP but a Static Mesh.  Also we see the button **Blueprint/Add Script** button back.  Highlight the platform and press the **Blueprint/Add Script** button.  Name the blueprint `BP_MovingPlatform` and move it to the **Blueprints** folder. I like docking the blueprint next to the editor if I am on a single monitor.
+Now we don't want to create a single platform in this level.  We want to create a game actor that we can use multiple times in multiple levels.  In Unity these are called **Prefabs**, in Unreal these are **blueprints**.  
 
-![alt_text](images/.jpg)
+Go back to the **World Outliner** and and select **SM_AssetPlatform**.  You will see a button **Blueprint/Add Script**.  Highlight the platform and press the <kbd>Blueprint/Add Script</kbd> button.  Name the blueprint `BP_Platform` and move it to the **Blueprints** folder. I like docking the blueprint next to the editor if I am on a single monitor.
+
+![turn actor to blueprint and call it BP_Platform](images/AddBlueprint.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
