@@ -157,7 +157,7 @@ Go to the **Construction Script** tab and lets put logic to set the start and en
 
 The branch node takes a boolean (true or false) as an input and will run different execution pins if the value it **True** or **False**.
 
-![alt_text](images/.jpg)
+https://user-images.githubusercontent.com/5504953/128607910-26934174-3cff-4c77-bda5-642714e4549d.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
