@@ -112,7 +112,7 @@ https://user-images.githubusercontent.com/5504953/128603680-6da7ee1f-fffd-466a-a
 
 ##### `Step 11.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: 
 
-Now we need a variable to set the speed the platform moves at in seconds.  Duplicate by right clicking on the  **Delay** variable and selecting **Duplicate**.",
+Now we need a variable to set the speed the platform moves at in seconds.  Duplicate by right clicking on the  **Delay** variable and selecting **Duplicate**.
 
 ![clicking duplicate on delay variable](images/image_81.png)
 
