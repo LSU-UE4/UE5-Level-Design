@@ -166,17 +166,17 @@ https://user-images.githubusercontent.com/5504953/128607910-26934174-3cff-4c77-b
 
 ##### `Step 17.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-When you set the **Set Start Position** boolean to true it will record its current world position then set the boolean back to false.  Drag the **bSet Start Position** variable to the graph and select **Get Set Start Position** (we are reading or \"getting it\" not setting it at this point).  Add connect the output of the **Set Start Position** pin to the **Branch Condition**  input pin in the **Branch** node.   Connect the execution pins between the **Construction Script** and **Branch** input.
+Drag a **Set Starting Position** node and now select a **Setter** and connect it to the **True** execution pin from the **Branch** node. Add a **Set bSet Start Position** node and make sure it is set to `false`.  Add a **Get Actor Location** node and connect the output pin to the **Set Starting Position** node.  This sets the position to the current position of the actor in the room. Select all the nodes and press **C** to add comments and add `Set Starting Position of Actor in Level`.
 
-![alt_text](images/.jpg)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 18.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Drag a **Set Starting Position** node and now select a **Setter** and connect it to the **True** execution pin from the **Branch** node. Add a **Set bSet Start Position** node and make sure it is set to `false`.  Add a **Get Actor Location** node and connect the output pin to the **Set Starting Position** node.  This sets the position to the current position of the actor in the room. Select all the nodes and press **C** to add comments and add `Set Starting Position of Actor in Level`.
 
-![alt_text](images/.jpg)
+
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
