@@ -35,26 +35,27 @@ Now we have  perfect mesh for this platform. Add **SM_AssetPlatform** under the 
 
 ##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We want to use this as a blueprint.  There is no promote to blueprint button.  This is because a blueprints can only manipulate a static meshes and not a brush BSP.  But do not despair, we can change this from a BSP to a static mesh.  <br><br>Please note that you will no longer be able to edit the geometry when you do this.  Open up all the settings for the **Brush Settings** section and open the bottom section by pressing the traingle at the bottom.  This will bring up a **Create Static Mesh** button.  Press the button and put the new mesh in the **Meshes** folder and call it `SM_MovingPlatform`.",
-    "alt": "",
+Move the **PlayerStart** actor next to the platform with the red arrow pointing at it.
 
-![alt_text](images/.jpg)
+![move player start next to platform](images/MovePlayerStart.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets build the lightihng in the level by selecting **Build | Build Lighting Only**.  Notice that once it builds that the platform is dark and not taking in any light.  Also, run the game and run into the platform.  There is no collision detection.
+Run the game and you will notice that there is no collision on the platform.
 
-![alt_text](images/.jpg)
+![no collision on platform](images/NoCollision.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
 
-Now double click the mesh you just created.  It does not have a collision volume when you do this.  So we need to add one.  Press the **Collision** menu item and lets press **Add Box Simplified Collision** option to add a simple box around our simple box mesh.
+Now double click **SM_AssetPlatform** you just created.  It does not have a collision volume when you do this.  Now we don't want to use complex as simple as this has over 2,000 vertices.  The polygons are unecessarilly dense for a collision and this will have an impact to our framerate.
 
-![alt_text](images/.jpg)
+Lets press the **Collision** drop down and select `Add 26DOP Simplified Collision`.  For our gray box purpose this will suffice. Press the <kbd>Save</kbd> button.
+
+![added Add 26DOP Simplified Collision to mesh](images/AddCollisionToMesh.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
