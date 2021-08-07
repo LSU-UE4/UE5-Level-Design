@@ -61,7 +61,7 @@ Lets press the **Collision** drop down and select `Add 26DOP Simplified Collisio
 
 ##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
-Play the game and make sure you are happy with the collision volume you made:
+Move **SM_AssetPlatform** into the **Moving Platforms** folder.  Play the game and make sure you are happy with the collision volume you made:
 
 https://user-images.githubusercontent.com/5504953/128603049-46f3b7fa-ecae-4b15-9487-00ba2c69fb85.mp4
 
