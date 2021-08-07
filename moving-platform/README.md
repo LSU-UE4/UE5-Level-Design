@@ -89,6 +89,7 @@ We set **Private** to `true` as we want to default Variables to private to this 
 
 The **Instance Editable** allows us to adjust this value in the game window to tune while playing the game.  This allows us to edit it in the game editor without going back to the blueprint.
 
+https://user-images.githubusercontent.com/5504953/128603375-e80ab2e8-13dc-4b3f-adc9-e2efb98f1b8e.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
