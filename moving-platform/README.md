@@ -316,6 +316,8 @@ Lets save our work by pressing **File | Save All**.  Press the **Source Control 
 
 Now you should have all the components you need to create your own level.  Create p a new level and use what you have learned her to construct a level that you can navigate around.  Take a look at what can be done within a week or so of consistent work.
 
+![save, commit and push to github](images/Github.jpg)
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 | `level.design`\|`THE END`| 
