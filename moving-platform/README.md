@@ -177,6 +177,7 @@ https://user-images.githubusercontent.com/5504953/128608633-26f0639a-8fda-4344-b
 
 Add another **Branch** node then connect the execution pin from the **False** execution pin from the previous **Branch** node.  So if the player doesn't press the **Set Start Position** then we need to check to see if they are pressing the **Set End Position**.  Then connect the output of **Set End Position** node to the **Condition** input pin in the **Branch** node. Add a **Get Set End Position** node to read this boolean.  If it is true then we will set the end position **Vector** variable. Drag and add a **Set Ending Position** to set the second destination location. Connect the execution pins from the **Set Ending Position** node to the **Set bSet End Position** node. With the mouse drag with left button pressed and highlight all the nodes and press the **C** button and add a comment `Set Start and End Location of Platform`.
 
+https://user-images.githubusercontent.com/5504953/128608781-9d98b01c-2149-49fe-a2a2-f7925f7d394a.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
