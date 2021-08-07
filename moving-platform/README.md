@@ -61,9 +61,9 @@ Lets press the **Collision** drop down and select `Add 26DOP Simplified Collisio
 
 ##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
-Open **SM_MovingPlatform** to get to the static mesh viewer.  In the **Details** panel open up the **General Settings** and adjust the **Light Map Resolution** to `256` and the **Light Map Coordinate Index** to `1`.  Press the **Save** button.  Go back to the game and rebuild the lighting.  Now the platform is no longer dark and the collision should work.
+Play the game and make sure you are happy with the collision volume you made:
 
-![alt_text](images/.jpg)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
