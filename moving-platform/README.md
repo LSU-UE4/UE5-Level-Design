@@ -71,7 +71,9 @@ https://user-images.githubusercontent.com/5504953/128603049-46f3b7fa-ecae-4b15-9
 
 Now we don't want to create a single platform in this level.  We want to create a game actor that we can use multiple times in multiple levels.  In Unity these are called **Prefabs**, in Unreal these are **blueprints**.  
 
-Go back to the **World Outliner** and and select **SM_AssetPlatform**.  You will see a button **Blueprint/Add Script**.  Highlight the platform and press the <kbd>Blueprint/Add Script</kbd> button.  Name the blueprint `BP_Platform` and move it to the **Blueprints** folder. I like docking the blueprint next to the editor if I am on a single monitor.
+Go back to the **World Outliner** and and select **SM_AssetPlatform**.  You will see a button **Blueprint/Add Script**.  Highlight the platform and press the <kbd>Blueprint/Add Script</kbd> button.  Name the blueprint `BP_Platform` and keep the default **New Subclass**. Press the <kbd>Select</kbd> button.
+
+move it to the **Blueprints** folder. I like docking the blueprint next to the editor if I am on a single monitor.
 
 ![turn actor to blueprint and call it BP_Platform](images/AddBlueprint.jpg)
 
