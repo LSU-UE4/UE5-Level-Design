@@ -25,9 +25,11 @@ Now we can select both text actors and right click and select **Group**.  This m
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Add a BSP Geometry box into the scene.  Make the brush `400, 400, 50` to make a square platform. Place it at the height of the easy jump. Call it `Moving Platform` and place it in the correct folder in your **World Outliner**.
+AddSMPlatformAsset
 
-![add moving platform bsp](images/.jpg)
+Now we have  perfect mesh for this platform. Add **SM_AssetPlatform** under the newly created text.
+
+![add M_AssetPlatform Asset to Scene](images/AddSMPlatformAsset.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
