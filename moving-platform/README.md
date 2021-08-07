@@ -15,7 +15,7 @@ Now a level will not be interesting unless we can allow you to exploit vertical 
 
 ##### `Step 1.`\|`SUU&G`|:small_blue_diamond:
 
-Copy the jump ramps title by select both actors then **Alt** dragging a copy to the right.  Call this new title `Moving Platform Title 1` & `Moving Platform Title 2`.  Add a folder called `Moving Platform`. Change the text to `Moving Platform` in both titles as well.  Give yourself room to place a single moving platform under the title.
+Copy the jump ramps title by select both actors then **Alt** dragging a copy to the right.  Call this new title `MovingPlatformText1` & `MovingPlatformText2`.  Add a folder called `Moving Platform`. Change the text to `Moving Platform` in both titles as well.  Give yourself room to place a single moving platform under the title.
 
 ![Add moving platform title to level](images/.jpg)
 
