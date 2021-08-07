@@ -212,7 +212,7 @@ Pull off of the **GetToLocationAndBack** node's execution pin and add a **Move C
 
 Add a **Get Speed** node and connect it to the **Over Time** pin in the **Move Component To** node. Right click on the empty graph and add a **Get Actor Rotation** node. Connect the output of the **Get Actor Rotation** it to the **Target Relative Rotation** node.
 
-https://user-images.githubusercontent.com/5504953/128609732-d315a3e4-e564-4b22-a87d-50f35062a5f4.mp4
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
