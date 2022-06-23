@@ -32,7 +32,13 @@ Run the **Epic Games Launcher** and Press **Launch** button to launch the editor
 
 ##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-You can pick from different starting templates with Games, Film/TV, Architecture and Design as options.  Lets start by selecting **Games** and then press the <kbd>Next</kbd> button.
+You can pick from different starting templates with Games, Film/Video & Live Events, Architecture and Automotive Product Design & Manufacturing as options.  
+
+We are going to make a game so lets start by selecting **Games** and then select the **Third Person Template**.  
+
+The first settings on the top right is set to **BLUEPRINT**.  You can select between **C++** and **BLUEPRINT**.  Since we will not be doing any C++ programming in this exercise we will leave it with Blueprint.  I am leaving the **Target Platform** as **Desktop** and the **Quality Preset** to **Maximum Quality** as we are developing this for a modern computer.  We do not need the starter content so we will set the **Starter Content** to `false` to keep our project size at bay. We will leave **Raytracing** off as we will not be using it at the moment.  
+
+Select your **Perforce** workspace as the folder to save the project in and call it `IntroToLevelDesign`.  Press the <kbd>Create</kbd> button to start the game with the third person template.
 
 ![Unreal Select or Create New Project screen](images/image_03.png)
 
@@ -40,7 +46,6 @@ You can pick from different starting templates with Games, Film/TV, Architecture
 
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-**Unreal** has various boiler point template for different genres of games.  WThe sidescroller template would be interesting but it is for 2 dimensional movement and we want a fully navigatable 3-D level. For now lets just start with a **Third Person** template then press the <kbd>Next</kbd> button.
 
 ![select third person ue4 template](images/image_17.png)
 
@@ -48,7 +53,7 @@ You can pick from different starting templates with Games, Film/TV, Architecture
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
-This now takes you to the *Project Settings* screen. The first settings on the top left is set to Blueprints.  You can select between C++ and Blueprint.  Since we will not be doing any C++ programming in this exercise we will leave it with Blueprint.  I am leaving the quality settings to **Maximum Quality** as we are developing this for a modern computer.  We will leave **Raytracing** off as we will not be using it at the moment.  We set the paltform to **Desktop** as we will be on a PC or Mac playing the game and not on a game console or on mobile.  We will be importing the needed content so we will set the **Starter Content** to `No Starter Content` to keep our project size at bay.
+
 
 Select a folder to put it in (I suggest `Documents/github/` and then assign a project name and I am calling it `IntroLevelDesign`.  Press the <kbd>Create Project</kbd> button to start the new project.
 
