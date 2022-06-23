@@ -124,7 +124,7 @@ Now press the <kbd>Submit</kbd> button to send these local files to the **Depot*
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Go back to **Unreal Engine** and press the <kbd>Source Control</kbd> button and select the `Connect to Source Control...` dropdown. This brings up the menu to select the source provider (in our game GitHub).
+Go back to **Unreal Engine** and press the <kbd>Source Control</kbd> button and select the `Connect to Source Control...` dropdown. This brings up the menu to select the source provider (in our game GitHub). Press the <kbd>OK</kbd> button.
 
 ![select github for source control](images/ConnectToSourceControl.jpg)
 
