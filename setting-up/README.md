@@ -159,6 +159,8 @@ Now we can use the engine to do our future source control submissionms.  Press t
 
 Select `Perforce` as the **Provider** and enter the **Server** address.  Enter your **Username** and the name of your **Workspace** (this can be selected from the **Available Workspaces** drop down menu).
 
+Press the <kbd>Accept Settings</kbd> button.  You should see a pop up on the bottom right saying that it was succesfully connected to source control.
+
 ![select source control](images/selectSourceControl.png)
 
 ![](../images/line2.png)
