@@ -99,9 +99,9 @@ Now we need to add these files to the database and to the **Depot** (server).  W
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Eventually you will get a link for the repository.  Click on this link:
+Now we need to make sure our **P4 Ignore** file will be recognized by **Perforce**.  Enter `cmd` in your windows menu to run **Command Prompt**.  Type `p4 set` then enter.  You will see if you have a P4IGNORE setting set?
 
-![link to new repository for assignment](images/NewLevelDesignRepository.jpg)
+![p4 set in command prompt](images/p4set.jpg)
 
 ![](../images/line2.png)
 
@@ -109,16 +109,15 @@ Eventually you will get a link for the repository.  Click on this link:
 
 Now our server has no files on it. We will be using command line (**Terminal** on the mac Or **Git Bash** on the PC). You can see the commands below.  We are creating a **main** branch and making it our default branch (`-M` switch).  We are then taking the content we **Already Have** in our folder and pushing it to the server.
 
-![empty github repository](images/PushToExistingRepository.jpg)
+![empty github repository](images/p4set.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-Lets start by copying the link to the clipboard so we can add it to Unreal, and use UE4 to **Initialze** the project.
+Now if you have set up your **P4 Ignore**
 
-![Copy repository link](images/CopyRepositoryLink.jpg)
-
+![link to new repository for assignment](images/listIgnoreFiles.jpg)
 ![](../images/line2.png)
 
 
