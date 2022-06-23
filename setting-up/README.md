@@ -124,7 +124,7 @@ Now press the <kbd>Submit</kbd> button to send these local files to the **Depot*
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now you will get a list with all the files you want to submit in the **Changelist** with the message you previously entered.  Make sure that all of files being submitted are all in the **Contents** or **Config** folders as well as the `.uproject` file.
+Now you will get a list with all the files you want to submit in the **Changelist** with the message you previously entered.  Make sure that all of files being submitted are all in the **Contents** or **Config** folders as well as the `.uproject` file. When you are happy press the <kbd>Submit</kbd> button.
 
 ![list of files to submit](images/submit.png)
 
