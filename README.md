@@ -2,13 +2,13 @@
 
 <!-- OVERVIEW -->
 ## Overview
-* Unreal gives you access to brushes where you can craft the roughing out of a level that is sometimes refered to as *gray blocking*.  This is where a designer lays out the level and figures out the gameplay before it goes to an art team to properly model and create assets.  We will be looking at some of the strategies that go into creating a proper blocked out level.
+* One of the big areas of improvement is that Unreal 5 gives us default access to crafting levels using geometry intead of brushes.  This gives us unprecedented control for crafting levels. We will be looking at some of the strategies that go into creating a proper blocked out level.
 
 * This walk through adds a bit more detail to the excellent Unreal Tutorial [Exploring Level Design for Game Development](https://learn.unrealengine.com/course/3754334?r=False&ts=637633335920995479).  Watch this video to give in depth explanations of the rational behind the strategy that **Patrick Haslow** suggests.  In this walk through we look at a different genre and give you a starting point to make your own **gray block** level.
   
 
-* Tested on UE4 4.26
-* Required to install: Github, GitHub Desktop, Git, Git LFS, and Unreal Engine
+* Tested on UE4 5.0.2
+* Required to install: P4, P4V and Unreal Engine
 
 <!-- TOC -->
 ## Table of Contents
