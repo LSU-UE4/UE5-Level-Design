@@ -68,13 +68,11 @@ Remember this is the local version of the project.  When you **Submit** you upda
 
 ![](../images/line2.png)
 
-
-
 ##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
 
+One last step we need to take care of is that we need to add a [.p4ignore]() file to our project.  Download this file then decompress it and put it in your root folder with the `.uproject` file.  You can press **Refresh** in **P4V** to see it update in **Perforce** as well.
 
-
-https://user-images.githubusercontent.com/5504953/127741784-aa262ff8-e4be-4973-9bb7-4ce7abbc171b.mp4
+![add .p4ignore file to project](images/p4ignore.png)
 
 ![](../images/line2.png)
 
