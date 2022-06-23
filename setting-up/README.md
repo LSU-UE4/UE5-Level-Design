@@ -60,6 +60,7 @@ In the editor select the **Edit** menu item then from the drop down menu select 
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
+Now lets log into **P4V** with your server address and user name. You also need to eselect the 
 
 ![Unreal Project Settings screen](images/image_05.png)
 
