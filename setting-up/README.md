@@ -64,6 +64,10 @@ Now go back to the game editor screen and press **File | Save All** then **File 
 
 ![save and quit Unreal](images/quitUE.png)
 
+![](../images/line2.png)
+
+##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
+
 Now lets log into **P4V** with your server address and user name. You also need to select the **Workspace** you are using.  Press the <kbd>OK</kbd> button.  
 
 Remember this is the local version of the project.  When you **Submit** you update the **Depot**. You might need to press refresh but now you should see the **IntoToLevelDesign** folder. You can see the `.uproject` file and there is no icon so it has not been submitted to the **Depot** yet.
@@ -72,7 +76,7 @@ Remember this is the local version of the project.  When you **Submit** you upda
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 One last step we need to take care of is that we need to add a [.p4ignore](../files/p4ignore.zip) file to our project.  Download this file then decompress it and put it in your root folder with the `.uproject` file.  You can press **Refresh** in **P4V** to see it update in **Perforce** as well. Please note that you might need to make adjustments to your default settings to see hidden files.  `.p4ignore` is a hidden file.  Any file without a prefix before the extension is hidden by default. Go to [Microsoft Help](https://support.microsoft.com/en-us/windows/show-hidden-files-0320fe58-0117-fd59-6851-9b7f9840fdb2) to find out how to alter your settings.
 
@@ -82,42 +86,41 @@ Please note that we **DO NOT** want `p4ignore.zip` as this will not do anything 
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now if we double click on the file and look at it in a text editor it indicates which files get submitted to source control and which don't. In our game folder we have our **Config** and **Content** folder which contains all of the unique portions of the game.  Most of the other folders like **Binaries/**, **Saved** and **Intermediate** are compiled to each person's computer for the game.  So these can be deleted then recreated when the game is run.  These do not need to be added to source control as it is uneeded tracking of dynamically generated content.  We also ignore files extensions such as `*-Debut.* as these are appended to file names that are used for debugging, and again created dynamically by the engine.  We have told it **NOT** to ignore anything in the **Plugins** folder.  The `!` exclamation mark is used to say that **EVERYTHING** in this folder regardless of the rules above need to be included.  This is done so that you can add plugins that are not included with the engine and share it.
 
-
 ![contents of .p4ignore file](images/p4ignoretext.png)
-
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now we need to add these files to the database and to the **Depot** (server).  We do this by pressing thge <kbd>+ Add</kbd> button.  We then select a **New** changelist and add a message. All we did was create a default project so I used `Default third person project`. When you are done press the <kbd>OK</kbd> button.
-
-![add files to perforce](images/addFilesToP4.png)
-
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to make sure our **P4 Ignore** file will be recognized by **Perforce**.  Enter `cmd` in your windows menu to run **Command Prompt**.  Type `p4 set` then enter.  You will see if you have a P4IGNORE setting set? If you see `P4IGNORE=.p4ignore (set)` then you can move on to **Step 11** otherwise fix this in the next step.
+Now we need to add these files to the database and to the **Depot** (server).  We do this by pressing thge <kbd>+ Add</kbd> button.  We then select a **New** changelist and add a message. All we did was create a default project so I used `Default third person project`. When you are done press the <kbd>OK</kbd> button.
 
-![p4 set in command prompt](images/p4set.png)
+![add files to perforce](images/addFilesToP4.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
-In command prompt type `p4 set P4IGNORE=.p4ignore`.  Make sure there are no spaces between or after the `=` sign.  Then type in and enter a `p4 set` again and you should see that it is now showing: `P4IGNORE=.p4ignore (set)`.  Now you are ready to move to the next step.
+Now we need to make sure our **P4 Ignore** file will be recognized by **Perforce**.  Enter `cmd` in your windows menu to run **Command Prompt**.  Type `p4 set` then enter.  You will see if you have a P4IGNORE setting set? If you see `P4IGNORE=.p4ignore (set)` then you can move on to **Step 12** otherwise fix this in the next step.
 
-![empty github repository](images/ignoreset.png)
+![p4 set in command prompt](images/p4set.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
+
+In command prompt type `p4 set P4IGNORE=.p4ignore`.  Make sure there are no spaces between or after the `=` sign.  Then type in and enter a `p4 set` again and you should see that it is now showing: `P4IGNORE=.p4ignore (set)`.  Now you are ready to move to the next step.
+
+![empty github repository](images/ignoreset.png)
+
+
+![](../images/line2.png)
+
+
+##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Now press the <kbd>Submit</kbd> button to send these local files to the **Depot** on the server.  The first pop-up will show the ignore file working.  It should list the files not marked for add.  This is exactly what we want.  If you don't get this go back to the previous step and make sure your `.p4ignore` is set up correclty. Press the <kbd>OK</kbd> button to continue.
 
@@ -125,44 +128,34 @@ Now press the <kbd>Submit</kbd> button to send these local files to the **Depot*
 
 ![](../images/line2.png)
 
+##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Now you will get a list with all the files you want to submit in the **Changelist** with the message you previously entered.  Make sure that all of files being submitted are all in the **Contents** or **Config** folders as well as the `.uproject` file. When you are happy press the <kbd>Submit</kbd> button.
 
 ![list of files to submit](images/submit.png)
 
-
 ![](../images/line2.png)
 
-##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Press the <kbd>Refresh</kbd> button in **P4V** and you will see that files in the **Content** folder have a green icon.  Files in the **Intermediate** folder do not.  So our `.p4ignore` is working corretly.  For icon meaning check out the [P4 Icons](https://github.com/maubanel/p4v-unreal/blob/main/icons/README.md#user-content-p4v-icons).
 
 ![setup github repository](images/filesSaved.png)
 
-
 ![](../images/line2.png)
 
-##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
 
-Run the game while you are still logged into **Perforce**.  It is best practice to double click the `.uproject` name to load it.
+Run the game while you are still logged into **Perforce**.  It is best practice to double click the `.uproject` name to load it. This will now run **Unreal** and you are certain it is from the **P4** folder you are tracking.
 
 ![run game](images/loadGame.png)
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
-
-![](../images/line2.png)
-
-
-![open up terminal or bash](images/OpenUpTerminal.jpg)
-
-![](../images/line2.png)
-
 ##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+![select source control](images/selectSourceControl.png)
 
 ![](../images/line2.png)
 
