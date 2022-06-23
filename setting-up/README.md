@@ -155,6 +155,10 @@ Run the game while you are still logged into **Perforce**.  It is best practice 
 
 ##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Now we can use the engine to do our future source control submissionms.  Press the **Source Controll Off** item at the bottom right of the window.
+
+Select `Perforce` as the **Provider** and enter the **Server** address.  Enter your **Username** and the name of your **Workspace** (this can be selected from the **Available Workspaces** drop down menu).
+
 ![select source control](images/selectSourceControl.png)
 
 ![](../images/line2.png)
