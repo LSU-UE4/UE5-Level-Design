@@ -54,9 +54,6 @@ Select your **Perforce** workspace as the folder to save the project in and call
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
 
-
-Select a folder to put it in (I suggest `Documents/github/` and then assign a project name and I am calling it `IntroLevelDesign`.  Press the <kbd>Create Project</kbd> button to start the new project.
-
 ![Unreal Project Settings screen](images/image_05.png)
 
 ![](../images/line2.png)
