@@ -54,13 +54,15 @@ Select your **Perforce** workspace as the folder to save the project in and call
 
 In the editor select the **Edit** menu item then from the drop down menu select **Editor Preferences**. Select **General | Loading & Saving** tab from the left hand side.  Go to *Source Control* and set **Prompt for Checkout on Asset Modification** and **Add New Files when Modified** to `true`.  Leave the other two settings with their default setting. 
 
-Now press **File | Save All** and quit Unreal.
-
 ![select third person ue4 template](images/image_17.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
+
+Now go back to the game editor screen and press **File | Save All** then **File | Exit** to quit **Unreal**.
+
+![save and quit Unreal](images/quitUE.png)
 
 Now lets log into **P4V** with your server address and user name. You also need to select the **Workspace** you are using.  Press the <kbd>OK</kbd> button.  
 
