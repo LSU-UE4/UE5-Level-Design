@@ -133,11 +133,10 @@ Now you will get a list with all the files you want to submit in the **Changelis
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-In the menu select **Git (beta version)** as the source control you will be using. Paste the directory for your GitHub project into the **Url of the remote server 'origin'** in Unreal.  Then make sure you add a **.gitignore** file, a **README.md** file, a **.gitattributes for Git LFS** file and finally **Make the initial Git Commit** file.  Then press the <kbd>Initialize project with Git</kbd> button and on the next pop up press the **Accept Settings** button. You should see message pop up saying *Connection to source control was successful!*.
+Press the <kbd>Refresh</kdb> button in **P4V** and you will see that files in the **Content** folder have a green icon.  Files in the **Intermediate** folder do not.  So our `.p4ignore` is working corretly.  For icon meaning check out the [P4 Icons](https://github.com/maubanel/p4v-unreal/blob/main/icons/README.md#user-content-p4v-icons).
 
-![setup github repository](images/SetupGitRepo.jpg)
+![setup github repository](images/filesSaved.png)
 
-![press accept settings button](images/AcceptSettings.jpg)
 
 ![](../images/line2.png)
 
