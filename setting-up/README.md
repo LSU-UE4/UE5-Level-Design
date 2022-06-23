@@ -90,9 +90,9 @@ Now if we double click on the file and look at it in a text editor it indicates 
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-You will get a message saying the repository is geing setup.  Refresh/Reload your web browser as instructed.
+Now we need to add these files to the database and to the **Depot** (server).  We do this by pressing thge <kbd>+ Add</kbd> button.  We then select a **New** changelist and add a message.
 
-![refresh web browser](images/RefreshBrowser.jpg)
+![refresh web browser](images/addFilesToP4.png)
 
 
 ![](../images/line2.png)
