@@ -70,7 +70,7 @@ Remember this is the local version of the project.  When you **Submit** you upda
 
 ##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
 
-One last step we need to take care of is that we need to add a [.p4ignore]() file to our project.  Download this file then decompress it and put it in your root folder with the `.uproject` file.  You can press **Refresh** in **P4V** to see it update in **Perforce** as well.
+One last step we need to take care of is that we need to add a [.p4ignore](../files/p4ignore.zip) file to our project.  Download this file then decompress it and put it in your root folder with the `.uproject` file.  You can press **Refresh** in **P4V** to see it update in **Perforce** as well.
 
 ![add .p4ignore file to project](images/p4ignore.png)
 
