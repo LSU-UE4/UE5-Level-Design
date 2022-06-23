@@ -60,7 +60,9 @@ In the editor select the **Edit** menu item then from the drop down menu select 
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
-Now lets log into **P4V** with your server address and user name. You also need to select the **Workspace** you are using.  Remember this is the local version of the project.  When you **Submit** you update the **Depot**.
+Now lets log into **P4V** with your server address and user name. You also need to select the **Workspace** you are using.  Press the <kbd>OK</kbd> button.  
+
+Remember this is the local version of the project.  When you **Submit** you update the **Depot**. You might need to press refresh but now you should see the **IntoToLevelDesign** folder. You can see the `.uproject` file and there is no icon so it has not been submitted to the **Depot** yet.
 
 ![Unreal Project Settings screen](images/image_05.png)
 
