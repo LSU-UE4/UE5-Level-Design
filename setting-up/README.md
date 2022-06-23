@@ -115,7 +115,7 @@ In command prompt type `p4 set P4IGNORE=.p4ignore`.  Make sure there are no spac
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-Now press the <kbd>Submit</kbd> button to send these local files to the **Depot** on the server.  The first pop-up will show the ignore file working.  It should list the files not marked for add.  This is exactly what we want.  If you don't get this go back to the previous step and make sure your `.p4ignore` is set up correclty.
+Now press the <kbd>Submit</kbd> button to send these local files to the **Depot** on the server.  The first pop-up will show the ignore file working.  It should list the files not marked for add.  This is exactly what we want.  If you don't get this go back to the previous step and make sure your `.p4ignore` is set up correclty. Press the <kbd>OK</kbd> button to continue.
 
 ![files being ignored by submit](images/listIgnoreFiles.png)
 
@@ -124,11 +124,10 @@ Now press the <kbd>Submit</kbd> button to send these local files to the **Depot*
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Go back to **Unreal Engine** and press the <kbd>Source Control</kbd> button and select the `Connect to Source Control...` dropdown. This brings up the menu to select the source provider (in our game GitHub). Press the <kbd>OK</kbd> button.
+Now you will get a list with all the files you want to submit in the **Changelist** with the message you previously entered.  Make sure that all of files being submitted are all in the **Contents** or **Config** folders as well as the `.uproject` file.
 
-![select github for source control](images/ConnectToSourceControl.jpg)
+![list of files to submit](images/submit.png)
 
-![select github for source control](images/SelectGitHubForSourceControl.jpg)
 
 ![](../images/line2.png)
 
