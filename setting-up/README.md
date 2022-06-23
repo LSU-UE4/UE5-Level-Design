@@ -101,7 +101,7 @@ Now we need to add these files to the database and to the **Depot** (server).  W
 
 Now we need to make sure our **P4 Ignore** file will be recognized by **Perforce**.  Enter `cmd` in your windows menu to run **Command Prompt**.  Type `p4 set` then enter.  You will see if you have a P4IGNORE setting set?
 
-![p4 set in command prompt](images/p4set.jpg)
+![p4 set in command prompt](images/p4set.png)
 
 ![](../images/line2.png)
 
