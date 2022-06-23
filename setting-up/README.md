@@ -80,9 +80,11 @@ Please note that we **DO NOT** want `p4ignore.zip` as this will not do anything 
 
 ##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Make sure you have a GitHub account and that you are logged into it. Click on the GitHub Classroom [Introduction-to-Level-Design-FA21 Link](https://classroom.github.com/a/bV3pgozG). Accept the prompt if it asks you go join the class and you should get to a **Accept the Assignment – Introduction To Level Design-FA21**. Press the <kbd>Accept this assignment</kbd> button.
+Now if we double click on the file and look at it in a text editor it indicates which files get submitted to source control and which don't.
 
-![alt text](images/AcceptGitHubClassroomInvite.jpg)
+
+
+![alt text](images/p4ignoretext.png)
 
 
 ![](../images/line2.png)
