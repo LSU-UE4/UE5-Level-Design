@@ -15,7 +15,7 @@ We will be using Unreal's third person template as a starting point for our 3-D 
 
 ##### `Step 1.`\|`UE5LD`|:small_blue_diamond:
 
-If you have not installed the required software go and add [Epic Games Launcher](https://www.epicgames.com/store/en-US/download), [git (PC only)](https://git-scm.com/downloads), [Github Desktop](https://desktop.github.com), [Git LFS (Large File System)](https://git-lfs.github.com) on your mac or PC.  Make sure you have a valid [GitHub](https://github.com) account.  Make sure it has a `4.26` in front of the version (`4.26.x`) so that we know this walk through will be compatible with your version of Unreal.
+If you have not installed the required software go and add [Epic Games Launcher](https://www.epicgames.com/store/en-US/download), [git (PC only)](https://git-scm.com/downloads), [Github Desktop](https://desktop.github.com), [Git LFS (Large File System)](https://git-lfs.github.com) on your mac or PC.  Make sure you have a valid [GitHub](https://github.com) account.  Make sure it has a `5.0.x` in front of the version so that we know this walk through will be compatible with your version of Unreal. 
 
 ![screenshot of epic game launcher](images/image_01.png)
 
