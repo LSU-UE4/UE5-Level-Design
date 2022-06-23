@@ -109,7 +109,7 @@ Now we need to make sure our **P4 Ignore** file will be recognized by **Perforce
 
 In command prompt type `p4 set P4IGNORE=.p4ignore`.  Make sure there are no spaces between or after the `=` sign.  Then type in and enter a `p4 set` again and you should see that it is now showing: `P4IGNORE=.p4ignore (set)`.  Now you are ready to move to the next step.
 
-![empty github repository](images/ignoreset.jpg)
+![empty github repository](images/ignoreset.png)
 
 ![](../images/line2.png)
 
@@ -117,7 +117,7 @@ In command prompt type `p4 set P4IGNORE=.p4ignore`.  Make sure there are no spac
 
 Now press the <kbd>Submit</kbd> button to send these local files to the **Depot** on the server.  The first pop-up will show the ignore file working.  It should list
 
-![link to new repository for assignment](images/listIgnoreFiles.jpg)
+![link to new repository for assignment](images/listIgnoreFiles.png)
 ![](../images/line2.png)
 
 
