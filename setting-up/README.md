@@ -17,6 +17,8 @@ We will be using Unreal's third person template as a starting point for our 3-D 
 
 If you have not installed the required software go and add [Epic Games Launcher](https://www.epicgames.com/store/en-US/download), [P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) - this assumes you have a **Perforce** server which is free if you are team of 4 people or less and can be found at [Perforce Helix Core](https://www.perforce.com/products/helix-core/free-version-control).  Make sure it has a `5.0.x` in front of the version so that we know this walk through will be compatible with your version of Unreal. 
 
+If it is not installed press the <kbd>+</kbd> button and install the latest **5.0.x** version of Unreal.  
+
 ![screenshot of epic game launcher](images/image_01.png)
 
 ![](../images/line2.png)
