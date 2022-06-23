@@ -25,13 +25,15 @@ If it is not installed press the <kbd>+</kbd> button and install the latest **5.
 
 ##### `Step 2.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: 
 Run the **Epic Games Launcher** and Press **Launch** button to go to the *Select or Create New Project* screen.
+
+You can pick from different starting templates with Games, Film/TV, Architecture and Design as options.  Lets start by selecting **Games** and then press the <kbd>Next</kbd> button.
 ![button to launch UE4](images/LaunchUnrealEditor.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-You can pick from different starting templates with Games, Film/TV, Architecture and Design as options.  Lets start by selecting **Games** and then press the <kbd>Next</kbd> button.
+
 
 ![Unreal Select or Create New Project screen](images/image_03.png)
 
