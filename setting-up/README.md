@@ -64,7 +64,7 @@ Now lets log into **P4V** with your server address and user name. You also need 
 
 Remember this is the local version of the project.  When you **Submit** you update the **Depot**. You might need to press refresh but now you should see the **IntoToLevelDesign** folder. You can see the `.uproject` file and there is no icon so it has not been submitted to the **Depot** yet.
 
-![Unreal Project Settings screen](images/image_05.png)
+![Login and look at P4V](images/image_05.png)
 
 ![](../images/line2.png)
 
