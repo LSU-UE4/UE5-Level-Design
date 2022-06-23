@@ -115,7 +115,7 @@ In command prompt type `p4 set P4IGNORE=.p4ignore`.  Make sure there are no spac
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-Now if you have set up your **P4 Ignore**
+Now press the <kbd>Submit</kbd> button to send these local files to the **Depot** on the server.  The first pop-up will show the ignore file working.  It should list
 
 ![link to new repository for assignment](images/listIgnoreFiles.jpg)
 ![](../images/line2.png)
