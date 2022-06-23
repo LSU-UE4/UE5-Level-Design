@@ -44,6 +44,12 @@ Select your **Perforce** workspace as the folder to save the project in and call
 
 ![](../images/line2.png)
 
+| `version.control`\|`Introduction To Level Design`| 
+| :--- |
+| :floppy_disk: &nbsp;&nbsp;Version control saves lots of space on our laptops so that all project data can be safely backed up and saved on the server but we only need the assets we are currently using on our local hard drive.  It is also good practice as most game projects use some form of version control. It is absolutely necessary on team projects.  In this case we will be using **Perforce's Helix Core** server. |
+
+![](../images/line2.png)
+
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
@@ -58,11 +64,7 @@ Select your **Perforce** workspace as the folder to save the project in and call
 
 ![](../images/line2.png)
 
-| `version.control`\|`Introduction To Level Design`| 
-| :--- |
-| :floppy_disk: &nbsp;&nbsp;Version control saves lots of space on our laptops so that all project data can be safely backed up and saved on the server but we only need the assets we are currently using on our local hard drive.  It is also good practice as most game projects use some form of version control. |
 
-![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
 
