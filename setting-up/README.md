@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-We will be working in a third person game and will use the UE4 default and alter it for our needs.  This will give us all we need for a character that we can control."
+We will be using Unreal's third person template as a starting point for our 3-D platforming game we will be using for level design.  This will give us all we need for a basic character that we can control with some tweaks to make it to our liking.  Lets start by creating a project in Unreal then using **Perforce** to store our work.
 
 <br>
 
