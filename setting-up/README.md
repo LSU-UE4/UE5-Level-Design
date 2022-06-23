@@ -266,7 +266,7 @@ OK, that is a good start for now.  Lets save and upload our progress to GitHub. 
 
 ![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Lock Cameras and Mechanics">
+![next up lock camera and mechanics](images/banner.png)
 
 ![](../images/line.png)
 
