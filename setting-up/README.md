@@ -25,7 +25,7 @@ If it is not installed press the <kbd>+</kbd> button and install the latest **5.
 
 ##### `Step 2.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: 
 Run the **Epic Games Launcher** and Press **Launch** button to go to the *Select or Create New Project* screen.
-![button to launch UE4](images/LaunchUnrealEditor.jpg)
+![button to launch UE4](images/LaunchUnrealEditor.png)
 
 ![](../images/line2.png)
 
