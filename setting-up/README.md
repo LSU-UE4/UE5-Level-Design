@@ -32,7 +32,7 @@ Run the **Epic Games Launcher** and Press **Launch** button to launch the editor
 
 ##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-You can pick from different starting templates with Games, Film/Video & Live Events, Architecture and Automotive Product Design & Manufacturing as options.  
+You can pick from different starting templates with Games, Film/Video & Live Events, Architecture and Automotive Product Design & Manufacturing as options.  You can also load recent projects as well!
 
 We are going to make a game so lets start by selecting **Games** and then select the **Third Person Template**.  
 
