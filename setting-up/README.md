@@ -99,7 +99,7 @@ Now we need to add these files to the database and to the **Depot** (server).  W
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to make sure our **P4 Ignore** file will be recognized by **Perforce**.  Enter `cmd` in your windows menu to run **Command Prompt**.  Type `p4 set` then enter.  You will see if you have a P4IGNORE setting set?
+Now we need to make sure our **P4 Ignore** file will be recognized by **Perforce**.  Enter `cmd` in your windows menu to run **Command Prompt**.  Type `p4 set` then enter.  You will see if you have a P4IGNORE setting set? If you see `P4IGNORE=.p4ignore (set)` then you can move on to **Step 11** otherwise fix this in the next step.
 
 ![p4 set in command prompt](images/p4set.png)
 
@@ -107,9 +107,9 @@ Now we need to make sure our **P4 Ignore** file will be recognized by **Perforce
 
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
-Now our server has no files on it. We will be using command line (**Terminal** on the mac Or **Git Bash** on the PC). You can see the commands below.  We are creating a **main** branch and making it our default branch (`-M` switch).  We are then taking the content we **Already Have** in our folder and pushing it to the server.
+In command prompt type `p4 set P4IGNORE=.p4ignore`.  Make sure there are no spaces between or after the `=` sign.  Then type in and enter a `p4 set` again and you should see that it is now showing: `P4IGNORE=.p4ignore (set)`.  Now you are ready to move to the next step.
 
-![empty github repository](images/p4set.jpg)
+![empty github repository](images/ignoreset.jpg)
 
 ![](../images/line2.png)
 
