@@ -52,7 +52,9 @@ Select your **Perforce** workspace as the folder to save the project in and call
 
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-In the editor select the **Edit** menu item then from the drop down menu select **Editor Preferences**. Select **General | Loading & Saving** tab from the left hand side.  Go to *Source Control* and set **Prompt for Checkout on Asset Modification** and **Add New Files when Modified** to `true`.  Leave the other two settings with their default setting.
+In the editor select the **Edit** menu item then from the drop down menu select **Editor Preferences**. Select **General | Loading & Saving** tab from the left hand side.  Go to *Source Control* and set **Prompt for Checkout on Asset Modification** and **Add New Files when Modified** to `true`.  Leave the other two settings with their default setting. 
+
+Now press **File | Save All** and quit Unreal.
 
 ![select third person ue4 template](images/image_17.png)
 
@@ -142,113 +144,27 @@ Press the <kbd>Refresh</kbd> button in **P4V** and you will see that files in th
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Lets make sure it installed GitHub in our project.  First we need to turn on hidden folders. On the PC follow these [Windows 10 Turn on Hidden Folders](https://support.microsoft.com/en-us/help/4028316/windows-view-hidden-files-and-folders-in-windows-10) directions. On the Mac it is a bit more involved so go and [turn on hidden folders on Mac](https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks). You should now see a `.git` hidden folder in the root directory of the project, if you do – you succesfully created a GitHub repo and connected it to the server.
+Run the game while you are still logged into **Perforce**.  It is best practice to double click the `.uproject` name to load it.
 
-![turn on hidden folders and confirm .git](images/ConfirmDotGitLoder.jpg)
+![run game](images/loadGame.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
 
-Now we are going to use the **Command Line** tools just once.  On a **PC**, right click and run [Git Bash](https://www.windowscentral.com/how-launch-bash-shell-right-click-context-menu-windows-10).  This should have been installed with **Git** when you installed it above.  On a mac, it is a little more involved as you will see by this [website description](https://www.groovypost.com/howto/open-command-window-terminal-window-specific-folder-windows-mac-linux/).  The trick is to navigate to your working Directory (typically `Documents | Unreal Projects | Our First Project`).
+![](../images/line2.png)
+
 
 ![open up terminal or bash](images/OpenUpTerminal.jpg)
-
-
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Type in:
-
-```
-git branch -M main
-```
-in either **Terminal** or **Git Bash**.  This will create a new **Default** branch called `Main`.
-
-![create a main default branch](images/GitBranchMain.jpg)
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now lets switch to the **Main** branch by typing
-
-```
-git checkout main
-```
-
-Now lets take all the work we have done to date on our computer and **Push** it to the server.  This will ensure that all the files are safely stored on the server. It will take a while then you should get a message confirming the branch creation and the push.
-
-```
-git push -u origin main
-```
-
-![checkout main branch and push](images/GitCheckoutPush.jpg)
-
-![git confirmation message](images/GitConfirm.jpg)
-
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Go back to **GitHub** on the web and refesh your browser.  If you did the above correctly you should now see all the folders on **GitHub**:
-
-![all files now on github](images/FirstGitHubPush.jpg)
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now I tried doing the above step in **GitHub Desktop** but got some errors.  So now we need to link it to **GitHub Desktop** as we can use this moving forward to push data to the server.  Open up **GitHub Desktop** and select `File | Add local repository`.  Select the <kbd>Choose</kbd> button.
-
-![add repository to github desktop](images/AddRepositoryToGithubDesktop.jpg)
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
-
-Locate the root folder of your project.  This is the folder that contains the `.git` folder.  This is the top most folder of your Unreal project. In my case it is in the `Documents | Unreal Projects | OurFirstProject` folder.  Press the <kbd>Select Folder</kbd> button.
-
-![find root of project](images/FindRootOfProject.jpg)
-
-![](../images/line2.png)
-
-##### `Step 21.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-Press the <kbd>Add Repository</kbd> button to select this project. Then press the <kbd>Fetch origin</kbd> button to make sure that the permissions all work. 
-
-You will get a pop up asking to **Initialize Git LFS** you will press the <kbd>Initialize Git LFS</kbd> button.
-
-You should now see the message `Last feteched just now`. This means that we are ready to go. 
-
-![add repository](images/AddRepository.jpg)
-
-![initialize git lfs](images/InitializeGitLFS.jpg)
-
-
-![](../images/line2.png)
-
-##### `Step 22.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Edit the **README.md** file on GitHub and enter your name as the author and a brief description of the project.  I added `Level design for third person adventure game`.
-
-![enter name and project description in readme.md file](images/image_19.png)
-
-![](../images/line2.png)
-
-##### `Step 23.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Go to **GitHub** and press the **Add file** button and select **Create new file**. Type in `LICENSE`.  A button pops up on the right and press **Choose a license template**. I recommend the **MIT License**. Then you press **Review and submit**. Go back to the main page and select **Compare and pull request**. Press the **Create pull request** button. Select **Merge pull request** and go back to the main page.  The `LICENSE` file should now show up. Now this is on the server so lets bring it onto our laptop.  Go to **GitHub** deskto and press **Fetch Origin** to get the latest.
-
-https://user-images.githubusercontent.com/5504953/127746302-3c6ce54d-0905-4a1d-9273-c9bacabba65c.mp4
-
-![](../images/line2.png)
-
-##### `Step 24.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Download a thumbnail that you can use on this project [Intro Thumbnail](images/IntroToLevelDesign.png). Press the **Settings** button and select **Project Settings**.  Make sure you are in the **Project Description** tab and press the three dots in the **About** tab next to the thumbnail and attach the thumbnail you just downloaded. Enter a **Description**, **Project Name**.  Put your name as the **Publisher | Company Name** and you can add your email in **Support Contact**. Add the **Project Displayed Title** and **Project Debug Title Info**.
 
 Go back to the game screen, press **Source Control** add a message and press submit.  Open up **GitHub** desktop and push to the server.
@@ -256,6 +172,36 @@ Go back to the game screen, press **Source Control** add a message and press sub
 https://user-images.githubusercontent.com/5504953/127775522-662de1a2-997c-4bbe-ae35-beb582a67cd1.mp4
 
 ![](../images/line2.png)
+
+##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![add repository to github desktop](images/AddRepositoryToGithubDesktop.jpg)
+
+![](../images/line2.png)
+
+##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
+
+
+![find root of project](images/FindRootOfProject.jpg)
+
+![](../images/line2.png)
+
+##### `Step 21.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
+
+![](../images/line2.png)
+
+##### `Step 22.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![](../images/line2.png)
+
+##### `Step 23.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+![](../images/line2.png)
+
+##### `Step 24.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 
 
 ##### `Step 25.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
