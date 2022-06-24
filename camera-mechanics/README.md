@@ -59,6 +59,7 @@ Open up the **ThirdPersonCharacter** blueprint and select the **CharacterMovemen
 
 ##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
 
+Press the **Compile** button on the blueprint and run the game.  Now look at how the player's gravity changes and the player floats more when jumping. The physics feel like you are on the moon.
 
 ![](../images/line2.png)
 
@@ -80,7 +81,7 @@ Open up the **ThirdPersonCharacter** blueprint and select the **CharacterMovemen
 
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
-Press the **Compile** button on the blueprint and run the game.  Now look at how the player's gravity changes and the player floats more when jumping. The physics feel like you are on the moon.
+
 
 https://user-images.githubusercontent.com/5504953/127748436-979e1cfc-2cc7-417a-8b61-8c1ec1c15d1f.mp4
 
