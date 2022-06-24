@@ -98,6 +98,7 @@ It is sluggish when turning directions, we want a very snappy turn. We will adju
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
+Play the game and make any changes to what I suggested.  Get the player to move the way you envision a player should move in an arcady third person game.
 
 ![](../images/line2.png)
 
@@ -117,9 +118,7 @@ It is sluggish when turning directions, we want a very snappy turn. We will adju
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Play the game and make any changes to what I suggested.  Get the player to move the way you envision a player should move in an arcady third person game.
 
-https://user-images.githubusercontent.com/5504953/127748602-74b22262-4dc7-41c8-9465-a3b14ce6b8e3.mp4
 
 ![](../images/line2.png)
 
