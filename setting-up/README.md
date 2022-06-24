@@ -194,6 +194,8 @@ https://user-images.githubusercontent.com/5504953/175449850-b30e590b-9812-42d9-9
 
 Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Source Control...**. Enter a **Changelist Description** and then press <kbd>Submit Content</kbd>. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
 
+![save all and submit to perforce](images/submitP4.png)
+
 ![](../images/line.png)
 
 ![next up lock camera and mechanics](images/banner.png)
