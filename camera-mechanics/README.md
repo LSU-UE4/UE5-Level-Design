@@ -69,7 +69,7 @@ https://user-images.githubusercontent.com/5504953/175456397-6f38bba5-3469-4ea7-9
 
 Lets make a few more changes.  Lets make our character run a bit faster.  In the blueprint change the **Character Movement: Walking | Max Walk Speed** to `800 cm/s`(the default was 500 cm/s). This will give us a more arcady quick feel. Play the game and tune the value to your liking.
 
-![make player run faster](images/maxWalkSpeed.jpg)
+![make player run faster](images/maxWalkSpeed.png)
 
 
 ![](../images/line2.png)
