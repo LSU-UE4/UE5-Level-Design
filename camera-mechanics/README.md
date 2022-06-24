@@ -124,7 +124,9 @@ Press the <kbd>Compile</kbd> button then play the game.  Now we have **much** sn
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Go back to the player blueprint and select **Character Movement (Rotation Settings) | Rotation Rate Z**
 
+![adjust rotation rate of player character](images/brakingFrict.png)
 
 ![](../images/line2.png)
 
