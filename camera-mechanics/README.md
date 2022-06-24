@@ -100,7 +100,7 @@ It is sluggish when turning directions, we want a very snappy turn. We will adju
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-Play the game and make any changes to what I suggested.  Get the player to move the way you envision a player should move in an arcady third person game.
+Play the game and make any changes to what I suggested.  Get the player to move the way you envision a player should move in an arcady third person game. It still feels a bit slugging when I start from idle.  I would like a faster acceleration.
 
 https://user-images.githubusercontent.com/5504953/175459161-76916521-4e49-40d4-b0d0-3b98cb26d480.mp4
 
@@ -109,7 +109,9 @@ https://user-images.githubusercontent.com/5504953/175459161-76916521-4e49-40d4-b
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Go to **Character Movement | **
 
+![adjust rotation rate of player character](images/maxAcc.png)
 
 
 ![](../images/line2.png)
