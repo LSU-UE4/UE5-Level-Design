@@ -30,7 +30,7 @@ Now open the **ThirdPersonCharacter** blueprint that you find in **Content | Thi
 
 The camera is very tight to the player light an action shooter.  We want a camera that is a bit further away.  In our charactre blueprint there is a boom that adjusts the distance and angle of the camera from the player. Select the **Camera Boom** component.  Change the **Target Arm Length** to a number like `750`.  Then adjust the **Target Offset Z** value to a value like `218`. Now the camera is above and further away but is not rotated facing the player.  Lets fix that.
 
-![pull camera away from the player](images/camBoomAdjustment.jpg)
+![pull camera away from the player](images/camBoomAdjustment.png)
 
 ![](../images/line2.png)
 
