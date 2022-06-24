@@ -37,7 +37,7 @@ The camera is very tight to the player light an action shooter.  We want a camer
 ##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 Now select the **FollowCamera** component and adjust the **Rotation Y** to `345`.  This will pitch the camera down 15 degrees pointing towards the back of the player's head.
 
-![rotate camera to face player](images/image_20.png)
+![rotate camera to face player](images/changeRotation.png)
 
 ![](../images/line2.png)
 
