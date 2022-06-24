@@ -94,7 +94,7 @@ https://user-images.githubusercontent.com/5504953/175457618-432304c9-00d0-4c9f-8
 
 It is sluggish when turning directions, we want a very snappy turn. We will adjust the **Character Movement (Rotation Settings) | Rotation Rate Z** to `1000`. Play the game and tune the numbers to your liking.
 
-![adjust rotation rate of player character](images/image_16.jpg)
+![adjust rotation rate of player character](images/rotationRate.jpg)
 
 ![](../images/line2.png)
 
