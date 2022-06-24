@@ -137,6 +137,8 @@ Go back to the player blueprint and select **Character Movement (Rotation Settin
 
 Play the game and feel free to tweak any other settings and experiment to get the *feel* that you would like in your level.
 
+Uploading FinalTweaks.mp4…
+
 ![](../images/line.png)
 
 ![next up lock camera and mechanics](images/banner.png)
