@@ -219,7 +219,7 @@ We will move on next to adding our first ramp to the game.
 
 ![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Creating Custom Meshes">
+![next up creating custom meshes](images/banner.png)
 
 ![](../images/line.png)
 
