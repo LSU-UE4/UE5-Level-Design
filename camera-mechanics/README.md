@@ -86,6 +86,8 @@ Now lets make the player jump higher and give the ability for the player to adju
 
 Press the <kbd>Compile</kbd> button and play agian.  Now we can jump a little higher and have more control to change direction in air.
 
+https://user-images.githubusercontent.com/5504953/175457618-432304c9-00d0-4c9f-8c4f-5b1045e05ae5.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
