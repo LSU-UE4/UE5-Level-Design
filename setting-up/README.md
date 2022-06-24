@@ -168,7 +168,7 @@ Press the <kbd>Accept Settings</kbd> button.  You should see a pop up on the bot
 ##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 Download a thumbnail that you can use on this project [Intro Thumbnail](images/IntroToLevelDesign.png). Press the **Settings** button and select **Project Settings**.  urce Control** add a message and press submit.  Open up **GitHub** desktop and push to the server.
 
-https://user-images.githubusercontent.com/5504953/127775522-662de1a2-997c-4bbe-ae35-beb582a67cd1.mp4
+![add Intro to Level design logo](images/introToLD.png)
 
 ![](../images/line2.png)
 
