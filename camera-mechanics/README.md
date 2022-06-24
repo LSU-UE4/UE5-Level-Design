@@ -102,6 +102,8 @@ It is sluggish when turning directions, we want a very snappy turn. We will adju
 
 Play the game and make any changes to what I suggested.  Get the player to move the way you envision a player should move in an arcady third person game.
 
+https://user-images.githubusercontent.com/5504953/175459161-76916521-4e49-40d4-b0d0-3b98cb26d480.mp4
+
 ![](../images/line2.png)
 
 
