@@ -166,7 +166,7 @@ Press the <kbd>Accept Settings</kbd> button.  You should see a pop up on the bot
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-Download a thumbnail that you can use on this project [Intro Thumbnail](images/IntroToLevelDesign.png). Press the **Settings** button and select **Project Settings**.  urce Control** add a message and press submit.  Open up **GitHub** desktop and push to the server.
+Download a thumbnail that you can use on this project [Intro Thumbnail](images/IntroToLevelDesign.png). Press the **Settings** button and select **Project Settings**.  Press the three dots in the **About | Project Thumbnail** tab next to the thumbnail and attach the image you just downloaded above.
 
 ![add Intro to Level design logo](images/introToLD.png)
 
@@ -174,7 +174,7 @@ Download a thumbnail that you can use on this project [Intro Thumbnail](images/I
 
 ##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Make sure you are in the **Project Description** tab and press the three dots in the **About** tab next to the thumbnail and attach the thumbnail you just downloaded. Enter a **Description**, **Project Name**.  Put your name as the **Publisher | Company Name** and you can add your email in **Support Contact**. Add the **Project Displayed Title** and **Project Debug Title Info**.
+Make sure you are in the **Project Description** tab and  Enter a **Description**, **Project Name**.  Put your name as the **Publisher | Company Name** and you can add your email in **Support Contact**. Add the **Project Displayed Title** and **Project Debug Title Info**.
 
 
 
