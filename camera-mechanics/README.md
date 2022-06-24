@@ -145,6 +145,7 @@ https://user-images.githubusercontent.com/5504953/175461082-6dbe5710-8f47-4f60-9
 
 Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Source Control...**. Enter a **Changelist Description** and then press <kbd>Submit Content</kbd>. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
 
+https://user-images.githubusercontent.com/5504953/175461700-1d8ef0ea-8174-47b8-9db4-96d80f5d7ae0.mp4
 
 ![alt text](images/.png)
 
