@@ -147,9 +147,6 @@ Select the **File | Save All** then press the <kbd>Source Control</kbd> button a
 
 https://user-images.githubusercontent.com/5504953/175461700-1d8ef0ea-8174-47b8-9db4-96d80f5d7ae0.mp4
 
-![alt text](images/.png)
-
-
 ![](../images/line.png)
 
 ![next up lock camera and mechanics](images/banner.png)
