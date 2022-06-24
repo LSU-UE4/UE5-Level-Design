@@ -67,11 +67,18 @@ https://user-images.githubusercontent.com/5504953/175456397-6f38bba5-3469-4ea7-9
 
 ##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Lets make a few more changes.  Lets make our character run a bit faster.  In the blueprint change the **Character Movement: Walking | Max Walk Speed** to `800 cm/s`(the default was 500 cm/s). This will give us a more arcady quick feel. Play the game and tune the value to your liking.
+
+![make player run faster](images/maxWalkSpeed.jpg)
+
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now lets make the player jump higher and give the ability for the player to adjust his direction mid flight.  In **Character Movement: Jumping / Falling** change **Jump Z Velocity** to `700.0` to make the player jump height. To give you more control in the air after you jump you can increase the **Air Control** to `0.5`. Play the game and tune the numbers to your liking. None of these numbers are \"correct\" or \"right\".  These are all up to you and how you want your character to move.
+
+![make player jump higher](images/image_15.jpg)
 
 ![](../images/line2.png)
 
@@ -84,25 +91,18 @@ https://user-images.githubusercontent.com/5504953/175456397-6f38bba5-3469-4ea7-9
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
 
-
-https://user-images.githubusercontent.com/5504953/127748436-979e1cfc-2cc7-417a-8b61-8c1ec1c15d1f.mp4
-
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-Lets make a few more changes.  Lets make our character run a bit faster.  In the blueprint change the **Character Movement: Walking | Max Walk Speed** to `800`. Play the game and tune the value to your liking.
-
-![make player run faster](images/image_14.jpg)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now lets make the player jump higher and give the ability for the player to adjust his direction mid flight.  In **Character Movement: Jumping / Falling** change **Jump Z Velocity** to `700.0` to make the player jump height. To give you more control in the air after you jump you can increase the **Air Control** to `0.5`. Play the game and tune the numbers to your liking. None of these numbers are \"correct\" or \"right\".  These are all up to you and how you want your character to move.
 
-![make player jump higher](images/image_15.jpg)
+
 
 ![](../images/line2.png)
 
