@@ -120,6 +120,8 @@ Go to **Character Movement | Max Acceleration** and change it to `10000.0`.
 
 Press the <kbd>Compile</kbd> button then play the game.  Now we have **much** snappier running.  The last final thing I don't like is the sliding when the player stops.  It makes it look like they are on ice instead of on ground.  Look carefully at the slow motion at the end of the video.
 
+https://user-images.githubusercontent.com/5504953/175460310-fd9164e4-5a22-4362-9631-8993c5b0ab90.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
