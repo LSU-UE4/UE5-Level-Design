@@ -51,9 +51,9 @@ https://user-images.githubusercontent.com/5504953/175455582-938251d1-fb04-493d-8
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
-Open up the **ThirdPersonCharacter** blueprint and select the **CharacterMovement** component.  This is where all the adjustments for player physics is held.  Let's first change the gravity.  We want a bit of moon like physics for **Gravity**. If you hover the cursor over **Gravity Scale** you will get a description of what it does.  The most common type of setting normalizes between a range of 0 and 1.  In this case 0 would be no gravity, 1 is earth gravity and anything larger than 1 will apply a greater gravitational force.  Let's make it more like the moon and set it to `.75`.
+Open up the **ThirdPersonCharacter** blueprint and select the **CharacterMovement** component.  This is where all the adjustments for player physics is held.  Let's first change the gravity.  We want a bit of moon like physics for **Gravity**. If you hover the cursor over **Gravity Scale** you will get a description of what it does.  The default is `1.75`. Let's make it more like the moon gravity and set it to `1.35`. The lower the number, the lower the gravitational force.
 
-![adjust gravity for jump](images/image_13.jpg)
+![adjust gravity for jump](images/gravityScale.png)
 
 ![](../images/line2.png)
 
