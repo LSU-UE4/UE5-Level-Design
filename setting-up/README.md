@@ -186,7 +186,7 @@ Enter a **Description**, **Project Name**.  Put your name as the **Publisher | C
 
 Press play and lets see what we get? Run around using the **UP | DOWN | LEFT | RIGHT** keys on the keyboard. Press **Space Bar** to jump.  Get used to the controls - we will make some changes in the next section.
 
-https://user-images.githubusercontent.com/5504953/175449666-cc5bfcef-ae98-4096-8196-23765847f8bf.mp4
+https://user-images.githubusercontent.com/5504953/175449850-b30e590b-9812-42d9-9a09-74a22943b66d.mp4
 
 ![](../images/line2.png)
 
