@@ -174,9 +174,9 @@ Download a thumbnail that you can use on this project [Intro Thumbnail](images/I
 
 ##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Make sure you are in the **Project Description** tab and  Enter a **Description**, **Project Name**.  Put your name as the **Publisher | Company Name** and you can add your email in **Support Contact**. Add the **Project Displayed Title** and **Project Debug Title Info**.
+Enter a **Description**, **Project Name**.  Put your name as the **Publisher | Company Name** and you can add your email in **Support Contact**. Add the **Project Displayed Title** and **Project Debug Title Info**.
 
-
+![add information to project settings](images/customSettings.png)
 
 ![](../images/line2.png)
 
