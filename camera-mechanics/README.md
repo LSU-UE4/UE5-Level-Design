@@ -45,8 +45,6 @@ Now select the **FollowCamera** component and adjust the **Rotation Y** to `345`
 
 Press **Compile** in the blueprint then run the game and run into the back wall to see that the spring arm stops (and the player sort of disappears).  We will fix that in a later lesson when we dig more into blueprints. For now you can see that our camera is further back and high up looking down at the player.
 
-https://user-images.githubusercontent.com/5504953/127748065-7bff5778-c2d0-49a4-a289-3b4acd6a01c1.mp4
-
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
