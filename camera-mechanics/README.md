@@ -84,7 +84,7 @@ Now lets make the player jump higher and give the ability for the player to adju
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We will make one final change and have very snappy turning speed.  We will adjust the **Character Movement (Rotation Settings) | Rotation Rate Z** to `1000`. Play the game and tune the numbers to your liking.
+It is sluggish when turning directions, we want a very snappy turn. We will adjust the **Character Movement (Rotation Settings) | Rotation Rate Z** to `1000`. Play the game and tune the numbers to your liking.
 
 ![adjust rotation rate of player character](images/image_16.jpg)
 
