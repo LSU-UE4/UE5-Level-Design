@@ -135,15 +135,7 @@ Go back to the player blueprint and select **Character Movement (Rotation Settin
 
 ##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
 
-OK, lets save and update our repository.  Press **File | Save All** in **Unreal**. Press the <kbd>Source Control</kbd> button and select `Submit to Source Control...`. Add a **Commit** message and press the <kbd>Submit</kbd> button.
-
-Open **GitHub Desktop** and press <kbd>Push origin</kbd> to update the server.  If you do not do this it will be saved locally but not on **GitHub**.
-
-We will move on to setting up a new level to do some prepatory work before we can commence gray blocking.
-
-![save and commit changes to github](images/CommitChangesToGitHub.jpg)
-
-![push changes to github](images/PushChangesNow.jpg)
+Play the game and feel free to tweak any other settings and experiment to get the *feel* that you would like in your level.
 
 ![](../images/line.png)
 
