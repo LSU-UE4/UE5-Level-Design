@@ -184,10 +184,9 @@ Enter a **Description**, **Project Name**.  Put your name as the **Publisher | C
 
 ##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
 
-Press play and lets see what we get? Run around using the **UP | DOWN | LEFT | RIGHT** keys on the keyboard. Press **Space Bar** to jump.  Get used to teh controls - we will make some changes in the next section.
+Press play and lets see what we get? Run around using the **UP | DOWN | LEFT | RIGHT** keys on the keyboard. Press **Space Bar** to jump.  Get used to the controls - we will make some changes in the next section.
 
-
-![find root of project](images/FindRootOfProject.jpg)
+https://user-images.githubusercontent.com/5504953/175449666-cc5bfcef-ae98-4096-8196-23765847f8bf.mp4
 
 ![](../images/line2.png)
 
