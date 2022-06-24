@@ -139,6 +139,16 @@ Play the game and feel free to tweak any other settings and experiment to get th
 
 https://user-images.githubusercontent.com/5504953/175461082-6dbe5710-8f47-4f60-9f16-612a577d8878.mp4
 
+![](../images/line2.png)
+
+##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Source Control...**. Enter a **Changelist Description** and then press <kbd>Submit Content</kbd>. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
+
+
+![alt text](images/.png)
+
+
 ![](../images/line.png)
 
 ![next up lock camera and mechanics](images/banner.png)
