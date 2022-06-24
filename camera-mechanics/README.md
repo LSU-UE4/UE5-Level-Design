@@ -22,7 +22,7 @@ In this case I am envisioning a third person platformer like **Mario** and we wi
 
 Now open the **ThirdPersonCharacter** blueprint that you find in **Content | ThirdPersonBP | Blueprints | ThirdPersonCharacter**. Make sure you are in the **Viewport** tab. Now click on the **Camera Boom** component.  It is the parent of the FollowCamera.  This acts as a spring so that when the camera collides with geometry it acts as a spring to keep the camera from going into geometry. This is represented with the **red** arrow in the editor.
 
-![open the thirdpersonncharacter blueprint](images/followCam.jpg)
+![open the thirdpersonncharacter blueprint](images/followCam.png)
 
 ![](../images/line2.png)
 
