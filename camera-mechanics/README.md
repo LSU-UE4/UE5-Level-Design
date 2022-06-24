@@ -51,41 +51,30 @@ https://user-images.githubusercontent.com/5504953/175455582-938251d1-fb04-493d-8
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
-Run the game again and look how the arrow keys for left and right differ from the a and d key in the game.  The **AWSD** moves the player and on the arrow keys left and right move the camera.  Lets make them the same.
+Open up the **ThirdPersonCharacter** blueprint and select the **CharacterMovement** component.  This is where all the adjustments for player physics is held.  Let's first change the gravity.  We want a bit of moon like physics for **Gravity**. If you hover the cursor over **Gravity Scale** you will get a description of what it does.  The most common type of setting normalizes between a range of 0 and 1.  In this case 0 would be no gravity, 1 is earth gravity and anything larger than 1 will apply a greater gravitational force.  Let's make it more like the moon and set it to `.75`.
 
-https://user-images.githubusercontent.com/5504953/127748151-95a8dc2a-8508-4d69-9ca6-1f58dbb5ea4a.mp4
+![adjust gravity for jump](images/image_13.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
 
-The controls are defined in the project settings.  Select the **Settings** button and go to **Project Settings**.  Go to **Engine | Input** and open up the arrow next to **Axis Mappings**.  Go to **Left** and **Right** under **TurnRate** and press the **X** to delete both of them.
-
-![go to settings and remove turn rate](images/image_09.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open the **Axis Mappings | Move Right** variable and press the **+** (plus symbol) button twice to add controls for left and right.  Add a **Right** keyboard button and set the **Scale** to `1.0` and a**Left** keyboard button with a **Scale** of `-1.0`. Press the **Compile** button in the blueprint.
-
-![add left and right controls to game](images/image_11.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Run the game again and now the arrow keys act just like the **WASD** keys and we are at parity.  Try plugging in a controller to play it as well!
-
-https://user-images.githubusercontent.com/5504953/127748315-f24cc98e-51c8-4da0-aa54-86a93d065816.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up the **ThirdPersonCharacter** blueprint and select the **CharacterMovement** component.  This is where all the adjustments for player physics is held.  Let's first change the gravity.  We want a bit of moon like physics for **Gravity**. If you hover the cursor over **Gravity Scale** you will get a description of what it does.  The most common type of setting normalizes between a range of 0 and 1.  In this case 0 would be no gravity, 1 is earth gravity and anything larger than 1 will apply a greater gravitational force.  Let's make it more like the moon and set it to `.75`.
 
-![adjust gravity for jump](images/image_13.jpg)
 
 ![](../images/line2.png)
 
