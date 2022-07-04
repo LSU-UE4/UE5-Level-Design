@@ -35,6 +35,10 @@ Now **Unreal** leaves metatdata and breadcrumbs for moved and deleted files.  It
 
 ##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Sometimes a file is referenced and you do not delete all the folders.  My **Anmiation** folder is still not deleted nor is the roof **Mannequin_UE4**. Go back and delete it again then right click on the **Content** folder and select  **Fix Up Redirectors in Folder**. Do this until you have all the folders you want removed gone.  You might have to load up a new level (**File | New Level** to accomplish this). 
+
+![go back and make sure all folders and files are deleted](images/stubbornDelete.png)
+
  Move the **Blueprints** and **Maps** folder from **ThirdPerson** to the root **Content** folder.  
 
  Right click on **Content** and select `Fix Up Redirectors in Folder` to clean up redirects and delete empty folders. 
