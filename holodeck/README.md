@@ -59,27 +59,29 @@ Before we start a gray block level we need to create a test level to understand 
 
 ![add new level](images/image_21.png)
 
-Select the **Default** type of level.
+![](../images/line2.png)
 
-![select default level](images/image_22.png)
+##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
+
+Now we need to add a light.  This will be an outdoor scene so lets start with the **Sun**.  This is in game terms a light with no fall off so it runs for infinity.
+
+>The Directional Light simulates light that is being emitted from a source that is infinitely far away. This means that all shadows cast by this light will be parallel, making this the ideal choice for simulating sunlight - [UE5 Manual](https://docs.unrealengine.com/5.0/en-US/directional-lights-in-unreal-engine/)
+
+To find the lights click on the **Place Actors** pull down menu at the top left under the **Tools** menu and select **Light | Directional Light**.
+
+![add direcional light to scene](images/addDirectionalLight.png)
 
 ![](../images/line2.png)
+
+##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Go to **File | Save Current** and call the level `Holodeck` and save it to the **Levels** folder. Press the **Save** button.
 
 ![alt_text](images/image_23.jpg)
 
-![](../images/line2.png)
-
-##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
-
 So we should end up with the **Holodeck** in the **Levels** folder.
 
 ![holodeck level in level folder](images/image_24.jpg)
-
-![](../images/line2.png)
-
-##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Press **Settings | Project Settings** and change the **Editor Startup Map** and **Game Startup Map** to `Holodeck`",
 
