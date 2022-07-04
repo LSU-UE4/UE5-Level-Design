@@ -65,7 +65,7 @@ Now we need to add a light.  This will be an outdoor scene so lets start with th
 
 >The Directional Light simulates light that is being emitted from a source that is infinitely far away. This means that all shadows cast by this light will be parallel, making this the ideal choice for simulating sunlight - [UE5 Manual](https://docs.unrealengine.com/5.0/en-US/directional-lights-in-unreal-engine/)
 
-To find the lights click on the **Place Actors** pull down menu at the top left under the **Tools** menu and select **Light | Directional Light**.
+To find the lights click on the **Place Actors** pull down menu at the top left under the **Tools** menu and select **Light | Directional Light**. Drag one into the room.
 
 ![add direcional light to scene](images/addDirectionalLight.png)
 
