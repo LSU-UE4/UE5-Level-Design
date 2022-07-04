@@ -24,6 +24,15 @@ Lets start by cleaning up the current folder and removing elements we do not nee
 
 ##### `Step 2.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: 
 
+Now **Unreal** leaves metatdata and breadcrumbs for moved and deleted files.  It is always best practice when moving files, deleting files or renaming files to finish up by selecting .
+
+![fix up redirects in folder](images/FixUpRedirects.png)
+
+
+![](../images/line2.png)
+
+##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
  Move the **Blueprints** and **Maps** folder from **ThirdPerson** to the root **Content** folder.  
 
  Right click on **Content** and select `Fix Up Redirectors in Folder` to clean up redirects and delete empty folders. 
@@ -31,11 +40,6 @@ Lets start by cleaning up the current folder and removing elements we do not nee
  Change the name of the folder **Maps** to `Levels`. Unreal uses both terms and I think **Levels** is more generally recognized.  
 
 ![move blueprints and map folder to root and rename maps to levels1. ](images/MoveFolders.jpg)
-
-
-![](../images/line2.png)
-
-##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Before we start a gray block level we need to create a test level to understand how our player moves and how high and far to make jumps.  We also want to create ramps for players to run up and down.  To do this we will create a test level just meant to test physics so we can get an understanding of how the player moves.  Select the **Maps** folder and press **File | New Level**.
 
