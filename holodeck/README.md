@@ -49,19 +49,13 @@ My **Animation** folder is still not deleted nor is the roof **Mannequin_UE4**. 
 
  Go to the **Level Prototyping** folder and move the **Materials** and **Meshes** and **Textures** folder to the root **Content** folder. Since this needs to update version control it will ask you the **Check Out Selected**.  What checking out a file does is make sure that no one else in the team can use and alter this file.  It eliminates most occurances of collision and makes sure that only one person can work on a file at a time.  The **Delete** the **Level Prototyping** folder. Finish by  selecting **Fix Up Redirectors in Folder**.
 
-
-
 ![move Materials, Meshes and Texutures folder to root](images/moveThreeFolders.png)
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
- Right click on **Content** and select `Fix Up Redirectors in Folder` to clean up redirects and delete empty folders. 
+Before we start a gray block level we need to create a test level to understand how our player moves and how high and far to make jumps.  We also want to create ramps for players to run up and down.  To do this we will create a test level just meant to test physics so we can get an understanding of how the player moves.  Select the **File | New Level** and select an **Empty** level and press the <kbd>Create</kbd> butoon.
 
- Change the name of the folder **Maps** to `Levels`. Unreal uses both terms and I think **Levels** is more generally recognized.  
-
-![move blueprints and map folder to root and rename maps to levels1. ](images/MoveFolders.jpg)
-
-Before we start a gray block level we need to create a test level to understand how our player moves and how high and far to make jumps.  We also want to create ramps for players to run up and down.  To do this we will create a test level just meant to test physics so we can get an understanding of how the player moves.  Select the **Maps** folder and press **File | New Level**.
+![create new empty level](images/newEmptyLevel.png)
 
 ![add new level](images/image_21.png)
 
