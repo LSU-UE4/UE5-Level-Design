@@ -101,6 +101,14 @@ The third element that works together with the atmosphere and clouds in the [Sky
 
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
+The one thing that is missing is visibility in the air.  Normally there is a bit of haze, particles or fog that restricts your viewing distance. The final element that will help bring this scene together is [Exponential Height Fog](https://docs.unrealengine.com/5.0/en-US/exponential-height-fog-in-unreal-engine/).
+
+>Exponential Height Fog creates more density in low places of a map and less density in high places. The transition is smooth, so you never get a hard cutoff as you increase altitude. Exponential Height Fog also provides two fog colors—one for the hemisphere facing the dominant directional light (or straight up if none exists), and another color for the opposite hemisphere. - [UE5 Manual](https://docs.unrealengine.com/5.0/en-US/exponential-height-fog-in-unreal-engine/).
+
+Select **Place Actor | Special Effect | Exponential Height Fog** and drag it into the level.
+
+![add a exponential height fog to level](images/heightFog.png)
+
 Go to **File | Save Current** and call the level `Holodeck` and save it to the **Levels** folder. Press the **Save** button.
 
 ![alt_text](images/image_23.jpg)
