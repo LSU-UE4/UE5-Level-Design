@@ -16,7 +16,7 @@ Now we normally create a level where we test out all of our mechanics to make su
 
 Lets organize the content folder for our project and start a new level. Lets add a playable area to work with that simulates an average game. We have two **Meshes** (geometry) folders.  
 
-Lets start by cleaning up the current folder and removing elements we do not need.  There are two manequins, the old one and the new one.  Right mouse click on the **Mannequin_UE4** folder and select the <kbd>Delete</kbd> button.  Now a very small pop up appears and we press the kbd>Delete</kbd> button for a second time.
+Lets start by cleaning up the current folder and removing elements we do not need.  There are two manequins, the old one and the new one.  Right mouse click on the **Mannequin_UE4** folder and select the <kbd>Delete</kbd> button.  Now a very small pop up appears and we press the <kbd>Delete</kbd> button for a second time.
 
 ![delete mannequin ue4 folder](images/deleteOldMannequin.png)
 
