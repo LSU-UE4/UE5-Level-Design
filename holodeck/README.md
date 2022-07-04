@@ -30,7 +30,6 @@ Now **Unreal** leaves metatdata and breadcrumbs for moved and deleted files.  It
 
 ![fix up redirects in folder](images/FixUpRedirects.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
@@ -48,6 +47,8 @@ https://user-images.githubusercontent.com/5504953/177067308-a38e2c37-06a2-4d9d-8
  Go to the **Level Prototyping** folder and move the **Materials** and **Meshes** and **Textures** folder to the root **Content** folder. Since this needs to update version control it will ask you the **Check Out Selected**.  What checking out a file does is make sure that no one else in the team can use and alter this file.  It eliminates most occurances of collision and makes sure that only one person can work on a file at a time.  The **Delete** the **Level Prototyping** folder. Finish by  selecting **Fix Up Redirectors in Folder**.
 
 ![move Materials, Meshes and Texutures folder to root](images/moveThreeFolders.png)
+
+![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
@@ -109,6 +110,8 @@ Select **Place Actor | Special Effect | Exponential Height Fog** and drag it int
 
 ![add a exponential height fog to level](images/heightFog.png)
 
+![](../images/line2.png)
+
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
 Now lets use a cool landscape as opposed to a flat ground plane like there was in the template level.  We will be using a height map to generate the topology of a landscape.  What is a [height map](https://en.wikipedia.org/wiki/Heightmap)?
@@ -116,6 +119,22 @@ Now lets use a cool landscape as opposed to a flat ground plane like there was i
 >A heightmap contains one channel interpreted as a distance of displacement or "height" from the "floor" of a surface and sometimes visualized as luma of a grayscale image, with black representing minimum height and white representing maximum height. - Wikipedia
 
 ![heightmap example](images/heightmaps.png)
+
+![](../images/line2.png)
+
+##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+Unreal recommends various [height map](https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/Landscape/TechnicalGuide/) dimensions that they support. By default 1 pixel equals 1 meter in UE5 space.  So a `1109` by `1009` pixel image will be (1.009 * 1.009) 1.018081 kilometers squared (or .416 square miles) in size.
+
+![recommended heightmap size](images/recommendedLandscapeSizes.png)
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Not only 'should' it be one of the recommended sizes but it has to be **16 bits** and in grayscale mode for it to work in Unreal correctly.
+
+![recommended heightmap size](images/techArt.png)
 
 
 Now go to [Level Design Assets](https://github.com/maubanel/UE5-Level-Design-Assets) and press the <kbd>Code</kbd> and select **Download Gif**.
@@ -136,7 +155,6 @@ Press play and notice that it uses the **Default Pawn**.  This is the character 
 
 ![play game and see use of default pawn](images/image_26.png)
 
-
 Press **Settings | World Settings**.  Each map allows you to adjust the game mode settings.  There is a special **GameMode** blueprint that we already have included with this template. Go to **GameMode Override** and select `ThirdPersonGameMode`.
 
 ![override gamemode settings with ThirdPersonGameMode blueprint](images/image_27.jpg)
@@ -145,7 +163,6 @@ Now press play and we should have the character controls we had previously with 
 
 ![play with original character being loaded](images/image_28.jpg)
 
-![](../images/line2.png)
 
 We will need to use some assets for the level design that will make the process easier.  Go to [UE4-Level-Design-Assets](https://github.com/maubanel/UE4-Level-Design-Assets). Press the green <kbd>Code</kbd> button and select `Open with GitHub Desktop`.
 
@@ -153,16 +170,9 @@ We will need to use some assets for the level design that will make the process 
 
 ![](../images/line2.png)
 
-
-##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
 Now select a **Local** folder to temporarilly save the project.  I put mine on my desktop then press the <kbd>Clone</kbd> button.
 
 ![clone asset project for materials and meshes](images/CloneDirectory.jpg)
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Select the **Blueprints** and **Geometry** folders and right mouse click and select `Migrate`.  Then press the <kbd>Ok</kbd> button to start the migration. Select the root of the **Content** folder in **Documents | Unreal Projects | Introduction to Level Design | Content**.
 ![alt_text](images/MigrateTwoFolders.jpg)
