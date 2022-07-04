@@ -73,6 +73,18 @@ To find the lights click on the **Place Actors** pull down menu at the top left 
 
 ##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now we are in a black world - lets create a sky.  Press the **Place Actors** drop down menu and select **Visual Effects | Sky Atmosphere**.
+
+>The Sky Atmosphere component in Unreal Engine is a physically-based sky and atmosphere-rendering technique. It's flexible enough to create an Earth-like atmosphere with time-of-day featuring sunrise and sunset, or to create extraterrestrial atmospheres of an exotic nature. - [UE5 Manual](https://docs.unrealengine.com/5.0/en-US/sky-atmosphere-component-in-unreal-engine/).
+
+Feel free to read the instructions and tweak any values.
+
+![add a sky atmosphere to scene](images/skyAtmosphere.png)
+
+![](../images/line2.png)
+
+##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Go to **File | Save Current** and call the level `Holodeck` and save it to the **Levels** folder. Press the **Save** button.
 
 ![alt_text](images/image_23.jpg)
@@ -84,10 +96,6 @@ So we should end up with the **Holodeck** in the **Levels** folder.
 Press **Settings | Project Settings** and change the **Editor Startup Map** and **Game Startup Map** to `Holodeck`",
 
 ![change startup maps to Holodeck level](images/image_25.jpg)
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Press play and notice that it uses the **Default Pawn**.  This is the character that is loaded in the default level. It is a first person fly around view.  This is the default pawn if one is not specified in the **Game Mode** in either **Project Settings** or **World Settings**.
 
