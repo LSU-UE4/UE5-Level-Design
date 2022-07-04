@@ -37,7 +37,7 @@ Now **Unreal** leaves metatdata and breadcrumbs for moved and deleted files.  It
 
 Sometimes a file is referenced and you do not delete all the folders.  You have to sometimes go back and delete them one at a time.
 
-Now it did not delete all my folder. Go back and delete the folders again then right click on the **Content** folder and select  **Fix Up Redirectors in Folder**. Do this until you have all the folders you want removed gone.  You might have to load up a new level (**File | New Level** to accomplish this). You also might have to go to **P4V** and delete any ghost files that are still in the folder (it is OK to delete files that are not entered into source control).  This usually means that **Unreal** has lost track of this file and the folder won't delete until it is gone.
+Now it did not delete all my folder. Go back and delete the folders again then right click on the **Content** folder and select  **Fix Up Redirectors in Folder**. Do this until you have all the folders you want removed gone.  You might have to load up a new level (**File | New Level** to accomplish this). You also might have to go to **P4V** and delete any ghost files that are still in the folder (it is OK to delete files that are not entered into source control and are not being used by the game).  This usually means that **Unreal** has lost track of this file and the folder won't delete until it is gone.
 
 https://user-images.githubusercontent.com/5504953/177067308-a38e2c37-06a2-4d9d-8a98-f27d5fa98c06.mp4
 
@@ -109,6 +109,10 @@ Select **Place Actor | Special Effect | Exponential Height Fog** and drag it int
 
 ![add a exponential height fog to level](images/heightFog.png)
 
+##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
+
+Now lets use a cool landscape as opposed to a flat ground plane like there was in the template level.  Now go to [Level Design Assets](https://github.com/maubanel/UE5-Level-Design-Assets) and press the <kbd>Code</kbd> and select **Download Gif**.
+
 Go to **File | Save Current** and call the level `Holodeck` and save it to the **Levels** folder. Press the **Save** button.
 
 ![alt_text](images/image_23.jpg)
@@ -135,8 +139,6 @@ Now press play and we should have the character controls we had previously with 
 ![play with original character being loaded](images/image_28.jpg)
 
 ![](../images/line2.png)
-
-##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
 We will need to use some assets for the level design that will make the process easier.  Go to [UE4-Level-Design-Assets](https://github.com/maubanel/UE4-Level-Design-Assets). Press the green <kbd>Code</kbd> button and select `Open with GitHub Desktop`.
 
