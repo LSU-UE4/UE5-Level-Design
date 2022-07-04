@@ -51,6 +51,7 @@ My **Animation** folder is still not deleted nor is the roof **Mannequin_UE4**. 
 
 ![move Materials, Meshes and Texutures folder to root](images/moveThreeFolders.png)
 
+##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
  Right click on **Content** and select `Fix Up Redirectors in Folder` to clean up redirects and delete empty folders. 
 
@@ -67,8 +68,6 @@ Select the **Default** type of level.
 ![select default level](images/image_22.png)
 
 ![](../images/line2.png)
-
-##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
 Go to **File | Save Current** and call the level `Holodeck` and save it to the **Levels** folder. Press the **Save** button.
 
