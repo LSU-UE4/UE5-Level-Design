@@ -132,9 +132,11 @@ Unreal recommends various [height map](https://docs.unrealengine.com/4.27/en-US/
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Not only 'should' it be one of the recommended sizes but it has to be **16 bits** and in grayscale mode for it to work in Unreal correctly.
+Not only 'should' it be one of the recommended sizes but it has to be **16 bits** and in **Grayscale** mode for it to work in Unreal correctly.
 
-![recommended heightmap size](images/techArt.png)
+If it were 8 bits per channel (2 ^ 8) we would only represent 256 different heights.  A 16 bit grayscale (2 ^ 16) gives us 65536 different heights. This makes for much more detailed terrain.
+
+![photoshop with height map size, depth and mode](images/techArt.png)
 
 
 Now go to [Level Design Assets](https://github.com/maubanel/UE5-Level-Design-Assets) and press the <kbd>Code</kbd> and select **Download Gif**.
