@@ -1,6 +1,6 @@
 ![](../images/line3.png)
 
-### Setting up Unreal & Github
+### Setting up Unreal & Perforce
 
 <sub>[home](../README.md#user-content-ue4-intro-to-level-design) • [next](../camera-mechanics/README.md#user-content-lock-cameras-and-mechanics)</sub>
 
