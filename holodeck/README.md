@@ -57,8 +57,6 @@ Before we start a gray block level we need to create a test level to understand 
 
 ![create new empty level](images/newEmptyLevel.png)
 
-![add new level](images/image_21.png)
-
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
