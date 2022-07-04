@@ -96,7 +96,7 @@ Now if we double click on the file and look at it in a text editor it indicates 
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to add these files to the database and to the **Depot** (server).  We do this by pressing thge <kbd>+ Add</kbd> button.  We then select a **New** changelist and add a message. All we did was create a default project so I used `Default third person project`. When you are done press the <kbd>OK</kbd> button.
+Now we need to add these files to the database and to the **Depot** (server).  Select the very top folder that contains the `.uproject` file (in my case it is called **Intro to Level Design**. We then want to add all new files. We do this by pressing thge <kbd>+ Add</kbd> button.  We then select a **New** changelist and add a message. All we did was create a default project so I used `Default third person project`. When you are done press the <kbd>OK</kbd> button.
 
 ![add files to perforce](images/addFilesToP4.png)
 
