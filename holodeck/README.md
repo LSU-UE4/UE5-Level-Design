@@ -47,7 +47,9 @@ My **Animation** folder is still not deleted nor is the roof **Mannequin_UE4**. 
 
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
- Go to the **Level Prototyping** folder and move the **Materials** and **Meshes** and **Textures** folder to the root **Content** folder. 
+ Go to the **Level Prototyping** folder and move the **Materials** and **Meshes** and **Textures** folder to the root **Content** folder. Since this needs to update version control it will ask you the **Check Out Selected**.  What checking out a file does is make sure that no one else in the team can use and alter this file.  It eliminates most occurances of collision and makes sure that only one person can work on a file at a time.  The **Delete** the **Level Prototyping** folder. Finish by  selecting **Fix Up Redirectors in Folder**.
+
+
 
 ![move Materials, Meshes and Texutures folder to root](images/moveThreeFolders.png)
 
