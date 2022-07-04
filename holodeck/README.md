@@ -14,18 +14,11 @@ Now we normally create a level where we test out all of our mechanics to make su
 
 ##### `Step 1.`\|`UE5LD`|:small_blue_diamond:
 
-Lets organize the content folder for our project and start a new level. Lets add a floor to the game. We have two **Meshes** (geometry) folders.  One in the **Third Person** folder and the other in the **Geometry** folder.  Lets move the meshes from **Third Person** to the **Geometry | Meshes** folder.  
+Lets organize the content folder for our project and start a new level. Lets add a playable area to work with that simulates an average game. We have two **Meshes** (geometry) folders.  
 
-Unreal redirects the files so it still looks to see that empty **Meshes** folder.  To have **Unreal** point to the new folder directly and automatically clean up the empty folder right click on **Content** and select `Fix Up Redirectors in Folder`.  This will take a bit and you will see that the folder is now gone and the files are in the new folder.
+Lets start by cleaning up the current folder and removing elements we do not need.  There are two manequins, the old one and the new one.  Right mouse click on 
 
-Please note that the **Red X** icon indicates that it is not commited in Unreal.
-
-![move meshes into folder](images/MoveMeshesFolder.jpg)
-
-![redirect folders to clean up hiearchy](images/RedirectFolder.jpg)
-
-![no more second meshes folder and red x on new items](images/RedXs.jpg)
-
+![move meshes into folder](images/deleteOldMannequin.png)
 
 ![](../images/line2.png)
 
