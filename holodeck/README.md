@@ -147,13 +147,22 @@ Please note if that you are trying to adjust photoshop files to work that using 
 
 ![use save as in photoshop and not export](images/doNotExport.png)
 
+![](../images/line2.png)
+
+##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
+
+
+Download this free height map I downloaded from [moton forge pictures](https://www.motionforgepictures.com/environment-height-maps-free-download/) and adjusted it to the correct format in **Photoshop**.  Download the process file [RollingHillsHeightMap.png](../files/RollingHillsHeightMap.png). Now press the <kbd>Modes</kbd> and switch to **Landscape** mode.
+
+![download heightmap and switch to landscape mode](images/downloadLandscape.png)
+
+
 
 Now go to [Level Design Assets](https://github.com/maubanel/UE5-Level-Design-Assets) and press the <kbd>Code</kbd> and select **Download Gif**.
 
 Go to **File | Save Current** and call the level `Holodeck` and save it to the **Levels** folder. Press the **Save** button.
 
 ![alt_text](images/image_23.jpg)
-
 So we should end up with the **Holodeck** in the **Levels** folder.
 
 ![holodeck level in level folder](images/image_24.jpg)
@@ -169,6 +178,8 @@ Press play and notice that it uses the **Default Pawn**.  This is the character 
 Press **Settings | World Settings**.  Each map allows you to adjust the game mode settings.  There is a special **GameMode** blueprint that we already have included with this template. Go to **GameMode Override** and select `ThirdPersonGameMode`.
 
 ![override gamemode settings with ThirdPersonGameMode blueprint](images/image_27.jpg)
+
+
 
 
 Now press play and we should have the character controls we had previously with all of its logic.  Press **Save All** and update Github by **committing** and **pushing** all the changes made. Next up we will lay out the floor and select a custom material.
@@ -188,11 +199,8 @@ Select the **Blueprints** and **Geometry** folders and right mouse click and sel
 ![alt_text](images/MigrateTwoFolders.jpg)
 
 Now go back to the **Holodeck** level in **Unreal** and look in the **Content | Geometry | Meshes** folder.  You should see some new static mesheds including **SM_Floor_400x400**.  If you look at it it is 400cm (1 UE4 unit is 1 cm) by 400cm by 20cm.  This is 4 meters by 4 meters by .2 meters.
+
 ![look at new static meshes including SM_Floor_400x400](images/SM_Floor_400.jpg)
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
 
 Delete the old floor that came with the template.  Drag and drop one piece of **SM_Floor_400x400** in the level.  Make sure it is at **Location** `0, 0, 0`. If it is not there is a yellow arrow that you can press to reset it.  Now look this piece of geometry has a special material called **MI_LDGrid_World**. Notice that when you scale the mesh that the grid grows and doesn't scale.
 
