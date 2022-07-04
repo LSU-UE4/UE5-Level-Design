@@ -37,11 +37,10 @@ Now **Unreal** leaves metatdata and breadcrumbs for moved and deleted files.  It
 
 Sometimes a file is referenced and you do not delete all the folders.  You have to sometimes go back and delete them one at a time.
 
+Now it did not delete all my folder. Go back and delete the folders again then right click on the **Content** folder and select  **Fix Up Redirectors in Folder**. Do this until you have all the folders you want removed gone.  You might have to load up a new level (**File | New Level** to accomplish this). You also might have to go to **P4V** and delete any ghost files that are still in the folder (it is OK to delete files that are not entered into source control).  This usually means that **Unreal** has lost track of this file and the folder won't delete until it is gone.
 
 
-My **Animation** folder is still not deleted nor is the roof **Mannequin_UE4**. Go back and delete it again then right click on the **Content** folder and select  **Fix Up Redirectors in Folder**. Do this until you have all the folders you want removed gone.  You might have to load up a new level (**File | New Level** to accomplish this). 
 
-![go back and make sure all folders and files are deleted](images/stubbornDelete.png)
 
 ![](../images/line2.png)
 
