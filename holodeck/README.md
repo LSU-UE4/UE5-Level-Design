@@ -91,6 +91,16 @@ https://user-images.githubusercontent.com/5504953/172624138-fdd5d5eb-28ad-4adc-9
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+The third element that works together with the atmosphere and clouds in the [Skylight](https://docs.unrealengine.com/5.0/en-US/sky-lights-in-unreal-engine/).
+
+>The Sky Light captures the distant parts of your level and applies that to the scene as a light. That means the sky's appearance and its lighting/reflections will match, even if your sky is coming from atmosphere, or layered clouds on top of a skybox, or distant mountains. You can also manually specify a cubemap to use. - [UE5 Manual](Skylight](https://docs.unrealengine.com/5.0/en-US/sky-lights-in-unreal-engine/)
+
+![add a skylight to level](images/skylight.png)
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
+
 Go to **File | Save Current** and call the level `Holodeck` and save it to the **Levels** folder. Press the **Save** button.
 
 ![alt_text](images/image_23.jpg)
@@ -111,10 +121,6 @@ Press play and notice that it uses the **Default Pawn**.  This is the character 
 Press **Settings | World Settings**.  Each map allows you to adjust the game mode settings.  There is a special **GameMode** blueprint that we already have included with this template. Go to **GameMode Override** and select `ThirdPersonGameMode`.
 
 ![override gamemode settings with ThirdPersonGameMode blueprint](images/image_27.jpg)
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
 Now press play and we should have the character controls we had previously with all of its logic.  Press **Save All** and update Github by **committing** and **pushing** all the changes made. Next up we will lay out the floor and select a custom material.
 
