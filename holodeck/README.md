@@ -39,9 +39,6 @@ Sometimes a file is referenced and you do not delete all the folders.  You have 
 
 Now it did not delete all my folder. Go back and delete the folders again then right click on the **Content** folder and select  **Fix Up Redirectors in Folder**. Do this until you have all the folders you want removed gone.  You might have to load up a new level (**File | New Level** to accomplish this). You also might have to go to **P4V** and delete any ghost files that are still in the folder (it is OK to delete files that are not entered into source control).  This usually means that **Unreal** has lost track of this file and the folder won't delete until it is gone.
 
-
-
-
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
@@ -84,6 +81,14 @@ Feel free to read the instructions and tweak any values.
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now there is a special rotational widget that can be used for rotating the light to get different times of day (different angles the sun is position at).  You press the <kbd>Cntrl L</kbd> key to bring up the controller then let go of the <kbd>L</kbd> key while still holding <kbd>Cntrl</kbd>.  You can then move the mouse around and have the sun point at any angle.  I picked one that worked best for me. I then released the <kbd>Cntrl</kbd> key to lock in the position.
+
+https://user-images.githubusercontent.com/5504953/172624138-fdd5d5eb-28ad-4adc-9ada-79f4e447f9e5.mp4
+
+![](../images/line2.png)
+
+##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Go to **File | Save Current** and call the level `Holodeck` and save it to the **Levels** folder. Press the **Save** button.
 
 ![alt_text](images/image_23.jpg)
@@ -100,9 +105,6 @@ Press play and notice that it uses the **Default Pawn**.  This is the character 
 
 ![play game and see use of default pawn](images/image_26.png)
 
-![](../images/line2.png)
-
-##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Press **Settings | World Settings**.  Each map allows you to adjust the game mode settings.  There is a special **GameMode** blueprint that we already have included with this template. Go to **GameMode Override** and select `ThirdPersonGameMode`.
 
