@@ -111,7 +111,7 @@ Select **Place Actor | Special Effect | Exponential Height Fog** and drag it int
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-Now lets use a cool landscape as opposed to a flat ground plane like there was in the template level.  We will be using a height map to generate a land scape.  What is a [height map](https://en.wikipedia.org/wiki/Heightmap)?
+Now lets use a cool landscape as opposed to a flat ground plane like there was in the template level.  We will be using a height map to generate the topology of a landscape.  What is a [height map](https://en.wikipedia.org/wiki/Heightmap)?
 
 >A heightmap contains one channel interpreted as a distance of displacement or "height" from the "floor" of a surface and sometimes visualized as luma of a grayscale image, with black representing minimum height and white representing maximum height. - Wikipedia
 
