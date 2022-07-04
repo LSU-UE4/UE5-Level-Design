@@ -35,11 +35,22 @@ Now **Unreal** leaves metatdata and breadcrumbs for moved and deleted files.  It
 
 ##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Sometimes a file is referenced and you do not delete all the folders.  My **Anmiation** folder is still not deleted nor is the roof **Mannequin_UE4**. Go back and delete it again then right click on the **Content** folder and select  **Fix Up Redirectors in Folder**. Do this until you have all the folders you want removed gone.  You might have to load up a new level (**File | New Level** to accomplish this). 
+Sometimes a file is referenced and you do not delete all the folders.  You have to sometimes go back and delete them one at a time.
+
+
+
+My **Animation** folder is still not deleted nor is the roof **Mannequin_UE4**. Go back and delete it again then right click on the **Content** folder and select  **Fix Up Redirectors in Folder**. Do this until you have all the folders you want removed gone.  You might have to load up a new level (**File | New Level** to accomplish this). 
 
 ![go back and make sure all folders and files are deleted](images/stubbornDelete.png)
 
- Move the **Blueprints** and **Maps** folder from **ThirdPerson** to the root **Content** folder.  
+![](../images/line2.png)
+
+##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+ Go to the **Level Prototyping** folder and move the **Materials** and **Meshes** and **Textures** folder to the root **Content** folder. 
+
+![move Materials, Meshes and Texutures folder to root](images/moveThreeFolders.png)
+
 
  Right click on **Content** and select `Fix Up Redirectors in Folder` to clean up redirects and delete empty folders. 
 
@@ -50,10 +61,6 @@ Sometimes a file is referenced and you do not delete all the folders.  My **Anmi
 Before we start a gray block level we need to create a test level to understand how our player moves and how high and far to make jumps.  We also want to create ramps for players to run up and down.  To do this we will create a test level just meant to test physics so we can get an understanding of how the player moves.  Select the **Maps** folder and press **File | New Level**.
 
 ![add new level](images/image_21.png)
-
-![](../images/line2.png)
-
-##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Select the **Default** type of level.
 
