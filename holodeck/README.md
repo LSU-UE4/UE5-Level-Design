@@ -111,7 +111,14 @@ Select **Place Actor | Special Effect | Exponential Height Fog** and drag it int
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-Now lets use a cool landscape as opposed to a flat ground plane like there was in the template level.  Now go to [Level Design Assets](https://github.com/maubanel/UE5-Level-Design-Assets) and press the <kbd>Code</kbd> and select **Download Gif**.
+Now lets use a cool landscape as opposed to a flat ground plane like there was in the template level.  We will be using a height map to generate a land scape.  What is a [height map](https://en.wikipedia.org/wiki/Heightmap)?
+
+>A heightmap contains one channel interpreted as a distance of displacement or "height" from the "floor" of a surface and sometimes visualized as luma of a grayscale image, with black representing minimum height and white representing maximum height. - Wikipedia
+
+![heightmap example](images/heightmaps.png)
+
+
+Now go to [Level Design Assets](https://github.com/maubanel/UE5-Level-Design-Assets) and press the <kbd>Code</kbd> and select **Download Gif**.
 
 Go to **File | Save Current** and call the level `Holodeck` and save it to the **Levels** folder. Press the **Save** button.
 
