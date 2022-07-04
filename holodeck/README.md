@@ -138,6 +138,15 @@ If it were 8 bits per channel (2 ^ 8) we would only represent 256 different heig
 
 ![photoshop with height map size, depth and mode](images/techArt.png)
 
+![](../images/line2.png)
+
+
+##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Please note if that you are trying to adjust photoshop files to work that using the **Export** option will always reduce the bit depth to 8 bit.  You need to use **Save** or **Save As** to preserve the bit depth.
+
+![use save as in photoshop and not export](images/doNotExport.png)
+
 
 Now go to [Level Design Assets](https://github.com/maubanel/UE5-Level-Design-Assets) and press the <kbd>Code</kbd> and select **Download Gif**.
 
@@ -161,6 +170,7 @@ Press **Settings | World Settings**.  Each map allows you to adjust the game mod
 
 ![override gamemode settings with ThirdPersonGameMode blueprint](images/image_27.jpg)
 
+
 Now press play and we should have the character controls we had previously with all of its logic.  Press **Save All** and update Github by **committing** and **pushing** all the changes made. Next up we will lay out the floor and select a custom material.
 
 ![play with original character being loaded](images/image_28.jpg)
@@ -170,18 +180,12 @@ We will need to use some assets for the level design that will make the process 
 
 ![go to level design assets in github](images/LevelDesignAssets.jpg).  
 
-![](../images/line2.png)
-
 Now select a **Local** folder to temporarilly save the project.  I put mine on my desktop then press the <kbd>Clone</kbd> button.
 
 ![clone asset project for materials and meshes](images/CloneDirectory.jpg)
 
 Select the **Blueprints** and **Geometry** folders and right mouse click and select `Migrate`.  Then press the <kbd>Ok</kbd> button to start the migration. Select the root of the **Content** folder in **Documents | Unreal Projects | Introduction to Level Design | Content**.
 ![alt_text](images/MigrateTwoFolders.jpg)
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now go back to the **Holodeck** level in **Unreal** and look in the **Content | Geometry | Meshes** folder.  You should see some new static mesheds including **SM_Floor_400x400**.  If you look at it it is 400cm (1 UE4 unit is 1 cm) by 400cm by 20cm.  This is 4 meters by 4 meters by .2 meters.
 ![look at new static meshes including SM_Floor_400x400](images/SM_Floor_400.jpg)
