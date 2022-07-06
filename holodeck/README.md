@@ -209,19 +209,6 @@ You should see a message that declares the migration succesful at the bottom rig
 
 ![migrate all files to level design project](images/migrateFiles.png)
 
-![](../images/line2.png)
-
-##### `Step 22.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
-![](../images/line2.png)
-
-##### `Step 23.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
-
 ![](../images/line.png)
 
 ![next up creating custom meshes](images/banner.png)
