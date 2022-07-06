@@ -178,6 +178,8 @@ Now we do not need to be in **Landscape** mode any more.  Press the <kbd>Mode</k
 
 ![fix data and import map(images/selectCameraSpeed.png)
 
+https://user-images.githubusercontent.com/5504953/177608479-82abbb8e-bb97-43e4-ad0c-e9ab8fa59d08.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
