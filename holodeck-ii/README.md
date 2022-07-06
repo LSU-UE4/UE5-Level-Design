@@ -41,17 +41,16 @@ Now reopen the **Level Design** game we left that we now migrated these files to
 
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now reopen the **Maps | Holodeck** game we left that we now migrated these files to. Now select the **Landscape** in the **Outliner** and drag **Content | Materials | MI_Landscape** to the **Landscape Material** slot.
 
+![drag MI_Lanscape to landscape material](images/assignMaterial.png)
 
-![alt text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
-Now reopen the **Level Design** game we left that we now migrated these files to. 
 
-![alt text](images/assignMaterial.png)
 
 ![](../images/line2.png)
 
