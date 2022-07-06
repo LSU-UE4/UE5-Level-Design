@@ -67,6 +67,10 @@ Open up **MI_Landscape** and set **Use Debug Material Low Flat** to `true` first
 
 ##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Press play and notice that it uses the **Default Pawn**.  This is the character that is loaded in the default level. It is a first person fly around view.  This is the default pawn if one is not specified in the **Game Mode** in either **Project Settings** or **World Settings**.
+
+![play game and see use of default pawn](images/image_26.png)
+
 ![alt text](images/.png)
 
 ![](../images/line2.png)
@@ -155,21 +159,8 @@ Open up **MI_Landscape** and set **Use Debug Material Low Flat** to `true` first
 ![alt text](images/.png)
 
 
-Go to **File | Save Current** and call the level `Holodeck` and save it to the **Levels** folder. Press the **Save** button.
 
-![alt_text](images/image_23.jpg)
 
-So we should end up with the **Holodeck** in the **Levels** folder.
-
-![holodeck level in level folder](images/image_24.jpg)
-
-Press **Settings | Project Settings** and change the **Editor Startup Map** and **Game Startup Map** to `Holodeck`",
-
-![change startup maps to Holodeck level](images/image_25.jpg)
-
-Press play and notice that it uses the **Default Pawn**.  This is the character that is loaded in the default level. It is a first person fly around view.  This is the default pawn if one is not specified in the **Game Mode** in either **Project Settings** or **World Settings**.
-
-![play game and see use of default pawn](images/image_26.png)
 
 Press **Settings | World Settings**.  Each map allows you to adjust the game mode settings.  There is a special **GameMode** blueprint that we already have included with this template. Go to **GameMode Override** and select `ThirdPersonGameMode`.
 
