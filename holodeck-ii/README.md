@@ -37,8 +37,6 @@ Now reopen the **Level Design** game we left that we now migrated these files to
 
 ![alt text](images/projectSettings.png)
 
-
-
 ![alt text](images/.png)
 
 ![](../images/line2.png)
