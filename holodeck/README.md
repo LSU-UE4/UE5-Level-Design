@@ -186,7 +186,7 @@ https://user-images.githubusercontent.com/5504953/177608479-82abbb8e-bb97-43e4-a
 
 Now lets save our work in this level.  Right click on **Content** and right click and select **New Folder**. Call it `Maps`.  Press **File | Save** and call the new level `Holodeck` and save it in the **Maps** folder.
 
-![download material for level design](images/downloadzip.png)
+
 
 ![](../images/line2.png)
 
@@ -196,14 +196,17 @@ You will need some materials and textures for the landscape.  Go to [github.com/
 
 Now go to [Level Design Assets](https://github.com/maubanel/UE5-Level-Design-Assets) and press the <kbd>Code</kbd> and select **Download Gif**.
 
-Unzip the folder and open up **IntroToLDAssets.uproject** and go to **Content Drawer | Landscape | Materials** and right click on **M_Landscape** and select **Asset Actions | Migrate**.  This will start the migration process of all the files you will need for our project.
-
-![download material for level design](images/migrateMaterials.png)
+![download material for level design](images/downloadzip.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
+Unzip the folder and open up **IntroToLDAssets.uproject** and go to **Content Drawer | Landscape | Materials** and right click on **M_Landscape** and select **Asset Actions | Migrate**.  This will start the migration process of all the files you will need for our project.
+
+![download material for level design](images/migrateMaterials.png)
+
 
 When migrating Unreal knows all the files that this material needs to render correctly.  Agree to all of them.  An explorer window will pop up to where you want to migrate to?  You need to go to the route level design folder that contains your `.uproject` file and then select the **Content** folder. It is always best to migrate to the route **Content** folder to preserve all the prior folders from the source project youa are importing from.
 
