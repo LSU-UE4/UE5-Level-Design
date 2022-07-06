@@ -2,7 +2,7 @@
 
 ### Setting Up Holodeck
 
-<sub>[previous](../camera-mechanics/README.md#user-content-lock-cameras-and-mechanics) • [home](../README.md#user-content-ue4-intro-to-level-design) • [next](../ramp/README.md#user-content-creating-custom-meshes)</sub>
+<sub>[previous](../camera-mechanics/README.md#user-content-lock-cameras-and-mechanics) • [home](../README.md#user-content-ue4-intro-to-level-design) • [next](../holodeck-ii/README.md#user-content-setting-up-holodeck-ii)</sub>
 
 ![](../images/line3.png)
 
@@ -224,5 +224,5 @@ Now we will also need another material.  Go the the **Content | Materials** fold
 
 ![](../images/line.png)
 
-| [previous](../camera-mechanics/README.md#user-content-lock-cameras-and-mechanics)| [home](../README.md#user-content-ue4-intro-to-level-design) | [next](../ramp/README.md#user-content-creating-custom-meshes)|
+| [previous](../camera-mechanics/README.md#user-content-lock-cameras-and-mechanics)| [home](../README.md#user-content-ue4-intro-to-level-design) | [next](../holodeck-ii/README.md#user-content-setting-up-holodeck-ii)|
 |---|---|---|
