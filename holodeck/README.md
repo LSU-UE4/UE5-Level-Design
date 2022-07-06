@@ -194,8 +194,6 @@ Now lets save our work in this level.  Right click on **Content** and right clic
 
 You will need some materials and textures for the landscape.  Go to [github.com/LSU-UE4/UE5-Level-Design-Assets](https://github.com/LSU-UE4/UE5-Level-Design-Assets).  Click on the green <kbd>Code</kbd> button and select **Download ZIP**.
 
-Now go to [Level Design Assets](https://github.com/maubanel/UE5-Level-Design-Assets) and press the <kbd>Code</kbd> and select **Download Git**.
-
 ![download material for level design](images/downloadzip.png)
 
 ![](../images/line2.png)
