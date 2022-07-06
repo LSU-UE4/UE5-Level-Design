@@ -209,6 +209,15 @@ You should see a message that declares the migration succesful at the bottom rig
 
 ![migrate all files to level design project](images/migrateFiles.png)
 
+![](../images/line2.png)
+
+##### `Step 22.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now we will also need another material.  
+
+![migrade grid local material](images/ldGridLocal.png)
+
+
 ![](../images/line.png)
 
 ![next up creating custom meshes](images/banner.png)
