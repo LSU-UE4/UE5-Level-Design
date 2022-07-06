@@ -59,7 +59,7 @@ Now take a look and we have a basic set of ground materials we have to cover our
 
 ##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
 
-Open up **MI_Landscape** and 
+Open up **MI_Landscape** and set **Use Debug Material Low Flat** to `true` first at the left of the option then after.  The first one allows you to edit this setting which defaults to false but want to switch to true.  This allows us to replace grass with a texture that has a scale chart that will make it better for level design showing us scale in 1 meter squares. 
 
 ![alt text](images/meterMaterial.png)
 
