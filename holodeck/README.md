@@ -167,7 +167,7 @@ Press the **Import from File** tab and select the `...` from the **Heightmap fro
 
 ##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press the <kbd>Fix to Data</kbd> button to make sure the settings correspond to the resolution of the map provided.  Then press the <kbd>Import</kbd> button.
+Press the <kbd>Fix to Data</kbd> button to make sure the settings correspond to the resolution of the map provided.  Then press the <kbd>Import</kbd> button. Now you should have a cool looking landscape with a large flat portion in the center that we cna use.
 
 ![fix data and import map](images/importMap.png)
 
@@ -176,7 +176,7 @@ Press the <kbd>Fix to Data</kbd> button to make sure the settings correspond to 
 
 Now we do not need to be in **Landscape** mode any more.  Press the <kbd>Mode</kbd> and go back to **Select** mode. Fly around teh level.  You can increase the camera speed so it is quicker to fly around and look at the new map you created.
 
-![fix data and import map(images/selectCameraSpeed.png)
+![fix data and import map](images/selectCameraSpeed.png)
 
 https://user-images.githubusercontent.com/5504953/177608479-82abbb8e-bb97-43e4-ad0c-e9ab8fa59d08.mp4
 
