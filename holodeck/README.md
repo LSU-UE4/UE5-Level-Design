@@ -213,14 +213,14 @@ You should see a message that declares the migration succesful at the bottom rig
 
 ##### `Step 22.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we will also need another material.  
+Now we will also need another material.  Go the the **Content | Materials** folder and look for **M_LDGrid_Local** and right click and press the **Asset Actions | Migrate** button.  Now you can deselect the files in the **Tech Art** folder as we have already migrated them.  Uwes the same **Content** folder and press the <kbd>Select Folder</kbd> button. 
 
 ![migrade grid local material](images/ldGridLocal.png)
 
 
 ![](../images/line.png)
 
-![next up creating custom meshes](images/banner.png)
+![next up holodeck II](images/banner.png)
 
 ![](../images/line.png)
 
