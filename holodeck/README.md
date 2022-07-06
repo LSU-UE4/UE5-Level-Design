@@ -194,7 +194,7 @@ Now lets save our work in this level.  Right click on **Content** and right clic
 
 You will need some materials and textures for the landscape.  Go to [github.com/LSU-UE4/UE5-Level-Design-Assets](https://github.com/LSU-UE4/UE5-Level-Design-Assets).  Click on the green <kbd>Code</kbd> button and select **Download ZIP**.
 
-Now go to [Level Design Assets](https://github.com/maubanel/UE5-Level-Design-Assets) and press the <kbd>Code</kbd> and select **Download Gif**.
+Now go to [Level Design Assets](https://github.com/maubanel/UE5-Level-Design-Assets) and press the <kbd>Code</kbd> and select **Download Git**.
 
 ![download material for level design](images/downloadzip.png)
 
@@ -206,22 +206,6 @@ Now go to [Level Design Assets](https://github.com/maubanel/UE5-Level-Design-Ass
 Unzip the folder and open up **IntroToLDAssets.uproject** and go to **Content Drawer | Landscape | Materials** and right click on **M_Landscape** and select **Asset Actions | Migrate**.  This will start the migration process of all the files you will need for our project.
 
 ![download material for level design](images/migrateMaterials.png)
-
-
-When migrating Unreal knows all the files that this material needs to render correctly.  Agree to all of them.  An explorer window will pop up to where you want to migrate to?  You need to go to the route level design folder that contains your `.uproject` file and then select the **Content** folder. It is always best to migrate to the route **Content** folder to preserve all the prior folders from the source project youa are importing from.
-
-You should see a message that declares the migration succesful at the bottom right corner.
-
-![migrate all files to level design project](images/migrateFiles.png)
-
-![](../images/line2.png)
-
-##### `Step 22.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now we will also need another material.  Go the the **Content | Materials** folder and look for **M_LDGrid_Local** and right click and press the **Asset Actions | Migrate** button.  Now you can deselect the files in the **Tech Art** folder as we have already migrated them.  Uwes the same **Content** folder and press the <kbd>Select Folder</kbd> button. 
-
-![migrade grid local material](images/ldGridLocal.png)
-
 
 ![](../images/line.png)
 
