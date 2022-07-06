@@ -198,7 +198,6 @@ Now go to [Level Design Assets](https://github.com/maubanel/UE5-Level-Design-Ass
 
 ![download material for level design](images/downloadzip.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
