@@ -194,6 +194,9 @@ Now go to [Level Design Assets](https://github.com/maubanel/UE5-Level-Design-Ass
 
 ##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
 
+Unzip the folder and open up
+
+![download material for level design](images/migrateMaterials.png)
 
 
 ![](../images/line2.png)
