@@ -155,7 +155,25 @@ Download this free height map I downloaded from [moton forge pictures](https://w
 
 ![download heightmap and switch to landscape mode](images/downloadLandscape.png)
 
+![](../images/line2.png)
 
+##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+Press the **Import from File** tab and select the `...` from the **Heightmap from File** and select the **RollingHillsHeightMap.png** we downloaded above.  Press the <kbd>Open</kbd> button.
+
+![download heightmap and switch to landscape mode](images/importFile.png)
+
+![](../images/line2.png)
+
+##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+
+##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![](../images/line2.png)
+
+##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now go to [Level Design Assets](https://github.com/maubanel/UE5-Level-Design-Assets) and press the <kbd>Code</kbd> and select **Download Gif**.
 
@@ -178,13 +196,9 @@ Press **Settings | World Settings**.  Each map allows you to adjust the game mod
 
 ![override gamemode settings with ThirdPersonGameMode blueprint](images/image_27.jpg)
 
-
-
-
 Now press play and we should have the character controls we had previously with all of its logic.  Press **Save All** and update Github by **committing** and **pushing** all the changes made. Next up we will lay out the floor and select a custom material.
 
 ![play with original character being loaded](images/image_28.jpg)
-
 
 We will need to use some assets for the level design that will make the process easier.  Go to [UE4-Level-Design-Assets](https://github.com/maubanel/UE4-Level-Design-Assets). Press the green <kbd>Code</kbd> button and select `Open with GitHub Desktop`.
 
@@ -205,18 +219,12 @@ Delete the old floor that came with the template.  Drag and drop one piece of **
 
 ![place new floor in level](images/PlaceNewFloorInLevel.jpg)
 
-![](../images/line2.png)
-
-##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Now this material has a grid on it and it has a grid.  This grid is 1 meter square and gives us a good sense of scale of the level we are working on.  If you move it notice that the grid stays in **World Space** and doesn't move with the geometry.  This allows us to place multiple pieces next to each other without the **Z Fighting** you normally get with two planes at the same level.  This allows you to craft levels without visual side effects.  It is most effective to use this material on the ground.
 
 https://user-images.githubusercontent.com/5504953/127792618-a0178091-50be-4ac0-b07e-4be090dee90e.mp4
 
 
-![](../images/line2.png)
-
-##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 To make placing the floor pieces easier we want the grid snap to be at 400 Unreal Units (400 cm or 4 m).  The menu only has **100** and **500**.  
 
@@ -224,15 +232,9 @@ To make placing the floor pieces easier we want the grid snap to be at 400 Unrea
 
 ![](../images/line2.png)
 
-##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Go to **Edit | Editor Preferences** and type in the search window type `snap` and look for **Decimal Grid Sizes** and on the `500` entry press the arrow and select **Insert**.  Then change this value to `400` and make sure it is between the **100** and **500** value.
 
 ![add a new snap to editor preferences of 400 units](images/400Snap.jpg)
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now you can set the snap to **400** in the game as it added this new value!
 
