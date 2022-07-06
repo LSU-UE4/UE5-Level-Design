@@ -21,23 +21,24 @@ You should see a message that declares the migration succesful at the bottom rig
 
 ![migrate all files to level design project](images/migrateFiles.png)
 
-Now we will also need another material.  Go the the **Content | Materials** folder and look for **M_LDGrid_Local** and right click and press the **Asset Actions | Migrate** button.  Now you can deselect the files in the **Tech Art** folder as we have already migrated them.  Uwes the same **Content** folder and press the <kbd>Select Folder</kbd> button. 
-
-![migrade grid local material](images/ldGridLocal.png)
-
-Now reopent he **Level Design** game we left that we now migrated these files to.  
-
-![alt text](images/assignMaterial.png)
-
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: 
+
+Now we will also need another material.  Go the the **Content | Materials** folder and look for **M_LDGrid_Local** and right click and press the **Asset Actions | Migrate** button.  Now you can deselect the files in the **Tech Art** folder as we have already migrated them.  Uwes the same **Content** folder and press the <kbd>Select Folder</kbd> button. 
+
+![migrade grid local material](images/ldGridLocal.png)
 
 ![alt text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now reopent he **Level Design** game we left that we now migrated these files to.  
+
+![alt text](images/assignMaterial.png)
+
 
 ![alt text](images/.png)
 
