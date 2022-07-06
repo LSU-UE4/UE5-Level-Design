@@ -35,9 +35,10 @@ Now we will also need another material.  Go the the **Content | Materials** fold
 
 ##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now reopent he **Level Design** game we left that we now migrated these files to.  
+Now reopen the **Level Design** game we left that we now migrated these files to. Woops we load up to the old map we are no longer needing.  To change the default press **Edit | Project Settings** and change **Maps & Modes**.
 
-![alt text](images/assignMaterial.png)
+![alt text](images/projectSettings.png)
+
 
 
 ![alt text](images/.png)
@@ -46,13 +47,17 @@ Now reopent he **Level Design** game we left that we now migrated these files to
 
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+
+
 ![alt text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
-![alt text](images/.png)
+Now reopen the **Level Design** game we left that we now migrated these files to. 
+
+![alt text](images/assignMaterial.png)
 
 ![](../images/line2.png)
 
