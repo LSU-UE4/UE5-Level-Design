@@ -59,7 +59,9 @@ Now take a look and we have a basic set of ground materials we have to cover our
 
 ##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
 
-![alt text](images/.png)
+Open up **MI_Landscape** and 
+
+![alt text](images/meterMaterial.png)
 
 ![](../images/line2.png)
 
