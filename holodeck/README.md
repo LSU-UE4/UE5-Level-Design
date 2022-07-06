@@ -174,6 +174,8 @@ Press the <kbd>Fix to Data</kbd> button to make sure the settings correspond to 
 
 ##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+selectCameraSpeed
+
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
