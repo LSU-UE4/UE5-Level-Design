@@ -184,6 +184,8 @@ https://user-images.githubusercontent.com/5504953/177608479-82abbb8e-bb97-43e4-a
 
 ##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+You will need some materials and textures for the landscape.  Go to [github.com/LSU-UE4/UE5-Level-Design-Assets](https://github.com/LSU-UE4/UE5-Level-Design-Assets).  Click on the green <kbd>Code</kbd> button and select **Download ZIP**.
+
 Now go to [Level Design Assets](https://github.com/maubanel/UE5-Level-Design-Assets) and press the <kbd>Code</kbd> and select **Download Gif**.
 
 Go to **File | Save Current** and call the level `Holodeck` and save it to the **Levels** folder. Press the **Save** button.
