@@ -186,7 +186,7 @@ https://user-images.githubusercontent.com/5504953/177608479-82abbb8e-bb97-43e4-a
 
 Now lets save our work in this level.  Right click on **Content** and right click and select **New Folder**. Call it `Maps`.  Press **File | Save** and call the new level `Holodeck` and save it in the **Maps** folder.
 
-
+![create maps folder and save level as Holodeck](images/saveLevel.png)
 
 ![](../images/line2.png)
 
