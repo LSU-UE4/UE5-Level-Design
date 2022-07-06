@@ -50,6 +50,9 @@ Now reopen the **Maps | Holodeck** game we left that we now migrated these files
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
+Now take a look and we have a basic set of ground materials we have to cover our landscape.
+
+![landscape material](images/generalLandscape.png)
 
 
 ![](../images/line2.png)
