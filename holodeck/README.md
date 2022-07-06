@@ -194,7 +194,7 @@ Now go to [Level Design Assets](https://github.com/maubanel/UE5-Level-Design-Ass
 
 ##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
 
-Unzip the folder and open up
+Unzip the folder and open up **IntroToLDAssets.uproject** and go to **Content Drawer | Landscape | Materials** and right click on **M_Landscape** and select **Asset Actions | Migrate**.  This will start the migration process of all the files you will need for our project.
 
 ![download material for level design](images/migrateMaterials.png)
 
@@ -203,7 +203,9 @@ Unzip the folder and open up
 
 ##### `Step 21.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Lets organize the **World Outliner**.  Select all the floor pieces and right click and select **Create New Folder**.  Call this 
+When migrating Unreal knows all the files that this material needs to render correctly.  Agree to all of them.  An explorer window will pop up to where you want to migrate to?  You need to go to the route level design folder that contains your `.uproject` file.
+
+![migrate all files to level design project](images/migrateFiles.png)
 
 ![](../images/line2.png)
 
