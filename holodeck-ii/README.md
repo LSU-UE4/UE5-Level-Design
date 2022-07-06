@@ -29,8 +29,6 @@ Now we will also need another material.  Go the the **Content | Materials** fold
 
 ![migrade grid local material](images/ldGridLocal.png)
 
-![alt text](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
