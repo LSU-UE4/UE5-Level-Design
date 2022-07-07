@@ -43,7 +43,7 @@ Run the game and you will see that the ramp is way too small and too steep to cl
 
 Now <kbd>Alt Click</kbd> on the arrow and duplicate the player.  Create a group of them `20` meters apart (20 squares).  Fill up a large area.
 
-![duplicate the player and place 20 meters apart to cover open area](images/duplicaet.jpg)
+![duplicate the player and place 20 meters apart to cover open area](images/duplicaet.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
