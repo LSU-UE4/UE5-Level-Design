@@ -29,7 +29,7 @@ Double click **SM_Mannequin** (SM_ is short for Skeltal Mesh) and press the <kbd
 
 Drag the newly created **SM_Reference_Pose** into the center flat part of the map around where you placed the **Player Start** actor.
 
-![place first ramp](images/dragScaleRefToMap.png)
+![drag sm_reference_pose to map](images/dragScaleRefToMap.png)
 
 Now lets add a ramp to run up and down and see how it feels.  It looks like **Content | Geometry | Meshes | SM_Wedge_B** will work as a ramp.  Drag it into the level and place and rotate it in front of the player start.  Remember that the **Red** or **X** axis is forward in Unreal. To get it to snap to the ground press the <btn>end</btn> button on the keyboard.
 
@@ -41,13 +41,17 @@ Run the game and you will see that the ramp is way too small and too steep to cl
 
 ##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets adjust the scale of the ramp.  Change the **Scale X** to `10.0`, **Scale Y** and **Scale Z** to `5.0`. This will make the ramp longer and shorter and hopefully the player can climb it.
+Now <kbd>Alt Click</kbd> on the arrow and duplicate the player.  Create a group of them `20` meters apart (20 squares).  Fill up a large area.
 
-![alt_text](images/ResizeScaleOfFirstRamp.jpg)
+![duplicate the player and place 20 meters apart to cover open area](images/duplicaet.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now lets adjust the scale of the ramp.  Change the **Scale X** to `10.0`, **Scale Y** and **Scale Z** to `5.0`. This will make the ramp longer and shorter and hopefully the player can climb it.
+
+![alt_text](images/ResizeScaleOfFirstRamp.jpg)
 
 Run the game and run up and down the ramp. I am happy with these settings.
 
