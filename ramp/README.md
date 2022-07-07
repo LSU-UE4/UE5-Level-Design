@@ -6,9 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-We have provided a set of basic shapes that you can use to block out a level.  Now each design will have custom requirements where one of these shapes will not work. We would like to create another shape but don't want to go to another software package to create it.
-
-Unreal gives us a way of creating a simple mesh in engine. Lets look at how can we can do this.
+Unreal 5 now officially gives us the ability to create custom static meshes in engine.
 
 In this game I envision a bunch of ramps that the player can run up and down.  Lets build 4 ramps of different lengths and steepness so that we can give it a test run
 
