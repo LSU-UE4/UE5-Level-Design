@@ -17,7 +17,9 @@ In this game I envision a bunch of ramps that the player can run up and down.  L
 
 ##### `Step 1.`\|`SUU&G`|:small_blue_diamond:
 
-Now it is always a good idea to populate the area we are working in with a scale reference.  In this case I think the player is a good sense of size and scale.  Now our character is a 
+Now it is always a good idea to populate the area we are working in with a scale reference.  In this case I think the player is a good sense of size and scale.  Now our character is a skeletal mesh and includes polygons, physics as well as a skeleton.  We only need the mesh.
+
+Double click **SM_Mannequin** (SM_ is short for Skeltal Mesh) and press the <kbd>Make Static Mesh</kbd> button.  Call this mesh `SM_Reference_Pose` and put it in the **Meshes** folder.  Press the <kbd>Save</kbd> button.
 
 ![place first ramp](images/createStaticMesh.png)
 
