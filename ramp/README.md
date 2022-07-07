@@ -21,11 +21,15 @@ Now it is always a good idea to populate the area we are working in with a scale
 
 Double click **SM_Mannequin** (SM_ is short for Skeltal Mesh) and press the <kbd>Make Static Mesh</kbd> button.  Call this mesh `SM_Reference_Pose` and put it in the **Meshes** folder.  Press the <kbd>Save</kbd> button.
 
-![place first ramp](images/createStaticMesh.png)
+![convert sm_mannequin to a static mesh](images/createStaticMesh.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+
+Drag the newly created **SM_Reference_Pose** into the center flat part of the map around where you placed the **Player Start** actor.
+
+![place first ramp](images/dragScaleRefToMap.png)
 
 Now lets add a ramp to run up and down and see how it feels.  It looks like **Content | Geometry | Meshes | SM_Wedge_B** will work as a ramp.  Drag it into the level and place and rotate it in front of the player start.  Remember that the **Red** or **X** axis is forward in Unreal. To get it to snap to the ground press the <btn>end</btn> button on the keyboard.
 
