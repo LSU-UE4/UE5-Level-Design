@@ -71,8 +71,6 @@ Press play and notice that it uses the same player we used in the last map.  Whe
 
 ![play game and see use of default pawn](images/thirdPersonSstart.png)
 
-![alt text](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
@@ -81,7 +79,6 @@ Now we notice that the player might fall into place.  How do we control where th
 
 https://user-images.githubusercontent.com/5504953/177664981-ce617563-060d-46d9-b3a5-d019b1da5cac.mp4
 
-![alt text](images/.png)
 
 ![](../images/line2.png)
 
