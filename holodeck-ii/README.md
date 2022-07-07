@@ -88,6 +88,23 @@ Press the <kbd>Place Actors</kbd> button and type in **Player Start**.  Add it t
 
 https://user-images.githubusercontent.com/5504953/177665010-1048b403-a25b-4781-8314-ed2094f610f3.mp4
 
+![](../images/line2.png)
+
+##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
+
+Now why does the engine spawn a player in this new level.  It is done by the template.  If you go to **Edit | Project Settings | Maps & Modes**, it is the **Default Gamemode | Default Pawn Class**.  This is used for every level unless overidden (which we did not do).  In this **GameMode** blueprint it is using the **BP_Third_Person** character that edited prior.
+
+![alt text](images/gameModes.png)
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
+
+Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Source Control...**. Enter a **Changelist Description** and then press <kbd>Submit Content</kbd>. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
+
+![save all and submit to perforce](images/submitP4.png)
+
+
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Next Title"> -->
