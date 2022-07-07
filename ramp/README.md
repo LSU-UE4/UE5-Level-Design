@@ -19,7 +19,7 @@ In this game I envision a bunch of ramps that the player can run up and down.  L
 
 Now it is always a good idea to populate the area we are working in with a scale reference.  In this case I think the player is a good sense of size and scale.  Now our character is a 
 
-![place first ramp](images/createStaticMesh.jpg)
+![place first ramp](images/createStaticMesh.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
