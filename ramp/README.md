@@ -49,6 +49,12 @@ Now <kbd>Alt Click</kbd> on the arrow and duplicate the player.  Create a group 
 
 ##### `Step 4.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now press **Play** and run around.  Notice that the ground is not flat so some are floating and some are inside the ground.  Select all the players in the menu and raise them way up in the air.  Press the <kbd>End</kbd> key and this will drop all of them to the closest point on the ground even if they are all at different heights. Now press **Play** again and all the players should be in the correct **Z** position.
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
+
 Now lets adjust the scale of the ramp.  Change the **Scale X** to `10.0`, **Scale Y** and **Scale Z** to `5.0`. This will make the ramp longer and shorter and hopefully the player can climb it.
 
 ![alt_text](images/ResizeScaleOfFirstRamp.jpg)
@@ -57,9 +63,6 @@ Run the game and run up and down the ramp. I am happy with these settings.
 
 https://user-images.githubusercontent.com/5504953/127868743-810ccfed-6592-46d4-8e58-509b8083ed21.mp4
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
 
 Now this static mesh has a different grid material.  It is **MI_LDGrid_Local** which is different than the material we have on the floor.  On the floor the grid stays in world space and doesn't move with the actor.  In the **MI_LDGrid_Local** materail the grid moves with the static mesh in local space.  We will use this for all meshes we add to our floor plane.  Also, when you scale it the material keeps the 1 meter by 1 meter reference.
 
