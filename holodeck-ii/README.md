@@ -67,15 +67,17 @@ Open up **MI_Landscape** and set **Use Debug Material Low Flat** to `true` first
 
 ##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press play and notice that it uses the **Default Pawn**.  This is the character that is loaded in the default level. It is a first person fly around view.  This is the default pawn if one is not specified in the **Game Mode** in either **Project Settings** or **World Settings**.
+Press play and notice that it uses the same player we used in the last map.  Where does the game decide to use this character.  It is a global setting that you can see in **Edit | Project Settings | Maps & Modes**.  Look at the **Default Pawn Class** and you see it is using the same blueprint character we edited.
 
-![play game and see use of default pawn](images/image_26.png)
+![play game and see use of default pawn](images/thirdPersonSstart.png)
 
 ![alt text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now we notice that the player might fall into place.  How do we control where the player launches when we hit play?  
 
 ![alt text](images/.png)
 
