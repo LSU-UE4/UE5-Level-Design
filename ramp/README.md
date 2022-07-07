@@ -2,7 +2,7 @@
 
 ### Creating Custom Meshes
 
-<sub>[previous](../holodeck/README.md#user-content-setting-up-holodeck) • [home](../README.md#user-content-ue4-intro-to-level-design) • [next](../ramps2/README.md#user-content-finish-remaining-3-ramps)</sub>
+<sub>[previous](../holodeck-ii/README.md#user-content-setting-up-holodeck-ii) • [home](../README.md#user-content-ue4-intro-to-level-design) • [next](../ramps2/README.md#user-content-finish-remaining-3-ramps)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -216,5 +216,5 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../holodeck/README.md#user-content-setting-up-holodeck)| [home](../README.md#user-content-ue4-intro-to-level-design) | [next](../ramps2/README.md#user-content-finish-remaining-3-ramps)|
+| [previous](../holodeck-ii/README.md#user-content-setting-up-holodeck-ii)| [home](../README.md#user-content-ue4-intro-to-level-design) | [next](../ramps2/README.md#user-content-finish-remaining-3-ramps)|
 |---|---|---|
