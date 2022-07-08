@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Creating Custom Meshes
 
 <sub>[previous](../holodeck-ii/README.md#user-content-setting-up-holodeck-ii) • [home](../README.md#user-content-ue4-intro-to-level-design) • [next](../ramps2/README.md#user-content-finish-remaining-3-ramps)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Unreal 5 now officially gives us the ability to create custom static meshes in engine.
 
@@ -23,7 +23,7 @@ Double click **SM_Mannequin** (SM_ is short for Skeltal Mesh) and press the <kbd
 
 ![convert sm_mannequin to a static mesh](images/createStaticMesh.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -31,13 +31,7 @@ Drag the newly created **SM_Reference_Pose** into the center flat part of the ma
 
 ![drag sm_reference_pose to map](images/dragScaleRefToMap.png)
 
-Now lets add a ramp to run up and down and see how it feels.  It looks like **Content | Geometry | Meshes | SM_Wedge_B** will work as a ramp.  Drag it into the level and place and rotate it in front of the player start.  Remember that the **Red** or **X** axis is forward in Unreal. To get it to snap to the ground press the <btn>end</btn> button on the keyboard.
-
-Run the game and you will see that the ramp is way too small and too steep to climb.  The player can not traverse it.  Lets fix this.
-
-![run game ramp to small and can't climb](images/RunUneditedRamp.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -45,191 +39,159 @@ Now <kbd>Alt Click</kbd> on the arrow and duplicate the player.  Create a group 
 
 ![duplicate the player and place 20 meters apart to cover open area](images/duplicaet.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now press **Play** and run around.  Notice that the ground is not flat so some are floating and some are inside the ground.  Select all the players in the menu and raise them way up in the air.  Press the <kbd>End</kbd> key and this will drop all of them to the closest point on the ground even if they are all at different heights. Now press **Play** again and all the players should be in the correct **Z** position.
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+insert PlacePeopleInZ.mp4
+
+![](../images/line2.png)
 
 ##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
 
-Now lets adjust the scale of the ramp.  Change the **Scale X** to `10.0`, **Scale Y** and **Scale Z** to `5.0`. This will make the ramp longer and shorter and hopefully the player can climb it.
+Now we want the geometry that we create to sit in a scratch folder.  I like to fix it to the same place every tiem so go to **Edit | Project Settings | Plugins | Modeling Mode** and adjust the **Asset Generation Location** to `Auto Generated Global Asset Path` and the **Auto Generated Asset Path** to `_MarcMeshes` (you can use your own name or anything else that is indicative that this is your working scratch folder). We will be moving these to the **Static Meshes** folder when they are done.
 
-![alt_text](images/ResizeScaleOfFirstRamp.jpg)
-
-Run the game and run up and down the ramp. I am happy with these settings.
-
-https://user-images.githubusercontent.com/5504953/127868743-810ccfed-6592-46d4-8e58-509b8083ed21.mp4
+![adjust settings of modeling mode to a fixed global path of _MarcMeshes](images/modellingSettings.png)
 
 
-Now this static mesh has a different grid material.  It is **MI_LDGrid_Local** which is different than the material we have on the floor.  On the floor the grid stays in world space and doesn't move with the actor.  In the **MI_LDGrid_Local** materail the grid moves with the static mesh in local space.  We will use this for all meshes we add to our floor plane.  Also, when you scale it the material keeps the 1 meter by 1 meter reference.
-
-https://user-images.githubusercontent.com/5504953/127868139-d13a3926-b00b-415d-92de-797a435411ae.mp4
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-| `geometry.brushes`\|`Introduction To Level Design`| 
-| :--- |
-| :floppy_disk: &nbsp;&nbsp;"*Geometry Brushes are the most basic tool for level construction in Unreal. Conceptually, it is best to think of a Geometry Brush as filling in and carving out volumes of space in your level. Previously, Geometry Brushes were used as the primary building block in level design. Now, however, that role has been passed on to Static Meshes, which are far more efficient. However, Geometry Brushes can still be useful in the early stages of a product for rapid prototyping of levels and objects, as well as for level construction by those who do not have access to 3D modeling tools. This document goes over the use of Geometry Brushes and how they can utilized in your levels.<br><br>In general, you can think of Geometry Brushes as a way to create basic shapes for use in your level design process, either as permanent fixtures or as something temporary to test with while your artists finish creating final meshes.*" - [Unreal Engine Documentation](https://docs.unrealengine.com/4.26/en-US/Basics/Actors/Brushes/) |
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
-So in a pinch we can use a geometry brush to create a static mesh without having to learn another software package. We want a cylinder in the middle of 4 ramps to act as a platform to connect them. Go to **Geometry | Cylinder** and drag on in front of the ramp.
+Now lets add a ramp for the player to run on.  We will do this but editing a basic shape using the **UE5** modeling tools.  Press **Select Mode** and `Modeling`. Now press the **Shape | Box** section on the left.  Make the box `600` cm in **Width** and **Height** (6 meters or ?? feet) and `1500` cm (15 meters or ?? feet) in **Depth**. Left click the new box to the level and press the <kbd>Complete</kbd> button. 
 
-![add cylinder to level in front of ramp](images/CylinderInLevel.jpg)
+Now the game tries to place the object to the best of its abilities and often rotates it.  It is **VERY IMPORTANT** to reset the **Rotation** so that is it `0`, `0`, `0` on **X**, **Y** and **Z**.
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![add box that is 600 units wide and heigh by 1500 units deep](images/addRamp.png)
+
+![](../images/line2.png)
 
 ##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we can move to **Top** view and change it to **Lit** mode so we can make the radius so that then column thickness matches the ramp thickness.  If found that a value for the **Brush Settings | Outer Radius** of `600` matches the width nicely.
+Now to create a ramp we will need to lower one of the polygon edges.  Go to **Poly Model | PolyEdit** mode and select the top edge.  It brings up a **Gizmo** so that you can pull the blue line downwards.  Be careful not to leave an edge or bring it too low.  Zoom in and make it overlap the bottom edge.  If it skips over the ideal location then you need to adjust how much the movement snaps to.  When you are happy press the <kbd>Accept</kbd> button. 
 
-![alt_text](images/ScaleCylinderDiameter.jpg)
+Place the model in the level in front of the player start and so that the ramp is fully on the ground.  You might have to go underground a big so that no piece is floating as the ground is not perfectly flat.
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+insert CreateFirstRamp.mp4
+
+
+![](../images/line2.png)
 
 ##### `Step 8.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we can add materials to brushes just like we can to static meshes.  The problem is that each face is a separate material.  This means we have to select all the faces first.
+Now lets test our work.  Go to **Select Mode** and choose `Select`.  Now press the <kbd>Play</kbd> button and run up and down the ramp.  In my case everything works as planned.
 
-Go to **Geometry | Select | Select All Adjacent Surfaces** to select all faces on the model.  Then drag **MI_LDGrid_Base** to the model.  The local one cannot be used as it is only for static meshes. 
+TestFirstRamp.mp4
 
-![add base material to all faces of column](images/AddMaterialToBrush2.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to make the column as tall as the ramp. We can use the **Geometry | Z** setting and make it `500`.  Remember that it scales from the middle so the column could be buried under the ground.  Raise it and press the <btn>end</btn> key to place it back on the ground. Also adjust it so that it lines up right at the end of the ramp.  Use the different views to properly align the shape.
+Now lets create a second ramp that is a `45%` slope.  We will go back to **Modeling Mode** and select a **Cube** that is  `600`cm in **Width** and **Height** and `1200`cm in **Depth**. Now the game tries to place the object to the best of its abilities and often rotates it.  It is **VERY IMPORTANT** to reset the **Rotation** so that is it `0`, `0`, `0` on **X**, **Y** and **Z**.
 
-![make z height of column](images/MatchHeight.jpg)
+![steep ramp create of 600 x 600 x 1200 creatinga  45% ramp](images/steeperRampCreate.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+![](../images/line2.png)
 
 ##### `Step 10.`\|`SUU&G`| :large_blue_diamond:
 
-Now for brushes we can adjust the pivot point. Sometimes it is not where we want it to be. For objects that lie on the ground, it is common to have the pivot point in a bottom corner (usually the same one) or the bottom center (say for the player character).  We can see that the ramp and the cylinder have different locations for their pivot points.
+Go back to **Poly Model | Poly Edit** and drag the **edge** down to make another ramp.  Zoom in to get the edges to align perfectly.  Press the <kbd>Accept</kbd> button.
 
-![notice wrong pivot location for cylinder compared to ramp](images/WeirdPivots.jpg)
+![lower edge to create ramp](images/moveEdge.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: 
 
-You need to switch to an orthographic view, I picked **Right**.  Then on a vertice right mouse click to snap the pivot point.  I have to move the cylinder a bit out of the way of the other geometry to get this to work right.
+Make sure the ramps are at the same height. We will be lining four of them up facing each other and building a 600 unit platform in the middle.  So make sure the **Locatin | Z** values are the same. 
 
-Right click on the open graph while the cylinder is selected and press 
+![line up ramp locatoin on z](images/rampsLineOnZ.png)
 
-![right click on bottom vertice in right orthogrpahic view](images/MovePivotStep1.jpg)
-
-![pivot moved to this vertice](images/PivotMoved.jpg)
-
-![pivot moved to this vertice](images/PivotMoved.jpg)
-
-![set pivot offset](images/SetPivotOffset.jpg)
-
-
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now to be more efficient we can convert this brush to a static mesh.  Select the cylinder brush and expand the **Brush Options** by pressing the arrow at the bottom exposing the **Create Static Mesh** button.  Press <kbd>Create Static Mesh</kbd> and select the **Geometry | Meshes** folder and call it `SM_Ramp_Cylinder` and press the green <kbd>Create Static Mesh</kbd> button on the **Select Path** pop-up.
+If the model is not orthoganal while you are editing in world space you will skew the geometry. The best way to check for this is to go into **Top** view and switch the rendering to **Wireframe**.  You should see only 4 edges.  If you see overlapping edges you have warped the geometry and you should start over again.
 
-![convert brush to static mesh](images/ConvertToStaticMesh.jpg)
+![check in above for skewing](images/checkSkewing.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+![](../images/line2.png)
 
 ##### `Step 13.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now it is converted to a static mesh so you can readjust the position if you had to move it back into the correct position.
+Now move over one of the ramps that you are happy with the position and line up with the grid lines.  Grid snapping will work in your favor if the ramps are aligned with the grid.  You can adjust them later when you have them perfectly lined up.
 
-![reposition column](images/RepositionMesh.jpg)
+![check in above for skewing](images/lineUpOnGrid.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+![](../images/line2.png)
 
 ##### `Step 14.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now that it is a static mesh we can change the material to `M_LDGrid_Local`.
+Now grab the second ramp and place them edge to edge.  We want them all to line up around a 6 by 6 grid in the center.
 
-![change material to M_LDGrid_Local](images/ChangeSMMaterialToLocal.jpg)
+![check in above for skewing](images/lineUpPerfectly.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: 
 
-Now run the game and go on the ramp.  Woops, there is an issue there is NO collision on this converted brush!  Lets fix that.
+Select both ramps and change the **Material** to `M_LDGrid_Local`.
 
-https://user-images.githubusercontent.com/5504953/127878402-8ed214ca-144d-4d53-b6f4-4819be8e9a56.mp4
+![check in above for skewing](images/changeMaterial.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-So lets open up the **SM_Ramp_Cylinder** in the static mesh editor.  Notice that it only has 48 vertices, so we do not need a seperate smaller model for collisions and can use the same mesh for rendering as we do for collisions.  Go to **Collision | Colision Complexity** and change it from **Project Default** to `Use Complex As Simple`.  Now you can preview this in the editor by selecting **Collision | Simple**.  You will see the vertices light up.
+This gives us the same 1 meter grid on the object.  The grid on the ground is in world space so that if we make any changes to the ground the grid lines stay in place.  The **M_LDGrid_Local** are in local space so that they will be relative to the object that you are contorlling.
 
-![use complex as simple for collision on cylinder](images/SetComplexAsSimple.jpg)
+![check in above for skewing](images/oneMeterGridRamp.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Run the game and you will see that the collisions are working again!
+What makes this material unique and useful for level design is that no matter how much we scale or change the model the material stays as 1 meter squares.  This allows us to make adjustments in engine to get things right but always have a proper scale representation that is so important to maintaining scale.
 
-https://user-images.githubusercontent.com/5504953/127881414-51b2b02f-7708-4400-adff-d4b4169864b9.mp4
+ScalingMaterial.mp4
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-| `lock.meshes`\|`Introduction To Level Design`| 
-| :--- |
-| :floppy_disk: &nbsp;&nbsp; Now when we are happy with our level design so far.  Our floor and our ramp and cylinder work the way I want.  Now there is a way in Unreal to lock these static meshes so they don't accidentally move.  It is very easy to accidentally move pieces out of position so this is a good precautionary measure. |
+![](../images/line2.png)
 
 ##### `Step 18.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select all the floor meshes (you can't just select the folder) and right click and press **Transform | Lock Actor Movement**.  Now when you go to move a floor piece it has a red slash and cannot be moved.  This can of course be deselected so you can move these meshe(s) again.
+Lets add a third ramp.  This time we will make it a more interesting shape and not just a straight ramp.  The tools allow us to make more complex shapes.  Go back to **Modeling Mode** and select another **Box** that is `600` cm in **Width** and **Height** but a full `2000` cm in **Depth**.  After placing it in the level press the <kbd>Complete</kbd> button.  Change the **Material** to `M_LDGrid_Local`. Make sure you set **ALL** rotations to `0`.
 
-![lock floor meshes](images/LockFloorMeshes.jpg)
+![check in above for skewing](images/thirdRampStart.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+![](../images/line2.png)
 
 ##### `Step 19.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Create a folder called **Ramps** and place the ramp and cylinder in it.  Rename those objects so that they make sense to you.  Also, repeat locking the actor movement for these to static meshes as well if you are happy with them.
+Now we need to add more polygons to the faces so we can have a curved ramp rather than a single surface made with two triangles.  Go to **Poly Model | Poly Edit** and go to **Shape Edits | Insert Edge Loop**.  This will allow you to click along the long edge and a a loop and subdivide our ramp every 2 meters (2 squares in the material).  Lock in the changes by pressing the <kbd>Accept</kbd> button. Now go back to **Poly Model | Poly Edit** mode and adjust the edges so that we get a nice S loop in the ramp.  Press the <kbd>Accept</kbd> button.
 
-![lock transforms on two ramps](images/LockRampTransforms.jpg)
+MakeCurvedRamp.mp4
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond:
 
-OK, lets save and update our repository.  Press **File | Save All** in **Unreal**. Press the <kbd>Source Control</kbd> button and select `Submit to Source Control...`. Add a **Commit** message and press the <kbd>Submit</kbd> button.
+Now that we have completed it we need to put it with the other ramps so that they touch at the corners.  Make sure the **Z** heights are the same, then go into **Top** view in **Polygon** viewer to line them up perfectly.
 
-Open **GitHub Desktop** and press <kbd>Push origin</kbd> to update the server.  If you do not do this it will be saved locally but not on **GitHub**.
+![Line up third ramp and make sure it is orthogonal](images/LineUpThirdRamp.png)
 
-We will move on next to adding our first ramp to the game.
 
-![save and commit changes to github](images/SaveAndCommit.jpg)
+![](../images/line.png)
 
-![push changes to github](images/PushToOrigin.jpg)
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Next Title"> -->
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-___
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
-
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Finish Remaining 3 Ramps">
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../holodeck-ii/README.md#user-content-setting-up-holodeck-ii)| [home](../README.md#user-content-ue4-intro-to-level-design) | [next](../ramps2/README.md#user-content-finish-remaining-3-ramps)|
 |---|---|---|
