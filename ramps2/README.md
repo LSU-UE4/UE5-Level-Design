@@ -56,6 +56,12 @@ https://user-images.githubusercontent.com/5504953/178108011-95b0a1b8-5e5e-488d-b
 
 ##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
+![create a 600 square foot box](images/nameRamps.png)
+
+![](../images/line2.png)
+
+##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
 
 | `lock.meshes`\|`Introduction To Level Design`| 
 | :--- |
@@ -105,10 +111,6 @@ https://user-images.githubusercontent.com/5504953/127903749-18c1504a-0e4e-46db-b
 Renamethe ramps with a postfix indicating the different scalesz along **X**. Freeze the transforms on the ramps to properly organize the **World Outliner**.
 
 ![rename and freeze four ramps](images/FreezeTransformFourRamps.jpg)
-
-![](../images/line2.png)
-
-##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Type `Text Render` in the modes panel to add a 2-D text to add on top of the ramps to identify it from afar.  Type in as the **Text** field: `Ramps`. Change the **Horizontal Alignment** to `Center`. Move it to ontop of the ramp.
 
