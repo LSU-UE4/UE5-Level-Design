@@ -50,6 +50,8 @@ Assign the **M_LDGrid_Local** material to the new model.  Make sure the **Rotati
 
 Now play the game and run around.  There should be no gaps in the ramp and the player shoudl run smoothly over the surface.  If there are any physics issues make final adjustments to your geometry now.
 
+https://user-images.githubusercontent.com/5504953/178108011-95b0a1b8-5e5e-488d-bb0e-64ee94e48242.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
