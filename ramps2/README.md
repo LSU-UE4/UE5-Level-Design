@@ -107,6 +107,27 @@ Now lets go to the folder we created to hold the models we were creating.  Delet
 
 ![](../images/line2.png)
 
+
+##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+Now move these 5 ramps to your meshes folder.
+
+![move 5 ramps to meshes folder](images/moveToMeshes.png)
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+![alt text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+![alt text](images/.png)
+
+![](../images/line2.png)
+
 ![rename and freeze four ramps](images/FreezeTransformFourRamps.jpg)
 
 Type `Text Render` in the modes panel to add a 2-D text to add on top of the ramps to identify it from afar.  Type in as the **Text** field: `Ramps`. Change the **Horizontal Alignment** to `Center`. Move it to ontop of the ramp.
