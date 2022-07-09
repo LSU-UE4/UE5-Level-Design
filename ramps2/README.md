@@ -56,7 +56,9 @@ https://user-images.githubusercontent.com/5504953/178108011-95b0a1b8-5e5e-488d-b
 
 ##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
-![create a 600 square foot box](images/nameRamps.png)
+Now that we are happy with the ramps lets do some housecleaning.  Go to the **Outliner** and give each piece a descriptive name.  I named mine `CenterBlock`, `MidSizeRamp`, `ShortRamp`, `UndulatingRamp` and `CurvedRamp`.
+
+![give ramps descriptive names in outliner](images/nameRamps.png)
 
 ![](../images/line2.png)
 
