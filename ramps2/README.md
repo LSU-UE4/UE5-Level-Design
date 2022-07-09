@@ -15,6 +15,11 @@ Lets create the final ramp to complete the four touching ramps.  We will then ad
 
 ##### `Step 1.`\|`SUU&G`|:small_blue_diamond:
 
+Create a fourth ramp on your own.  Try being creative with the design! Then make sure it lines up in the las slot.  You should now have a perfect 600 unit hole inbetween the four ramps!
+
+![create fourth ramp and line up](images/fourthRamp.png)
+
+
 | `lock.meshes`\|`Introduction To Level Design`| 
 | :--- |
 | :floppy_disk: &nbsp;&nbsp; Now when we are happy with our level design so far.  Our floor and our ramp and cylinder work the way I want.  Now there is a way in Unreal to lock these static meshes so they don't accidentally move.  It is very easy to accidentally move pieces out of position so this is a good precautionary measure. |
