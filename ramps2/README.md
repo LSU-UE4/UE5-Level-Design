@@ -118,43 +118,27 @@ Now move these 5 ramps to your meshes folder.
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt text](images/.png)
+Type `Text Render` in the modes panel to add a 2-D text to add on top of the ramps to identify it from afar.  Type in as the **Text** field: `Ramps`. Change the **Horizontal Alignment** to `Center`. Move it to ontop of the ramp.
+
+![add ramps text render](images/AddRampsTextRender.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt text](images/.png)
-
-![](../images/line2.png)
-
-![rename and freeze four ramps](images/FreezeTransformFourRamps.jpg)
-
-Type `Text Render` in the modes panel to add a 2-D text to add on top of the ramps to identify it from afar.  Type in as the **Text** field: `Ramps`. Change the **Horizontal Alignment** to `Center`. Move it to ontop of the ramp.
-
-![add ramps text render](images/AddRampsTextRender.jpg)
-
 Make it really big and place it on top of the ramp. Set the **World Size** to `258` and readjust the position.  Pick a color so that it constrasts nicely with the sky. Now we want to see if from most parts of the level so duplicate the text render and rotate it 90 degrees so you can see the text from all angles (as the text is not 3-D). Raise one so they don't occlude each other and run the game to test whether they get in the way.  They shouldn't mess with the player movement.  When you are happy rename these text render components to `Ramps Title 1` and `Ramps Title 2` and lock their transforms.
 
 https://user-images.githubusercontent.com/5504953/128019875-39f769c8-b0a2-49bd-aa18-13dce32bc4b2.mp4
 
+![alt text](images/.png)
+
 ![](../images/line2.png)
 
-##### `Step 9.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
 
-Rename the text actors in the **World Outlinder** and move them to the ramps folder.
+Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Source Control...**. Enter a **Changelist Description** and then press <kbd>Submit Content</kbd>. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
 
-Now it is time to save and update the repository.  Press **File | Save All** in **Unreal**. Press the <kbd>Source Control</kbd> button and select `Submit to Source Control...`. Add a **Commit** message and press the <kbd>Submit</kbd> button.
-
-Open **GitHub Desktop** and press <kbd>Push origin</kbd> to update the server.  If you do not do this it will be saved locally but not on **GitHub**.
-
-We will move on next to adding our first ramp to the game.
-
-![save and commit changes to github](images/SaveAndCommit.jpg)
-
-![push changes to github](images/PushToOrigin.jpg)
-
-___
+![save all and submit to perforce](images/submitP4.png)
 
 
 ![](../images/line.png)
