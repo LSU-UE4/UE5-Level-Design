@@ -72,7 +72,7 @@ Create a new folder in the **Outlinder** called `Ramps` and place the 5 objects 
 
 | `lock.meshes`\|`Introduction To Level Design`| 
 | :--- |
-| :floppy_disk: &nbsp;&nbsp; Now when we are happy with our level design so far.  Our floor and our ramp and cylinder work the way I want.  Now there is a way in Unreal to lock these static meshes so they don't accidentally move.  It is very easy to accidentally move pieces out of position so this is a good precautionary measure. |
+| :floppy_disk: &nbsp;&nbsp; Now when we are happy with our level design so far.  Our floor and our ramp and center cube work the way we want.  Now there is a way in Unreal to lock these static meshes so they don't accidentally move.  It is very easy to accidentally move pieces out of position so this is a good precautionary measure. It is also easy to accidentally select the landscape while trying to pick an actor on it.  This stops accidentaly movement and allows you to focus on the new elements you are adding to the level.|
 
 ![](../images/line2.png)
 
@@ -80,7 +80,7 @@ Create a new folder in the **Outlinder** called `Ramps` and place the 5 objects 
 
 Select all the ramps and right click and press **Transform | Lock Actor Movement**.  Now when you go to move a ramp it has no gizmo and cannot be moved.  This can of course be undone so you can move these meshe(s) again.
 
-![lock ramp movement](images/lockRamp.jpg)
+![lock ramp movement](images/lockRamp.png)
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
