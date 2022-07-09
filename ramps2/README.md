@@ -101,9 +101,9 @@ https://user-images.githubusercontent.com/5504953/178108978-23d406ac-3d0c-45ed-9
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-Now lets go to the folder we created to hold the models we were creating.  Delete the ones that we did not use (if you start over and don't delete the modles it will keep them all)  Mine
+Now lets go to the folder we created to hold the models we were creating.  Delete the ones that we did not use (if you start over and don't delete the modles it will keep them all).  Mine was located in **_MarcMeshes | Mauby**. I renamed them to `SM_UndulatingRamp`, `SM_ShortRamp`, `SM_RampCenterBlock`, `SM_MidSizeRamp`, and `SM_CurvedRamp`. You may need to check out the files to make changes, which is fine!
 
-![alt text](images/renameRamps.png)
+![rename ramps in scratch folder](images/renameRamps.png)
 
 ![](../images/line2.png)
 
