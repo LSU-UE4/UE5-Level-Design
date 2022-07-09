@@ -92,6 +92,8 @@ Repeat this for the **Landscape**.  This way you will not accidentally make chan
 
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
+Now when you run the game and select these objects you will notice that there is no gizmo for translation, scale or rotation.
+
 ![alt text](images/.png)
 
 ![](../images/line2.png)
