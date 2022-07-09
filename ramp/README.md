@@ -184,6 +184,11 @@ Now that we have completed it we need to put it with the other ramps so that the
 
 ![Line up third ramp and make sure it is orthogonal](images/LineUpThirdRamp.png)
 
+![](../images/line2.png)
+
+##### `Step 21.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
+![alt text](images/.png)
 
 ![](../images/line.png)
 
