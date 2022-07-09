@@ -31,9 +31,22 @@ https://user-images.githubusercontent.com/5504953/178107459-6a4ad523-b5ed-4c59-9
 
 ##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets fill the center gap so the player can run over it.  Create another **Box** that is `600` cm ins size
+Now lets fill the center gap so the player can run over it.  Create another **Box** that is `600` cm ins size in **Width**, **Depth** and **Height**.  Press the <kbd>Complete</kbd> button.
 
 ![create a 600 square foot box](images/600box.png)
+
+
+![](../images/line2.png)
+
+##### `Step 4.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![create a 600 square foot box](images/assignPosition.png)
+
+
+![](../images/line2.png)
+
+##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
+
 
 | `lock.meshes`\|`Introduction To Level Design`| 
 | :--- |
@@ -72,17 +85,9 @@ Go back to the game and now lets make the ramp a different slope.  Lets make it 
 https://user-images.githubusercontent.com/5504953/127902011-7c375442-8faa-45f1-b8d2-bc4bf8894f14.mp4
 
 
-![](../images/line2.png)
-
-##### `Step 4.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Now lets duplicate the final two ramps and rotate them 90 degrees into position.  Make the lenght on one `8` and the other `15`.
 
 https://user-images.githubusercontent.com/5504953/127903077-5d5d8cde-12e8-4e70-81a5-20c1e386c46a.mp4
-
-![](../images/line2.png)
-
-##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
 
 Run the game and test the ramps out.  Again, look for issues with the camera.  In a later tutorial we will adjust the player angle and speed based on the ramp.
 
