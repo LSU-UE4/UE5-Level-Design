@@ -94,6 +94,8 @@ Repeat this for the **Landscape**.  This way you will not accidentally make chan
 
 Now when you run the game and select these objects you will notice that there is no gizmo for translation, scale or rotation.
 
+https://user-images.githubusercontent.com/5504953/178108978-23d406ac-3d0c-45ed-920d-0263627c233b.mp4
+
 ![alt text](images/.png)
 
 ![](../images/line2.png)
