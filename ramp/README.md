@@ -51,7 +51,7 @@ https://user-images.githubusercontent.com/5504953/178083375-0baba2c1-d888-4c6d-9
 
 ##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
 
-Now we want the geometry that we create to sit in a scratch folder.  I like to fix it to the same place every tiem so go to **Edit | Project Settings | Plugins | Modeling Mode** and adjust the **Asset Generation Location** to `Auto Generated Global Asset Path` and the **Auto Generated Asset Path** to `_MarcMeshes` (you can use your own name or anything else that is indicative that this is your working scratch folder). We will be moving these to the **Static Meshes** folder when they are done.
+Now we want the geometry that we create to sit in a scratch folder.  I like to save the geometry to the same folder every time. Go to **Edit | Project Settings | Plugins | Modeling Mode** and adjust the **Asset Generation Location** to `Auto Generated Global Asset Path` and the **Auto Generated Asset Path** to `_MarcMeshes` (you can use your own name or anything else that is indicative that this is your working scratch folder). We will be moving these to the **Static Meshes** folder when they are done.
 
 ![adjust settings of modeling mode to a fixed global path of _MarcMeshes](images/modellingSettings.png)
 
