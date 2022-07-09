@@ -188,7 +188,8 @@ Now that we have completed it we need to put it with the other ramps so that the
 
 ##### `Step 21.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt text](images/.png)
+Now play the game and run up and down the new curved ramp!
+
 
 ![](../images/line.png)
 
