@@ -45,7 +45,7 @@ Now <kbd>Alt Click</kbd> on the arrow and duplicate the player.  Create a group 
 
 Now press **Play** and run around.  Notice that the ground is not flat so some are floating and some are inside the ground.  Select all the players in the menu and raise them way up in the air.  Press the <kbd>End</kbd> key and this will drop all of them to the closest point on the ground even if they are all at different heights. Now press **Play** again and all the players should be in the correct **Z** position.
 
-insert PlacePeopleInZ.mp4
+https://user-images.githubusercontent.com/5504953/178083375-0baba2c1-d888-4c6d-9575-1e630aaf6a45.mp4
 
 ![](../images/line2.png)
 
@@ -74,8 +74,7 @@ Now to create a ramp we will need to lower one of the polygon edges.  Go to **Po
 
 Place the model in the level in front of the player start and so that the ramp is fully on the ground.  You might have to go underground a big so that no piece is floating as the ground is not perfectly flat.
 
-insert CreateFirstRamp.mp4
-
+https://user-images.githubusercontent.com/5504953/178083387-f020827a-fcfc-4fb8-97f0-7ba1d2e0e13a.mp4
 
 ![](../images/line2.png)
 
@@ -83,7 +82,7 @@ insert CreateFirstRamp.mp4
 
 Now lets test our work.  Go to **Select Mode** and choose `Select`.  Now press the <kbd>Play</kbd> button and run up and down the ramp.  In my case everything works as planned.
 
-TestFirstRamp.mp4
+https://user-images.githubusercontent.com/5504953/178083401-ec85ae61-5423-4f0a-af33-a1f983251f3c.mp4
 
 ![](../images/line2.png)
 
@@ -158,7 +157,7 @@ This gives us the same 1 meter grid on the object.  The grid on the ground is in
 
 What makes this material unique and useful for level design is that no matter how much we scale or change the model the material stays as 1 meter squares.  This allows us to make adjustments in engine to get things right but always have a proper scale representation that is so important to maintaining scale.
 
-ScalingMaterial.mp4
+https://user-images.githubusercontent.com/5504953/178083430-eb1429a8-94e3-46ba-97f7-31875ab3b9a8.mp4
 
 ![](../images/line2.png)
 
@@ -175,7 +174,7 @@ Lets add a third ramp.  This time we will make it a more interesting shape and n
 
 Now we need to add more polygons to the faces so we can have a curved ramp rather than a single surface made with two triangles.  Go to **Poly Model | Poly Edit** and go to **Shape Edits | Insert Edge Loop**.  This will allow you to click along the long edge and a a loop and subdivide our ramp every 2 meters (2 squares in the material).  Lock in the changes by pressing the <kbd>Accept</kbd> button. Now go back to **Poly Model | Poly Edit** mode and adjust the edges so that we get a nice S loop in the ramp.  Press the <kbd>Accept</kbd> button.
 
-MakeCurvedRamp.mp4
+https://user-images.githubusercontent.com/5504953/178083448-a8920371-50e6-4f5f-8de3-822d0aef0158.mp4
 
 ![](../images/line2.png)
 
