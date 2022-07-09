@@ -40,12 +40,19 @@ Now lets fill the center gap so the player can run over it.  Create another **Bo
 
 ##### `Step 4.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![create a 600 square foot box](images/assignPosition.png)
+Assign the **M_LDGrid_Local** material to the new model.  Make sure the **Rotations** are set to `0` on all axis.  Put this shape in the center to fill the hole between the four ramps.  Be precise and get everything to line up!
 
+![create a 600 square foot box](images/assignPosition.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
+
+Now play the game and run around.  There should be no gaps in the ramp and the player shoudl run smoothly over the surface.  If there are any physics issues make final adjustments to your geometry now.
+
+![](../images/line2.png)
+
+##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
 
 | `lock.meshes`\|`Introduction To Level Design`| 
@@ -92,10 +99,6 @@ https://user-images.githubusercontent.com/5504953/127903077-5d5d8cde-12e8-4e70-8
 Run the game and test the ramps out.  Again, look for issues with the camera.  In a later tutorial we will adjust the player angle and speed based on the ramp.
 
 https://user-images.githubusercontent.com/5504953/127903749-18c1504a-0e4e-46db-bbae-917d0a9691b0.mp4
-
-![](../images/line2.png)
-
-##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
 Renamethe ramps with a postfix indicating the different scalesz along **X**. Freeze the transforms on the ramps to properly organize the **World Outliner**.
 
