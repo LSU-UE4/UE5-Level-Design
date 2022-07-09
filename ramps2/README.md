@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Finish Remaining Ramp
 
 <sub>[previous](../ramp/README.md#user-content-creating-custom-meshes) • [home](../README.md#user-content-ue4-intro-to-level-design) • [next](../double-jump/README.md#user-content-double-jumping)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Lets create the final ramp to complete the four touching ramps.  We will then add a center column that the player can run over.  We will have different angles that we would like to use in our final level. This is just a testbed to make sure that the game plays as we want given these different factors. 
 
@@ -18,6 +18,16 @@ Lets create the final ramp to complete the four touching ramps.  We will then ad
 Create a fourth ramp on your own.  Try being creative with the design! Then make sure it lines up in the las slot.  You should now have a perfect 600 unit hole inbetween the four ramps!
 
 ![create fourth ramp and line up](images/fourthRamp.png)
+
+![](../images/line2.png)
+
+##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+
+Now play the game and you should have 4 ramps with a 600 cm square cube gap in the center.  Make sure the heights are the same and the corners are joined at the diagonals.  You should not see light leaking through in the engine.
+
+![](../images/line2.png)
+
+##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
 | `lock.meshes`\|`Introduction To Level Design`| 
@@ -48,24 +58,16 @@ Unlock the ramps transform movement and move <btn>alt</btn> click on the widget 
 
 https://user-images.githubusercontent.com/5504953/127900627-d2023450-bba7-4461-af79-9691440a7ee8.mp4
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
-
 The reason we build test levels is to confirm that our interactions and cameras work.  It is devlishly hard to get a 3-D camera to work without occlusion in busy levels (or not so busy levels). Test the game and make sure you can run up and down both ramps without getting hung up on a ledge. Also make sure the camera sees the player correctly going up and over the ridge.  Make changes to the camera if necessary.  I am happy with mine.
 
 https://user-images.githubusercontent.com/5504953/127901204-ce6047d1-74d8-4719-b4e6-106feed194c1.mp4
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Go back to the game and now lets make the ramp a different slope.  Lets make it less steep.  Select the second ramp and change the **X** Static Mesh Scale and make it `15`.  Reposition the mesh back into place.
 
 https://user-images.githubusercontent.com/5504953/127902011-7c375442-8faa-45f1-b8d2-bc4bf8894f14.mp4
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -73,7 +75,7 @@ Now lets duplicate the final two ramps and rotate them 90 degrees into position.
 
 https://user-images.githubusercontent.com/5504953/127903077-5d5d8cde-12e8-4e70-81a5-20c1e386c46a.mp4
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
 
@@ -81,7 +83,7 @@ Run the game and test the ramps out.  Again, look for issues with the camera.  I
 
 https://user-images.githubusercontent.com/5504953/127903749-18c1504a-0e4e-46db-bbae-917d0a9691b0.mp4
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
@@ -89,7 +91,7 @@ Renamethe ramps with a postfix indicating the different scalesz along **X**. Fre
 
 ![rename and freeze four ramps](images/FreezeTransformFourRamps.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -97,7 +99,7 @@ Type `Text Render` in the modes panel to add a 2-D text to add on top of the ram
 
 ![add ramps text render](images/AddRampsTextRender.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -105,7 +107,7 @@ Make it really big and place it on top of the ramp. Set the **World Size** to `2
 
 https://user-images.githubusercontent.com/5504953/128019875-39f769c8-b0a2-49bd-aa18-13dce32bc4b2.mp4
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -124,11 +126,13 @@ We will move on next to adding our first ramp to the game.
 ___
 
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Double Jumping">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Double Jumping"> -->
+![next up double jumping](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
+
 
 | [previous](../ramp/README.md#user-content-creating-custom-meshes)| [home](../README.md#user-content-ue4-intro-to-level-design) | [next](../double-jump/README.md#user-content-double-jumping)|
 |---|---|---|
