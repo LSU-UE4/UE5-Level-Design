@@ -64,7 +64,7 @@ Now that we are happy with the ramps lets do some housecleaning.  Go to the **Ou
 
 ##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Create a new folder in the **Outlinder** called `Ramps` and place the 5 objects in there.  Create another folder called `Lighting` and put all the remaining actors in there except for **Player Start** and
+Create a new folder in the **Outlinder** called `Ramps` and place the 5 objects in there.  Create another folder called `Lighting` and put all the remaining actors in there except for **Player Start** and **Landscape**.
 
 ![put 5 ramps in ramp folder](images/putFIlesinFolder.png)
 
