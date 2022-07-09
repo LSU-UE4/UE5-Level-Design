@@ -31,6 +31,9 @@ https://user-images.githubusercontent.com/5504953/178107459-6a4ad523-b5ed-4c59-9
 
 ##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now lets fill the center gap so the player can run over it.  Create another **Box** that is `600` cm ins size
+
+![create a 600 square foot box](images/600box.png)
 
 | `lock.meshes`\|`Introduction To Level Design`| 
 | :--- |
