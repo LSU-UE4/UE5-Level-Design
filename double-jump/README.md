@@ -15,7 +15,7 @@ Now we are going to figure out how high the player can jump for getting onto pla
 
 ##### `Step 1.`\|`UE5LD`|:small_blue_diamond:
 
-Add a BSP **Box** to the level next to the ramps.  Give yourself lots of room. Move the **Player Start** component in front of it and rotate it so that the **Red** arrow faces the newly dropped box.
+Go to **Select Mode** and switch back to **Modeling** mode.  Select a **Box** and make it a **Width** of `400`, **Depth** of `800` and **Height** of `1000`. 
 
 ![Add a bxp box and move player start in front of it](images/createNewBox.png)
 
