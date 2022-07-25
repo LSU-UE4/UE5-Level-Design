@@ -130,8 +130,6 @@ Make it really big and place it on top of the ramp. Set the **World Size** to `2
 
 https://user-images.githubusercontent.com/5504953/128019875-39f769c8-b0a2-49bd-aa18-13dce32bc4b2.mp4
 
-![alt text](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
