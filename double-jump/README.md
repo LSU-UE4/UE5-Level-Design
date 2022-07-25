@@ -23,9 +23,9 @@ Go to **Select Mode** and switch back to **Modeling** mode.  Select a **Box** an
 
 ##### `Step 2.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: 
 
-Lets make it a big jump column with plenty of room to jump through.  Edit the **Brush Settings** to `400.0`, `800.0` and `1000.0`.
+Now go back to ??? mode and lift the box and press the <kbd>End</kbd> key and place it next to the ramps you just created (give yourself some breathing room).
 
-![Resize box to make it larger](images/ResizeJumpVolume.jpg)
+![Resize box to make it larger](images/snapToGround.png)
 
 ![](../images/line2.png)
 
