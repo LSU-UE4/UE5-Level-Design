@@ -19,7 +19,7 @@ Add a BSP **Box** to the level next to the ramps.  Give yourself lots of room. M
 
 ![Add a bxp box and move player start in front of it](images/AddBoxBrush.jpg)
 
-![](../images/line2.png)
+![](../images/createNewBox.png)
 
 ##### `Step 2.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: 
 
