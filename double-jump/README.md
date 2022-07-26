@@ -41,15 +41,15 @@ Lets create a second box that we will use to cut a hole in the existing one. Go 
 
 Place smaller box through bigger box.  Use the top, side and front views to center it through the shape.
 
-![cneter small box in larger one](images/AddBaseMaterialToJumpPlatform.jpg)
+![cneter small box in larger one](images/topFrontView.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
-Press the <kbd>End</kbd> key to snap the platform to the ground.
 
-![press end key to lock to ground](images/PressEndToLockToGround.jpg)
+
+![press end key to lock to ground](images/meshBool.png)
 
 ![](../images/line2.png)
 
