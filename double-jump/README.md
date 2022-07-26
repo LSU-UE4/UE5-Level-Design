@@ -39,15 +39,15 @@ Lets create a second box that we will use to cut a hole in the existing one. Go 
 
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Place smaller box through bigger box.  Use the top, side and front views to center it through the shape.
+Place smaller box through bigger box.  Use the top, side and front views to center it through the shape. You will want the smaller box to cut a hole through the middle of the bigger one.  This will create our jump platform.  I have adjusted it to a meter in height.
 
-![cneter small box in larger one](images/topFrontView.png)
+![center small box in larger one](images/topFrontView.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
-
+Select both boxes in the scene. Now go to the **PolyModel** group and select **MshBool** (Mesh Boolean).  This will allow us to subtract one shape from the other.  Depending on the order you clicked them on it will be either **Difference A-B** or **Difference B-A**. When you are ready, press the <kbd>Accept</kbd> button to create a new shape. 
 
 ![press end key to lock to ground](images/meshBool.png)
 
