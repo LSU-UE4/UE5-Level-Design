@@ -57,17 +57,17 @@ Select both boxes in the scene. Now go to the **PolyModel** group and select **M
 
 ##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
 
-Create a new folder called 
+Create a new folder in your **Outliner** called `Jump Platform Low`.  Assign `M_LDDgrid_Local` material to it.  Now we have a shape that we can jump through! 
  
-![add subtractive volume](images/newShape.png)
+![name folder jump platforms and object jump platform low](images/newShape.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets fix the pivot so it is at the ground plane.  Change to **Front** view and right click the bottom right vertex.
+Lets go to the folder where these generated shapes are kept. I deleted the two cubes and kept the jump platform.  I then moved it to the **Meshes** folder.
 
-![fix pivot to bottom right](images/RightClickBottomRightVertice.jpg)
+![delete old meshes and move jump platform to mesh folder](images/moveSM.png)
 
 
 ![](../images/line2.png)
