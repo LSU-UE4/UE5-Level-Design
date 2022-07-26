@@ -74,9 +74,9 @@ Lets go to the folder where these generated shapes are kept. I deleted the two c
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on the open graph and select **Pivot | Set as Pivot Offset**.
+Rename the static mesh to `SM_Jump_Low`.
 
-![alt_text](images/SetPivotOffset.jpg)
+![alt_text](images/jmpLow.png)
 
 ![](../images/line2.png)
 
