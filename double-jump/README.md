@@ -31,17 +31,17 @@ Now go back to ??? mode and lift the box and press the <kbd>End</kbd> key and pl
 
 ##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets create a second box that we will use to cut a hole in the existing one. Go back to the **Modeling** mode and create another **Box** that is 
+Lets create a second box that we will use to cut a hole in the existing one. Go back to the **Modeling** mode and create another **Box** that is a **Width** of `775`, **Depth** of `408` and **Height** of `750`. Press the <kbd>Complete</kbd> and put it on the ground next to the other box.
 
-![raise box and select adjacent surfaces](images/secondBox.png)
+![create second smaller box](images/secondBox.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add base material to jump platform.
+Place smaller box through bigger box.  Use the top, side and front views to center it through the shape.
 
-![add base material to jump platform](images/AddBaseMaterialToJumpPlatform.jpg)
+![cneter small box in larger one](images/AddBaseMaterialToJumpPlatform.jpg)
 
 ![](../images/line2.png)
 
