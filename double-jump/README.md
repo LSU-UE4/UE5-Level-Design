@@ -47,21 +47,19 @@ Place smaller box through bigger box.  Use the top, side and front views to cent
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
+We are able to use these shapes as a positive volume, or we can use it as a negative volume to subtract one shape from a positive volume.  This is by using a Mesh Boolean function.
+
 Select both boxes in the scene. Now go to the **PolyModel** group and select **MshBool** (Mesh Boolean).  This will allow us to subtract one shape from the other.  Depending on the order you clicked them on it will be either **Difference A-B** or **Difference B-A**. When you are ready, press the <kbd>Accept</kbd> button to create a new shape. 
 
-![press end key to lock to ground](images/meshBool.png)
+![use MshBool to subtract shapes](images/meshBool.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
 
-The cool thing about BSP's is that we can not only add positive volumes, but we can subtract volumes to sculpt out more complex shapes.
-
-Now we need to cut a hole in this polygon for the player to jump through.  We can do this with the same BSP but change it to remove (subtract) the volume instead of adding to it.  We can use another box to cut a hole in the existin gobx.  Drag another **Box** into the scene and change the **Brush Type** to `Subtractive`.  This will subtract any brush volume in the level. Move it into the current box and see it cut a hole.
-
-Resize the brush to cut a hole from about 1 meter (each cube in the texture is a meter) with room for the camera to move through.  My settings in teh **Brush Shaped** ended up as `775`, `408`, `750` in **X, Y, Z**
+Create a new folder called 
  
-![add subtractive volume](images/SubtractVolume.jpg)
+![add subtractive volume](images/newShape.png)
 
 ![](../images/line2.png)
 
