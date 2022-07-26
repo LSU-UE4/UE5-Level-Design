@@ -15,7 +15,7 @@ Now we are going to figure out how high the player can jump for getting onto pla
 
 ##### `Step 1.`\|`UE5LD`|:small_blue_diamond:
 
-Go to **Select Mode** and switch back to **Modeling** mode.  Select a **Box** and make it a **Width** of `400`, **Depth** of `800` and **Height** of `1000`. 
+Go to **Select Mode** and switch back to **Modeling** mode.  Select a **Box** and make it a **Width** of `400`, **Depth** of `800` and **Height** of `1000`. Press the <kbd>Complete</kbd> and put it on the ground.
 
 ![Add a bxp box and move player start in front of it](images/createNewBox.png)
 
@@ -23,7 +23,7 @@ Go to **Select Mode** and switch back to **Modeling** mode.  Select a **Box** an
 
 ##### `Step 2.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: 
 
-Now go back to ??? mode and lift the box and press the <kbd>End</kbd> key and place it next to the ramps you just created (give yourself some breathing room). Press the <kbd>Accept</kbd>.
+Now go back to ??? mode and lift the box and press the <kbd>End</kbd> key and place it next to the ramps you just created (give yourself some breathing room). 
 
 ![Resize box to make it larger](images/snapToGround.png)
 
@@ -31,9 +31,9 @@ Now go back to ??? mode and lift the box and press the <kbd>End</kbd> key and pl
 
 ##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets raise the box as the pivot is centered and half of it is underground.  Right click on the box in the **World Outliner** and select **Geomoetry | Select All Adjacent Surfaces**.
+Lets create a second box that we will use to cut a hole in the existing one. Go back to the **Modeling** mode and create another **Box** that is 
 
-![raise box and select adjacent surfaces](images/RaiseSelectAdjascentSurfaces.jpg)
+![raise box and select adjacent surfaces](images/secondBox.png)
 
 ![](../images/line2.png)
 
