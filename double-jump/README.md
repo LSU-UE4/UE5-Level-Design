@@ -74,7 +74,7 @@ Lets go to the folder where these generated shapes are kept. I deleted the two c
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Rename the static mesh to `SM_Jump_Low`.
+Rename the static mesh to `SM_JumpPlatform_Low`.
 
 ![alt_text](images/jmpLow.png)
 
