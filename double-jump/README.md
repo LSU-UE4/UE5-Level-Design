@@ -99,6 +99,7 @@ Move the player start from the ramps to the new jump platform.  Rotate it to poi
 
 Run the game and jump through the hole. Make sure the camera clears.  In my case it does.  But we need to add a double jump to the game to see if this causes a problem. Also, if you move the camera around you will have collision issues.  We will not deal with fixing this now.  We will leave it as is.
 
+https://user-images.githubusercontent.com/5504953/181350876-22daaa76-ada5-4a59-9b00-561581af6ebc.mp4
 
 ![](../images/line2.png)
 
