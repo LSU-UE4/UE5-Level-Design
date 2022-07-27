@@ -82,16 +82,16 @@ Rename the static mesh to `SM_JumpPlatform_Low`.
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now select **both** the additive and subtractive brushes and we will convert them to a single static mesh.  Press the <kbd>Create Static Mesh</kbd> button then select the **Geometry | Meshes** folder and call this mesh `SM_JumpPlatform_Low`. Press the green <kbd>Create Static Mesh</kbd> button to complete the conversion.
+Raise the jump platform up and press the <kbd>End</kbd> key to get it to sit on the ground. 
 
-![convert to static mesh](images/ConvertToStaticMesh.jpg)
+![make sure platform is on ground](images/setOnGround.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
-Remember there is no collision volume. Open up **SM_JumpPlatform_Low** in the editor and change **Collision | Collisoin Complexity** to `Use Complex Collisions As Simple`.  Now turn on **Collision | Simple Collision** and you should see the collision mesh being the same as the static mesh.
+Move the player start from the ramps to the new jump platform.  Rotate it to point to the platform.
 
-![add collision volume to low jump](images/AddCollisionToLowJump.jpg)
+![move player start to jump volume](images/movePlayerStart.png)
 
 ![](../images/line2.png)
 
