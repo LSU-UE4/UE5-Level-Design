@@ -172,19 +172,15 @@ The **Return Value** is a single pin and returns a **Vector** struct.  What is a
 
 So we want to isolate the **Z** vector.  How do we do this?  We right lick on the **Return Value** and select **Split Struct Pin**.  This will change it to three individual variables and we can now isolate the **Z** pin.
 
-![adjust jump z velocity](images/image_59.png)
+![split return value struct](images/splitStruct.png)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-If you build lighting or run the game you will notice sometimes that the static meshes that go from a brush to a mesh in the editor will show up black.
+Now you need to pull of the **Z** pin and then type `>=` as we want the >= operator.  This allows us to confirm that the velocity in Z is either 0 or positive.
 
-Open SM_JumpPlatform_Low and in **General Settings | Light Map Resolution** change the value to `256` and in **Light Map Coordinate Index** change this value to `1`.
-
-Now build lighting again and the problem should be fixed.
-
-![black empty texture](images/NoTextures.jpg)
+![add >= node](images/greateOrEqual.png)
 
 ![adjust lightmap resolution and index](images/AdjustLightmapIndex.jpg)
 
