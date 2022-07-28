@@ -138,9 +138,9 @@ So how can we tell if a player is moving up or down.  The best way is to look at
 
 ##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-The output of the **DoN** pin is an integer (any whole number, either positive or negative).  The switch will allow us to run a different piece of code dending on the value of the integer which in this case will be **0, 1 or 2**. Pull from the **DoN | Counter** pin and type **Switch on Int** and add this node.
+To tell if the player is moving down is to isolate the **Z** axis.  So if the Z axis is at 0 (on the ground or the apex of the jum) then the player can double jump, if it is less than 0 then we want to disable jumping.
 
-![add switch on int to counter](images/image_54.png)
+![isolate z vector](images/image_54.png)
 
 ![](../images/line2.png)
 
