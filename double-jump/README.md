@@ -154,21 +154,13 @@ So open up the **BP_ThirdPersonCharacter** player blueprint we edited earlier.  
 
 ##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on the **Event Graph** and select a **Launch Character** node to give the player an additional vertical force to make them double jump.
-
-![add launch character node](images/image_57.png)
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 The **Return Value** is a single pin and returns a **Vector** struct.  What is a struct?  It is a structure that contains multiple variables.  In this case it contains three floating point numbers representing X, Y & Z.
 
 ![struct graphic](images/Struct.jpg)
 
 ![](../images/line2.png)
 
-##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 So we want to isolate the **Z** vector.  How do we do this?  We right lick on the **Return Value** and select **Split Struct Pin**.  This will change it to three individual variables and we can now isolate the **Z** pin.
 
@@ -176,11 +168,17 @@ So we want to isolate the **Z** vector.  How do we do this?  We right lick on th
 
 ![](../images/line2.png)
 
-##### `Step 21.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
 
 Now you need to pull of the **Z** pin and then type `>=` as we want the >= operator.  This allows us to confirm that the velocity in Z is either 0 or positive.
 
 ![add >= node](images/greateOrEqual.png)
+
+![](../images/line2.png)
+
+##### `Step 21.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
+
 
 
 ![](../images/line2.png)
