@@ -114,7 +114,7 @@ https://user-images.githubusercontent.com/5504953/181407845-2c33c685-ecc7-4608-a
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Open the **ThirdPersonCharacter** blueprint and select the top component **BP_ThirdPersonCharacter (Self)** and search for **Jump Count**.  Lets set this to `2` so we can double jump!
+Open the **ThirdPersonCharacter** blueprint and select the top component **BP_ThirdPersonCharacter (Self)** and search for **Jump Max Count**.  Lets set this to `2` so we can double jump!
 
 ![add room to jump section in thirdpersoncharacter blueprint](images/jumpCount.png)
 
