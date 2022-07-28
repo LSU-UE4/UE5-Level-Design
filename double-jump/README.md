@@ -128,9 +128,9 @@ Now press the <kbd>Compile</kbd> button then go to the game and press <kbd>Play<
 
 ##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
 
-Add a **DoN** node.  This runs a given number of times and stops until it is reset.  Set the **N** value to `2`.  This means that it will start at **0** then when the player presses the **Jump** button it will go to **1**, then when the player presses it again it will go to **2**.  When the player lands it will be reset back to **0**.  Disconnect the **Jump** execution pin and attach the **InputAction Jump** execution pin to the **DoN** execution pin.
+So how can we tell if a player is moving up or down.  The best way is to look at the player velocity.  The difference between speed and velocity is that speed is just displacement over time without knowing which direction the object is moving in. Velocity also has a direction so it represents both a direction and a magnitude (amount of displacememnt).  Unreal uses a vector (x, y, z) to represent the velocity and the displacement is common to represent cm/second. The black dotted line represents how much the actor will move over a second of time and in in which direction.
 
-![add a DoN node](images/image_55.png)
+![velocity vector](images/Vector-2.jpg)
 
 ![](../images/line2.png)
 
