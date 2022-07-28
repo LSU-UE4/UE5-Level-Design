@@ -194,7 +194,11 @@ Do ths same thing for jumping with a touch pad.
 
 ![repeat check for touch](images/dupeTouch.png)
 
+![](../images/line2.png)
 
+##### `Step 23.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now press the <kbd>Play</kbd> button and you should only be able to jump when moving up (or on the ground for that matter).  And you can only jump twice!  Great job - lets keep going.
 
 ___
 
