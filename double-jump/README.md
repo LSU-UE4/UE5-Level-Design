@@ -162,9 +162,9 @@ Right click on the **Event Graph** and select a **Launch Character** node to giv
 
 ##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Connect the output of the **Switch on Int | 2** execution node to the **Launch Character** execution pin. Change the **Z** value in **Launch Velocity** to `300`.
+The **Return Value** is a single pin and returns a **Vector** struct.  What is a struct?  It is a structure that contains multiple variables.  In this case it contains three floating point numbers representing X, Y & Z.
 
-![add upwards force](images/image_58.png)
+![struct graphic](images/Struct.jpg)
 
 ![](../images/line2.png)
 
