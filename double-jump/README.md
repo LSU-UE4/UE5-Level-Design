@@ -140,7 +140,7 @@ So how can we tell if a player is moving up or down.  The best way is to look at
 
 To tell if the player is moving down is to isolate the **Z** axis.  So if the Z axis is at 0 (on the ground or the apex of the jum) then the player can double jump, if it is less than 0 then we want to disable jumping.
 
-![isolate z vector](images/image_54.png)
+![isolate z vector](images/ZIsolateVector.jpg)
 
 ![](../images/line2.png)
 
