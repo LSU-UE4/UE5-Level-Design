@@ -182,10 +182,6 @@ Now you need to pull of the **Z** pin and then type `>=` as we want the >= opera
 
 ![add >= node](images/greateOrEqual.png)
 
-![adjust lightmap resolution and index](images/AdjustLightmapIndex.jpg)
-
-![texture lit properly in game](images/FixedLightingOnModel.jpg)
-
 
 ![](../images/line2.png)
 
