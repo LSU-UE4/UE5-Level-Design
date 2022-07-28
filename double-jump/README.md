@@ -108,6 +108,8 @@ https://user-images.githubusercontent.com/5504953/181350876-22daaa76-ada5-4a59-9
 
 Now I didn't populate our reference character in this area.  So I am going to go and select all the static mesh characters I have in the **Scale Reference** folder and press the <kbd>Alt</kbd> key with the red gizmo on the moving the static meshes.  This will duplicate them.  Place them in the area that you need to.  Then raise them up and press the <kbd>End<kbd> key to get them all on the ground plane.
 
+https://user-images.githubusercontent.com/5504953/181407845-2c33c685-ecc7-4608-a2e5-670f4e71990d.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
