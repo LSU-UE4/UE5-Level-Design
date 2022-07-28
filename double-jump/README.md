@@ -124,6 +124,8 @@ Open the **ThirdPersonCharacter** blueprint and select the top component **BP_Th
 
 Now press the <kbd>Compile</kbd> button then go to the game and press <kbd>Play</kbd>. Now you can double jump but there is one thing I don't like.  It allows you to double jump when you are falling.  Lets look at adjusting this.
 
+https://user-images.githubusercontent.com/5504953/181525660-71c045e2-3c50-4d7a-9f23-84d74508b12e.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
