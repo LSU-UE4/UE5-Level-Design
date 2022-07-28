@@ -176,10 +176,15 @@ Now you need to pull of the **Z** pin and then type `>=` as we want the >= opera
 
 ![](../images/line2.png)
 
+
+
 ##### `Step 21.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
+Now pull off the output pin from the **>=** node.  This is a **Boolean** which is either **True** or **False**.  This will allow us to check to see if the **Z** velocity is greater or equal to zero and if so then allow jumping otherise do nothing. 
 
+Pull off this pin and select a **Branch** node.
 
+![add branch node](images/branchNode.png)
 
 ![](../images/line2.png)
 
