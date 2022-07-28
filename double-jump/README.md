@@ -190,18 +190,11 @@ Pull off this pin and select a **Branch** node. Connect the output of **Input Ju
 
 ##### `Step 22.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we do not judge the distances based on the player model as this is not used for collision.  It is the **Capsule Component** in the **Third Person Character** blueprint. Chnage the **Capsule Component | Rendering | Hiddent in Game** and deselect it.
+Do ths same thing for jumping with a touch pad.
+
+![repeat check for touch](images/dupeTouch.png)
 
 
-Run the game and press jump multiple times. You should notice a boost to vertical height on the second press but not a third press.  Also, if you double jump when falling downwards it pauses the player creating an odd hiccup.  On the next page we will fix this.
-
-Save and Commmit all of your changes to github.
-
-https://user-images.githubusercontent.com/5504953/128046337-9a2ae249-7847-40f4-a9a8-9e90c17a433d.mp4
-
-![save and commit changes to github](images/SaveAndCommit.jpg)
-
-![push changes to github](images/PushToOrigin.jpg)
 
 ___
 
