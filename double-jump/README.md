@@ -106,7 +106,7 @@ https://user-images.githubusercontent.com/5504953/181350876-22daaa76-ada5-4a59-9
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now we want to understand the scale of the world we need to build and this is based on the player physics.  If the player has real world physics we can use real world scale (a floor of a building is 20 feet tall for example).  But with exaggerated physics we need exagerated scale for it to work.  So run the game and jump and my character based on my settings can jump 3 meters (~9.8 feet).
+Now I didn't populate our reference character in this area.  So I am going to go and select all the static mesh characters I have in the **Scale Reference** folder and press the <kbd>Alt</kbd> key with the red gizmo on the moving the static meshes.  This will duplicate them.  Place them in the area that you need to.  Then raise them up and press the <kbd>End<kbd> key to get them all on the ground plane.
 
 https://user-images.githubusercontent.com/5504953/128029695-3bf2ac00-aa39-4e49-a3ac-c64221fce573.mp4
 
