@@ -16,69 +16,35 @@ We will use this information to create more jump platforms.
 
 ##### `Step 1.`\|`SUU&G`|:small_blue_diamond:
 
-So we should not let the player double jump when falling (it doesn't work right based on the current physics of this actor). We need to find out if the player is falling and not double jump if this is the case.  We need to do this before we launch the character on the double jump.  It the player is rising then double jump if the player is falling then do not run this node.
+Now in video games one of the most expensive portions is rendering graphics and resolving collisions.  For rendering graphics, the more polygons we have in the scene (especially the ones we see in the camera) the slower the framerate and the more processor and GPU will be used.
 
-We need to access the character's velocity and look to see if it's **Z** component is positive or not.  Right click on the open graph and type `Get Velocity` and select this node.
+For collisions it comes down to shape complexity and how many objects in the scene need to be checked for collision. The more complex the shapes the more places we have to check on the two models potentially colliding to see if there is an actual collision.  So in games we try and use "cheap" collisions as much as we can.  
 
-![Add get velocity node to character blueprint](images/image_60.png)
+
+![commnet](images/.jpg)
+
+
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-This node contains all of the axes for the velocity including its **X, Y & Z** vector.  Right click on the **Get Velocity | Return Value** node and select **Split Struct Pin**.
+So for our player the most common collision detection is with the ground to unsure they should be running/walking instead of falling. This is done every frame and it doesn't look at the foot model of the character.  It uses a very simple **capsule** (a cylinder with two hemispherical ends). 
 
-![split struct pin on get velocity node](images/image_61.png)
+For a player collision a simple shape that provides satisfactory collision ends up being a capsule.  A box collider would have edges and the player wouldn't move smoothly along edges when jumping or when climbing stairs.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to check the **Z** component as this is the up and down vector. If it is positive it is going up and if it is negative then the character is falling.  Pull off of the **Get Velocity | Return Value Z** pin and type `>` (greater than symbol).  Then select `Float > Float`,
+So whe figuring out how far and high we can jump, we do not measure the player but we measure the player's collision volume.  This is what determines where the player collides in the world. So if the collision volume doesn't pass through the player won't.  This is the **Capsule Component** in the player blueprint.  This is what we are measuring for. 
 
-![add greather than after retturn value z pin](images/image_62.png)
+Go to to **Third Person Character** and press on the **Capsule Component**.  Look for **Rendering** and turn **Hidden in Game** `off`. This way we can see the capsule collider in game which will help with grey blocking.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-We will need an if conditional state to check to see if the **Return Value Z** is greater than zero.  If so, the player is going up.  In blueprints this is done by right clicking and adding a **Branch** node to the graph.
-
-![add branch node to player graph](images/image_63.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
-
-Highjack the execution pin from **Switch on Int | 2** and send it to the input execution pin in the **Branch** node.  Then send the **True** output pin to the **Launch Character** node. 
-
-A positing **Z** value is upwards movement.  So if it is above 0 the player is moving up.  We want to applly the double jump through this true pin.  If the player has stopped at the top of their apex (0) or are falling (< 0) then we do nothing and ignore this second jump button press.
-
-![alt_text](images/image_64.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
-
-Now test your work.  You should only be able to double jump when the player is rising and not falling.  This should get rid of the hiccup we previously had.
-
-https://user-images.githubusercontent.com/5504953/128200570-345e44eb-b148-4d4c-978c-1f2fe6b77704.mp4
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-We do not measure the player but we measure the player's collision volume.  This is what determines where the player collides in the world. So if the collision volume doesn't pass through the player won't.  This is the **Capsule Component** in the player blueprint.  This is what we are measuring for. 
-
-Go to to **Third Person Character** and press on the **Capsule Component**.  Look for **Rendering** and turn **Hidden in Game** `off`. This way we can see the capsule collider in game which will help with grey blocking.
-
-![turn off hiding capsule collider in game](images/ShowCapsuleColliderInGame.jpg)
-
-
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 8.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now lets imagine that we have tested and tweaked the physics to be exactly what we wanted (we do want to lock player physics before begining an actual level gray block).  So we can establish some scale and gameplay metrics and enter it into our register.
 
@@ -86,9 +52,10 @@ We can easily measure scale by going in the editor and putting a player in the l
 
 ![measure width and height of player](images/MeasureScale.jpg)
 
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 9.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
 
 Now then we have the first entry in our Scale Register. Since uu's default to cm we will stick with the metric system from now on.
 
@@ -100,9 +67,13 @@ Now then we have the first entry in our Scale Register. Since uu's default to cm
 
 ![player 192 uu tall by .84 uu wide ](images/HeightWidth.jpg)
 
+
+![alt_text](images/image_64.png)
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 10.`\|`SUU&G`| :large_blue_diamond:
+##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
+
 
 We now can go into the game and jump and double jump and measure roughly the distances that we can make from standing.
 
@@ -116,16 +87,17 @@ We now can go into the game and jump and double jump and measure roughly the dis
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 11.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now lets double jump and see if we have enough clearance.  In my case my camera can still clip the top of the platform ceiling which causes a glitch. Lets fix this. Make any adjustments but the height seems good for mine and no collision issues with the camera.
 
 https://user-images.githubusercontent.com/5504953/128208780-4f8313bc-33fb-42ce-914e-89c1fcbaf884.mp4
 
+
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-
-##### `Step 12.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 8.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 We can now add this to our scale register. We will round it up to 7.5.
 
@@ -136,11 +108,9 @@ We can now add this to our scale register. We will round it up to 7.5.
 |Player Width | .84 m|
 |Double Jump Opening Height | 7.5 m|
 
-![7.5 meters for double jump size of opening](images/DoubleJumpEntrySize.jpg)
-
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 13.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 9.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Our first jump platform we created was about 110 uu units high (1.1 meters).  The player can easily clear it with a single jump. Now lets make two more jump platforms.  One that can just clear a single jump.  And one that can just clear a double jump. For these you will have to make the jump platforms taller to accomodate the higher positioning of the opening.
 
@@ -149,10 +119,9 @@ Repeat the process and create another jump platform in a brush with a jump heigh
 
 https://user-images.githubusercontent.com/5504953/128357947-66d11e0f-3e15-4040-b437-d5b0b8bc9e23.mp4
 
-
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 14.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 10.`\|`SUU&G`| :large_blue_diamond:
 
 Run the game and test your work.  In my case I can easily clear the platform with a single jump.
 
@@ -160,7 +129,7 @@ https://user-images.githubusercontent.com/5504953/128358498-173a1f8f-d2fb-421d-8
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 15.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 11.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: 
 
 In fact we clear it too easily.  After some trial and error I am much happier with a single jump height of 2 meters.  I update the gameplay register **and** the jump to reflect this adjustment.
 
@@ -174,7 +143,8 @@ In fact we clear it too easily.  After some trial and error I am much happier wi
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 16.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+##### `Step 12.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Now lets duplicate the middle brushes to create our third and final jump.  I called them: `BR_JumpPlatform_Tall` & `BR_JumpPlatform_Tall_Inner`. Play around with the double jump height and update the register. I settled on 324 units as the setting I thought was right:
 
@@ -184,19 +154,21 @@ Now lets duplicate the middle brushes to create our third and final jump.  I cal
 |Single Jump | 200 |
 |Double Jump | 324|
 
-![create a third ramp with height of 324 uu](images/Create3rdRamp.jpg)
+
+![7.5 meters for double jump size of opening](images/DoubleJumpEntrySize.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 17.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 13.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Add a `Jump Platforms` folder and add the three platforms to it.  It should have one static mesh and four brushes.
 
 ![add jump platforms folder and move three platforms in it](images/OrganizeWO.jpg)
 
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 18.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 14.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now play the game and make sure you are happy with the brushes.  When you are lets convert them to static meshes.  The only difference this time is that you need to select **Two** objects the positive and negative space to export as a single mesh.  So select both brushes for the mid platform and press the <kbd>Create Static Mesh</kbd> button.  Select the **Geometry | Meshes** folder and call it `SM_JumpPlatform_Mid`.  Repeat this for the tall platform as well.
 
@@ -204,7 +176,7 @@ Now play the game and make sure you are happy with the brushes.  When you are le
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 19.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 15.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: 
 
 Now make sure you three static meshes are in the folder and are correctly named.  Also, press the <kbd>Build</kbd> button. Run the game.  The collisions are missing in the two new platforms and the material is not rendering it is black.
 
@@ -212,7 +184,17 @@ Now make sure you three static meshes are in the folder and are correctly named.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 20.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 16.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+Play the game and make sure you jumps are still working the way they were before they were turned into brushes.  Mine worked fine.
+
+https://user-images.githubusercontent.com/5504953/128370608-e0f67775-84ed-46e1-ac37-d612c141dc75.mp4
+
+![create a third ramp with height of 324 uu](images/Create3rdRamp.jpg)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 17.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Open up both models and change **Collision Complexity** to `Use Complex As Simple` and adjust the **Light Map Coordinate Index** to `1`, and **Light Map Resolution** to `256`.
 
@@ -220,21 +202,37 @@ Open up both models and change **Collision Complexity** to `Use Complex As Simpl
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 21.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-Play the game and make sure you jumps are still working the way they were before they were turned into brushes.  Mine worked fine.
-
-https://user-images.githubusercontent.com/5504953/128370608-e0f67775-84ed-46e1-ac37-d612c141dc75.mp4
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 22.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Copy the text over and move it over the Jump Platforms, rename it and place it in the **Jump Platforms** folder.  Save all of your work, commit it and upload to **GitHub**.
 
 ![Add jump platforms text on top of jump platforms](images/AddTextToJumpPlatforms.jpg)
 
 ![save and commit work to github](images/CommitWork.jpg)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 19.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 20.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond:
+
+
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 21.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
+
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 22.`\|`SUU&G`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
 
 ___
 
