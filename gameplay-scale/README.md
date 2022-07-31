@@ -40,7 +40,12 @@ For a player collision a simple shape that provides satisfactory collision ends 
 
 So whe figuring out how far and high we can jump, we do not measure the player but we measure the player's collision volume.  This is what determines where the player collides in the world. So if the collision volume doesn't pass through the player won't.  This is the **Capsule Component** in the player blueprint.  This is what we are measuring for. 
 
+Now this collision volume is NOT visible in game as the player doesn't even know it exists.  Lets see it, which will help us in level design as it is all abou collision volumes.
+
 Go to to **Third Person Character** and press on the **Capsule Component**.  Look for **Rendering** and turn **Hidden in Game** `off`. This way we can see the capsule collider in game which will help with grey blocking.
+
+![turn hidden in game off](images/hiddenInGame.png)
+
 
 ![](../images/line2.png)
 
