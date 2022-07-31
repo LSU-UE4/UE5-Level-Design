@@ -94,7 +94,7 @@ We now can go into the game and jump and double jump and measure roughly the dis
 
 ##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets double jump and see if we have enough clearance without adjusting the camera up or down.  In my case my camera can still clip the top of the platform ceiling which causes a glitch. Lets fix this. Make any adjustments but the height seems good for mine and no collision issues with the camera.
+Now lets double jump and see if we have enough clearance without adjusting the camera up or down.  In my case my camera can still clip the top of the platform ceiling which causes a glitch.
 
 ![camera in default position clips with ceiling](images/camOverlap.png)
 
@@ -103,15 +103,18 @@ Now lets double jump and see if we have enough clearance without adjusting the c
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-We can now add this to our scale register. We will round it up to 7.5.
+Lets fix this. Remake the first platform to be 1200 cm tall with a center 950 cm opening instead of the original 1000cm/775cm. We can now add this to our scale register. We will ame an opening to jump through 9.5 meters.
 
 **Scale Register**
 |Item|Dimensions|
 |-------------|-------------|
 |Player Height | 1.92 m|
 |Player Width | .84 m|
-|Double Jump Opening Height | 7.5 m|
+|Double Jump Opening Height | 9.5 m|
+
+Create a new cube that is 
+
+![create a new box that is 400 x 200 x 1200](images/newBoxSize.png)
 
 ![](../images/line2.png)
 
