@@ -138,13 +138,21 @@ Now we will have it cut a hole in the larger shape by selecting both objects and
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-
+Now lets delete the old smaller jump platform.  You will get a warning and you can **Prelace References** with the new object I creaetd which is **Boolean_507B** (yours will be different, you can right click on the new shape and select **Find in Content** to get the name and location).
 
 ![delete the old shape and replace it](images/deleteReplace.png)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+Delete the old shapes from the **Content Drawer** and move the **Static Mesh** to the **Meshes** folder.  Selet **Content** and right click then select **Fix Up Redirects in Folder**. Now rename the file back to the original `SM_JumpPlatform_Low`.
+
+![rename file to SM_JumpPlatform_Low](images/rename.png)
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Our first jump platform we created was about 110 uu units high (1.1 meters).  The player can easily clear it with a single jump. Now lets make two more jump platforms.  One that can just clear a single jump.  And one that can just clear a double jump. For these you will have to make the jump platforms taller to accomodate the higher positioning of the opening.
 
@@ -177,10 +185,6 @@ Now lets duplicate the middle brushes to create our third and final jump.  I cal
 
 
 ![7.5 meters for double jump size of opening](images/DoubleJumpEntrySize.jpg)
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Add a `Jump Platforms` folder and add the three platforms to it.  It should have one static mesh and four brushes.
 
