@@ -120,6 +120,12 @@ Create a new cube that is a **Width** of `400`, **Depth** of `800` and **Height*
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now lets create a shape to cut a whole that is a **Width** of `775`, **Depth** of `408` and **Height** of `950`. Center it in the larger bux shape.  Make sure both boxes have **Rotatings** at `0`, `0`, `0`.
+
+![create a new box that is 775 x 408 x 950](images/boxCutter.png)
+
+
+
 Our first jump platform we created was about 110 uu units high (1.1 meters).  The player can easily clear it with a single jump. Now lets make two more jump platforms.  One that can just clear a single jump.  And one that can just clear a double jump. For these you will have to make the jump platforms taller to accomodate the higher positioning of the opening.
 
 Repeat the process and create another jump platform in a brush with a jump height of **180 uu's** with an opening of **750** and call it `BR_JumpPlatform_Mid` & `BR_JumpPlatform_Mid_Inner`.
