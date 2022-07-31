@@ -88,15 +88,15 @@ We now can go into the game and jump and double jump and measure roughly the dis
 |Single Jump | ~200 |
 |Double Jump | ~410|
 
-![alt_text](images/jumpHeight.png)
+![jump height and double jump height added to register](images/jumpHeight.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets double jump and see if we have enough clearance.  In my case my camera can still clip the top of the platform ceiling which causes a glitch. Lets fix this. Make any adjustments but the height seems good for mine and no collision issues with the camera.
+Now lets double jump and see if we have enough clearance without adjusting the camera up or down.  In my case my camera can still clip the top of the platform ceiling which causes a glitch. Lets fix this. Make any adjustments but the height seems good for mine and no collision issues with the camera.
 
-https://user-images.githubusercontent.com/5504953/128208780-4f8313bc-33fb-42ce-914e-89c1fcbaf884.mp4
+![camera in default position clips with ceiling](images/camOverlap.png)
 
 
 
