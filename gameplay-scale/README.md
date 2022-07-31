@@ -125,6 +125,18 @@ Now lets create a shape to cut a whole that is a **Width** of `775`, **Depth** o
 ![create a new box that is 775 x 408 x 950](images/boxCutter.png)
 
 
+![](../images/line2.png)
+
+##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
+
+
+
+![cut hole out with bool](images/bool.png)
+
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
 Our first jump platform we created was about 110 uu units high (1.1 meters).  The player can easily clear it with a single jump. Now lets make two more jump platforms.  One that can just clear a single jump.  And one that can just clear a double jump. For these you will have to make the jump platforms taller to accomodate the higher positioning of the opening.
 
@@ -133,17 +145,9 @@ Repeat the process and create another jump platform in a brush with a jump heigh
 
 https://user-images.githubusercontent.com/5504953/128357947-66d11e0f-3e15-4040-b437-d5b0b8bc9e23.mp4
 
-![](../images/line2.png)
-
-##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
-
 Run the game and test your work.  In my case I can easily clear the platform with a single jump.
 
 https://user-images.githubusercontent.com/5504953/128358498-173a1f8f-d2fb-421d-8d62-122833a3c0b7.mp4
-
-![](../images/line2.png)
-
-##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
 In fact we clear it too easily.  After some trial and error I am much happier with a single jump height of 2 meters.  I update the gameplay register **and** the jump to reflect this adjustment.
 
