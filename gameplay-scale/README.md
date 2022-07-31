@@ -85,10 +85,10 @@ We now can go into the game and jump and double jump and measure roughly the dis
 **Gameplay Register**
 |Element | Measure|
 |-------------|-------------|
-|Single Jump | ~180 |
-|Double Jump | ~255|
+|Single Jump | ~200 |
+|Double Jump | ~410|
 
-![alt_text](images/GameplayRegisterJump.png)
+![alt_text](images/jumpHeight.png)
 
 ![](../images/line2.png)
 
