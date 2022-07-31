@@ -112,9 +112,9 @@ Lets fix this. Remake the first platform to be 1200 cm tall with a center 950 cm
 |Player Width | .84 m|
 |Double Jump Opening Height | 9.5 m|
 
-Create a new cube that is 
+Create a new cube that is a **Width** of `400`, **Depth** of `800` and **Height** of `1200`.  Assign the `M_LDGrid_Local** material to the box. Press the <kbd>Complete</kbd> button. 
 
-![create a new box that is 400 x 200 x 1200](images/newBoxSize.png)
+![create a new box that is 400 x 800 x 1200](images/newBoxSize.png)
 
 ![](../images/line2.png)
 
