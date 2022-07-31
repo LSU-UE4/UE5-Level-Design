@@ -138,6 +138,14 @@ Now we will have it cut a hole in the larger shape by selecting both objects and
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
+
+
+![delete the old shape and replace it](images/deleteReplace.png)
+
+![](../images/line2.png)
+
+##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
 Our first jump platform we created was about 110 uu units high (1.1 meters).  The player can easily clear it with a single jump. Now lets make two more jump platforms.  One that can just clear a single jump.  And one that can just clear a double jump. For these you will have to make the jump platforms taller to accomodate the higher positioning of the opening.
 
 Repeat the process and create another jump platform in a brush with a jump height of **180 uu's** with an opening of **750** and call it `BR_JumpPlatform_Mid` & `BR_JumpPlatform_Mid_Inner`.
@@ -158,11 +166,6 @@ In fact we clear it too easily.  After some trial and error I am much happier wi
 |Double Jump | ~255|
 
 ![change mid jump height to 2 meters](images/MakeSingle2Meters.jpg)
-
-![](../images/line2.png)
-
-
-##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Now lets duplicate the middle brushes to create our third and final jump.  I called them: `BR_JumpPlatform_Tall` & `BR_JumpPlatform_Tall_Inner`. Play around with the double jump height and update the register. I settled on 324 units as the setting I thought was right:
 
