@@ -31,7 +31,7 @@ So for our player the most common collision detection is with the ground to unsu
 
 For a player collision a simple shape that provides satisfactory collision ends up being a capsule.  A box collider would have edges and the player wouldn't move smoothly along edges when jumping or when climbing stairs.
 
-![capsule and cube collision examples](images/capsuleCube.jpg)
+![capsule and cube collision examples](images/capsuleCube.png)
 
 
 ![](../images/line2.png)
