@@ -129,7 +129,7 @@ Now lets create a shape to cut a whole that is a **Width** of `775`, **Depth** o
 
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
-
+Now we will have it cut a hole in the larger shape by selecting both objects and then **PolyModel | MshBool**.  It will either be **Difference A-B** or **Difference B-A** depending on the order of selection.  When you have it correct press the <kbd>Accept</kbd> button.
 
 ![cut hole out with bool](images/bool.png)
 
