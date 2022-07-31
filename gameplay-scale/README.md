@@ -75,9 +75,6 @@ Now then we have the first entry in our Scale Register. Since uu's default to cm
 
 ![player 179 cm tall by 71 cm wide ](images/heightWidthPlayer.png)
 
-
-![alt_text](images/image_64.png)
-
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
