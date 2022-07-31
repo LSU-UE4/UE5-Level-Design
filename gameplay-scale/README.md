@@ -53,24 +53,25 @@ Go to to **Third Person Character** and press on the **Capsule Component**.  Loo
 
 Now lets imagine that we have tested and tweaked the physics to be exactly what we wanted (we do want to lock player physics before begining an actual level gray block).  So we can establish some scale and gameplay metrics and enter it into our register.
 
-We can easily measure scale by going in the editor and putting a player in the level (don't forget to remove them after) and change to an orthographic view like **Front**.  Hold the middle mouse button (can't seem to do this on a touchpad) and drag from one end to the other and you will get the result in unreal units (uu/cm).
+We need to know the size of the player to know what it can fit in and what it can't can't.  This dictates minimum size for doors and other objects we want to craft.
 
-![measure width and height of player](images/MeasureScale.jpg)
+We can easily measure scale by going in the editor and putting a player in the level (don't forget to remove them after) and change to an orthographic view like **Front** or **Left**.  I like putting it in **Wireframe** view as well to be extra accurate. Hold the middle mouse button (can't seem to do this on a touchpad) and drag from one end to the other and you will get the result in unreal units (uu/cm).
 
+![measure width and height of player](images/measurePlayer.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
-Now then we have the first entry in our Scale Register. Since uu's default to cm we will stick with the metric system from now on.
+Now then we have the first entry in our Scale Register. Since uu's default to cm we will stick with the metric system from now on. The player is 1.79 meters tall (~5' 10") and a width and depth of .71 m (~2' 4").
 
 **Scale Register**
 |Item|Dimensions|
 |-------------|-------------|
-|Player Height | 1.92 m|
-|Player Width | .84 m|
+|Player Height | 1.79 m|
+|Player Width | .71 m|
 
-![player 192 uu tall by .84 uu wide ](images/HeightWidth.jpg)
+![player 179 cm tall by 71 cm wide ](images/heightWidthPlayer.png)
 
 
 ![alt_text](images/image_64.png)
