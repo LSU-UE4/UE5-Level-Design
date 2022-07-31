@@ -63,6 +63,8 @@ We can easily measure scale by going in the editor and putting a player in the l
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
+Now if we walk our player up to the wall when we press play we can confirm these measurements and they look accurate right next to the material that is a square meter in size.
+
 Now then we have the first entry in our Scale Register. Since uu's default to cm we will stick with the metric system from now on. The player is 1.79 meters tall (~5' 10") and a width and depth of .71 m (~2' 4").
 
 **Scale Register**
