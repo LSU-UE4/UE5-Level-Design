@@ -70,7 +70,7 @@ Now we don't want to create a single platform in this level.  We want to create 
 
 Add a **Content | Blueprints** folder. Go back to the **World Outliner** and and select **Disc** you made.  You will see a button **Blueprint/Add Script**.  Highlight the platform and press the <kbd>Blueprint/Add Script</kbd> button.  Name the blueprint `BP_Platform` and keep the default **New Subclass**. Put it in the new **Blueprints** folder. Press the <kbd>Select</kbd> button. I like docking the blueprint next to the editor if I am on a single monitor.
 
-![turn actor to blueprint and call it BP_Platform](images/createBP.jpg)
+![turn actor to blueprint and call it BP_Platform](images/createBP.png)
 
 ![](../images/line2.png)
 
