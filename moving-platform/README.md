@@ -190,8 +190,9 @@ Add a **Set Starting Position** as a **Set** node.  This sets the position to th
 
 ##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Connect the execution pin from **Set Start Position** to the **Set Starting Position** node.  Then connect the **Return Value** pin to the **Starting Position** pin that stores the current position this actor is in.
 
-![set actor location](images/connectSAL.png)
+![set actor position](images/connectSAL.png)
 
 
 
