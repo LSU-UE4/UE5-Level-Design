@@ -23,9 +23,9 @@ Lets move to an empty side of the level where you will put the platforms. Duplic
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-For a change lets add a staircase instead of a ramp to run onto a flat ramp to jump over for a long jump.  Add a **Geometry | Meshes | LinearStair_StaticMesh** to the level. Change the name to `SM_LinearStair` to be consistent with the other static meshes naming convention.
+For a change lets add a staircase instead of a ramp to run onto a flat ramp to jump over for a long jump.  Enter into **Modeling Mode** and select the **Shapes | Stairs**.  Now adjust the **Width** to be 3 meters wide by setting it to `300` cm.  Now the height will be 8 steps of `20`cm which will be 1.6 meters high. Now make sure you zero out the **Rotations** so they are set to `0`, `0`, `0`. Press the <kbd>Complete</kbd> button.
 
-![alt_text](images/addStairs.png)
+![add stairs to modeling](images/addStairs.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
