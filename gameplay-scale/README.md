@@ -197,7 +197,7 @@ Create a new folder called **Jump Platforms** and move the three platofmrs in it
 
 ##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press the **Add Asset** button and select the **All Classes | Text Render** for a title to sit above the jump platforms. Position and rotate it and change the **Text** to `Jump Platforms`.  Make a **World Size** of `240` and a color that contrasts with the sky. 
+Press the **Add Asset** button and select the **All Classes | Text Render** for a title to sit above the jump platforms. Position and rotate it and change the **Text** to `Jump Platforms`.  Make a **World Size** of `240` and a color that contrasts with the sky. Name them correctly and place them in the **Jump Platforms** folder.
 
 ![create jump platform text title](images/jumpPlatformText.png)
 
@@ -206,41 +206,26 @@ Press the **Add Asset** button and select the **All Classes | Text Render** for 
 ##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
-Right click and press **Duplicate**.  Rotate it 90° and raise it above.  Name them 
-![duplicate and name titel](images/dupeAndName.png)
+Once you are happy with the position select both titles and hold <kbd>Alt</kbd> while selecting the letters to make a copy.
+
+![duplicate and name title](images/dupePlatforms.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Call this second title **Ramp** and place it in the **Ramp** folder and alter the name in the **World Outliner** to properly reflect the new function.
 
-Copy the text over and move it over the Jump Platforms, rename it and place it in the **Jump Platforms** folder.  Save all of your work, commit it and upload to **GitHub**.
-
-![Add jump platforms text on top of jump platforms](images/AddTextToJumpPlatforms.jpg)
-
-![save and commit work to github](images/CommitWork.jpg)
+![Add jump platforms text on top of jump platforms](images/rampTitle.png)
 
 ![](../images/line2.png)
+
 
 ##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
 
+Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Source Control...**. Enter a **Changelist Description** and then press <kbd>Submit Content</kbd>. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
 
-
-![](../images/line2.png)
-
-##### `Step 21.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-
-
-![](../images/line2.png)
-
-##### `Step 22.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
-___
-
-![](../images/line2.png)
+![save and commit work to github](images/CommitWork.png)
 
 ![](../images/line.png)
 
