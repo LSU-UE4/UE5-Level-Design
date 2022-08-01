@@ -206,7 +206,8 @@ Press the **Add Asset** button and select the **All Classes | Text Render** for 
 ##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
-Now play the game and make sure you are happy with the jump platforms.  
+Right click and press **Duplicate**.  Rotate it 90° and raise it above.  Name them 
+![duplicate and name titel](images/dupeAndName.png)
 
 ![](../images/line2.png)
 
