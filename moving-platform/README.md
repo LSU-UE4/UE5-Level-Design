@@ -27,7 +27,7 @@ AddSMPlatformAsset
 
 Now we have  perfect mesh for this platform. Add **SM_AssetPlatform** under the newly created text.
 
-![add M_AssetPlatform Asset to Scene](images/AddSMPlatformAsset.jpg)
+![add M_AssetPlatform Asset to Scene](images/radialSlices.jpg)
 
 ![](../images/line2.png)
 
