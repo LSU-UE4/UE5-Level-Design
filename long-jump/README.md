@@ -177,6 +177,8 @@ Now press the <kbd>Play</kbd> button  and make sure you are happy with the dista
 |Running Single Jump | ~1000 | 
 |Running Double Jump | ~1400 | 
 
+![adjusted platform lengths](images/newDistances.png)
+
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
