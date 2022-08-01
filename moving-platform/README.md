@@ -33,13 +33,20 @@ Go back to **Modeling Mode** and select a **Shapes | Disc**.  Set the **Radius**
 
 ##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Select **Tri Model | TriSel** button and press **Select All**.  Then press **Create Polygroup** so we can set a single group out of all the triangles.
 
 ![create polygroup out of all triangles](images/createPolygroup.png)
-
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+![create polygroup out of all triangles](images/extrudePolys.png)
+
+![](../images/line2.png)
+
+##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
 Move the **PlayerStart** actor next to the platform with the red arrow pointing at it.
 
@@ -48,10 +55,6 @@ Move the **PlayerStart** actor next to the platform with the red arrow pointing 
 Run the game and you will notice that there is no collision on the platform.
 
 ![no collision on platform](images/NoCollision.jpg)
-
-![](../images/line2.png)
-
-##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
 Now double click **SM_AssetPlatform** you just created.  It does not have a collision volume when you do this.  Now we don't want to use complex as simple as this has over 2,000 vertices.  The polygons are unecessarilly dense for a collision and this will have an impact to our framerate.
 
