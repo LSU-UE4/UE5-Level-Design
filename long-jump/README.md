@@ -17,7 +17,7 @@ We also want to know how far a player can jump to overcome gaps in buildings or 
 
 Lets move to an empty side of the level where you will put the platforms. Duplicate a new title on top of that area and call it `Long Jumps`. Create a new folder called `Jump Ramps` in the **World Outliner** and move the text into it. Rename the text appropriately to `Long Jumps`.
 
-![Add long jump text to empty part of level](images/LongJumpText.jpg)
+![Add long jump text to empty part of level](images/longJumps.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
