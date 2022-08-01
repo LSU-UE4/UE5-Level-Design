@@ -99,29 +99,26 @@ Duplicate the stairs and the platform for the other end of the jump and rotate i
 
 ![duplicate and rotate jump platform](images/dupeAndRotate.png)
 
+![](../images/line2.png)
 
-https://user-images.githubusercontent.com/5504953/128517445-057468e1-025f-4b53-bb77-4c71e3f61978.mp4
+##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-Run the game and jump.  Test the short jump ramp and make adjustments. I can clear 7 meters. too easily.
+Run the game and jump.  Test the short jump ramp and make adjustments. I can clear 8 meters perfectly from a standing jump.
 
-https://user-images.githubusercontent.com/5504953/128517612-ccb7673a-6a7e-4946-a36b-67f3e58eb24f.mp4
 
-Make the necessary adjustments. In my case I am happy with an 8 meter gap (800 uu).
 
-**Gameplay Register**
-|Element | Measure|
-|-------------|-------------|
-|Single Jump | 200 |
-|Double Jump | 324|
-|Standing Long Jump | ~800 | 
 
-https://user-images.githubusercontent.com/5504953/128518129-dec0b276-9338-46dd-a7b3-8ee178c52de3.mp4
+![](../images/line2.png)
+
+
+##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Your world outliner should have all ramp objects in the **Jump Ramps** folder names appropriately. 
 
 Duplicate it to have a copy as a starting point for the next ramp. Take the copy of standing jump ramps and lets make a running single jump.  Add another cube with 3 meters to run along before jumping.
 
 You should not be able to make this from a standing jump but should be able to jump with a single running jump (no double jumping).  Run along the ground and get a good running jump distance. Adjust the distance, update the name of the objects and the jump distance text.
+
 
 Mine ended up being 1100 uu's to make a good single jump distance that you can't make with a standing jump.
 
@@ -134,10 +131,6 @@ Mine ended up being 1100 uu's to make a good single jump distance that you can't
 
 https://user-images.githubusercontent.com/5504953/128521104-ff058a28-390d-46d5-9374-c3c3107736f5.mp4
 
-![](../images/line2.png)
-
-##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
-
 Repeat this entire process for a long double jump.  I made the running ramp 6 meters long.  After some trial and error I settled on a 16 meter gap.  This required a very well timed double jump.
 
 **Gameplay Register**
@@ -149,11 +142,6 @@ Repeat this entire process for a long double jump.  I made the running ramp 6 me
 |Running Long Single Jump | 1600 |
 
 https://user-images.githubusercontent.com/5504953/128525326-18904bf6-4afb-4f3b-9ee9-5025605cc806.mp4
-
-![](../images/line2.png)
-
-
-##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Add to GitHub by checking in changes in Unreal and pushing to the server in **GitHub Desktop**.
 
