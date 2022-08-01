@@ -15,7 +15,7 @@ We also want to know how far a player can jump to overcome gaps in buildings or 
 
 ##### `Step 1.`\|`SUU&G`|:small_blue_diamond:
 
-Lets move to an empty side of the level where you will put the platforms. Duplicate a new title on top of that area and call it `Long Jumps`. Create a new folder called `Jump Ramps` in the **World Outliner** and move the text into it. Rename the text appropriately to `Long Jump Title 1` and `Long Jump Title 2` .
+Lets move to an empty side of the level where you will put the platforms. Duplicate a new title on top of that area and call it `Long Jumps`. Create a new folder called `Jump Ramps` in the **World Outliner** and move the text into it. Rename the text appropriately to `Long Jump Title` and `Long Jump Title2` .
 
 ![Add long jump text to empty part of level](images/longJumps.png)
 
@@ -23,9 +23,9 @@ Lets move to an empty side of the level where you will put the platforms. Duplic
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-For a change lets add a staircase instead of a ramp to run onto a flat ramp to jump over.  Add a **Geometry | Meshes | LinearStair_StaticMesh** to the level. Change the name to `SM_LinearStair` to be consistent with the other static meshes naming convention.
+For a change lets add a staircase instead of a ramp to run onto a flat ramp to jump over for a long jump.  Add a **Geometry | Meshes | LinearStair_StaticMesh** to the level. Change the name to `SM_LinearStair` to be consistent with the other static meshes naming convention.
 
-![alt_text](images/AddREnameStaritcase.jpg)
+![alt_text](images/addStairs.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
