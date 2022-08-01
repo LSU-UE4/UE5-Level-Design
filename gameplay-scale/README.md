@@ -183,6 +183,7 @@ register **and** the jump to reflect this adjustment.
 
 Now lets create a jump height of 4 meters.  Lets call it `BR_JumpPlatform_Tall`.  I will let you do this on its own.  Then press run and double jump over the platform.
 
+https://user-images.githubusercontent.com/5504953/182051795-244c175e-b02e-4f50-9cbe-7679c60c098f.mp4
 
 ![](../images/line2.png)
 
