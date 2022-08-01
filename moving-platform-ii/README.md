@@ -15,7 +15,9 @@ Lets finish up the moving platform so it can go from beginning to end and back.
 
 ##### `Step 1.`\|`UE5LD`|:small_blue_diamond:
 
-![alt text](images/getSetEnd.png)
+Drag a reference to **bSertEndPosition** to the graph and select **Get**.  Right click on the open graph and select another **Branch** node.  Send the output execution pin from the first **Branch Node | False** to the second **Branch Node** input.  This means that if you are not pushing the **Set Starting Position** variable maybe you are pushing the **Set Ending Position**.  Then attach the red output pin of **Set End Position** to the **Branch | Condition** pin.
+
+![add set ending position and branch node](images/getSetEnd.png)
 
 ![](../images/line2.png)
 
