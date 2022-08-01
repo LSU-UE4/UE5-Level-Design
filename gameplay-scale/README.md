@@ -197,6 +197,8 @@ Create a new folder called **Jump Platforms** and move the three platofmrs in it
 
 ##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Press the **Add Asset** button and select the **All Classes | Text Render** for a title to sit above the jump platforms. Position and rotate it and change the **Text** to `Jump Platforms`.  Make a **World Size** of `240` and a color that contrasts with the sky. 
+
 ![create jump platform text title](images/jumpPlatformText.png)
 
 ![](../images/line2.png)
