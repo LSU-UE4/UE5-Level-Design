@@ -25,7 +25,7 @@ Copy the jump ramps title by select both actors then **Alt** dragging a copy to 
 
 AddSMPlatformAsset
 
-Now we have  perfect mesh for this platform. Add **SM_AssetPlatform** under the newly created text.
+Go back to **Modeling Mode** and select a **Shapes | Disc**.  Set the **Radius** to `300` and **Radius Slices** to `90`. Place it in the level and make sure the **Rotations** are all set to `0`, `0`, `0`. Press the <kbd>Complete</kbd> button.
 
 ![add M_AssetPlatform Asset to Scene](images/radialSlices.png)
 
