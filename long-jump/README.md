@@ -38,15 +38,10 @@ Now lets add a ramp after the to top of stairs so you can get a running jump.  N
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-Lets make a change to the material. Lets color code it to warn the person playing it that there is a specific meaning to this area.  We can use the color green to indicate that the player will be constrained from running in some way.  Maybe there will be a cut scene and when they get to the top of the stairs that the exit will be blocked and all they can do is a standing jump.
 
-Now in gray blocking we can't implement all the mechanics of the level as we are just trying to get a sense of the space.  So we can create materials that indicate **beats** we want.
+Align the stairs and ramp. In your top down and side/front views make sure they all line up so that the edges are perfectly aligned as if it is one shape. 
 
-We will use a material instance to alter the color of the texture.  Right click on **M_LDGrid_Basae** and select `Create Material Instance`.  This will create an **instance** of the material that we can edit certain parameters the creator of the material allows us to. rename it to `MI_LDGrid_Base_Constrain`.
-
-Now double click the material instance and select the **Base Color** and **Line Color** for editing.  Give them both a distinct color that makes them stand out from gray.
-
-https://user-images.githubusercontent.com/5504953/128514344-67818e4b-f304-4c90-a361-f356922ea878.mp4
+![Align the stairs and ramp](images/placeNextToEachOther.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
