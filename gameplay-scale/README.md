@@ -189,9 +189,9 @@ https://user-images.githubusercontent.com/5504953/182051795-244c175e-b02e-4f50-9
 
 ##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Add a `Jump Platforms` folder and add the three platforms to it.  It should have one static mesh and four brushes.
+Create a new folder called **Jump Platforms** and move the three platofmrs in it.  Name them correctly in the **World Outliner**. Also, make sure you have the three meshes correclty named in the **Meshes** folder.
 
-![add jump platforms folder and move three platforms in it](images/OrganizeWO.jpg)
+![convert two brush platforms to static mesh](images/renamedJumpPlatforms.png)
 
 ![](../images/line2.png)
 
@@ -206,9 +206,7 @@ Open up both models and change **Collision Complexity** to `Use Complex As Simpl
 ##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
-Now play the game and make sure you are happy with the jump platforms.  Create a new folder called **Jump Platforms** and move the three platofmrs in it.  Name them correctly in the **World Outliner**. Also, make sure you have the three meshes correclty named in the **Meshes** folder.
-
-![convert two brush platforms to static mesh](images/renamedJumpPlatforms.png)
+Now play the game and make sure you are happy with the jump platforms.  
 
 ![](../images/line2.png)
 
