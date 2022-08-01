@@ -172,8 +172,7 @@ Our first jump platform we created was about 110 uu units high (1.1 meters).  Th
 
 Lets create a platorm with a 2 meter height so a **Width** of `400`, **Depth** of `800` and **Height** of `1300` with a hole that is still a **Width** of `775`, **Depth** of `408` and **Height** of `950`. 
 
-Clean up the directory and name it `SM_JumpPlatform_Mid`.
-
+Clean up the directory and name it `SM_JumpPlatform_Mid`. If the first jump was tricky - this jump is hard to make with a single jump but not impossible.
 
 
 ![](../images/line2.png)
