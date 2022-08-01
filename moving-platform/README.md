@@ -2,7 +2,7 @@
 
 ### Moving Platform
 
-<sub>[previous](../long-jump/README.md#user-content-long-jump) • [home](../README.md#user-content-ue4-intro-to-level-design) • [next](../readme/README.md#user-content-readmemd-file)</sub>
+<sub>[previous](../long-jump/README.md#user-content-long-jump) • [home](../README.md#user-content-ue4-intro-to-level-design) • [next](../moving-platform-ii/README.md#user-content-moving-platform-ii)</sub>
 
 ![](../images/line3.png)
 
@@ -211,5 +211,5 @@ https://user-images.githubusercontent.com/5504953/182248453-137c76ae-0cc9-436a-a
 ![next up next tile](images/banner.png)
 
 
-| [previous](../long-jump/README.md#user-content-long-jump)| [home](../README.md#user-content-ue4-intro-to-level-design) | [next](../readme/README.md#user-content-readmemd-file)|
+| [previous](../long-jump/README.md#user-content-long-jump)| [home](../README.md#user-content-ue4-intro-to-level-design) | [next](../moving-platform-ii/README.md#user-content-moving-platform-ii)|
 |---|---|---|

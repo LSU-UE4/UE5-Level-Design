@@ -2,11 +2,11 @@
 
 ### Moving Platform II
 
-<sub>[previous](../first-hour/README.md#user-content-first-hour-in-ue4) • [home](../README.md#user-content-ue4-hello-world) • [next](../readme/README.md#user-content-readmemd-file)</sub>
+<sub>[previous](../moving-platform/README.md#user-content-moving-platform) • [home](../README.md#user-content-ue4-hello-world)</sub>
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+Lets finish up the moving platform so it can go from beginning to end and back.
 
 <br>
 
@@ -242,5 +242,5 @@ ___
 
 ![](../images/line.png)
 
-| [previous](../first-hour/README.md#user-content-first-hour-in-ue4)| [home](../README.md#user-content-ue4-hello-world) | [next](../readme/README.md#user-content-readmemd-file)|
-|---|---|---|
+| [previous](../moving-platform/README.md#user-content-moving-platform)| [home](../README.md#user-content-ue4-hello-world) | 
+|---|---|
