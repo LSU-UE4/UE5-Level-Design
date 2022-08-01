@@ -91,7 +91,9 @@ Press **Compile** on the blueprint and make sure there are no errors. Go back to
 
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
-Press the <kbd>Play</kbd> button and see the platform go from the begining to the end position.
+Press the <kbd>Play</kbd> button and see the platform go from the begining to the end position.\
+
+https://user-images.githubusercontent.com/5504953/182253712-6ffb3a80-27ad-401f-8396-eb3550b8a9fc.mp4
 
 ![](../images/line2.png)
 
