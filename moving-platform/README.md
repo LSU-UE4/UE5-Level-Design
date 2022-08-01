@@ -66,13 +66,11 @@ Run the game and you can jump on the platform.  Make any changes you see fit, bu
 
 ##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we don't want to create a single platform in this level.  We want to create a game actor that we can use multiple times in multiple levels.  In Unity these are called **Prefabs**, in Unreal these are **blueprints**.  
+Now we don't want to create a single platform in this level.  We want to create a game actor that we can use multiple times in multiple levels.  In Unity these are called **Prefabs**, in Unreal we use **Blueprints**.  
 
-Go back to the **World Outliner** and and select **SM_AssetPlatform**.  You will see a button **Blueprint/Add Script**.  Highlight the platform and press the <kbd>Blueprint/Add Script</kbd> button.  Name the blueprint `BP_Platform` and keep the default **New Subclass**. Press the <kbd>Select</kbd> button.
+Add a **Content | Blueprints** folder. Go back to the **World Outliner** and and select **Disc** you made.  You will see a button **Blueprint/Add Script**.  Highlight the platform and press the <kbd>Blueprint/Add Script</kbd> button.  Name the blueprint `BP_Platform` and keep the default **New Subclass**. Put it in the new **Blueprints** folder. Press the <kbd>Select</kbd> button. I like docking the blueprint next to the editor if I am on a single monitor.
 
-move it to the **Blueprints** folder. I like docking the blueprint next to the editor if I am on a single monitor.
-
-![turn actor to blueprint and call it BP_Platform](images/AddBlueprint.jpg)
+![turn actor to blueprint and call it BP_Platform](images/createBP.jpg)
 
 ![](../images/line2.png)
 
