@@ -99,7 +99,8 @@ https://user-images.githubusercontent.com/5504953/182253712-6ffb3a80-27ad-401f-8
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt text](images/.png)
+Now go back to **BP_Platform** to the **Custom Event** section.  Lets add a delay for the platform to start for the first time.  Right click on the open graph and add a 
+![alt text](images/delayNode.png)
 
 ![](../images/line2.png)
 
