@@ -57,12 +57,21 @@ In **Modeling Mode** select both the stairs and the ramps.  Select **Mesh Ops | 
 
 Now select the new merged shape back in **Select Mode**.  Right click and choose **Browse to Asset**. In my case I had some failed attempts so I **Deleted** them.  I then renamed the new mesh to `SM_LongJump` and moved it to the **Meshes** folder.
 
-![duplicate other end of jump platform](images/organizeData.png)
+![name and store new jump platform](images/organizeData.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now make sure the end of the platform matches a line marker on the ground.  We want to count the length in meters a player can jump.  Also rename the object to 
+![duplicate other end of jump platform](images/alignRename.png)
+
+
+
+![](../images/line2.png)
+
+##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now do a standing jump while pressing forward (<kbd>up arrow</kbd> or <kbd>W</kbd>) key.  Count the number of tiles the player can cover. I believe mine covered roughly 7 meters.
 
@@ -78,10 +87,6 @@ https://user-images.githubusercontent.com/5504953/128516328-995951fc-83d0-4c31-8
 Duplicate the stairs and the platform for the other end of the jump. Place it so that there is a 7 meter gap (7 cubes on the floor tile).
 
 https://user-images.githubusercontent.com/5504953/128517445-057468e1-025f-4b53-bb77-4c71e3f61978.mp4
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Run the game and jump.  Test the short jump ramp and make adjustments. I can clear 7 meters. too easily.
 
