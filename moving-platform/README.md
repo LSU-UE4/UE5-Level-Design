@@ -51,7 +51,12 @@ Now you can select **PolyModel | PolyEd** and select **Extrude**.  Now give the 
 
 Move the **PlayerStart** actor next to the platform with the red arrow pointing at it.
 
-![move player start next to platform](images/MovePlayerStart.jpg)
+![move player start next to platform](images/playerStart.png)
+
+
+![](../images/line2.png)
+
+##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
 
 Run the game and you will notice that there is no collision on the platform.
 
@@ -62,10 +67,6 @@ Now double click **SM_AssetPlatform** you just created.  It does not have a coll
 Lets press the **Collision** drop down and select `Add 26DOP Simplified Collision`.  For our gray box purpose this will suffice. Press the <kbd>Save</kbd> button.
 
 ![added Add 26DOP Simplified Collision to mesh](images/AddCollisionToMesh.jpg)
-
-![](../images/line2.png)
-
-##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
 
 Move **SM_AssetPlatform** into the **Moving Platforms** folder.  Play the game and make sure you are happy with the collision volume you made:
 
