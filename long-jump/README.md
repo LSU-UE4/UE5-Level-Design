@@ -143,13 +143,24 @@ Lets start with duplicating the ramps for the Running Single Jump of 11 meters.
 |**Running Single Jump** | **~1100** | 
 |Running Double Jump | ~1650 | 
 
-![duplicate ramps for running jump of 1100 meters](images/runningJump.png)
+![duplicate ramps for running jump of 1100 cm](images/runningJump.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt text](images/.png)
+Lets do the same again by duplicating the ramps for the Running Double Jump of 16.5 meters. Make sure you name the new jump platforms in the **World Outliner**.
+
+**Gameplay Register**
+|Element | Measure|
+|-------------|-------------|
+|Single Jump | 200 |
+|Double Jump | 324|
+|Standing Long Jump | ~800 | 
+|Running Single Jump | ~1100 | 
+|**Running Double Jump** | **~1650** | 
+
+![duplicate ramps for running double jump of 1650 cm](images/runningDouble.png)
 
 ![](../images/line2.png)
 
