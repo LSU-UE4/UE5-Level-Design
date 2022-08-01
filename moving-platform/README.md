@@ -118,10 +118,10 @@ Duplicate the **Starting Position** variable and call it `Ending Position` and c
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-
 Add a third variable that will affect how long the platform waits before it leaves and returns to its two locations.  Call it `Delay` and make it type **Float**.  Set **Private** to `true`, **Instance Editable** to `true`, **Category** to `Platform` and **Tooltip** to `Delay between targets in seconds`.
 
-https://user-images.githubusercontent.com/5504953/128603680-6da7ee1f-fffd-466a-a97b-25e52ae87c09.mp4
+![add delay variable](images/delayVariable.png)
+
 
 Now we need a variable to set the speed the platform moves at in seconds.  Duplicate by right clicking on the  **Delay** variable and selecting **Duplicate**.
 
