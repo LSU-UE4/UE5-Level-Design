@@ -92,17 +92,18 @@ Rename the mesh to `SM_Platform` and move it to the **Meshes** folder.  Delete a
 
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
+We need to locations for the platform to move **From** and to move **To**.  We will just be translating the object and are not rotating or scaling it.  So we need an **X**, **Y**, **Z** float to store the location.  There is a data structure called a **Vector** available to us in Unreal.  It is a **struct** that holds the three floats we need. We need to create a Variable to store it.
 
-
-We need to locations for the platform to move **From** and to move **To**.  We will just be translating the object and are not rotating or scaling it.  So we need an **X**, **Y**, **Z** float to store the location.  There is a data structure called a **Vector** available to us in Unreal.  It holds the three floats we need. We need to create a Variable to store it.
-
-Make sure you are in the **Event Graph** tab.  Press the **+** button next to **Variable** and create a new Variable called `Starting Position` of type **Vector** and make it **Private** and **Instance Editable**.  Put it in **Category** `Platform` and give it a **Tooltip** of `Starting location of platform`.
+Press the **+** button next to **Variable** and create a new Variable called `Starting Position` of type **Vector** and make it **Private** and **Instance Editable**.  Put it in **Category** `Platform` (since this category doesn't exist you will have type over the existing one to creat it) and give it a **Description** of `Starting location of platform`.
 
 We set **Private** to `true` as we want to default Variables to private to this object.  We would need to make it public if we wanted another actor to access the data. In this case we don't need to do this.  If you don't know, make the variable private.
 
 The **Instance Editable** allows us to adjust this value in the game window to tune while playing the game.  This allows us to edit it in the game editor without going back to the blueprint.
 
-https://user-images.githubusercontent.com/5504953/128603375-e80ab2e8-13dc-4b3f-adc9-e2efb98f1b8e.mp4
+We set a description as it allows us to get a tooltip when we highlight the variable, cool!
+
+![create startingPosition variable](images/startingPosition.png)
+
 
 Duplicate the **Starting Position** variable and call it `End Position` and change the tooltip to `End location of platform`.
 
