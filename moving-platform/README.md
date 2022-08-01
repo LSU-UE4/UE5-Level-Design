@@ -158,7 +158,7 @@ Also make sure that the **Starting Position** and **Ending Position** variables 
 
 Go to the **Construction Script** tab and lets put logic to set the start and end position.  Add a **Branch** node by right clicking on the graph in an empty section and type in **Branch** in the search window.  Press **Select** and you should see a **Branch**.
 
-The branch node takes a boolean (true or false) as an input and will run different execution pins if the value it **True** or **False**. Grab the **bSetStartPosition** boolean and select **Get**.  Drag the output of hte **SetStartPosition** node to the **Condition** pin in the **Branch** node. 
+The branch node takes a boolean (true or false) as an input and will run different execution pins if the value it **True** or **False**. Grab the **bSetStartPosition** boolean and select **Get**.  Drag the output of the **SetStartPosition** node to the **Condition** pin in the **Branch** node. 
 
 Connnect the **Execution** pin from **Construction Script** to the **Branch** node.
 
