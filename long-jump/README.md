@@ -179,6 +179,8 @@ Now press the <kbd>Play</kbd> button  and make sure you are happy with the dista
 
 ![adjusted platform lengths](images/newDistances.png)
 
+https://user-images.githubusercontent.com/5504953/182212400-91eb85e5-945f-4a97-9e92-1a02a3289874.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
