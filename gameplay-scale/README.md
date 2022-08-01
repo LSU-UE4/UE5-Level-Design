@@ -174,6 +174,7 @@ Lets create a platorm with a 2 meter height so a **Width** of `400`, **Depth** o
 
 Clean up the directory and name it `SM_JumpPlatform_Mid`. If the first jump was tricky - this jump is hard to make with a single jump but not impossible. Run the game and test your work.  In my case I can easily clear the platform with a single jump.
 
+https://user-images.githubusercontent.com/5504953/182051619-0caaf950-2f97-465d-a40f-d261ea3c0647.mp4
 
 ![](../images/line2.png)
 
