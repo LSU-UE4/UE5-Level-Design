@@ -104,27 +104,28 @@ We set a description as it allows us to get a tooltip when we highlight the vari
 
 ![create startingPosition variable](images/startingPosition.png)
 
-
-Duplicate the **Starting Position** variable and call it `End Position` and change the tooltip to `End location of platform`.
-
-![duplicate starting position ot create end position](images/image_80.png)
-
-Add a third variable that will affect how long the platform waits before it leaves and returns to its two locations.  Call it `Delay` and make it type **Float**.  Set **Private** to `true`, **Instance Editable** to `true`, **Category** to `Platform` and **Tooltip** to `Delay between targets in seconds`.
-
-https://user-images.githubusercontent.com/5504953/128603680-6da7ee1f-fffd-466a-a97b-25e52ae87c09.mp4
-
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-Now we need a variable to set the speed the platform moves at in seconds.  Duplicate by right clicking on the  **Delay** variable and selecting **Duplicate**.
 
-![clicking duplicate on delay variable](images/image_81.png)
+Duplicate the **Starting Position** variable and call it `End Position` and change the tooltip to `End location of platform`.
+
+![duplicate starting position ot create end position](images/endingPos.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+
+Add a third variable that will affect how long the platform waits before it leaves and returns to its two locations.  Call it `Delay` and make it type **Float**.  Set **Private** to `true`, **Instance Editable** to `true`, **Category** to `Platform` and **Tooltip** to `Delay between targets in seconds`.
+
+https://user-images.githubusercontent.com/5504953/128603680-6da7ee1f-fffd-466a-a97b-25e52ae87c09.mp4
+
+Now we need a variable to set the speed the platform moves at in seconds.  Duplicate by right clicking on the  **Delay** variable and selecting **Duplicate**.
+
+![clicking duplicate on delay variable](images/image_81.png)
 
 Change the name to `Speed` and adjust the tooltip to `Speed to target in seconds`. 
 
