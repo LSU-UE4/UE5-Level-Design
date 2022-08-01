@@ -31,7 +31,7 @@ For a change lets add a staircase instead of a ramp to run onto a flat ramp to j
 
 ##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+Now lets add a ramp after the to top of stairs so you can get a running jump.  Now add a **Shape | Box** that is a **Width** of `300`, **Depth** of `200` and **Height** of `160`.  Now make sure you zero out the **Rotations** so they are set to `0`, `0`, `0`. Press the <kbd>Complete</kbd> button.
 
 ![add a ramp](images/addRamp.png)
 
