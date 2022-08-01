@@ -89,6 +89,7 @@ Now do a standing jump while pressing forward (<kbd>up arrow</kbd> or <kbd>W</kb
 |Double Jump | 324|
 |Standing Long Jump | ~800 | 
 
+https://user-images.githubusercontent.com/5504953/182170440-a4f2a526-232c-45a9-9ce0-9ea74f5cb894.mp4
 
 ![](../images/line2.png)
 
