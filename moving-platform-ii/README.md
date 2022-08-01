@@ -75,7 +75,7 @@ Right click on the empty graph and add a **Get Actor Rotation** node. Connect th
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to make sure the platform starts the game at its starting position.
+Now we need to make sure the platform starts the game at its starting position. In the **Event Begin Play** section add a **Set Actor Location** node.  Drag a copy of the **Get Starting Position** node and connect it to the **New Location** pin.  Now highjack the execution pin from **Event Begin Play** to **Set Actor Location** onto **Go to Platform and Back**.
 
 ![alt text](images/setInitialLocation.png)
 
