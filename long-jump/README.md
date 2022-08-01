@@ -95,7 +95,10 @@ https://user-images.githubusercontent.com/5504953/182170440-a4f2a526-232c-45a9-9
 
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
-Duplicate the stairs and the platform for the other end of the jump. Place it so that there is a 7 meter gap (7 cubes on the floor tile).
+Duplicate the stairs and the platform for the other end of the jump and rotate it 180°. Place it so that there is a 8 meter gap (8 cubes on the floor tile). It is easiest to do the placment from the **Top** view.
+
+![duplicate and rotate jump platform](images/dupeAndRotate.png)
+
 
 https://user-images.githubusercontent.com/5504953/128517445-057468e1-025f-4b53-bb77-4c71e3f61978.mp4
 
