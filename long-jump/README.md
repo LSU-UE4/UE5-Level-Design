@@ -127,10 +127,37 @@ Update the gameplay register.
 |Running Single Jump | ~1100 | 
 |Running Double Jump | ~1650 | 
 
+![](../images/line2.png)
 
 
+##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Lets start with duplicating the ramps for the Running Single Jump of 11 meters.
 
+**Gameplay Register**
+|Element | Measure|
+|-------------|-------------|
+|Single Jump | 200 |
+|Double Jump | 324|
+|Standing Long Jump | ~800 | 
+|**Running Single Jump** | **~1100** | 
+|Running Double Jump | ~1650 | 
+
+![duplicate ramps for running jump of 1100 meters](images/runningJump.png)
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+![alt text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
+
+![alt text](images/.png)
+
+![](../images/line2.png)
 
 Add to GitHub by checking in changes in Unreal and pushing to the server in **GitHub Desktop**.
 
