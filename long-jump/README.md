@@ -112,35 +112,25 @@ https://user-images.githubusercontent.com/5504953/182174672-d14dcdab-427a-44ec-b
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Your world outliner should have all ramp objects in the **Jump Ramps** folder names appropriately. 
+Now on your own calculate a running single jump and running double jump.  I ran up the stairs and jumped as late as possible.
 
-Duplicate it to have a copy as a starting point for the next ramp. Take the copy of standing jump ramps and lets make a running single jump.  Add another cube with 3 meters to run along before jumping.
+![single double jump](images/singleDouble.png)
 
-You should not be able to make this from a standing jump but should be able to jump with a single running jump (no double jumping).  Run along the ground and get a good running jump distance. Adjust the distance, update the name of the objects and the jump distance text.
-
-
-Mine ended up being 1100 uu's to make a good single jump distance that you can't make with a standing jump.
+Update the gameplay register.
 
 **Gameplay Register**
 |Element | Measure|
 |-------------|-------------|
 |Single Jump | 200 |
 |Double Jump | 324|
-|Standing Long Jump | 1100 | 
+|Standing Long Jump | ~800 | 
+|Running Single Jump | ~1100 | 
+|Running Double Jump | ~1300 | 
 
-https://user-images.githubusercontent.com/5504953/128521104-ff058a28-390d-46d5-9374-c3c3107736f5.mp4
 
-Repeat this entire process for a long double jump.  I made the running ramp 6 meters long.  After some trial and error I settled on a 16 meter gap.  This required a very well timed double jump.
 
-**Gameplay Register**
-|Element | Measure|
-|-------------|-------------|
-|Single Jump Height | 200 |
-|Double Jump Height | 324|
-|Standing Long Jump | 645 | 
-|Running Long Single Jump | 1600 |
 
-https://user-images.githubusercontent.com/5504953/128525326-18904bf6-4afb-4f3b-9ee9-5025605cc806.mp4
+
 
 Add to GitHub by checking in changes in Unreal and pushing to the server in **GitHub Desktop**.
 
