@@ -118,41 +118,39 @@ Duplicate the **Starting Position** variable and call it `Ending Position` and c
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Add a third variable that will affect how long the platform waits before it leaves and returns to its two locations.  Call it `Delay` and make it type **Float**.  Set **Private** to `true`, **Instance Editable** to `true`, **Category** to `Platform` and **Tooltip** to `Delay between targets in seconds`.
+Add a third variable that will affect how long the platform waits before it leaves and returns to its two locations.  Call it `Delay` and make it type **Float**.  Set **Private** to `true`, **Instance Editable** to `true`, **Category** to `Platform` and **Description** to `Delay between targets in seconds`.
 
 ![add delay variable](images/delayVariable.png)
-
-
-Now we need a variable to set the speed the platform moves at in seconds.  Duplicate by right clicking on the  **Delay** variable and selecting **Duplicate**.
-
-![clicking duplicate on delay variable](images/image_81.png)
-
-Change the name to `Speed` and adjust the tooltip to `Speed to target in seconds`. 
-
-![add speed variable](images/image_82.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-The platform will do a single trip from beginning to end, unless it is set to looping.  This will have it go and back at infinitum.  Add another Variable called `bPlatform Is Looping?` and make it **Type** `Boolean`.  Set **Instance Editable** to `true`, **Private** to `true`, **Category** to `Platform` and **Tooltip** to `Keep going from starting to ending position and back`
 
-![add a bPlatform Is Looping variable?](images/BPlatformIsLooping.jpg)
+Now we need a variable to set the speed the platform moves at in seconds.  Duplicate by right clicking on the  **Delay** variable and selecting **Duplicate**.
+
+Change the name to `Speed` and adjust the tooltip to `Speed to target in seconds`. 
+
+![add speed variable](images/speed.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+The platform will do a single trip from beginning to end, unless it is set to looping.  This will have it go and back at infinitum.  Add another Variable called `bPlatform Is Looping?` and make it **Type** `Boolean`.  Set **Instance Editable** to `true`, **Private** to `true`, **Category** to `Platform` and **Tooltip** to `Keep going from starting to ending position and back`
+
+![add a bPlatform Is Looping variable?](images/platfromLooping.png)
+
+
+![](../images/line2.png)
+
+##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
 
 Now since the consruction script runs anytime you make a change in the object in the level we can use this to do things like set the starting and end position of the platform.  We will use a boolean to set a variable then reset the boolean to its previous state.  Duplicate the previous **Boolean** and call it `bSet Start Position` and change the **Tooltip** to `Pressing this sets the start position in world space`.
 
 Also make sure that the **Starting Position** and **Ending Position** variables are both in the **Platform** group.
 
 ![add a bSetStartPosition variable?](images/BSetStartPos.jpg)
-
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
 
 Dupicate this Variable and call it `bSet End Position` and change the **Tooltip** to `Pressing this sets end position in world space`.
 
