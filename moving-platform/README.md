@@ -58,9 +58,9 @@ Move the **PlayerStart** actor next to the platform with the red arrow pointing 
 
 ##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
 
-Run the game and you will notice that there is no collision on the platform.
+Run the game and you can jump on the platform.  Make any changes you see fit, but I am happy with mine!
 
-![no collision on platform](images/NoCollision.jpg)
+![no collision on platform](images/jumpOnPlatform.png)
 
 Now double click **SM_AssetPlatform** you just created.  It does not have a collision volume when you do this.  Now we don't want to use complex as simple as this has over 2,000 vertices.  The polygons are unecessarilly dense for a collision and this will have an impact to our framerate.
 
