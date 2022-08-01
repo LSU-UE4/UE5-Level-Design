@@ -15,7 +15,7 @@ Lets finish up the moving platform so it can go from beginning to end and back.
 
 ##### `Step 1.`\|`UE5LD`|:small_blue_diamond:
 
-![alt text](images/.png)
+![alt text](images/getSetEnd.png)
 
 ![](../images/line2.png)
 
