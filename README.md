@@ -22,6 +22,7 @@
 <kbd></kbd> &nbsp;&nbsp; [Gameplay & Scale Register](gameplay-scale/README.md#user-content-gameplay--scale-register) <br>
 <kbd></kbd> &nbsp;&nbsp; [Long Jump](long-jump/README.md#user-content-long-jump) <br>
 <kbd></kbd> &nbsp;&nbsp; [Moving Platform](moving-platform/README.md#user-content-moving-platform) <br>
+<kbd></kbd> &nbsp;&nbsp; [Moving Platform II](moving-platform-ii/README.md#user-content-moving-platform-ii) <br>
 
 
 <!-- LICENSE -->
