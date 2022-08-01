@@ -33,13 +33,17 @@ Go back to **Modeling Mode** and select a **Shapes | Disc**.  Set the **Radius**
 
 ##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Move the **PlayerStart** actor next to the platform with the red arrow pointing at it.
 
-![move player start next to platform](images/MovePlayerStart.jpg)
+![create polygroup out of all triangles](images/createPolygroup.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Move the **PlayerStart** actor next to the platform with the red arrow pointing at it.
+
+![move player start next to platform](images/MovePlayerStart.jpg)
 
 Run the game and you will notice that there is no collision on the platform.
 
