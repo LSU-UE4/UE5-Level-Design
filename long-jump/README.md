@@ -125,7 +125,7 @@ Update the gameplay register.
 |Double Jump | 324|
 |Standing Long Jump | ~800 | 
 |Running Single Jump | ~1100 | 
-|Running Double Jump | ~1300 | 
+|Running Double Jump | ~1650 | 
 
 
 
