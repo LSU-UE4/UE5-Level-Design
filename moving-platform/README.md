@@ -109,7 +109,7 @@ We set a description as it allows us to get a tooltip when we highlight the vari
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
 
-Duplicate the **Starting Position** variable and call it `End Position` and change the tooltip to `End location of platform`.
+Duplicate the **Starting Position** variable and call it `Ending Position` and change the tooltip to `End location of platform`.
 
 ![duplicate starting position ot create end position](images/endingPos.png)
 
