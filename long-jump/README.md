@@ -47,9 +47,9 @@ Align the stairs and ramp. In your top down and side/front views make sure they 
 
 ##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
 
-Organize the **World Outliner** by making sure the two static meshes are in the **Long Jump** folder. Now move the **Player Start** so the red arrow faces the staircase.
+In **Modeling Mode** select both the stairs and the ramps.  Select 
 
-![duplicate other end of jump platform](images/OrganizeFinder.jpg)
+![duplicate other end of jump platform](images/mergeMeshes.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
