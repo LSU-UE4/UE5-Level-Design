@@ -172,37 +172,20 @@ Our first jump platform we created was about 110 uu units high (1.1 meters).  Th
 
 Lets create a platorm with a 2 meter height so a **Width** of `400`, **Depth** of `800` and **Height** of `1300` with a hole that is still a **Width** of `775`, **Depth** of `408` and **Height** of `950`. 
 
-Clean up the directory and name it `SM_JumpPlatform_Mid`. If the first jump was tricky - this jump is hard to make with a single jump but not impossible.
+Clean up the directory and name it `SM_JumpPlatform_Mid`. If the first jump was tricky - this jump is hard to make with a single jump but not impossible. Run the game and test your work.  In my case I can easily clear the platform with a single jump.
 
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
+register **and** the jump to reflect this adjustment.
 
-Run the game and test your work.  In my case I can easily clear the platform with a single jump.
-
-https://user-images.githubusercontent.com/5504953/128358498-173a1f8f-d2fb-421d-8d62-122833a3c0b7.mp4
-
-In fact we clear it too easily.  After some trial and error I am much happier with a single jump height of 2 meters.  I update the gameplay register **and** the jump to reflect this adjustment.
-
-**Gameplay Register**
-|Element | Measure|
-|-------------|-------------|
-|Single Jump | 200 |
-|Double Jump | ~255|
-
-![change mid jump height to 2 meters](images/MakeSingle2Meters.jpg)
-
-Now lets duplicate the middle brushes to create our third and final jump.  I called them: `BR_JumpPlatform_Tall` & `BR_JumpPlatform_Tall_Inner`. Play around with the double jump height and update the register. I settled on 324 units as the setting I thought was right:
-
-**Gameplay Register**
-|Element | Measure|
-|-------------|-------------|
-|Single Jump | 200 |
-|Double Jump | 324|
+Now lets create a jump height of 4 meters.  Lets call it `BR_JumpPlatform_Tall`.  I will let you do this on its own.  Then press run and double jump over the platform.
 
 
-![7.5 meters for double jump size of opening](images/DoubleJumpEntrySize.jpg)
+![](../images/line2.png)
+
+##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Add a `Jump Platforms` folder and add the three platforms to it.  It should have one static mesh and four brushes.
 
@@ -215,10 +198,6 @@ Now play the game and make sure you are happy with the brushes.  When you are le
 Now make sure you three static meshes are in the folder and are correctly named.  Also, press the <kbd>Build</kbd> button. Run the game.  The collisions are missing in the two new platforms and the material is not rendering it is black.
 
 ![build lighting test collisions](images/LightingIssuesCollision.jpg)
-
-![](../images/line2.png)
-
-##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Play the game and make sure you jumps are still working the way they were before they were turned into brushes.  Mine worked fine.
 
