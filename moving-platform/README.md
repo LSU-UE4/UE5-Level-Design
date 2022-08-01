@@ -41,6 +41,7 @@ Select **Tri Model | TriSel** button and press **Select All**.  Then press **Cre
 
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now you can select **PolyModel | PolyEd** and select **Extrude**.  Now give the platform some depth and press the <kbd>Accept</kbd> button.
 
 ![create polygroup out of all triangles](images/extrudePolys.png)
 
