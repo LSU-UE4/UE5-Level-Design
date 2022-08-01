@@ -55,8 +55,9 @@ In **Modeling Mode** select both the stairs and the ramps.  Select **Mesh Ops | 
 
 ##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
 
-![duplicate other end of jump platform](images/organizeData.png)
+Now select the new merged shape back in **Select Mode**.  Right click and choose **Browse to Asset**. In my case I had some failed attempts so I **Deleted** them.  I then renamed the new mesh to `SM_LongJump` and moved it to the **Meshes** folder.
 
+![duplicate other end of jump platform](images/organizeData.png)
 
 
 ![](../images/line2.png)
