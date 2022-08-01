@@ -83,13 +83,15 @@ Now we need to make sure the platform starts the game at its starting position. 
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt text](images/.png)
+Press **Compile** on the blueprint and make sure there are no errors. Go back to the editor and select a starting and ending point for the platform.  Set the **Speed** to `5` seconds.
+
+![game settings for platform](images/setStartEnd.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
-![alt text](images/.png)
+Press the <kbd>Play</kbd> button and see the platform go from the begining to the end position.
 
 ![](../images/line2.png)
 
