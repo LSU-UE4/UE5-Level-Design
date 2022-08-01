@@ -202,8 +202,7 @@ Connect the execution pin from **Set Start Position** to the **Set Starting Posi
 
 Press the compile button in the **Blueprint** then press the <kbd>Play</kbd> button in the level.  Move the **BP_Platform** and press the **Set Starting Position** boolean.  Notice the **Starting Positin** vector now updates with the current position of the object in the room.
 
-![alt_text](images/image_85.png)
-
+https://user-images.githubusercontent.com/5504953/182248453-137c76ae-0cc9-436a-a816-6f7f34656f56.mp4
 
 ![](../images/line2.png)
 
