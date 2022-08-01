@@ -23,7 +23,8 @@ Drag a reference to **bSertEndPosition** to the graph and select **Get**.  Right
 
 ##### `Step 2.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt text](images/.png)
+
+![alt text](images/setEndPos2.png)
 
 ![](../images/line2.png)
 
