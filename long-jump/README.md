@@ -166,18 +166,27 @@ Lets do the same again by duplicating the ramps for the Running Double Jump of 1
 
 ##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
 
+Now press the <kbd>Play</kbd> button  and make sure you are happy with the distances.  Tweak them nearer or further to your liking and upcate the **Gameplay Register** accordingly. After some trial and error I adjusted my platform lengths and register to:
+
+**Gameplay Register**
+|Element | Measure|
+|-------------|-------------|
+|Single Jump | 200 |
+|Double Jump | 324|
+|Standing Long Jump | ~800 | 
+|Running Single Jump | ~1000 | 
+|Running Double Jump | ~1400 | 
+
+![](../images/line2.png)
+
+##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Source Control...**. Enter a **Changelist Description** and then press <kbd>Submit Content</kbd>. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
+
+![save all and submit to perforce](images/submitP4.png)
+
+
 ![alt text](images/.png)
-
-![](../images/line2.png)
-
-Add to GitHub by checking in changes in Unreal and pushing to the server in **GitHub Desktop**.
-
-![alt_text](images/Github.jpg)
-
-![](../images/line2.png)
-
-___
-
 
 ![](../images/line.png)
 
