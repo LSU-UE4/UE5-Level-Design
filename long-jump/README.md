@@ -72,16 +72,27 @@ Now make sure the end of the platform matches a line marker on the ground.  We w
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now do a standing jump while pressing forward (<kbd>up arrow</kbd> or <kbd>W</kbd>) key.  Count the number of tiles the player can cover. I believe mine covered roughly 7 meters.
+Now lets move the **Player Start** actor in front of the jump platform so it is facing dead on so we can make a jump.
+
+![mvoe player start in front of jump platform](images/movePlayerStart.png)
+
+![](../images/line2.png)
+
+##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now do a standing jump while pressing forward (<kbd>up arrow</kbd> or <kbd>W</kbd>) key.  Count the number of tiles the player can cover. My player covered roughly 8 meters.
 
 **Gameplay Register**
 |Element | Measure|
 |-------------|-------------|
 |Single Jump | 200 |
 |Double Jump | 324|
-|Standing Long Jump | ~700 | 
+|Standing Long Jump | ~800 | 
 
-https://user-images.githubusercontent.com/5504953/128516328-995951fc-83d0-4c31-829e-cdef5918522e.mp4
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
 Duplicate the stairs and the platform for the other end of the jump. Place it so that there is a 7 meter gap (7 cubes on the floor tile).
 
@@ -90,10 +101,6 @@ https://user-images.githubusercontent.com/5504953/128517445-057468e1-025f-4b53-b
 Run the game and jump.  Test the short jump ramp and make adjustments. I can clear 7 meters. too easily.
 
 https://user-images.githubusercontent.com/5504953/128517612-ccb7673a-6a7e-4946-a36b-67f3e58eb24f.mp4
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Make the necessary adjustments. In my case I am happy with an 8 meter gap (800 uu).
 
@@ -105,11 +112,6 @@ Make the necessary adjustments. In my case I am happy with an 8 meter gap (800 u
 |Standing Long Jump | ~800 | 
 
 https://user-images.githubusercontent.com/5504953/128518129-dec0b276-9338-46dd-a7b3-8ee178c52de3.mp4
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
-
 
 Your world outliner should have all ramp objects in the **Jump Ramps** folder names appropriately. 
 
