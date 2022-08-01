@@ -197,9 +197,7 @@ Create a new folder called **Jump Platforms** and move the three platofmrs in it
 
 ##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up both models and change **Collision Complexity** to `Use Complex As Simple` and adjust the **Light Map Coordinate Index** to `1`, and **Light Map Resolution** to `256`.
-
-![add complex as simple to collisiona nd change index to 1 and resolution to 256](images/FixCollLightMaps.jpg)
+![create jump platform text title](images/jumpPlatformText.png)
 
 ![](../images/line2.png)
 
