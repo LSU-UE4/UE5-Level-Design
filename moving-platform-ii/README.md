@@ -99,7 +99,8 @@ https://user-images.githubusercontent.com/5504953/182253712-6ffb3a80-27ad-401f-8
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-Now go back to **BP_Platform** to the **Custom Event** section.  Lets add a delay for the platform to start for the first time.  Right click on the open graph and add a 
+Now go back to **BP_Platform** to the **Custom Event** section.  Lets add a delay for the platform to start for the first time.  Right click on the open graph and add a **Delay** function node.  Then drag a **Get Delay** variable and connect the output pin the **Duration** pin on the **Delay** node.  Set the **Default** value for the **Delay** variable to `2` seconds. Highjack the execution pins from **Go to Plaform and Back** to **Delay** then to **Move Compent To**.
+
 ![alt text](images/delayNode.png)
 
 ![](../images/line2.png)
