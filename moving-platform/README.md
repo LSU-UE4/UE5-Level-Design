@@ -68,7 +68,7 @@ Run the game and you can jump on the platform.  Make any changes you see fit, bu
 
 Now we don't want to create a single platform in this level.  We want to create a game actor that we can use multiple times in multiple levels.  In Unity these are called **Prefabs**, in Unreal we use **Blueprints**.  
 
-Add a **Content | Blueprints** folder. Go back to the **World Outliner** and and select **Disc** you made.  You will see a button **Blueprint/Add Script**.  Highlight the platform and press the <kbd>Blueprint/Add Script</kbd> button.  Name the blueprint `BP_Platform` and keep the default **New Subclass**. Put it in the new **Blueprints** folder. Press the <kbd>Select</kbd> button. I like docking the blueprint next to the editor if I am on a single monitor.
+Add a **Content | Blueprints** folder. Go back to the **World Outliner** and and select **Disc** you made.  You will see a button **Blueprint/Add Script**.  Highlight the platform and press the <kbd>Blueprint/Add Script</kbd> button.  Name the blueprint `BP_Platform` and keep the default **New Subclass**. Put it in the new **Blueprints** folder. Press the <kbd>Select</kbd> button. 
 
 ![turn actor to blueprint and call it BP_Platform](images/createBP.png)
 
@@ -76,14 +76,23 @@ Add a **Content | Blueprints** folder. Go back to the **World Outliner** and and
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![turn actor to blueprint and call it BP_Platform](images/bpPlatform.png)
+I like docking the blueprint next to the editor if I am on a single monitor. Put the **BP_Platform** actor in the **Moving Platform** folder to join the titles.
 
-
-
+![dock blueprint and put in moving platforms folder](images/bpPlatform.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Rename the mesh to `SM_Platform` and move it to the **Meshes** folder.  Delete any extraneous meshes you might have created to make it.
+
+![turn actor to blueprint and call it BP_Platform](images/smPlatform.png)
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
+
+
 
 We need to locations for the platform to move **From** and to move **To**.  We will just be translating the object and are not rotating or scaling it.  So we need an **X**, **Y**, **Z** float to store the location.  There is a data structure called a **Vector** available to us in Unreal.  It holds the three floats we need. We need to create a Variable to store it.
 
@@ -98,11 +107,6 @@ https://user-images.githubusercontent.com/5504953/128603375-e80ab2e8-13dc-4b3f-a
 Duplicate the **Starting Position** variable and call it `End Position` and change the tooltip to `End location of platform`.
 
 ![duplicate starting position ot create end position](images/image_80.png)
-
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
 Add a third variable that will affect how long the platform waits before it leaves and returns to its two locations.  Call it `Delay` and make it type **Float**.  Set **Private** to `true`, **Instance Editable** to `true`, **Category** to `Platform` and **Tooltip** to `Delay between targets in seconds`.
 
