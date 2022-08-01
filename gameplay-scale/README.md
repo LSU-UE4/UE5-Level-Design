@@ -193,20 +193,6 @@ Add a `Jump Platforms` folder and add the three platforms to it.  It should have
 
 ![add jump platforms folder and move three platforms in it](images/OrganizeWO.jpg)
 
-Now play the game and make sure you are happy with the brushes.  When you are lets convert them to static meshes.  The only difference this time is that you need to select **Two** objects the positive and negative space to export as a single mesh.  So select both brushes for the mid platform and press the <kbd>Create Static Mesh</kbd> button.  Select the **Geometry | Meshes** folder and call it `SM_JumpPlatform_Mid`.  Repeat this for the tall platform as well.
-
-![convert two brush platforms to static mesh](images/TurnToStaticMeshes.jpg)
-
-Now make sure you three static meshes are in the folder and are correctly named.  Also, press the <kbd>Build</kbd> button. Run the game.  The collisions are missing in the two new platforms and the material is not rendering it is black.
-
-![build lighting test collisions](images/LightingIssuesCollision.jpg)
-
-Play the game and make sure you jumps are still working the way they were before they were turned into brushes.  Mine worked fine.
-
-https://user-images.githubusercontent.com/5504953/128370608-e0f67775-84ed-46e1-ac37-d612c141dc75.mp4
-
-![create a third ramp with height of 324 uu](images/Create3rdRamp.jpg)
-
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
@@ -219,17 +205,21 @@ Open up both models and change **Collision Complexity** to `Use Complex As Simpl
 
 ##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Copy the text over and move it over the Jump Platforms, rename it and place it in the **Jump Platforms** folder.  Save all of your work, commit it and upload to **GitHub**.
 
-![Add jump platforms text on top of jump platforms](images/AddTextToJumpPlatforms.jpg)
+Now play the game and make sure you are happy with the jump platforms.  Create a new folder called **Jump Platforms** and move the three platofmrs in it.  Name them correctly in the **World Outliner**. Also, make sure you have the three meshes correclty named in the **Meshes** folder.
 
-![save and commit work to github](images/CommitWork.jpg)
+![convert two brush platforms to static mesh](images/renamedJumpPlatforms.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
+Copy the text over and move it over the Jump Platforms, rename it and place it in the **Jump Platforms** folder.  Save all of your work, commit it and upload to **GitHub**.
+
+![Add jump platforms text on top of jump platforms](images/AddTextToJumpPlatforms.jpg)
+
+![save and commit work to github](images/CommitWork.jpg)
 
 ![](../images/line2.png)
 
