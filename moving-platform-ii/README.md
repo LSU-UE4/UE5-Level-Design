@@ -75,7 +75,9 @@ Right click on the empty graph and add a **Get Actor Rotation** node. Connect th
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt text](images/.png)
+Now we need to make sure the platform starts the game at its starting position.
+
+![alt text](images/setInitialLocation.png)
 
 ![](../images/line2.png)
 
