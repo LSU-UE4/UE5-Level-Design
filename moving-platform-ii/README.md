@@ -132,7 +132,7 @@ Now copy and paste all the nodes attached to **Move Components To** and the **De
 
 ##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
 
-Now delete the **Ending Position** node and replace it with a **Get Starting Position**.  We want the platform to go from the end back to the begining.
+Now delete the **Ending Position** node and replace it with a **Get Starting Position**.  We want the platform to go from the end back to the begining. Attach it to **Target Relative Location**.
 
 ![add starting position node](images/backToStart.png)
 
@@ -140,13 +140,15 @@ Now delete the **Ending Position** node and replace it with a **Get Starting Pos
 
 ##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt text](images/.png)
+Go back to the editor and select **BP_Platform**.  Set **Platform is Looping?** to `true`.
+
+![set is looping to true](images/platformIsLooping.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt text](images/.png)
+Press the <kbd>Play</kbd> button and now the platform goes to its destination and back. But it doesn't loop it stops there.
 
 ![](../images/line2.png)
 
