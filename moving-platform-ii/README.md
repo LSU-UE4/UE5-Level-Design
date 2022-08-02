@@ -116,15 +116,17 @@ https://user-images.githubusercontent.com/5504953/182275878-8e5e5f22-9acc-40ce-9
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Now we need to go back and forth if looping is turned on.  Drag a **Get Platform is Looping** onto the graph.  Drag the output pin and select a **Branch** node.  Connect the execution pin from **Move Component To** to the **Branch** node.
 
-
-![alt text](images/platforLooping.png)
+![add platform is looping and branch node](images/platforLooping.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt text](images/.png)
+
+
+![alt text](images/copyNodesMoveComponent.png)
 
 ![](../images/line2.png)
 
@@ -172,25 +174,6 @@ https://user-images.githubusercontent.com/5504953/182275878-8e5e5f22-9acc-40ce-9
 
 
 
-https://user-images.githubusercontent.com/5504953/128609875-8979cd30-77ea-4438-a33e-42ca8c8dd6e7.mp4
-
-Add comment `Move Component` to the work done in the blueprint.
-
-![alt_text](images/image_87.png)
-
-Now the actors default to being **Static**. This actor **will not** move.  This means that when you build lighting Unreal bakes in the actor's shadows because it will not move it through physics or through code.  We will be moving this platform so lets set **BP_MovingPlatform | Mobility** from **Static** to **Movable**.  Press **Build | Build Lighting Only** to make this change.
-
-![alt_text](images/image_86.png)
-
-Now lets see if it works.  Set a start and end position for the animation.  Then press play.  Move the platform back to close to the start position. Notice that the platform goes right to the end position when you press play.  why?
-
-https://user-images.githubusercontent.com/5504953/128610218-21d9ff0a-4f23-4577-af41-d7e2bb2f2cfe.mp4
-
-
-
-Press **Compile** on the **BP_MovingPlatform** blueprint and go to the editor.  Set the begining and end positions. Now go to both begining and end and you should see the platform go to the beginning and the end. Move the platform away and you should be able to send it back. This way we can tell that if we join two parts of the level that the platform will start and end at the right spot.
-
-https://user-images.githubusercontent.com/5504953/128610999-8d89f913-22cd-4387-bdd2-6dde403dc519.mp4
 
 
 Select all the nodes that attach to **Move Component** inclusive and copy and paste them.  We will use this copy to return to the starting position from the end position.  Remove the **End Position** node and replace it with a **Get Starting Position** and plug it into the **Target Relative Location**.
