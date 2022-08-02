@@ -108,7 +108,7 @@ Now go back to **BP_Platform** to the **Custom Event** section.  Lets add a dela
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt text](images/.png)
+Press the <kbd>Play</kbd> button and there a short 2 second delay before the platform goes up.
 
 ![](../images/line2.png)
 
