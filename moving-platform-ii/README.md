@@ -124,15 +124,17 @@ Now we need to go back and forth if looping is turned on.  Drag a **Get Platform
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Now copy and paste all the nodes attached to **Move Components To** and the **Delay** nodes and paset them after the **Branch** node added above.  Connect the execution pin from the **Branch** ndoe to the **Delay** node.
 
-
-![alt text](images/copyNodesMoveComponent.png)
+![copy and paste move components to](images/copyNodesMoveComponent.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt text](images/.png)
+Now delete the **Ending Position** node and replace it with a **Get Starting Position**.  We want the platform to go from the end back to the begining.
+
+![aadd starting position node(images/backToStart.png)
 
 ![](../images/line2.png)
 
