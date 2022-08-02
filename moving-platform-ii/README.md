@@ -124,7 +124,7 @@ Now we need to go back and forth if looping is turned on.  Drag a **Get Platform
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now copy and paste all the nodes attached to **Move Components To** and the **Delay** nodes and paset them after the **Branch** node added above.  Connect the execution pin from the **Branch** ndoe to the **Delay** node.
+Now copy and paste all the nodes attached to **Move Components To** and the **Delay** nodes and paset them after the **Branch** node added above.  Connect the execution pin from the **Branch** node to the **Delay** node.
 
 ![copy and paste move components to](images/copyNodesMoveComponent.png)
 
