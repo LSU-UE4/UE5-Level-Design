@@ -7,7 +7,7 @@
 * This walk through adds a bit more detail to the excellent Unreal Tutorial [Exploring Level Design for Game Development](https://learn.unrealengine.com/course/3754334?r=False&ts=637633335920995479).  Watch this video to give in depth explanations of the rational behind the strategy that **Patrick Haslow** suggests.  In this walk through we look at a different genre and give you a starting point to make your own **gray block** level.
   
 
-* Tested on UE4 5.0.2
+* Tested on UE4 5.0.X
 * Required to install: P4, P4V and Unreal Engine
 
 <!-- TOC -->
