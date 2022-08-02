@@ -110,6 +110,8 @@ Now go back to **BP_Platform** to the **Custom Event** section.  Lets add a dela
 
 Press the <kbd>Play</kbd> button and there a short 2 second delay before the platform goes up.
 
+https://user-images.githubusercontent.com/5504953/182275878-8e5e5f22-9acc-40ce-9294-d3a8fed77ac2.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
