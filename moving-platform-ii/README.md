@@ -150,6 +150,8 @@ Go back to the editor and select **BP_Platform**.  Set **Platform is Looping?** 
 
 Press the <kbd>Play</kbd> button and now the platform goes to its destination and back. But it doesn't loop it stops there.
 
+https://user-images.githubusercontent.com/5504953/182278019-9e2b0096-bd62-4972-9c5b-94fe877d12f8.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
