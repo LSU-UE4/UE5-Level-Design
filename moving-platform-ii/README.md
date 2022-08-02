@@ -156,7 +156,9 @@ https://user-images.githubusercontent.com/5504953/182278019-9e2b0096-bd62-4972-9
 
 ##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt text](images/.png)
+Now we need to loop, so all we need to do is recurse this custom event.  We add a **Get Delay** variable and a **Delay** function node.
+
+![alt text](images/recurse.png)
 
 ![](../images/line2.png)
 
