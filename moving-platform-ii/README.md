@@ -156,7 +156,7 @@ https://user-images.githubusercontent.com/5504953/182278019-9e2b0096-bd62-4972-9
 
 ##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to loop, so all we need to do is recurse this custom event.  We add a **Get Delay** variable and a **Delay** function node.
+Now we need to loop, so all we need to do is recurse this custom event.  We add a **Get Delay** variable and a **Delay** function node. Attach the execution pin from the **Move Component To | Completed** node to the **Delay Node**.  Add a call back to **Go to Plaform and Back** custom event and attach the execution pin.
 
 ![alt text](images/recurse.png)
 
@@ -164,7 +164,8 @@ Now we need to loop, so all we need to do is recurse this custom event.  We add 
 
 ##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt text](images/.png)
+Press the <kbd>Play</kbd> button and now we have the final functionality of the platform as it loops endlessly.  We will end it here for this walk through.  Now go build a diller platforming level!
+
 
 ![](../images/line2.png)
 
