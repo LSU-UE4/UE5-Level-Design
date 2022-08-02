@@ -134,7 +134,7 @@ Now copy and paste all the nodes attached to **Move Components To** and the **De
 
 Now delete the **Ending Position** node and replace it with a **Get Starting Position**.  We want the platform to go from the end back to the begining.
 
-![aadd starting position node(images/backToStart.png)
+![add starting position node](images/backToStart.png)
 
 ![](../images/line2.png)
 
