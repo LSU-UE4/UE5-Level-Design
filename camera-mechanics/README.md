@@ -126,7 +126,7 @@ https://user-images.githubusercontent.com/5504953/175460310-fd9164e4-5a22-4362-9
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go back to the player blueprint and select **Character Movement (Rotation Settings) | Rotation Rate Z**
+Set **Character Movement | General Settings | Breaking Friction** to `5.0`.
 
 ![adjust rotation rate of player character](images/brakingFrict.png)
 
