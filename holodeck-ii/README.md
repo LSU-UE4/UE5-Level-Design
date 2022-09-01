@@ -75,7 +75,7 @@ Press play and notice that it uses the same player we used in the last map.  Whe
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press the <kbd>Place Actors</kbd> button and type in **Player Start**.  Add it to the middle of the level in the flat area which is where we will be working.  Press the <kbd>End</kbd> key to pop the actor to be right on the ground so the player doesn't fall when you press start.  Now when you play the game the player starts at the location of the player start actor.
+Press the <kbd>Place Actors</kbd> button and type in **Player Start**.  Add it to the middle of the level in the flat area which is where we will be working.  Press the <kbd>End</kbd> key to pop the actor to be right on the ground so the player doesn't fall when you press start.  
 
 https://user-images.githubusercontent.com/5504953/177665010-1048b403-a25b-4781-8314-ed2094f610f3.mp4
 
@@ -84,7 +84,7 @@ https://user-images.githubusercontent.com/5504953/177665010-1048b403-a25b-4781-8
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we notice that the player might fall into place.  How do we control where the player launches when we hit play?  If you press the **...** three dots next to the <kbd>Play</kbd> button you will see that you can launch the player the **Currenct Camera Location** or a **Default Player Start**.  Make sure the settings is set to **Default Player Start**.
+How do we control where the player launches when we hit play?  If you press the **...** three dots next to the <kbd>Play</kbd> button you will see that you can launch the player the **Currenct Camera Location** or a **Default Player Start**.  Make sure the settings is set to **Default Player Start**.
 
 https://user-images.githubusercontent.com/5504953/177664981-ce617563-060d-46d9-b3a5-d019b1da5cac.mp4
 
