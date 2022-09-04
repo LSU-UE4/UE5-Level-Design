@@ -25,7 +25,7 @@ You should see a message that declares the migration succesful at the bottom rig
 
 ##### `Step 2.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: 
 
-Now we will also need another material.  Go the the **Content | Materials** folder and look for **M_LDGrid_Local** and right click and press the **Asset Actions | Migrate** button.  Now you can deselect the files in the **Tech Art** folder as we have already migrated them.  Use the same **Content** folder and press the <kbd>Select Folder</kbd> button. 
+Now we will also need another material.  Go the the **Content | Materials** folder and look for **M_LDGrid_Local** and right click and press the **Asset Actions | Migrate** button.  Use the same **Content** folder and press the <kbd>Select Folder</kbd> button. If a pop up says they some files were already imported you can choose to overwrite or not, in this case it doesn't really matter.
 
 ![migrade grid local material](images/ldGridLocal.png)
 
