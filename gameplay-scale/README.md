@@ -120,7 +120,7 @@ Create a new cube that is a **Width** of `400`, **Depth** of `800` and **Height*
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets create a shape to cut a whole that is a **Width** of `775`, **Depth** of `408` and **Height** of `950`. Center it in the larger bux shape.  Make sure both boxes have **Rotatings** at `0`, `0`, `0`.
+Now lets create a shape to cut a whole that is a **Width** of `775`, **Depth** of `408` and **Height** of `950`. Center it in the larger b0x shape.  Make sure both boxes have **Rotatings** at `0`, `0`, `0`.
 
 ![create a new box that is 775 x 408 x 950](images/boxCutter.png)
 
