@@ -4,7 +4,7 @@
 ## Overview
 * One of the big areas of improvement is that Unreal 5 gives us default access to crafting levels using geometry intead of brushes.  This gives us unprecedented control for crafting levels. We will be looking at some of the strategies that go into creating a proper blocked out level.
 
-* This walk through adds a bit more detail to the excellent Unreal Tutorial [Exploring Level Design for Game Development](https://learn.unrealengine.com/course/3754334?r=False&ts=637633335920995479).  Watch this video to give in depth explanations of the rational behind the strategy that **Patrick Haslow** suggests.  In this walk through we look at a different genre and give you a starting point to make your own **gray block** level.
+* This walk through adds a bit more detail to the excellent Unreal Tutorial [Exploring Level Design for Game Development](https://dev.epicgames.com/community/learning/courses/rQ/exploring-level-design-for-game-development/EP6/unreal-engine-introduction-to-the-course).  Watch this video to give in depth explanations of the rational behind the strategy that **Patrick Haslow** suggests.  In this walk through we look at a different genre and give you a starting point to make your own **gray block** level.
   
 
 * Tested on UE4 5.0.X
