@@ -27,7 +27,7 @@ Run the **Epic Games Launcher** and Press **Launch** button to launch the editor
 
 You can pick from different starting templates with Games, Film/Video & Live Events, Architecture and Automotive Product Design & Manufacturing as options.  You can also load recent projects as well!
 
-We are going to make a game so lets start by selecting **Games** and then select the **Third Person Template**.  
+We are going to make a game so lets start by selecting **Games** and then select the **Third Person** Template.  
 
 The first settings on the top right is set to **BLUEPRINT**.  You can select between **C++** and **BLUEPRINT**.  Since we will not be doing any C++ programming in this exercise we will leave it with Blueprint.  I am leaving the **Target Platform** as **Desktop** and the **Quality Preset** to **Maximum Quality** as we are developing this for a modern computer.  We do not need the starter content so we will set the **Starter Content** to `false` to keep our project size at bay. We will leave **Raytracing** off as we will not be using it at the moment.  
 
