@@ -147,6 +147,18 @@ Select the **File | Save All** then press the <kbd>Source Control</kbd> button a
 
 https://user-images.githubusercontent.com/5504953/175461700-1d8ef0ea-8174-47b8-9db4-96d80f5d7ae0.mp4
 
+![](../images/line2.png)
+
+##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Sometimes not all files get submitted to Unreal especially for files that don't show up in the editor.  It is good practice one you submit in **Unreal** and quit the game to right click on the top most project folder and select **Reconcile Offline Work...**.
+
+This will either give a message saying ther is nothing to reconcile or bring up a tab.  Make sure that these are **NOT** files in the **Intermediate** and **Saved** folders as these should be ignored from the `.p4ignore`.
+
+If the files are in **Content** or **Configuration** then press the <kbd>Reconcile</kbd> button.  Then submit the changes with a message and press the <kbd>Submit</kbd> button.
+
+![reconcile offline content](images/reconcile.png)
+
 ![](../images/line.png)
 
 ![next up lock camera and mechanics](images/banner.png)
