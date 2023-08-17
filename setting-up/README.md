@@ -62,17 +62,17 @@ Now go back to the game editor screen and press **File | Save All** then **File 
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
-
-
-![](../images/line2.png)
-
-##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
-
 Now lets log into **P4V** with your server address and user name. You also need to select the **Workspace** you are using.  Press the <kbd>OK</kbd> button.  
 
 Remember this is the local version of the project.  When you **Submit** you update the **Depot**. You might need to press refresh but now you should see the **IntoToLevelDesign** folder. You can see the `.uproject` file and there is no icon so it has not been submitted to the **Depot** yet.
 
 ![Login and look at P4V](images/image_05.png)
+
+![](../images/line2.png)
+
+##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
+
+
 
 ![](../images/line2.png)
 
