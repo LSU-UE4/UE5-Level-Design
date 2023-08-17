@@ -90,7 +90,9 @@ Now lets make sure everything works as it should.  Go to any file in the root fo
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now if we double click on the file and look at it in a text editor it indicates which files get submitted to source control and which don't. In our game folder we have our **Config** and **Content** folder which contains all of the unique portions of the game.  Most of the other folders like **Binaries/**, **Saved** and **Intermediate** are compiled to each person's computer for the game.  So these can be deleted then recreated when the game is run.  These do not need to be added to source control as it is uneeded tracking of dynamically generated content.  We also ignore files extensions such as `*-Debut.* as these are appended to file names that are used for debugging, and again created dynamically by the engine.  We have told it **NOT** to ignore anything in the **Plugins** folder.  The `!` exclamation mark is used to say that **EVERYTHING** in this folder regardless of the rules above need to be included.  This is done so that you can add plugins that are not included with the engine and share it.
+Now if we double click on the `.p4ignore` file and look at it in a text editor it indicates which files get submitted to source control and which don't. In our game folder we have our **Config** and **Content** folder which contains all of the unique portions of the game.  Most of the other folders like **Binaries/**, **Saved** and **Intermediate** are compiled to each person's computer for the game.  So these can be deleted then recreated when the game is run.  These do not need to be added to source control as it is uneeded tracking of dynamically generated content.  
+
+This allows each team member to have there own custom setup for how they want to use the editor without affecting the rest of the team (like the layout of the panels in Unreal). We also ignore files extensions such as `*-Debut.* as these are appended to file names that are used for debugging, and again created dynamically by the engine.  We have told it **NOT** to ignore anything in the **Plugins** folder.  The `!` exclamation mark is used to say that **EVERYTHING** in this folder regardless of the rules above need to be included.  This is done so that you can add plugins that are not included with the engine and share it.
 
 ![contents of .p4ignore file](images/p4ignoretext.png)
 
@@ -106,17 +108,17 @@ Now we need to add these files to the database and to the **Depot** (server).  S
 
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
-Now we need to make sure our **P4 Ignore** file will be recognized by **Perforce**.  Enter `cmd` in your windows menu to run **Command Prompt**.  Type `p4 set` then enter.  You will see if you have a P4IGNORE setting set? If you see `P4IGNORE=.p4ignore (set)` then you can move on to [Step 12](#step-12ue5ld-large_blue_diamond-small_blue_diamond-small_blue_diamond) otherwise fix this in the next step.
+Now press the <kbd>Submit</kbd> button to send these local files to the **Depot** on the server.  The first pop-up will show the ignore file working.  It should list the files not marked for add.  This is exactly what we want.  If you don't get this go back to the previous step and make sure your `.p4ignore` is set up correclty. Press the <kbd>OK</kbd> button to continue.
 
-![p4 set in command prompt](images/p4set.png)
+![files being ignored by submit](images/listIgnoreFiles.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-In command prompt type `p4 set P4IGNORE=.p4ignore`.  Make sure there are no spaces between or after the `=` sign.  Then type in and enter a `p4 set` again and you should see that it is now showing: `P4IGNORE=.p4ignore (set)`.  Now you are ready to move to the next step.
+Now you will get a list with all the files you want to submit in the **Changelist** with the message you previously entered.  Make sure that all of files being submitted are all in the **Contents** or **Config** folders as well as the `.uproject` file. When you are happy press the <kbd>Submit</kbd> button.
 
-![empty github repository](images/ignoreset.png)
+![list of files to submit](images/submit.png)
 
 
 ![](../images/line2.png)
@@ -124,26 +126,22 @@ In command prompt type `p4 set P4IGNORE=.p4ignore`.  Make sure there are no spac
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now press the <kbd>Submit</kbd> button to send these local files to the **Depot** on the server.  The first pop-up will show the ignore file working.  It should list the files not marked for add.  This is exactly what we want.  If you don't get this go back to the previous step and make sure your `.p4ignore` is set up correclty. Press the <kbd>OK</kbd> button to continue.
+Press the <kbd>Refresh</kbd> button in **P4V** and you will see that files in the **Content** folder have a green icon.  Files in the **Intermediate** folder do not.  So our `.p4ignore` is working corretly.  For icon meaning check out the [P4 Icons](https://github.com/maubanel/p4v-unreal/blob/main/icons/README.md#user-content-p4v-icons).
 
-![files being ignored by submit](images/listIgnoreFiles.png)
+![setup github repository](images/filesSaved.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 
-Now you will get a list with all the files you want to submit in the **Changelist** with the message you previously entered.  Make sure that all of files being submitted are all in the **Contents** or **Config** folders as well as the `.uproject` file. When you are happy press the <kbd>Submit</kbd> button.
 
-![list of files to submit](images/submit.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Press the <kbd>Refresh</kbd> button in **P4V** and you will see that files in the **Content** folder have a green icon.  Files in the **Intermediate** folder do not.  So our `.p4ignore` is working corretly.  For icon meaning check out the [P4 Icons](https://github.com/maubanel/p4v-unreal/blob/main/icons/README.md#user-content-p4v-icons).
 
-![setup github repository](images/filesSaved.png)
 
 ![](../images/line2.png)
 
