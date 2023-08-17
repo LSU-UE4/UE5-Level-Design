@@ -54,15 +54,15 @@ In the editor select the **Edit** menu item then from the drop down menu select 
 
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now go back to the game editor screen and press **File | Save All** then **File | Exit** to quit **Unreal**.
 
+![save and quit Unreal](images/quitUE.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
-Now go back to the game editor screen and press **File | Save All** then **File | Exit** to quit **Unreal**.
 
-![save and quit Unreal](images/quitUE.png)
 
 ![](../images/line2.png)
 
