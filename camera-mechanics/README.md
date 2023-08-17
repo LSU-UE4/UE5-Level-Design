@@ -137,7 +137,7 @@ https://github.com/maubanel/UE5-Level-Design/assets/5504953/509d9ae6-25b7-4818-8
 
 Play the game and feel free to tweak any other settings and experiment to get the *feel* that you would like in your level.
 
-https://user-images.githubusercontent.com/5504953/175461082-6dbe5710-8f47-4f60-9f16-612a577d8878.mp4
+https://github.com/maubanel/UE5-Level-Design/assets/5504953/067fa8ed-b5b9-4adf-a528-a6653b17655a
 
 ![](../images/line2.png)
 
