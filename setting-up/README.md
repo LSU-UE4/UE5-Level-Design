@@ -82,7 +82,7 @@ If you do not have a config file go to the file explorer and run `setconfig.bat`
 
 ##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets make sure everything works as it should.  Go to any file in the root folder and right click and select **G
+Now lets make sure everything works as it should.  Go to any file in the root folder and right click and select **Open Command Window Here...**. Then type `p4 set` and you should see that is referencing the settings in your `.p4config` file.
 
 ![run p4 set](images/p4set2.png)
 
