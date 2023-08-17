@@ -15,22 +15,15 @@ We will be using Unreal's third person template as a starting point for our 3-D 
 
 ##### `Step 1.`\|`UE5LD`|:small_blue_diamond:
 
-If you have not installed the required software go and add [Epic Games Launcher](https://www.epicgames.com/store/en-US/download), [P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) - this assumes you have a **Perforce** server which is free if you are team of 4 people or less and can be found at [Perforce Helix Core](https://www.perforce.com/products/helix-core/free-version-control).  Make sure it has a `5.2.x` in front of the version so that we know this walk through will be compatible with your version of Unreal. 
+If you have not installed the required software go and add [Epic Games Launcher](https://www.epicgames.com/store/en-US/download) and [P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) - this assumes you have a **Perforce** server which is free if you are team of 4 people or less and can be found at [Perforce Helix Core](https://www.perforce.com/products/helix-core/free-version-control).  Make sure you have installed **Unreal** version `5.2.x` so that you will be compatible with this walk through. 
 
-If it is not installed press the <kbd>+</kbd> button and install the latest **5.0.x** version of Unreal.  
+Run the **Epic Games Launcher** and Press **Launch** button to launch the editor.
 
 ![screenshot of epic game launcher](images/image_01.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: 
-Run the **Epic Games Launcher** and Press **Launch** button to launch the editor.
-
-![button to launch UE4](images/LaunchUnrealEditor.png)
-
-![](../images/line2.png)
-
-##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 You can pick from different starting templates with Games, Film/Video & Live Events, Architecture and Automotive Product Design & Manufacturing as options.  You can also load recent projects as well!
 
@@ -41,6 +34,14 @@ The first settings on the top right is set to **BLUEPRINT**.  You can select bet
 Select your **Perforce** workspace as the folder to save the project in and call it `IntroToLevelDesign`.  Press the <kbd>Create</kbd> button to start the game with the third person template.
 
 ![Unreal Select or Create New Project screen](images/image_03.png)
+
+![button to launch UE4](images/LaunchUnrealEditor.png)
+
+![](../images/line2.png)
+
+##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
 
 ![](../images/line2.png)
 
