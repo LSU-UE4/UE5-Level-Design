@@ -135,25 +135,13 @@ Press the <kbd>Refresh</kbd> button in **P4V** and you will see that files in th
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 
-
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
-
 Run the game while you are still logged into **Perforce**.  It is best practice to double click the `.uproject` name to load it. This will now run **Unreal** and you are certain it is from the **P4** folder you are tracking.
 
 ![run game](images/loadGame.png)
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now we can use the engine to do our future source control submissionms.  Press the **Source Controll Off** item at the bottom right of the window.
 
@@ -165,14 +153,15 @@ Press the <kbd>Accept Settings</kbd> button.  You should see a pop up on the bot
 
 ![](../images/line2.png)
 
-##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
+
 Download a thumbnail that you can use on this project [Intro Thumbnail](images/IntroToLevelDesign.png). Press the **Settings** button and select **Project Settings**.  Press the three dots in the **About | Project Thumbnail** tab next to the thumbnail and attach the `IntroToLevelDesign.png`.
 
 ![add Intro to Level design logo](images/introToLD.png)
 
 ![](../images/line2.png)
 
-##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Enter a **Description**, **Project Name**.  Put your name as the **Publisher | Company Name** and you can add your email in **Support Contact**. Add the **Project Displayed Title** and **Project Debug Title Info**. I also encourage you to select a legal claim on your work and paste it in the **Copyright Notice**.  I publish all my classes as the MIT License:
 
@@ -182,7 +171,7 @@ Enter a **Description**, **Project Name**.  Put your name as the **Publisher | C
 
 ![](../images/line2.png)
 
-##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Press play and lets see what we get? Run around using the **UP | DOWN | LEFT | RIGHT** keys on the keyboard. Press **Space Bar** to jump.  Get used to the controls - we will make some changes in the next section.
 
@@ -190,11 +179,22 @@ https://user-images.githubusercontent.com/5504953/175449850-b30e590b-9812-42d9-9
 
 ![](../images/line2.png)
 
-##### `Step 21.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Source Control...**. Enter a **Changelist Description** and then press <kbd>Submit Content</kbd>. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
 
 ![save all and submit to perforce](images/submitP4.png)
+
+![](../images/line2.png)
+
+##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
+
+
+![](../images/line2.png)
+
+##### `Step 21.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
+
 
 ![](../images/line.png)
 
