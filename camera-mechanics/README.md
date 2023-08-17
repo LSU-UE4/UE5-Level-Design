@@ -109,7 +109,7 @@ https://user-images.githubusercontent.com/5504953/175459161-76916521-4e49-40d4-b
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Go to **Character Movement | Max Acceleration** and change it to `10000.0`.
+Go to **Character Movement | Max Acceleration** and change it to `3500.0`.
 
 ![adjust rotation rate of player character](images/maxAcc.png)
 
