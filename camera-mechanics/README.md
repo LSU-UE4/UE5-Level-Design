@@ -128,7 +128,7 @@ https://github.com/maubanel/UE5-Level-Design/assets/5504953/9a95c8d7-9f3b-493c-8
 
 Increase **Character Movement | Walking | Breaking Deceleration Walking** to `5000` to slow down our player who has greater momentum to mimize the sliding at when the player stops.
 
-
+https://github.com/maubanel/UE5-Level-Design/assets/5504953/509d9ae6-25b7-4818-85a7-e226d31baac6
 
 ![](../images/line2.png)
 
