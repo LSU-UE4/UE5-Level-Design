@@ -126,9 +126,9 @@ https://github.com/maubanel/UE5-Level-Design/assets/5504953/9a95c8d7-9f3b-493c-8
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Set **Character Movement | General Settings | Breaking Friction** to `5.0`.
+Increase **Character Movement | Walking | Breaking Deceleration Walking** to `5000` to slow down our player who has greater momentum to mimize the sliding at when the player stops.
 
-![adjust rotation rate of player character](images/brakingFrict.png)
+
 
 ![](../images/line2.png)
 
