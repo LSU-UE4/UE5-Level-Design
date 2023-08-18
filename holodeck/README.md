@@ -90,11 +90,6 @@ Finally the [Volumetric Cloud](https://docs.unrealengine.com/5.2/en-US/volumetri
 
 ![fix up redirects in folder](images/setUpLevel.png)
 
-
-Feel free to read the instructions and tweak any values.
-
-![add a sky atmosphere to scene](images/skyAtmosphere.png)
-
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
