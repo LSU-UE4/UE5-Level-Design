@@ -33,12 +33,6 @@ Now **Unreal** leaves metatdata and breadcrumbs for moved and deleted files.  It
 
 ##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
- for our project and start a new level. Lets add a playable area to work with that simulates an average game. We have two **Meshes** (geometry) folders.  
-
-![fix up redirects in folder](images/moveThreeToRoot.png)
- 
-
 Sometimes a file is referenced and you do not delete all the folders.  You have to sometimes go back and delete them one at a time.
 
 Now it did not delete all my folder. Go back and delete the folders again then right click on the **Content** folder and select  **Fix Up Redirectors in Folder**. Do this until you have all the folders you want removed gone.  You might have to load up a new level (**File | New Level** to accomplish this). You also might have to go to **P4V** and delete any ghost files that are still in the folder (it is OK to delete files that are not entered into source control and are not being used by the game).  This usually means that **Unreal** has lost track of this file and the folder won't delete until it is gone.
@@ -49,6 +43,11 @@ https://user-images.githubusercontent.com/5504953/177067308-a38e2c37-06a2-4d9d-8
 
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+ for our project and start a new level. Lets add a playable area to work with that simulates an average game. We have two **Meshes** (geometry) folders.  
+
+![fix up redirects in folder](images/moveThreeToRoot.png)
+ 
+ 
  Go to the **Level Prototyping** folder and move the **Materials** and **Meshes** and **Textures** folder to the root **Content** folder. Since this needs to update version control it will ask you the **Check Out Selected**.  What checking out a file does is make sure that no one else in the team can use and alter this file.  It eliminates most occurances of collision and makes sure that only one person can work on a file at a time.  The **Delete** the **Level Prototyping** folder. Finish by  selecting **Fix Up Redirectors in Folder**.
 
 ![move Materials, Meshes and Texutures folder to root](images/moveThreeFolders.png)
