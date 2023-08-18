@@ -43,11 +43,13 @@ https://user-images.githubusercontent.com/5504953/177067308-a38e2c37-06a2-4d9d-8
 
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
- for our project and start a new level. Lets add a playable area to work with that simulates an average game. We have two **Meshes** (geometry) folders.  
+Move the three folders in the **Third Person Folder** to the root of Content.  This means moving the **Bluepritns**, **Inputs** and **Maps** folder.  Make sure you delete the empty folders left over.  At the end right click on **Content** and select **Fix Up Redirectors in Folder**.
 
 ![fix up redirects in folder](images/moveThreeToRoot.png)
  
- 
+
+ for our project and start a new level. Lets add a playable area to work with that simulates an average game. We have two **Meshes** (geometry) folders.  
+
  Go to the **Level Prototyping** folder and move the **Materials** and **Meshes** and **Textures** folder to the root **Content** folder. Since this needs to update version control it will ask you the **Check Out Selected**.  What checking out a file does is make sure that no one else in the team can use and alter this file.  It eliminates most occurances of collision and makes sure that only one person can work on a file at a time.  The **Delete** the **Level Prototyping** folder. Finish by  selecting **Fix Up Redirectors in Folder**.
 
 ![move Materials, Meshes and Texutures folder to root](images/moveThreeFolders.png)
