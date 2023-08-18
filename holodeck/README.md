@@ -43,28 +43,24 @@ https://user-images.githubusercontent.com/5504953/177067308-a38e2c37-06a2-4d9d-8
 
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Move the three folders in the **Third Person Folder** to the root of Content.  This means moving the **Bluepritns**, **Inputs** and **Maps** folder.  Make sure you delete the empty folders left over.  At the end right click on **Content** and select **Fix Up Redirectors in Folder**.
+Move the three folders in the **Third Person Folder** to the root of Content.  This means moving the **Bluepritns**, **Input** and **Maps** folder.  Make sure you delete the empty folders left over.  At the end right click on **Content** and select **Fix Up Redirectors in Folder**.
 
 ![fix up redirects in folder](images/moveThreeToRoot.png)
- 
-
- for our project and start a new level. Lets add a playable area to work with that simulates an average game. We have two **Meshes** (geometry) folders.  
-
- Go to the **Level Prototyping** folder and move the **Materials** and **Meshes** and **Textures** folder to the root **Content** folder. Since this needs to update version control it will ask you the **Check Out Selected**.  What checking out a file does is make sure that no one else in the team can use and alter this file.  It eliminates most occurances of collision and makes sure that only one person can work on a file at a time.  The **Delete** the **Level Prototyping** folder. Finish by  selecting **Fix Up Redirectors in Folder**.
-
-![move Materials, Meshes and Texutures folder to root](images/moveThreeFolders.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
-Before we start a gray block level we need to create a test level to understand how our player moves and how high and far to make jumps.  We also want to create ramps for players to run up and down.  To do this we will create a test level just meant to test physics so we can get an understanding of how the player moves.  Select the **File | New Level** and select an **Empty** level and press the <kbd>Create</kbd> butoon.
+Before we start a gray block level we need to create a test level to understand how our player moves and how high and far to make jumps.  We also want to create ramps for players to run up and down.  To do this we will create a test level just meant to test physics so we can get an understanding of how the player moves.  Select the **File | New Level** and select an **Empty** level and press the <kbd>Create</kbd> button.
 
 ![create new empty level](images/newEmptyLevel.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
+
+![fix up redirects in folder](images/setUpLevel.png)
+
 
 Now we need to add a light.  This will be an outdoor scene so lets start with the **Sun**.  This is in game terms a light with no fall off so it runs for infinity.
 
