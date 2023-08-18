@@ -70,11 +70,11 @@ Select the **Window | Env Ligth Mixer** to get the environmental light mixer ove
 
 Now we have the basic lighitng set-up for a level. The  **Atmospheric Light** adds a **Directional Light** that acts as the sun. 
 
->The Directional Light simulates light that is being emitted from a source that is infinitely far away. This means that all shadows cast by this light will be parallel, making this the ideal choice for simulating sunlight - [UE5 Manual](https://docs.unrealengine.com/5.2/en-US/directional-lights-in-unreal-engine/)
+>The Directional Light simulates light that is being emitted from a source that is infinitely far away. This means that all shadows cast by this light will be parallel, making this the ideal choice for simulating sunlight - [Directional Light](https://docs.unrealengine.com/5.2/en-US/directional-lights-in-unreal-engine/)
 
 The **Sky Atmoshpere** changes how the sun reflects with the atmosphere based on time of day and location. Without it the sky is black as if we are in outer space.
 
->The Sky Atmosphere component in Unreal Engine is a physically-based sky and atmosphere-rendering technique. It's flexible enough to create an Earth-like atmosphere with time-of-day featuring sunrise and sunset, or to create extraterrestrial atmospheres of an exotic nature. - [UE5 Manual](https://docs.unrealengine.com/5.2/en-US/sky-atmosphere-component-in-unreal-engine/).
+>The Sky Atmosphere component in Unreal Engine is a physically-based sky and atmosphere-rendering technique. It's flexible enough to create an Earth-like atmosphere with time-of-day featuring sunrise and sunset, or to create extraterrestrial atmospheres of an exotic nature. - [Sky Atmosphere](https://docs.unrealengine.com/5.2/en-US/sky-atmosphere-component-in-unreal-engine/).
 
 The third element that works together with the atmosphere and clouds in the [Skylight](https://docs.unrealengine.com/5.2/en-US/sky-lights-in-unreal-engine/).
 
