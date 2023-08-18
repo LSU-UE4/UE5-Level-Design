@@ -59,24 +59,33 @@ Before we start a gray block level we need to create a test level to understand 
 
 ##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
 
+Select the **Window | Env Ligth Mixer** to get the environmental light mixer overlay.  Drag a **Sky Light**,  **Atmospheric Light**, **Sky Atmosphere**, **Volumetric Clouds**, and **Height Fog** to the level.
+
 ![fix up redirects in folder](images/setUpLevel.png)
 
-
-Now we need to add a light.  This will be an outdoor scene so lets start with the **Sun**.  This is in game terms a light with no fall off so it runs for infinity.
-
->The Directional Light simulates light that is being emitted from a source that is infinitely far away. This means that all shadows cast by this light will be parallel, making this the ideal choice for simulating sunlight - [UE5 Manual](https://docs.unrealengine.com/5.0/en-US/directional-lights-in-unreal-engine/)
-
-To find the lights click on the **Place Actors** pull down menu at the top left under the **Tools** menu and select **Light | Directional Light**. Drag one into the room.
-
-![add direcional light to scene](images/addDirectionalLight.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we are in a black world - lets create a sky.  Press the **Place Actors** drop down menu and select **Visual Effects | Sky Atmosphere**.
+Now we have the basic lighitng set-up for a level. The  **Atmospheric Light** adds a **Directional Light** that acts as the sun. 
 
->The Sky Atmosphere component in Unreal Engine is a physically-based sky and atmosphere-rendering technique. It's flexible enough to create an Earth-like atmosphere with time-of-day featuring sunrise and sunset, or to create extraterrestrial atmospheres of an exotic nature. - [UE5 Manual](https://docs.unrealengine.com/5.0/en-US/sky-atmosphere-component-in-unreal-engine/).
+>The Directional Light simulates light that is being emitted from a source that is infinitely far away. This means that all shadows cast by this light will be parallel, making this the ideal choice for simulating sunlight - [UE5 Manual](https://docs.unrealengine.com/5.2/en-US/directional-lights-in-unreal-engine/)
+
+The **Sky Atmoshpere changes how the sun reflects with the atmosphere based on time of day and location. Without it the sky is black as if we are in outer space.
+
+>The Sky Atmosphere component in Unreal Engine is a physically-based sky and atmosphere-rendering technique. It's flexible enough to create an Earth-like atmosphere with time-of-day featuring sunrise and sunset, or to create extraterrestrial atmospheres of an exotic nature. - [UE5 Manual](https://docs.unrealengine.com/5.2/en-US/sky-atmosphere-component-in-unreal-engine/).
+
+The third element that works together with the atmosphere and clouds in the [Skylight](https://docs.unrealengine.com/5.2/en-US/sky-lights-in-unreal-engine/).
+
+>The Sky Light captures the distant parts of your level and applies that to the scene as a light. That means the sky's appearance and its lighting/reflections will match, even if your sky is coming from atmosphere, or layered clouds on top of a skybox, or distant mountains. You can also manually specify a cubemap to use. - [UE5 Manual](Skylight](https://docs.unrealengine.com/5.0/en-US/sky-lights-in-unreal-engine/)
+
+The one thing that is missing is visibility in the air.  Normally there is a bit of haze, particles or fog that restricts your viewing distance. The final element that will help bring this scene together is [Exponential Height Fog](https://docs.unrealengine.com/5.2/en-US/exponential-height-fog-in-unreal-engine/).
+
+>Exponential Height Fog creates more density in low places of a map and less density in high places. The transition is smooth, so you never get a hard cutoff as you increase altitude. Exponential Height Fog also provides two fog colors—one for the hemisphere facing the dominant directional light (or straight up if none exists), and another color for the opposite hemisphere. - [UE5 Manual](https://docs.unrealengine.com/5.2/en-US/exponential-height-fog-in-unreal-engine/).
+
+![fix up redirects in folder](images/setUpLevel.png)
+
 
 Feel free to read the instructions and tweak any values.
 
@@ -94,9 +103,7 @@ https://user-images.githubusercontent.com/5504953/172624138-fdd5d5eb-28ad-4adc-9
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-The third element that works together with the atmosphere and clouds in the [Skylight](https://docs.unrealengine.com/5.0/en-US/sky-lights-in-unreal-engine/).
 
->The Sky Light captures the distant parts of your level and applies that to the scene as a light. That means the sky's appearance and its lighting/reflections will match, even if your sky is coming from atmosphere, or layered clouds on top of a skybox, or distant mountains. You can also manually specify a cubemap to use. - [UE5 Manual](Skylight](https://docs.unrealengine.com/5.0/en-US/sky-lights-in-unreal-engine/)
 
 ![add a skylight to level](images/skylight.png)
 
@@ -104,9 +111,7 @@ The third element that works together with the atmosphere and clouds in the [Sky
 
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
-The one thing that is missing is visibility in the air.  Normally there is a bit of haze, particles or fog that restricts your viewing distance. The final element that will help bring this scene together is [Exponential Height Fog](https://docs.unrealengine.com/5.0/en-US/exponential-height-fog-in-unreal-engine/).
 
->Exponential Height Fog creates more density in low places of a map and less density in high places. The transition is smooth, so you never get a hard cutoff as you increase altitude. Exponential Height Fog also provides two fog colors—one for the hemisphere facing the dominant directional light (or straight up if none exists), and another color for the opposite hemisphere. - [UE5 Manual](https://docs.unrealengine.com/5.0/en-US/exponential-height-fog-in-unreal-engine/).
 
 Select **Place Actor | Special Effect | Exponential Height Fog** and drag it into the level.
 
