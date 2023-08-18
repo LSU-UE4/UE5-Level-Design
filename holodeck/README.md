@@ -14,11 +14,10 @@ Now we normally create a level where we test out all of our mechanics to make su
 
 ##### `Step 1.`\|`UE5LD`|:small_blue_diamond:
 
-Lets organize the content folder for our project and start a new level. Lets add a playable area to work with that simulates an average game. We have two **Meshes** (geometry) folders.  
-
-Lets start by cleaning up the current folder and removing elements we do not need.  There are two manequins, the old one and the new one.  Right mouse click on the **Mannequin_UE4** folder and select the <kbd>Delete</kbd> button.  Now a very small pop up appears and we press the <kbd>Delete</kbd> button for a second time.
+Lets organize the content folder and clean up the structure a bit. Lets start by cleaning up the current folder and removing elements we do not need.  There are two manequins, the old one and the new one.  Right mouse click on the **Mannequin_UE4** folder and select the <kbd>Delete</kbd> button.  Now a very small pop up appears and we press the <kbd>Delete</kbd> button for a second time.
 
 ![delete mannequin ue4 folder](images/deleteOldMannequin.png)
+
 
 ![](../images/line2.png)
 
@@ -33,6 +32,12 @@ Now **Unreal** leaves metatdata and breadcrumbs for moved and deleted files.  It
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+ for our project and start a new level. Lets add a playable area to work with that simulates an average game. We have two **Meshes** (geometry) folders.  
+
+![fix up redirects in folder](images/moveThreeToRoot.png)
+ 
 
 Sometimes a file is referenced and you do not delete all the folders.  You have to sometimes go back and delete them one at a time.
 
