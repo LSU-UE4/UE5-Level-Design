@@ -197,11 +197,6 @@ You should see a message that declares the migration succesful at the bottom rig
 
 ![migrate all files to level design project](images/migrateFiles.png)
 
-![](../images/line2.png)
-
-
-![](../images/line2.png)
-
 ![](../images/line.png)
 
 ![next up holodeck II](images/banner.png)
