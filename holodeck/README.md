@@ -169,6 +169,7 @@ https://user-images.githubusercontent.com/5504953/177608479-82abbb8e-bb97-43e4-a
 
 Now there is a special rotational widget that can be used for rotating the light to get different times of day (different angles the sun is position at).  You press the <kbd>Cntrl L</kbd> key to bring up the controller then let go of the <kbd>L</kbd> key while still holding <kbd>Cntrl</kbd>.  You can then move the mouse around and have the sun point at any angle.  I picked one that worked best for me. I then released the <kbd>Cntrl</kbd> key to lock in the position.
 
+https://github.com/maubanel/UE5-Level-Design/assets/5504953/fdf0334d-6fcc-48f5-8b81-46a7840cbaa2
 
 ![](../images/line2.png)
 
