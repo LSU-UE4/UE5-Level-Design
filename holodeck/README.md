@@ -119,11 +119,6 @@ If it were 8 bits per channel (2 ^ 8) we would only represent 256 different heig
 
 ![photoshop with height map size, depth and mode](images/techArt.png)
 
-
-Select **Place Actor | Special Effect | Exponential Height Fog** and drag it into the level.
-
-![add a exponential height fog to level](images/heightFog.png)
-
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
