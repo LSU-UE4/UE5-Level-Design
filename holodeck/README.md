@@ -131,7 +131,7 @@ Please note if that you are trying to adjust photoshop files to work that using 
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-If you want the raw file, download this free height map I downloaded from [moton forge pictures](https://www.motionforgepictures.com/environment-height-maps-free-download/) and adjusted it to the correct format in **Photoshop**.  If you don't want to deal with tweaking it to work, download the process file [RollingHillsHeightMap.png](../files/RollingHillsHeightMap.png). Now press the <kbd>Modes</kbd> and switch to **Landscape** mode.
+If you want the raw file, download this free height map I downloaded from [motion forge pictures](https://www.motionforgepictures.com/environment-height-maps-free-download/) and adjusted it to the correct format in **Photoshop**.  If you don't want to deal with tweaking it to work, download the process file [RollingHillsHeightMap.png](../files/RollingHillsHeightMap.png). Now press the <kbd>Modes</kbd> and switch to **Landscape** mode.
 
 ![download heightmap and switch to landscape mode](images/downloadLandscape.png)
 
