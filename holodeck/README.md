@@ -174,36 +174,39 @@ Now there is a special rotational widget that can be used for rotating the light
 
 ##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets save our work in this level.  Right click on **Content** and right click and select **New Folder**. Call it `Maps`.  Press **File | Save Current Level** and call the new level `Holodeck` and save it in the **Maps** folder. Now exit Unreal as we will load up another project that we will grab some assets we would like to use.
+You will need some materials and textures for the landscape.  Go to [github.com/LSU-UE4/UE5-Level-Design-Assets](https://github.com/LSU-UE4/UE5-Level-Design-Assets).  Click on the green <kbd>Code</kbd> button and select **Download ZIP**.
 
-![create maps folder and save level as Holodeck](images/saveLevel.png)
+![download material for level design](images/downloadzip.png)
 
 
 ##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Unzip the folder and open up **IntroToLDAssets.uproject** and go to **Content Drawer | Landscape | Materials** and right click on **M_Landscape** and select **Asset Actions | Migrate**.  This will start the migration process of all the files you will need for our project.
+
+![download material for level design](images/migrateMaterials.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now lets save our work in this level.  Right click on **Content** and right click and select **New Folder**. Call it `Maps`.  Press **File | Save Current Level** and call the new level `Holodeck` and save it in the **Maps** folder. Now exit Unreal as we will load up another project that we will grab some assets we would like to use.
 
+![create maps folder and save level as Holodeck](images/saveLevel.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
 
-You will need some materials and textures for the landscape.  Go to [github.com/LSU-UE4/UE5-Level-Design-Assets](https://github.com/LSU-UE4/UE5-Level-Design-Assets).  Click on the green <kbd>Code</kbd> button and select **Download ZIP**.
+Sometimes not all files get submitted to Unreal especially for files that don't show up in the editor.  It is good practice one you submit in **Unreal** and quit the game to right click on the top most project folder and select **Reconcile Offline Work...**.
 
-![download material for level design](images/downloadzip.png)
+This will either give a message saying ther is nothing to reconcile or bring up a tab.  Make sure that these are **NOT** files in the **Intermediate** and **Saved** folders as these should be ignored from the `.p4ignore`.
+
+If the files are in **Content** or **Configuration** then press the <kbd>Reconcile</kbd> button.  Then submit the changes with a message and press the <kbd>Submit</kbd> button.
+
+![reconcile offline content](images/reconcile.png)
 
 ![](../images/line2.png)
-
-##### `Step 21.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-Unzip the folder and open up **IntroToLDAssets.uproject** and go to **Content Drawer | Landscape | Materials** and right click on **M_Landscape** and select **Asset Actions | Migrate**.  This will start the migration process of all the files you will need for our project.
-
-![download material for level design](images/migrateMaterials.png)
 
 ![](../images/line.png)
 
