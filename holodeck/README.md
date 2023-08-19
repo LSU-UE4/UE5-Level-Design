@@ -157,7 +157,7 @@ Press the <kbd>Fix to Data</kbd> button to make sure the settings correspond to 
 
 ##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
 
-Now we do not need to be in **Landscape** mode any more.  Press the <kbd>Mode</kbd> and go back to **Select** mode. Fly around teh level.  You can increase the camera speed so it is quicker to fly around and look at the new map you created.
+Now we do not need to be in **Landscape** mode any more.  Press the <kbd>Mode</kbd> and go back to **Select** mode. Fly around the level.  You can increase the camera speed so it is quicker to fly around and look at the new map you created.
 
 ![fix data and import map](images/selectCameraSpeed.png)
 
