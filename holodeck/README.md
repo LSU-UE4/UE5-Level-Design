@@ -191,21 +191,14 @@ Unzip the folder and open up **IntroToLDAssets.uproject** and go to **Content Dr
 
 ##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets save our work in this level.  Right click on **Content** and right click and select **New Folder**. Call it `Maps`.  Press **File | Save Current Level** and call the new level `Holodeck` and save it in the **Maps** folder. Now exit Unreal as we will load up another project that we will grab some assets we would like to use.
+When migrating Unreal knows all the files that this material needs to render correctly.  Agree to all of them.  An explorer window will pop up to where you want to migrate to?  You need to go to the route level design folder that contains your `.uproject` file and then select the **Content** folder. It is always best to migrate to the route **Content** folder to preserve all the prior folders from the source project you are importing from.
 
-![create maps folder and save level as Holodeck](images/saveLevel.png)
+You should see a message that declares the migration succesful at the bottom right corner.
+
+![migrate all files to level design project](images/migrateFiles.png)
 
 ![](../images/line2.png)
 
-##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
-
-Sometimes not all files get submitted to Unreal especially for files that don't show up in the editor.  It is good practice one you submit in **Unreal** and quit the game to right click on the top most project folder and select **Reconcile Offline Work...**.
-
-This will either give a message saying ther is nothing to reconcile or bring up a tab.  Make sure that these are **NOT** files in the **Intermediate** and **Saved** folders as these should be ignored from the `.p4ignore`.
-
-If the files are in **Content** or **Configuration** then press the <kbd>Reconcile</kbd> button.  Then submit the changes with a message and press the <kbd>Submit</kbd> button. In this case the files migrated did not get added through Unreal, and needs to be done in P4V.
-
-![reconcile offline content](images/reconcile.png)
 
 ![](../images/line2.png)
 
