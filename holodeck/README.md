@@ -43,7 +43,7 @@ https://user-images.githubusercontent.com/5504953/177067308-a38e2c37-06a2-4d9d-8
 
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Move the three folders in the **Third Person Folder** to the root of Content.  This means moving the **Bluepritns**, **Input** and **Maps** folder.  Make sure you delete the empty folders left over.  At the end right click on **Content** and select **Fix Up Redirectors in Folder**.
+Move the three folders in the **Third Person Folder** to the root of Content.  This means moving the **Blueprints**, **Input** and **Maps** folder.  Make sure you delete the empty folders left over.  At the end right click on **Content** and select **Fix Up Redirectors in Folder**.
 
 ![fix up redirects in folder](images/moveThreeToRoot.png)
 
