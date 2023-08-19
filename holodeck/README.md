@@ -203,7 +203,7 @@ Sometimes not all files get submitted to Unreal especially for files that don't 
 
 This will either give a message saying ther is nothing to reconcile or bring up a tab.  Make sure that these are **NOT** files in the **Intermediate** and **Saved** folders as these should be ignored from the `.p4ignore`.
 
-If the files are in **Content** or **Configuration** then press the <kbd>Reconcile</kbd> button.  Then submit the changes with a message and press the <kbd>Submit</kbd> button.
+If the files are in **Content** or **Configuration** then press the <kbd>Reconcile</kbd> button.  Then submit the changes with a message and press the <kbd>Submit</kbd> button. In this case the files migrated did not get added through Unreal, and needs to be done in P4V.
 
 ![reconcile offline content](images/reconcile.png)
 
