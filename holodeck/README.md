@@ -88,7 +88,7 @@ Finally the [Volumetric Cloud](https://docs.unrealengine.com/5.2/en-US/volumetri
 
 >The Volumetric Cloud component is a physically-based cloud rendering system that uses a material-driven approach to give artists and designers the freedom to create any type of clouds they need for their projects. The cloud system handles dynamic time-of-day setups that is complemented by the Sky Atmosphere and Sky Light using the real time capture mode. The system provides scalable, artist-defined clouds that can adapt to projects using ground views, flying, and ground to outer space transitions. - [Volumetric Cloud](https://docs.unrealengine.com/5.2/en-US/volumetric-cloud-component-in-unreal-engine/) 
 
-![fix up redirects in folder](images/setUpLevel.png)
+![all lighting actors in level](images/basicLightingSetup.png)
 
 ![](../images/line2.png)
 
