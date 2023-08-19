@@ -108,9 +108,6 @@ Unreal recommends various [height map](https://docs.unrealengine.com/4.27/en-US/
 
 ![recommended heightmap size](images/recommendedLandscapeSizes.png)
 
-
-![add a skylight to level](images/skylight.png)
-
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
