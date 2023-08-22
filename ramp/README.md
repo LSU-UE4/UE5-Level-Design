@@ -21,7 +21,8 @@ Now it is always a good idea to populate the area we are working in with a scale
 
 Double click **Content | Character | Meshes | SKM_Quinn** (SKM_ is short for Skeltal Mesh) and press the <kbd>Make Static Mesh</kbd> button.  Call this mesh `SM_Reference_Pose` and put it in the **Meshes** folder.  Press the <kbd>Save</kbd> button.
 
-![convert sm_mannequin to a static mesh](images/createStaticMesh.png)
+![convert sm_mannequin to a static mesh](images/createStaticMesh2
+.png)
 
 ![](../images/line2.png)
 
