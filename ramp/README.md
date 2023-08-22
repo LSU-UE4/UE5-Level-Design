@@ -59,6 +59,10 @@ Now select all 32 static meshes of Quinn and right click and select **Move To | 
 
 ##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
+Create a new folder called `Lighting` and move all other files into this new folder.
+
+![put all remaining actors in lighting folder](images/LigntingFolder.png)
+
 Now we want the geometry that we create to sit in a scratch folder.  I like to save the geometry to the same folder every time. Go to **Edit | Project Settings | Plugins | Modeling Mode** and adjust the **Asset Generation Location** to `Auto Generated Global Asset Path` and the **Auto Generated Asset Path** to `_MarcMeshes` (you can use your own name or anything else that is indicative that this is your working scratch folder). We will be moving these to the **Static Meshes** folder when they are done.
 
 ![adjust settings of modeling mode to a fixed global path of _MarcMeshes](images/modellingSettings.png)
