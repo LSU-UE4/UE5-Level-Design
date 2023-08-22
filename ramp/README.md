@@ -83,6 +83,10 @@ Now the game tries to place the object to the best of its abilities and often ro
 ![add box that is 600 units wide and heigh by 1500 units deep](images/addRamp.png)
 
 
+![](../images/line2.png)
+
+##### `Step 9.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Now to create a ramp we will need to lower one of the polygon edges.  Go to **Poly Model | PolyEdit** mode and select the top edge.  It brings up a **Gizmo** so that you can pull the blue line downwards.  Be careful not to leave an edge or bring it too low.  Zoom in and make it overlap the bottom edge.  If it skips over the ideal location then you need to adjust how much the movement snaps to.  When you are happy press the <kbd>Accept</kbd> button. 
 
 Place the model in the level in front of the player start and so that the ramp is fully on the ground.  You might have to go underground a big so that no piece is floating as the ground is not perfectly flat.
@@ -92,10 +96,6 @@ https://user-images.githubusercontent.com/5504953/178083387-f020827a-fcfc-4fb8-9
 Now lets test our work.  Go to **Select Mode** and choose `Select`.  Now press the <kbd>Play</kbd> button and run up and down the ramp.  In my case everything works as planned.
 
 https://user-images.githubusercontent.com/5504953/178083401-ec85ae61-5423-4f0a-af33-a1f983251f3c.mp4
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now lets create a second ramp that is a `45%` slope.  We will go back to **Modeling Mode** and select a **Cube** that is  `600`cm in **Width** and **Height** and `1200`cm in **Depth**. Now the game tries to place the object to the best of its abilities and often rotates it.  It is **VERY IMPORTANT** to reset the **Rotation** so that is it `0`, `0`, `0` on **X**, **Y** and **Z**.
 
