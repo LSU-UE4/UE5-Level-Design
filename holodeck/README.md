@@ -68,7 +68,7 @@ Select the **Window | Env Ligth Mixer** to get the environmental light mixer ove
 
 ##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we have the basic lighitng set-up for a level. The  **Atmospheric Light** adds a **Directional Light** that acts as the sun. 
+Now we have the basic lighting set-up for a level. The  **Atmospheric Light** adds a **Directional Light** that acts as the sun. 
 
 >The Directional Light simulates light that is being emitted from a source that is infinitely far away. This means that all shadows cast by this light will be parallel, making this the ideal choice for simulating sunlight - [Directional Light](https://docs.unrealengine.com/5.2/en-US/directional-lights-in-unreal-engine/)
 
