@@ -68,7 +68,7 @@ Create a new folder called `Lighting` and move all other files into this new fol
 
 ##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we want the geometry that we create to sit in a scratch folder.  I like to save the geometry to the same folder every time. Go to **Edit | Project Settings | Plugins | Modeling Mode** and adjust the **Asset Generation Location** to `Auto Generated Global Asset Path` and the **Auto Generated Asset Path** to `_MarcMeshes` (you can use your own name or anything else that is indicative that this is your working scratch folder). We will be moving these to the **Static Meshes** folder when they are done.
+Now we want the geometry that we create to sit in a scratch folder.  I like to save the geometry to the same folder every time. Go to **Edit | Project Settings | Plugins | Modeling Mode** and adjust the **Asset Generation Location** to `Auto Generated Global Asset Path` and the **Auto Generated Asset Path** to `_Meshes` (you can use your own name or anything else that is indicative that this is your working scratch folder). We will be moving these to the main **Meshes** folder when they are done.
 
 ![adjust settings of modeling mode to a fixed global path of _MarcMeshes](images/modellingSettings.png)
 
