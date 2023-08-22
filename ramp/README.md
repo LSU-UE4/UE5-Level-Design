@@ -19,7 +19,7 @@ In this game I envision a bunch of ramps that the player can run up and down.  L
 
 Now it is always a good idea to populate the area we are working in with a scale reference.  In this case I think the player is a good sense of size and scale.  Now our character is a skeletal mesh and includes polygons, physics as well as a skeleton.  We only need the mesh.
 
-Double click **Content | Character | Meshes | SKM_Quinn** (SKM_ is short for Skeltal Mesh) and press the <kbd>Make Static Mesh</kbd> button.  Call this mesh `SM_Reference_Pose` and put it in the **Meshes** folder.  Press the <kbd>Save</kbd> button.
+Double click **Content | Character | Meshes | SKM_Quinn** (SKM_ is short for Skeltal Mesh) and press the <kbd>Make Static Mesh</kbd> button.  Call this mesh `SM_ReferencePose` and put it in the **Meshes** folder.  Press the <kbd>Save</kbd> button.
 
 ![convert sm_mannequin to a static mesh](images/createStaticMesh.png)
 
