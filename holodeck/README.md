@@ -76,11 +76,11 @@ The **Sky Atmoshpere** changes how the sun reflects with the atmosphere based on
 
 >The Sky Atmosphere component in Unreal Engine is a physically-based sky and atmosphere-rendering technique. It's flexible enough to create an Earth-like atmosphere with time-of-day featuring sunrise and sunset, or to create extraterrestrial atmospheres of an exotic nature. - [Sky Atmosphere](https://docs.unrealengine.com/5.2/en-US/sky-atmosphere-component-in-unreal-engine/).
 
-The third element that works together with the atmosphere and clouds in the [SkyLight](https://docs.unrealengine.com/5.2/en-US/sky-lights-in-unreal-engine/).
+The third element that works together with the atmosphere and clouds in the [SkyLight](https://docs.unrealengine.com/5.2/en-US/sky-lights-in-unreal-engine/). It acts as a fill light to give detail to shadows and affect the harshness of the directional light.
 
 >The Sky Light captures the distant parts of your level and applies that to the scene as a light. That means the sky's appearance and its lighting/reflections will match, even if your sky is coming from atmosphere, or layered clouds on top of a skybox, or distant mountains. You can also manually specify a cubemap to use. - [Skylight](https://docs.unrealengine.com/5.2/en-US/sky-lights-in-unreal-engine/)
 
-The one thing that is missing is visibility in the air.  Normally there is a bit of haze, particles or fog that restricts your viewing distance. The final element that will help bring this scene together is [Exponential Height Fog](https://docs.unrealengine.com/5.2/en-US/exponential-height-fog-in-unreal-engine/).
+The one thing that is missing is visibility in the air.  Normally there is a bit of haze, particles or fog that restricts your viewing distance. The element that will help bring this scene together is [Exponential Height Fog](https://docs.unrealengine.com/5.2/en-US/exponential-height-fog-in-unreal-engine/).
 
 >Exponential Height Fog creates more density in low places of a map and less density in high places. The transition is smooth, so you never get a hard cutoff as you increase altitude. Exponential Height Fog also provides two fog colors—one for the hemisphere facing the dominant directional light (or straight up if none exists), and another color for the opposite hemisphere. - [Exponential Height Fog](https://docs.unrealengine.com/5.2/en-US/exponential-height-fog-in-unreal-engine/).
 
