@@ -35,7 +35,7 @@ Drag the newly created **SM_Reference_Pose** into the center flat part of the ma
 
 ##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now <kbd>Alt Click</kbd> on the arrow and duplicate the player.  Create a group of them `20` meters apart (20 squares).  Fill up a large area.
+Now <kbd>Alt Click</kbd> on the arrow and duplicate the player 32 times.  Create a group of them `20` meters apart (20 squares).  Fill up a large area with 4 rows of 8.
 
 ![duplicate the player and place 20 meters apart to cover open area](images/duplicaet.png)
 
