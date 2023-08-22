@@ -82,7 +82,6 @@ Now the game tries to place the object to the best of its abilities and often ro
 
 ![add box that is 600 units wide and heigh by 1500 units deep](images/addRamp.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
