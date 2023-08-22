@@ -51,7 +51,7 @@ https://user-images.githubusercontent.com/5504953/178083375-0baba2c1-d888-4c6d-9
 
 ##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
 
-Now select all 32 static meshes of Quinn and right click and select **Move To | Create New Folder** and call it `Height Reference`.
+Now select all 32 static meshes of Quinn and right click and select **Move To | Create New Folder** and call it `HeightReference`.
 
 ![put all actors in folder](images/heightReference.png)
 
