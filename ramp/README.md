@@ -63,9 +63,18 @@ Create a new folder called `Lighting` and move all other files into this new fol
 
 ![put all remaining actors in lighting folder](images/LigntingFolder.png)
 
+
+![](../images/line2.png)
+
+##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Now we want the geometry that we create to sit in a scratch folder.  I like to save the geometry to the same folder every time. Go to **Edit | Project Settings | Plugins | Modeling Mode** and adjust the **Asset Generation Location** to `Auto Generated Global Asset Path` and the **Auto Generated Asset Path** to `_MarcMeshes` (you can use your own name or anything else that is indicative that this is your working scratch folder). We will be moving these to the **Static Meshes** folder when they are done.
 
 ![adjust settings of modeling mode to a fixed global path of _MarcMeshes](images/modellingSettings.png)
+
+![](../images/line2.png)
+
+##### `Step 8.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now lets add a ramp for the player to run on.  We will do this but editing a basic shape using the **UE5** modeling tools.  Press **Select Mode** and `Modeling`. Now press the **Shape | Box** section on the left.  Make the box `600` cm in **Width** and **Height** (6 meters or 19.6 feet) and `1500` cm (15 meters or 49.2 feet) in **Depth**. Left click the new box to the level and press the <kbd>Complete</kbd> button. 
 
@@ -73,19 +82,12 @@ Now the game tries to place the object to the best of its abilities and often ro
 
 ![add box that is 600 units wide and heigh by 1500 units deep](images/addRamp.png)
 
-![](../images/line2.png)
-
-##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now to create a ramp we will need to lower one of the polygon edges.  Go to **Poly Model | PolyEdit** mode and select the top edge.  It brings up a **Gizmo** so that you can pull the blue line downwards.  Be careful not to leave an edge or bring it too low.  Zoom in and make it overlap the bottom edge.  If it skips over the ideal location then you need to adjust how much the movement snaps to.  When you are happy press the <kbd>Accept</kbd> button. 
 
 Place the model in the level in front of the player start and so that the ramp is fully on the ground.  You might have to go underground a big so that no piece is floating as the ground is not perfectly flat.
 
 https://user-images.githubusercontent.com/5504953/178083387-f020827a-fcfc-4fb8-97f0-7ba1d2e0e13a.mp4
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now lets test our work.  Go to **Select Mode** and choose `Select`.  Now press the <kbd>Play</kbd> button and run up and down the ramp.  In my case everything works as planned.
 
