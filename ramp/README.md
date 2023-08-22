@@ -51,14 +51,17 @@ https://user-images.githubusercontent.com/5504953/178083375-0baba2c1-d888-4c6d-9
 
 ##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
 
-Now we want the geometry that we create to sit in a scratch folder.  I like to save the geometry to the same folder every time. Go to **Edit | Project Settings | Plugins | Modeling Mode** and adjust the **Asset Generation Location** to `Auto Generated Global Asset Path` and the **Auto Generated Asset Path** to `_MarcMeshes` (you can use your own name or anything else that is indicative that this is your working scratch folder). We will be moving these to the **Static Meshes** folder when they are done.
+Now select all 32 static meshes of Quinn and right click and select **Move To | Create New Folder** and call it `Height Reference`.
 
-![adjust settings of modeling mode to a fixed global path of _MarcMeshes](images/modellingSettings.png)
-
+![put all actors in folder](images/heightReference.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
+
+Now we want the geometry that we create to sit in a scratch folder.  I like to save the geometry to the same folder every time. Go to **Edit | Project Settings | Plugins | Modeling Mode** and adjust the **Asset Generation Location** to `Auto Generated Global Asset Path` and the **Auto Generated Asset Path** to `_MarcMeshes` (you can use your own name or anything else that is indicative that this is your working scratch folder). We will be moving these to the **Static Meshes** folder when they are done.
+
+![adjust settings of modeling mode to a fixed global path of _MarcMeshes](images/modellingSettings.png)
 
 Now lets add a ramp for the player to run on.  We will do this but editing a basic shape using the **UE5** modeling tools.  Press **Select Mode** and `Modeling`. Now press the **Shape | Box** section on the left.  Make the box `600` cm in **Width** and **Height** (6 meters or 19.6 feet) and `1500` cm (15 meters or 49.2 feet) in **Depth**. Left click the new box to the level and press the <kbd>Complete</kbd> button. 
 
