@@ -76,9 +76,9 @@ Now we want the geometry that we create to sit in a scratch folder.  I like to s
 
 ##### `Step 8.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets add a ramp for the player to run on.  We will do this but editing a basic shape using the **UE5** modeling tools.  Press **Select Mode** and `Modeling`. Now press the **Shape | Box** section on the left.  Make the box `600` cm in **Width** and **Height** (6 meters or 19.6 feet) and `1500` cm (15 meters or 49.2 feet) in **Depth**. Left click the new box to the level and press the <kbd>Complete</kbd> button. 
+Now lets add a ramp for the player to run on.  We will do this but editing a basic shape using the **UE5** modeling tools.  Press **Select Mode** and `Modeling`. Now press the **Shape | Box** section on the left.  Make the box `600` cm in **Width** and **Height** (6 meters or 19.6 feet) and `1500` cm (15 meters or 49.2 feet) in **Depth**. Turn **Align to Normal** `off`. Left click the new box to the level and press the <kbd>Complete</kbd> button. 
 
-Now the game tries to place the object to the best of its abilities and often rotates it.  It is **VERY IMPORTANT** to reset the **Rotation** so that is it `0`, `0`, `0` on **X**, **Y** and **Z**.
+Double check and make sure the **Rotation** is set to `0`, `0`, `0` on **X**, **Y** and **Z**.
 
 ![add box that is 600 units wide and heigh by 1500 units deep](images/addRamp.png)
 
