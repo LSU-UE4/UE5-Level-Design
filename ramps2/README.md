@@ -88,30 +88,14 @@ https://user-images.githubusercontent.com/5504953/178108011-95b0a1b8-5e5e-488d-b
 
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
-Create a new folder in the **Outlinder** called `Ramps` and place the 5 objects in there.  Create another folder called `Lighting` and put all the remaining actors in there except for **Player Start** and **Landscape**.
+Rename the file in the **World Outliner** and call this new block: `CenterRampPiece`. Highlight all the ramp pieces and select **Move To | Create New Folder** called `Ramps`.
 
 ![put 5 ramps in ramp folder](images/putFIlesinFolder.png)
-
-Select all the ramps and right click and press **Transform | Lock Actor Movement**.  Now when you go to move a ramp it has no gizmo and cannot be moved.  This can of course be undone so you can move these meshe(s) again.
-
-![lock ramp movement](images/lockRamp.png)
-
-| `lock.meshes`\|`Introduction To Level Design`| 
-| :--- |
-| :floppy_disk: &nbsp;&nbsp; Now when we are happy with our level design so far.  Our floor and our ramp and center cube work the way we want.  Now there is a way in Unreal to lock these static meshes so they don't accidentally move.  It is very easy to accidentally move pieces out of position so this is a good precautionary measure. It is also easy to accidentally select the landscape while trying to pick an actor on it.  This stops accidentaly movement and allows you to focus on the new elements you are adding to the level.|
-
-Repeat this for the **Landscape**.  This way you will not accidentally make changes to the landscape and it will make it easier to select objects within it without accidentally selecting the landscape itself.
-
-![lock landscape from moving](images/lockLandscape.png)
-
-Now when you run the game and select these objects you will notice that there is no gizmo for translation, scale or rotation on the ramps or landscapes.  But for other objects we did not lock we can still edit and move them.
-
-https://user-images.githubusercontent.com/5504953/178108978-23d406ac-3d0c-45ed-920d-0263627c233b.mp4
-
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
+
 
 Now lets go to the folder we created to hold the models we were creating.  Delete the ones that we did not use (if you start over and don't delete the modles it will keep them all).  Mine was located in **_MarcMeshes | Mauby**. I renamed them to `SM_UndulatingRamp`, `SM_ShortRamp`, `SM_RampCenterBlock`, `SM_MidSizeRamp`, and `SM_CurvedRamp`. You may need to check out the files to make changes, which is fine!
 
