@@ -19,7 +19,6 @@ Now we need to add more polygons to the faces so we can have a curved ramp rathe
 
 https://user-images.githubusercontent.com/5504953/178083448-a8920371-50e6-4f5f-8de3-822d0aef0158.mp4
 
-
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
@@ -46,6 +45,7 @@ Create a fourth ramp on your own.  Try being creative with the design! Then make
 
 ![](../images/line2.png)
 
+
 ##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
 
 Now play the game and you should have 4 ramps with a 600 cm square cube gap in the center.  Make sure the heights are the same and the corners are joined at the diagonals.  You should not see light leaking through in the engine.
@@ -54,12 +54,12 @@ https://user-images.githubusercontent.com/5504953/178107459-6a4ad523-b5ed-4c59-9
 
 ![](../images/line2.png)
 
+
 ##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
 Now that we are happy with the ramps lets do some housecleaning.  Go to the **World Outliner** and give each piece a descriptive name.  I named mine `Ramp1`, `Ramp2`, `Ramp3`, `Ramp4`.
 
 ![give ramps descriptive names in outliner](images/nameRamps.png)
-
 
 ![](../images/line2.png)
 
@@ -68,10 +68,6 @@ Now that we are happy with the ramps lets do some housecleaning.  Go to the **Wo
 Now lets fill the center gap so the player can run over it.  Create another **Box** that is `600` cm ins size in **Width**, **Depth** and **Height**.  Press the <kbd>Complete</kbd> button.
 
 ![create a 600 square foot box](images/600box.png)
-
-![](../images/line2.png)
-
-
 
 ![](../images/line2.png)
 
