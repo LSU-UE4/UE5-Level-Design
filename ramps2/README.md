@@ -28,13 +28,17 @@ Now that we have completed it we need to put it with the other ramps so that the
 
 ![Line up third ramp and make sure it is orthogonal](images/LineUpThirdRamp.png)
 
+![](../images/line2.png)
+
+##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Now play the game and run up and down the new curved ramp!
 
 https://user-images.githubusercontent.com/5504953/178085499-15b378f3-4a52-4803-83fa-24292c6d5ee5.mp4
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Create a fourth ramp on your own.  Try being creative with the design! Then make sure it lines up in the las slot.  You should now have a perfect 600 unit hole inbetween the four ramps!
 
@@ -42,7 +46,7 @@ Create a fourth ramp on your own.  Try being creative with the design! Then make
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
 
 Now play the game and you should have 4 ramps with a 600 cm square cube gap in the center.  Make sure the heights are the same and the corners are joined at the diagonals.  You should not see light leaking through in the engine.
 
@@ -52,22 +56,17 @@ Now lets fill the center gap so the player can run over it.  Create another **Bo
 
 ![create a 600 square foot box](images/600box.png)
 
+![](../images/line2.png)
+
+##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
 Assign the **M_LDGrid_Local** material to the new model.  Make sure the **Rotations** are set to `0` on all axis.  Put this shape in the center to fill the hole between the four ramps.  Be precise and get everything to line up!
 
 ![create a 600 square foot box](images/assignPosition.png)
 
-![](../images/line2.png)
-
-##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
-
 Now play the game and run around.  There should be no gaps in the ramp and the player shoudl run smoothly over the surface.  If there are any physics issues make final adjustments to your geometry now.
 
 https://user-images.githubusercontent.com/5504953/178108011-95b0a1b8-5e5e-488d-bb0e-64ee94e48242.mp4
-
-![](../images/line2.png)
-
-##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
 Now that we are happy with the ramps lets do some housecleaning.  Go to the **Outliner** and give each piece a descriptive name.  I named mine `CenterBlock`, `MidSizeRamp`, `ShortRamp`, `UndulatingRamp` and `CurvedRamp`.
 
