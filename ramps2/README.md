@@ -15,30 +15,43 @@ Lets create the final ramp to complete the four touching ramps.  We will then ad
 
 ##### `Step 1.`\|`SUU&G`|:small_blue_diamond:
 
+Now we need to add more polygons to the faces so we can have a curved ramp rather than a single surface made with two triangles.  Go to **Poly Model | Poly Edit** and go to **Shape Edits | Insert Edge Loop**.  This will allow you to click along the long edge and a a loop and subdivide our ramp every 2 meters (2 squares in the material).  Lock in the changes by pressing the <kbd>Accept</kbd> button. Now go back to **Poly Model | Poly Edit** mode and adjust the edges so that we get a nice S loop in the ramp.  Press the <kbd>Accept</kbd> button.
+
+https://user-images.githubusercontent.com/5504953/178083448-a8920371-50e6-4f5f-8de3-822d0aef0158.mp4
+
+
+![](../images/line2.png)
+
+##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+
+Now that we have completed it we need to put it with the other ramps so that they touch at the corners.  Make sure the **Z** heights are the same, then go into **Top** view in **Polygon** viewer to line them up perfectly.
+
+![Line up third ramp and make sure it is orthogonal](images/LineUpThirdRamp.png)
+
+Now play the game and run up and down the new curved ramp!
+
+https://user-images.githubusercontent.com/5504953/178085499-15b378f3-4a52-4803-83fa-24292c6d5ee5.mp4
+
+![](../images/line2.png)
+
+##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Create a fourth ramp on your own.  Try being creative with the design! Then make sure it lines up in the las slot.  You should now have a perfect 600 unit hole inbetween the four ramps!
 
 ![create fourth ramp and line up](images/fourthRamp.png)
 
 ![](../images/line2.png)
 
-##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 4.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now play the game and you should have 4 ramps with a 600 cm square cube gap in the center.  Make sure the heights are the same and the corners are joined at the diagonals.  You should not see light leaking through in the engine.
 
 https://user-images.githubusercontent.com/5504953/178107459-6a4ad523-b5ed-4c59-97ad-14101f7835c8.mp4
 
-![](../images/line2.png)
-
-##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Now lets fill the center gap so the player can run over it.  Create another **Box** that is `600` cm ins size in **Width**, **Depth** and **Height**.  Press the <kbd>Complete</kbd> button.
 
 ![create a 600 square foot box](images/600box.png)
 
-
-![](../images/line2.png)
-
-##### `Step 4.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Assign the **M_LDGrid_Local** material to the new model.  Make sure the **Rotations** are set to `0` on all axis.  Put this shape in the center to fill the hole between the four ramps.  Be precise and get everything to line up!
 

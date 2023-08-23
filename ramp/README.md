@@ -185,7 +185,7 @@ https://user-images.githubusercontent.com/5504953/178083430-eb1429a8-94e3-46ba-9
 
 ##### `Step 21.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Lets add a third ramp.  This time we will make it a more interesting shape and not just a straight ramp.  The tools allow us to make more complex shapes.  Go back to **Modeling Mode** and select another **Box** that is `600` cm in **Width** and **Height** but a full `2000` cm in **Depth**.  After placing it in the level press the <kbd>Complete</kbd> button.  Change the **Material** to `M_LDGrid_Local`. Make sure you set **ALL** rotations to `0`.
+Lets add a third ramp.  This time we will make it a more interesting shape and not just a straight ramp.  The tools allow us to make more complex shapes.  Go back to **Modeling Mode** and select another **Box** that is `600` cm in **Width** and **Height** but a full `2000` cm in **Depth**.  After placing it in the level press the <kbd>Complete</kbd> button.  Change the **Material** to `M_LDGrid_Local`. It is important to have **Align to Normal** set to `false`. Make sure you set **ALL** rotations to `0`.
 
 ![check in above for skewing](images/thirdRampStart.png)
 
