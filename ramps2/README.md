@@ -96,7 +96,7 @@ Rename the file in the **World Outliner** and call this new block: `CenterRampPi
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-Now lets go to the folder we created to hold the models we were creating.  Delete any failed ones that you did not use.  Mine was located in **_Meshes | Mauby**. I renamed them to `SM_UndulatingRamp`, `SM_ShortRamp`, `SM_RampCenterBlock`, `SM_MidSizeRamp`, and `SM_CurvedRamp`. You may need to check out the files to make changes, which is fine!
+Now lets go to the folder we created to hold the models we were creating.  Delete any failed ones that you did not use.  Mine was located in **_Meshes | Mauby**. I renamed them to `SM_UndulatingRamp`, `SM_ShortRamp`, `SM_RampCenterBlock`, `SM_MediumRamp`, and `SM_LongRamp`. You may need to check out the files to make changes, which is fine! Now move these 5 ramps to your meshes folder.
 
 ![rename ramps in scratch folder](images/renameRamps.png)
 
@@ -105,7 +105,9 @@ Now lets go to the folder we created to hold the models we were creating.  Delet
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now move these 5 ramps to your meshes folder.
+Type `Text Render` in the **Add Actors** menue to add a 2-D text to add on top of the ramps to identify it from afar.  Type in as the **Text** field: `Ramps`. Change the **Horizontal Alignment** to `Center`. Move it to ontop of the ramp.
+
+![add ramps text render](images/AddRampsTextRender.png)
 
 ![move 5 ramps to meshes folder](images/moveToMeshes.png)
 
@@ -113,9 +115,7 @@ Now move these 5 ramps to your meshes folder.
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Type `Text Render` in the **Add Actors** menue to add a 2-D text to add on top of the ramps to identify it from afar.  Type in as the **Text** field: `Ramps`. Change the **Horizontal Alignment** to `Center`. Move it to ontop of the ramp.
 
-![add ramps text render](images/AddRampsTextRender.png)
 
 ![](../images/line2.png)
 
