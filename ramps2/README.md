@@ -56,9 +56,26 @@ https://user-images.githubusercontent.com/5504953/178107459-6a4ad523-b5ed-4c59-9
 
 ##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
 
+Now that we are happy with the ramps lets do some housecleaning.  Go to the **World Outliner** and give each piece a descriptive name.  I named mine `Ramp1`, `Ramp2`, `Ramp3`, `Ramp4`.
+
+![give ramps descriptive names in outliner](images/nameRamps.png)
+
+
+![](../images/line2.png)
+
+##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Now lets fill the center gap so the player can run over it.  Create another **Box** that is `600` cm ins size in **Width**, **Depth** and **Height**.  Press the <kbd>Complete</kbd> button.
 
 ![create a 600 square foot box](images/600box.png)
+
+![](../images/line2.png)
+
+
+
+![](../images/line2.png)
+
+##### `Step 8.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Assign the **M_LDGrid_Local** material to the new model.  Make sure the **Rotations** are set to `0` on all axis.  Put this shape in the center to fill the hole between the four ramps.  Be precise and get everything to line up!
 
@@ -68,31 +85,19 @@ Now play the game and run around.  There should be no gaps in the ramp and the p
 
 https://user-images.githubusercontent.com/5504953/178108011-95b0a1b8-5e5e-488d-bb0e-64ee94e48242.mp4
 
-Now that we are happy with the ramps lets do some housecleaning.  Go to the **Outliner** and give each piece a descriptive name.  I named mine `CenterBlock`, `MidSizeRamp`, `ShortRamp`, `UndulatingRamp` and `CurvedRamp`.
 
-![give ramps descriptive names in outliner](images/nameRamps.png)
-
-![](../images/line2.png)
-
-##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Create a new folder in the **Outlinder** called `Ramps` and place the 5 objects in there.  Create another folder called `Lighting` and put all the remaining actors in there except for **Player Start** and **Landscape**.
 
 ![put 5 ramps in ramp folder](images/putFIlesinFolder.png)
 
-![](../images/line2.png)
+Select all the ramps and right click and press **Transform | Lock Actor Movement**.  Now when you go to move a ramp it has no gizmo and cannot be moved.  This can of course be undone so you can move these meshe(s) again.
+
+![lock ramp movement](images/lockRamp.png)
 
 | `lock.meshes`\|`Introduction To Level Design`| 
 | :--- |
 | :floppy_disk: &nbsp;&nbsp; Now when we are happy with our level design so far.  Our floor and our ramp and center cube work the way we want.  Now there is a way in Unreal to lock these static meshes so they don't accidentally move.  It is very easy to accidentally move pieces out of position so this is a good precautionary measure. It is also easy to accidentally select the landscape while trying to pick an actor on it.  This stops accidentaly movement and allows you to focus on the new elements you are adding to the level.|
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Select all the ramps and right click and press **Transform | Lock Actor Movement**.  Now when you go to move a ramp it has no gizmo and cannot be moved.  This can of course be undone so you can move these meshe(s) again.
-
-![lock ramp movement](images/lockRamp.png)
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
