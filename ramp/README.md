@@ -114,7 +114,7 @@ https://user-images.githubusercontent.com/5504953/178083401-ec85ae61-5423-4f0a-a
 
 ##### `Step 12.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now lets create a second ramp that is a `45%` slope.  We will go back to **Modeling Mode** and select a **Cube** that is  `600`cm in **Width** and **Height** and `1200`cm in **Depth**. Now the game tries to place the object to the best of its abilities and often rotates it.  It is **VERY IMPORTANT** to reset the **Rotation** so that is it `0`, `0`, `0` on **X**, **Y** and **Z**.
+Now lets create a second ramp that is a `45%` slope.  We will go back to **Modeling Mode** and select a **Cube** that is  `600`cm in **Width** and **Height** and `1200`cm in **Depth**. Now the game tries to place the object to the best of its abilities and often rotates it.  It is important to have **Align to Normal** set to `false`.
 
 ![steep ramp create of 600 x 600 x 1200 creatinga  45% ramp](images/steeperRampCreate.png)
 
