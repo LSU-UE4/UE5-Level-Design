@@ -65,7 +65,7 @@ Now that we are happy with the ramps lets do some housecleaning.  Go to the **Wo
 
 ##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets fill the center gap so the player can run over it.  Create another **Box** that is `600` cm ins size in **Width**, **Depth** and **Height**.  Press the <kbd>Complete</kbd> button.
+Now lets fill the center gap so the player can run over it.  Create another **Box** that is `600` cm ins size in **Width**, **Depth** and **Height**.  Press the <kbd>Accept</kbd> button.
 
 ![create a 600 square foot box](images/600box.png)
 
@@ -77,11 +77,16 @@ Assign the **M_LDGrid_Local** material to the new model.  Make sure the **Rotati
 
 ![create a 600 square foot box](images/assignPosition.png)
 
+##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Now play the game and run around.  There should be no gaps in the ramp and the player shoudl run smoothly over the surface.  If there are any physics issues make final adjustments to your geometry now.
 
 https://user-images.githubusercontent.com/5504953/178108011-95b0a1b8-5e5e-488d-bb0e-64ee94e48242.mp4
 
 
+![](../images/line2.png)
+
+##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
 Create a new folder in the **Outlinder** called `Ramps` and place the 5 objects in there.  Create another folder called `Lighting` and put all the remaining actors in there except for **Player Start** and **Landscape**.
 
@@ -95,15 +100,9 @@ Select all the ramps and right click and press **Transform | Lock Actor Movement
 | :--- |
 | :floppy_disk: &nbsp;&nbsp; Now when we are happy with our level design so far.  Our floor and our ramp and center cube work the way we want.  Now there is a way in Unreal to lock these static meshes so they don't accidentally move.  It is very easy to accidentally move pieces out of position so this is a good precautionary measure. It is also easy to accidentally select the landscape while trying to pick an actor on it.  This stops accidentaly movement and allows you to focus on the new elements you are adding to the level.|
 
-##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Repeat this for the **Landscape**.  This way you will not accidentally make changes to the landscape and it will make it easier to select objects within it without accidentally selecting the landscape itself.
 
 ![lock landscape from moving](images/lockLandscape.png)
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
 Now when you run the game and select these objects you will notice that there is no gizmo for translation, scale or rotation on the ramps or landscapes.  But for other objects we did not lock we can still edit and move them.
 
