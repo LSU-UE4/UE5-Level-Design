@@ -96,8 +96,7 @@ Rename the file in the **World Outliner** and call this new block: `CenterRampPi
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-
-Now lets go to the folder we created to hold the models we were creating.  Delete the ones that we did not use (if you start over and don't delete the modles it will keep them all).  Mine was located in **_MarcMeshes | Mauby**. I renamed them to `SM_UndulatingRamp`, `SM_ShortRamp`, `SM_RampCenterBlock`, `SM_MidSizeRamp`, and `SM_CurvedRamp`. You may need to check out the files to make changes, which is fine!
+Now lets go to the folder we created to hold the models we were creating.  Delete any failed ones that you did not use.  Mine was located in **_Meshes | Mauby**. I renamed them to `SM_UndulatingRamp`, `SM_ShortRamp`, `SM_RampCenterBlock`, `SM_MidSizeRamp`, and `SM_CurvedRamp`. You may need to check out the files to make changes, which is fine!
 
 ![rename ramps in scratch folder](images/renameRamps.png)
 
