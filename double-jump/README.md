@@ -15,7 +15,7 @@ Now we are going to figure out how high the player can jump for getting onto pla
 
 ##### `Step 1.`\|`UE5LD`|:small_blue_diamond:
 
-Go to **Select Mode** and switch back to **Modeling** mode.  Select a **Box** and make it a **Width** of `400`, **Depth** of `800` and **Height** of `1000`. Press the <kbd>Create Box</kbd> to place it in the level then press the <kbd>Accept</kbd> and put it on the ground.
+Go to **Select Mode** and switch back to **Modeling** mode.  Select a **Box** and make it a **Width** of `400`, **Depth** of `800` and **Height** of `1000`. Press the <kbd>Create Box</kbd> to place it in the level then press the <kbd>Accept</kbd> to save the work.
 
 ![Add a bxp box and move player start in front of it](images/createNewBox.png)
 
