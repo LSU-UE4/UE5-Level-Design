@@ -117,18 +117,13 @@ Open the **ThirdPersonCharacter** blueprint and select the top component **BP_Th
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
 Now press the <kbd>Compile</kbd> button then go to the game and press <kbd>Play</kbd>. Now you can double jump but there is one thing I don't like.  It allows you to double jump when you are falling.  Lets look at adjusting this.
 
 https://user-images.githubusercontent.com/5504953/181525660-71c045e2-3c50-4d7a-9f23-84d74508b12e.mp4
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 So how can we tell if a player is moving up or down.  The best way is to look at the player velocity.  The difference between speed and velocity is that speed is just displacement over time without knowing which direction the object is moving in. Velocity also has a direction so it represents both a direction and a magnitude (amount of displacememnt).  Unreal uses a vector (x, y, z) to represent the velocity and the displacement is common to represent cm/second. The black dotted line represents how much the actor will move over a second of time and in in which direction.
 
@@ -136,11 +131,17 @@ So how can we tell if a player is moving up or down.  The best way is to look at
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
 
 To tell if the player is moving down is to isolate the **Z** axis.  So if the Z axis is at 0 (on the ground or the apex of the jum) then the player can double jump, if it is less than 0 then we want to disable jumping.
 
 ![isolate z vector](images/ZIsolateVector.jpg)
+
+![](../images/line2.png)
+
+##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+
 
 ![](../images/line2.png)
 
