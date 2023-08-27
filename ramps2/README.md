@@ -65,7 +65,7 @@ Now that we are happy with the ramps lets do some housecleaning.  Go to the **Wo
 
 ##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets fill the center gap so the player can run over it.  Create another **Box** that is `600` cm ins size in **Width**, **Depth** and **Height**.  Press the <kbd>Accept</kbd> button.
+Now lets fill the center gap so the player can run over it.  Create another **Box** that is `600` cm ins size in **Width**, **Depth** and **Height**.  Make sure that **Align to Normal** is `false`. Press the <kbd>Accept</kbd> button.
 
 ![create a 600 square foot box](images/600box.png)
 
@@ -96,7 +96,7 @@ Rename the file in the **World Outliner** and call this new block: `CenterRampPi
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-Now lets go to the folder we created to hold the models we were creating.  Delete any failed ones that you did not use.  Mine was located in **_Meshes | Mauby**. I renamed them to `SM_UndulatingRamp`, `SM_ShortRamp`, `SM_RampCenterBlock`, `SM_MediumRamp`, and `SM_LongRamp`. You may need to check out the files to make changes, which is fine! Now move these 5 ramps to your meshes folder.
+Now lets go to the folder we created to hold the models we were creating.  Delete any failed ones that you did not use.  Mine was located in **_Meshes | Mauby**. I renamed them to `SM_UndulatingRamp`, `SM_ShortRamp`, `SM_RampCenterBlock`, `SM_MediumRamp`, and `SM_LongRamp`. You may need to check out the files to make changes, which is fine! Now move these 5 ramps to your **Meshes** folder.
 
 ![rename ramps in scratch folder](images/renameRamps.png)
 
@@ -121,9 +121,37 @@ https://user-images.githubusercontent.com/5504953/128019875-39f769c8-b0a2-49bd-a
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Move the ramps so they don't overlap the height reference actors you have placed.  I moved mine so that the players surrounded the ramp.
+
+![move ramps from covering reference](images/moveRampsToNotOverlap.png)
+
+![](../images/line2.png)
+
+##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
+
+Now adjust the **Player Start** to start in fron to of the ramp, and make sure they player is facing the ramp (white arrow).
+
+![adjust player start in front of ramp](images/adjustPlayerStartToFaceRamp.png)
+
+![](../images/line2.png)
+
+##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+Select all ramps when they are positioned properly
+
+![adjust player start in front of ramp](images/lockActorMovement.png)
+
+![](../images/line2.png)
+
+##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Source Control...**. Enter a **Changelist Description** and then press <kbd>Submit Content</kbd>. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
 
 ![save all and submit to perforce](images/submitP4.png)
+
+![](../images/line2.png)
+
+##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 ![](../images/line2.png)
 
