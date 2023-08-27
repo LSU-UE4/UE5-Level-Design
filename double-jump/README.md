@@ -173,30 +173,11 @@ Clean up the node chart so that the lines don't intersect and cross over each ot
 
 ##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
 
-
 Now press the <kbd>Play</kbd> button and you should only be able to jump when moving up (or on the ground for that matter).  And you can only jump twice!  Great job - lets keep  going.
 
 https://user-images.githubusercontent.com/5504953/181570832-33c19fc7-d270-4c09-872c-0eed41ee35ce.mp4
 
 ![](../images/line2.png)
-
-
-
-##### `Step 21.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-
-
-![](../images/line2.png)
-
-##### `Step 22.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-![](../images/line2.png)
-
-##### `Step 23.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-___
 
 ![](../images/line.png)
 
