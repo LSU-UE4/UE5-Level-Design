@@ -91,30 +91,32 @@ Move the player start from the ramps to the new jump platform.  Rotate it to poi
 
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
-![](../images/line2.png)
-
-##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
-
 Run the game and jump through the hole. Make sure the camera clears.  In my case it does.  But we need to add a double jump to the game to see if this causes a problem. Also, if you move the camera around you will have collision issues.  We will not deal with fixing this now.  We will leave it as is.
 
 https://user-images.githubusercontent.com/5504953/181350876-22daaa76-ada5-4a59-9b00-561581af6ebc.mp4
 
 ![](../images/line2.png)
 
+##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
-Now I didn't populate our reference character in this area.  So I am going to go and select all the static mesh characters I have in the **Scale Reference** folder and press the <kbd>Alt</kbd> key with the red gizmo on the moving the static meshes.  This will duplicate them.  Place them in the area that you need to.  Then raise them up and press the <kbd>End</kbd> key to get them all on the ground plane.
+If you don't have the reference character in this area then add somre more.  So I am going to go and select all the static mesh characters I have in the **Scale Reference** folder and press the <kbd>Alt</kbd> key with the red gizmo on the moving the static meshes.  This will duplicate them.  Place them in the area that you need to.  Then raise them up and press the <kbd>End</kbd> key to get them all on the ground plane.
 
 https://user-images.githubusercontent.com/5504953/181407845-2c33c685-ecc7-4608-a2e5-670f4e71990d.mp4
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Open the **ThirdPersonCharacter** blueprint and select the top component **BP_ThirdPersonCharacter (Self)** and search for **Jump Max Count**.  Lets set this to `2` so we can double jump!
+##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+Open the **ThirdPersonCharacter** blueprint and select the top component **BP_ThirdPersonCharacter (Self)** and search for **Character | Jump Max Count**.  Lets set this to `2` so we can double jump!
 
 ![add room to jump section in thirdpersoncharacter blueprint](images/jumpCount.png)
+
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
 
 ![](../images/line2.png)
 
