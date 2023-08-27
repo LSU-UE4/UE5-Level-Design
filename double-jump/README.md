@@ -74,17 +74,15 @@ Lets go to the folder where these generated shapes are kept. Delete the two cube
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Rename the static mesh to `SM_JumpPlatform_Low`.
+Raise the jump platform up and press the <kbd>End</kbd> key to get it to sit on the ground. 
 
-![alt_text](images/jmpLow.png)
+![make sure platform is on ground](images/setOnGround.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Raise the jump platform up and press the <kbd>End</kbd> key to get it to sit on the ground. 
 
-![make sure platform is on ground](images/setOnGround.png)
 
 ![](../images/line2.png)
 
