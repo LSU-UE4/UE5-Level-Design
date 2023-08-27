@@ -23,7 +23,7 @@ Go to **Select Mode** and switch back to **Modeling** mode.  Select a **Box** an
 
 ##### `Step 2.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: 
 
-Now go back to ??? mode and lift the box and press the <kbd>End</kbd> key and place it next to the ramps you just created (give yourself some breathing room). 
+Now go back to **Select** mode and lift the box and press the <kbd>End</kbd> key and place it next to the ramps you just created (give yourself some breathing room). Lower it so that the entire bottom is on the ground (the ground is NOT flat).
 
 ![Resize box to make it larger](images/snapToGround.png)
 
