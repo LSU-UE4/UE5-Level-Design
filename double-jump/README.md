@@ -165,7 +165,7 @@ So we want to isolate the **Z** vector.  How do we do this?  We right lick on th
 
 ##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now you need to pull of the **Z** pin and then type `>=` as we want the >= operator.  This allows us to confirm that the velocity in Z is either 0 or positive. Pull off the **Triggered** pin and select a **Branch** node. Connect the output of **>=** to the input input bolean pin on the **Branch** node.  
+Now you need to pull of the **Z** pin and then type `>=` as we want the >= operator.  This allows us to confirm that the velocity in Z is either 0 or positive. Pull off the **Triggered** pin and select a **Branch** node. Connect the output of **>=** to the input input boolean pin on the **Branch** node.  
 
 ![add greater than and branch](images/branch.png)
 
