@@ -57,7 +57,7 @@ Select both boxes in the scene. Now go to the **PolyModel** group and select **M
 
 ##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
 
-Create a new folder in your **Outliner** called `Jump Platform Low`.  Assign `M_LDDgrid_Local` material to it.  Now we have a shape that we can jump through! 
+Create a new folder in your **Outliner** called `Jump Platforms`. Call the jump platform `Jump Platform Low` and place it in the folder.  Assign `M_LDDgrid_Local` material to it.  Now we have a shape that we can jump through! 
  
 ![name folder jump platforms and object jump platform low](images/newShape.png)
 
