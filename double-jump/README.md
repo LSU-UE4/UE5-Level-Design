@@ -141,19 +141,13 @@ To tell if the player is moving down is to isolate the **Z** axis.  So if the Z 
 
 ##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
 So open up the **BP_ThirdPersonCharacter** player blueprint we edited earlier.  Go to the **Event Graph** tab and find the section tha has a title of **Jump Input**.  Make some room between the **Input Action** and the **Jumping Nodes**.  Right click on the open graph and type **Get Velocity**.  
 
 ![add get velocity](images/getVelocity.png)
 
 ![](../images/line2.png)
 
-##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 The **Return Value** is a single pin and returns a **Vector** struct.  What is a struct?  It is a structure that contains multiple variables.  In this case it contains three floating point numbers representing X, Y & Z.
 
@@ -161,11 +155,17 @@ The **Return Value** is a single pin and returns a **Vector** struct.  What is a
 
 ![](../images/line2.png)
 
-##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 So we want to isolate the **Z** vector.  How do we do this?  We right lick on the **Return Value** and select **Split Struct Pin**.  This will change it to three individual variables and we can now isolate the **Z** pin.
 
 ![split return value struct](images/splitStruct.png)
+
+![](../images/line2.png)
+
+##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
 
 ![](../images/line2.png)
 
