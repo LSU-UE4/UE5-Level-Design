@@ -74,7 +74,7 @@ Lets go to the folder where these generated shapes are kept. Delete the two cube
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Raise the jump platform up and press the <kbd>End</kbd> key to get it to sit on the ground. 
+Raise the jump platform up and press the <kbd>End</kbd> key to get it to sit on the ground. Make sure it is fully under the ground as it is not flat.
 
 ![make sure platform is on ground](images/setOnGround.png)
 
@@ -82,14 +82,14 @@ Raise the jump platform up and press the <kbd>End</kbd> key to get it to sit on 
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Move the player start from the ramps to the new jump platform.  Rotate it to point to the platform.
+
+![move player start to jump volume](images/movePlayerStart.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
-Move the player start from the ramps to the new jump platform.  Rotate it to point to the platform.
-
-![move player start to jump volume](images/movePlayerStart.png)
 
 ![](../images/line2.png)
 
