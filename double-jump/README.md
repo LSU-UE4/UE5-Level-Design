@@ -65,7 +65,7 @@ Create a new folder in your **Outliner** called `Jump Platforms`. Call the jump 
 
 ##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets go to the folder where these generated shapes are kept. I deleted the two cubes and kept the jump platform.  I then moved it to the **Meshes** folder.
+Lets go to the folder where these generated shapes are kept. Delete the two cubes and keep the jump platform.  Name it `SM_JumpPlatformLow`.` Move it to the **Meshes** folder.
 
 ![delete old meshes and move jump platform to mesh folder](images/moveSM.png)
 
