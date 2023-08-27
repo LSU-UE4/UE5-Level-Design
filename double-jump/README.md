@@ -165,15 +165,15 @@ So we want to isolate the **Z** vector.  How do we do this?  We right lick on th
 
 ##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now you need to pull of the **Z** pin and then type `>=` as we want the >= operator.  This allows us to confirm that the velocity in Z is either 0 or positive.
 
+![add >= node](images/greateOrEqual.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
 
-Now you need to pull of the **Z** pin and then type `>=` as we want the >= operator.  This allows us to confirm that the velocity in Z is either 0 or positive.
 
-![add >= node](images/greateOrEqual.png)
 
 ![](../images/line2.png)
 
