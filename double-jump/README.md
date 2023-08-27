@@ -31,7 +31,7 @@ Now go back to **Select** mode and lift the box and press the <kbd>End</kbd> key
 
 ##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets create a second box that we will use to cut a hole in the existing one. Go back to the **Modeling** mode and create another **Box** that is a **Width** of `775`, **Depth** of `408` and **Height** of `750`. Press the <kbd>Complete</kbd> and put it on the ground next to the other box.
+Lets create a second box that we will use to cut a hole in the existing one. Go back to the **Modeling** mode and create another **Box** that is a **Width** of `775`, **Depth** of `408` and **Height** of `750`. Make sure **Snap to Grid** is off. Press the <kbd>Accept</kbd> button and put it on the ground next to the other box.
 
 ![create second smaller box](images/secondBox.png)
 
