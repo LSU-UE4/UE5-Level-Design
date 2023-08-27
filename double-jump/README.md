@@ -165,19 +165,28 @@ So we want to isolate the **Z** vector.  How do we do this?  We right lick on th
 
 ##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now you need to pull of the **Z** pin and then type `>=` as we want the >= operator.  This allows us to confirm that the velocity in Z is either 0 or positive. Pull off the **Triggered** pin and select a **Branch** node. Connect the output of **>=** to the input input bolean pin on the **Branch** node.  
+
+![add greater than and branch](images/branch.png)
+
+
+![](../images/line2.png)
+
+##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
+
 Clean up the node chart so that the lines don't intersect and cross over each other. Notice that the player will not jump when their **Z** velocity is negative (falling instead of on ground or rising).
 
 ![add >= node](images/greateOrEqual.png)
 
 ![](../images/line2.png)
 
-##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 21.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
 
 Now press the <kbd>Play</kbd> button and you should only be able to jump when moving up (or on the ground for that matter).  And you can only jump twice!  Great job - lets keep  going.
 
 https://user-images.githubusercontent.com/5504953/181570832-33c19fc7-d270-4c09-872c-0eed41ee35ce.mp4
 
-![](../images/line2.png)
 
 ![](../images/line.png)
 
