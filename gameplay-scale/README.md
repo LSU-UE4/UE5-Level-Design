@@ -20,7 +20,7 @@ Now in video games one of the most expensive portions is rendering graphics and 
 
 For collisions it comes down to shape complexity and how many objects in the scene need to be checked for collision. The more complex the shapes the more places we have to check on the two models potentially colliding to see if there is an actual collision.  So in games we try and use "cheap" collisions as much as we can.  
 
-![TBC](images/.jpg)
+![collision for chair](images/CollisionAndMesh.jpg)
 
 ![](../images/line2.png)
 
