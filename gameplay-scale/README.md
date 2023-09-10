@@ -104,7 +104,7 @@ Now lets double jump and see if we have enough clearance without adjusting the c
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-Lets fix this. Remake the first platform to be 1200 cm tall with a center 950 cm opening instead of the original 1000cm/775cm. We can now add this to our scale register. We will ame an opening to jump through 9.5 meters.
+Lets fix this. Remake the first platform to be 1200 cm tall with a center 950 cm opening instead of the original 1000cm/775cm. We can now add this to our scale register. We will create an opening to jump through that is 9.5 meters.
 
 **Scale Register**
 |Item|Dimensions|
