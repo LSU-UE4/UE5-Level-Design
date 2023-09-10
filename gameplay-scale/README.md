@@ -20,6 +20,8 @@ Now in video games one of the most expensive portions is rendering graphics and 
 
 For collisions it comes down to shape complexity and how many objects in the scene need to be checked for collision. The more complex the shapes the more places we have to check on the two models potentially colliding to see if there is an actual collision.  So in games we try and use "cheap" collisions as much as we can.  
 
+So visually we have a very detailed chair model but the purple lines in the default Unreal chair is a very simple shape.  This is done primarily for performance (to get a decent framerate) but also for physics.  If the player is to alk on the back or arms of the chair, a flat shape is prefered (so you don't always slide off).
+
 ![collision for chair](images/CollisionAndMesh.jpg)
 
 ![](../images/line2.png)
