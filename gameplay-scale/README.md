@@ -113,7 +113,7 @@ Lets fix this. Remake the first platform to be 1200 cm tall with a center 950 cm
 |Player Width | .84 m|
 |Double Jump Opening Height | 9.5 m|
 
-Create a new cube that is a **Width** of `400`, **Depth** of `800` and **Height** of `1200`.  Assign the `M_LDGrid_Local** material to the box. Press the <kbd>Complete</kbd> button. 
+Create a new cube that is a **Width** of `400`, **Depth** of `800` and **Height** of `1200`.  Assign the `M_LDGrid_Local` material to the box. Make sure the **Aling to Normal** is `false`. Press the <kbd>Accept</kbd> button. 
 
 ![create a new box that is 400 x 800 x 1200](images/newBoxSize.png)
 
@@ -121,7 +121,7 @@ Create a new cube that is a **Width** of `400`, **Depth** of `800` and **Height*
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets create a shape to cut a whole that is a **Width** of `775`, **Depth** of `408` and **Height** of `950`. Center it in the larger box shape.  Make sure both boxes have **Rotations** at `0`, `0`, `0`.
+Now lets create a shape to cut a whole that is a **Width** of `775`, **Depth** of `408` and **Height** of `950`. Center it in the larger box shape.  Make sure both boxes have **Rotations** at `0`, `0`, `0` by setting **Aling to Normal** to `false`.
 
 ![create a new box that is 775 x 408 x 950](images/boxCutter.png)
 
