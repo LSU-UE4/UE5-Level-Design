@@ -113,7 +113,7 @@ Duplicate the stairs and the platform for the other end of the jump and rotate i
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Run the game and jump.  Test the short jump ramp and make adjustments. I can clear 8 meters perfectly from a standing jump.
+Run the game and jump.  Test the short jump ramp and make adjustments. I can just clear 11 meters perfectly from a standing jump.
 
 https://user-images.githubusercontent.com/5504953/182174672-d14dcdab-427a-44ec-ba3a-e8b7be0e6080.mp4
 
