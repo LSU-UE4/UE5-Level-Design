@@ -23,7 +23,7 @@ Lets move to an empty side of the level where you will put the platforms. Duplic
 
 ##### `Step 2.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: 
 
-For a change lets add a staircase instead of a ramp to run onto a flat ramp to jump over for a long jump.  Enter into **Modeling Mode** and select the **Shapes | Stairs**.  Now adjust the **Width** to be 3 meters wide by setting it to `300` cm.  Now the height will be 8 steps of `20`cm which will be 1.6 meters high. Set **Align to Normal** to `false`. Press the <kbd>Complete</kbd> button.
+For a change lets add a staircase instead of a ramp to run onto a flat ramp to jump over for a long jump.  Enter into **Modeling Mode** and select the **Shapes | Stairs**.  Now adjust the **Width** to be 3 meters wide by setting it to `300` cm.  Now the height will be 8 steps of `20`cm which will be 1.6 meters high. Set **Align to Normal** to `false`. Press the <kbd>Accept</kbd> button.
 
 ![add stairs to modeling](images/addStairs.png)
 
