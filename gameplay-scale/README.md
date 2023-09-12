@@ -161,26 +161,13 @@ https://user-images.githubusercontent.com/5504953/182051619-0caaf950-2f97-465d-a
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
-register **and** the jump to reflect this adjustment.
-
 Now lets create a jump height of 4 meters.  Lets call it `BR_JumpPlatform_Tall`.  I will let you do this on its own.  Then press run and double jump over the platform.
 
 https://user-images.githubusercontent.com/5504953/182051795-244c175e-b02e-4f50-9cbe-7679c60c098f.mp4
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Create a new folder called **Jump Platforms** and move the three platofmrs in it.  Name them correctly in the **World Outliner**. Also, make sure you have the three meshes correclty named in the **Meshes** folder.
 
@@ -188,7 +175,8 @@ Create a new folder called **Jump Platforms** and move the three platofmrs in it
 
 ![](../images/line2.png)
 
-##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
+register **and** the jump to reflect this adjustment.
 
 Press the **Add Asset** button and select the **All Classes | Text Render** for a title to sit above the jump platforms. Position and rotate it and change the **Text** to `Jump Platforms`.  Make a **World Size** of `240` and a color that contrasts with the sky. Name them correctly and place them in the **Jump Platforms** folder.
 
@@ -196,8 +184,7 @@ Press the **Add Asset** button and select the **All Classes | Text Render** for 
 
 ![](../images/line2.png)
 
-##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
+##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Once you are happy with the position select both titles and hold <kbd>Alt</kbd> while selecting the letters to make a copy.
 
@@ -205,20 +192,32 @@ Once you are happy with the position select both titles and hold <kbd>Alt</kbd> 
 
 ![](../images/line2.png)
 
-##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Call this second title **Ramp** and place it in the **Ramp** folder and alter the name in the **World Outliner** to properly reflect the new function.
 
 ![Add jump platforms text on top of jump platforms](images/rampTitle.png)
+
+
+![](../images/line2.png)
+
+##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Source Control...**. Enter a **Changelist Description** and then press <kbd>Submit Content</kbd>. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
+
+![save and commit work to github](images/CommitWork.png)
+
+![](../images/line2.png)
+
+##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 
 ![](../images/line2.png)
 
 
 ##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
 
-Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Source Control...**. Enter a **Changelist Description** and then press <kbd>Submit Content</kbd>. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
 
-![save and commit work to github](images/CommitWork.png)
 
 ![](../images/line.png)
 
