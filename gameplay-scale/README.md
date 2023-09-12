@@ -113,13 +113,15 @@ Lets fix this. Remake the first platform to be 1200 cm tall with a center 950 cm
 |Player Width | .84 m|
 |Double Jump Opening Height | 9.5 m|
 
+Create a new cube that is a **Width** of `400`, **Depth** of `800` and **Height** of `1200`.  Create an inner Assign the `M_LDGrid_Local` material to the box. Make sure the **Aling to Normal** is `false`. Press the <kbd>Accept</kbd> button. 
+
 ![create a new jump platform that is 400 x 800 x 1200](images/redoFirstJumper.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Create a new cube that is a **Width** of `400`, **Depth** of `800` and **Height** of `1200`.  Assign the `M_LDGrid_Local` material to the box. Make sure the **Aling to Normal** is `false`. Press the <kbd>Accept</kbd> button. 
+
 
 ![create a new box that is 400 x 800 x 1200](images/newBoxSize.png)
 
