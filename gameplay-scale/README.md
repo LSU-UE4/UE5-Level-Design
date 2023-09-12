@@ -119,7 +119,7 @@ Create a new cube that is a **Width** of `400`, **Depth** of `800` and **Height*
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets delete the old smaller jump platform.  You will get a warning and you can **Prelace References** with the new object I creaetd which is **Boolean_507B** (yours will be different, you can right click on the new shape and select **Find in Content** to get the name and location).
+Now lets delete the old smaller jump platform.  You can then press press the <kbd>Force Delete</kbd> button.
 
 ![delete the old shape and replace it](images/deleteReplace.png)
 
@@ -127,7 +127,9 @@ Now lets delete the old smaller jump platform.  You will get a warning and you c
 
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
+Delete the old shapes from the **Content Drawer** and move the **Static Mesh** to the **Meshes** folder.  Selet **Content** and right click then select **Fix Up Redirectors in Folder**. Now rename the file back to the original `SM_JumpPlatformLow`.
 
+![rename file to SM_JumpPlatform_Low](images/rename.png)
 
 ![](../images/line2.png)
 
@@ -139,9 +141,7 @@ Now lets delete the old smaller jump platform.  You will get a warning and you c
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Delete the old shapes from the **Content Drawer** and move the **Static Mesh** to the **Meshes** folder.  Selet **Content** and right click then select **Fix Up Redirectors in Folder**. Now rename the file back to the original `SM_JumpPlatformLow`.
 
-![rename file to SM_JumpPlatform_Low](images/rename.png)
 
 ![](../images/line2.png)
 
