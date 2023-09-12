@@ -47,7 +47,7 @@ Align the stairs and ramp. In your top down and side/front views make sure they 
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
-In **Modeling Mode** select both the stairs and the ramps.  Select **Mesh Ops | Merge**.  Keep the default settngs.  Notice that it will remove the original two pieces which is what we want, we just need the merged shape.  Now make sure you zero out the **Rotations** so they are set to `0`, `0`, `0`. Press the <kbd>Complete</kbd> button.
+In **Modeling Mode** select both the stairs and the ramps.  Select **Create | Merge**.  Keep the default settings.  Notice that it will remove the original two pieces which is what we want, we just need the merged shape.  Now make sure you zero out the **Rotations** so they are set to `0`, `0`, `0`. Press the <kbd>Accept</kbd> button.
 
 ![duplicate other end of jump platform](images/mergeMeshes.png)
 
