@@ -104,7 +104,7 @@ https://user-images.githubusercontent.com/5504953/182170440-a4f2a526-232c-45a9-9
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-Duplicate the stairs and the platform for the other end of the jump and rotate it 180°. Place it the distance that your player jumps in a single leap. It is easiest to do the placment from the **Top** view. This time mine was 11 units (last time when I recorded the above video it was 8). Rename the meshes in the **World Outliner** to match what they are, a short jump.
+Duplicate the stairs and the platform for the other end of the jump and rotate it 180°. Place it the distance that your player jumps in a single leap. It is easiest to do the placment from the **Top** view. This time mine was 9.5 units (last time when I recorded the above video it was 8). Rename the meshes in the **World Outliner** to match what they are, a short jump.
 
 ![duplicate and rotate jump platform](images/dupeAndRotate.png)
 
