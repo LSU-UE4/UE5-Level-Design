@@ -77,13 +77,17 @@ Now make sure the end of the platform matches a line marker on the ground.  We w
 
 ![align jump platform and rename in world outliner](images/alignRename.png)
 
+![](../images/line2.png)
+
+##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Now lets move the **Player Start** actor in front of the jump platform so it is facing dead on so we can make a jump.
 
 ![mvoe player start in front of jump platform](images/movePlayerStart.png)
 
 ![](../images/line2.png)
 
-##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
 Now do a standing jump while pressing forward (<kbd>up arrow</kbd> or <kbd>W</kbd>) key.  Count the number of tiles the player can cover. My player covered roughly 8 meters.
 
@@ -98,7 +102,7 @@ https://user-images.githubusercontent.com/5504953/182170440-a4f2a526-232c-45a9-9
 
 ![](../images/line2.png)
 
-##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
+##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
 Duplicate the stairs and the platform for the other end of the jump and rotate it 180°. Place it the distance that your player jumps in a single leap. It is easiest to do the placment from the **Top** view. This time mine was 11 units (last time when I recorded the above video it was 8).
 
@@ -106,7 +110,8 @@ Duplicate the stairs and the platform for the other end of the jump and rotate i
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
+
+##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Run the game and jump.  Test the short jump ramp and make adjustments. I can clear 8 meters perfectly from a standing jump.
 
@@ -115,7 +120,7 @@ https://user-images.githubusercontent.com/5504953/182174672-d14dcdab-427a-44ec-b
 ![](../images/line2.png)
 
 
-##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now on your own calculate a running single jump and running double jump.  I ran up the stairs and jumped as late as possible.
 
@@ -134,8 +139,7 @@ Update the gameplay register.
 
 ![](../images/line2.png)
 
-
-##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Lets start with duplicating the ramps for the Running Single Jump of 11 meters.
 
@@ -152,7 +156,7 @@ Lets start with duplicating the ramps for the Running Single Jump of 11 meters.
 
 ![](../images/line2.png)
 
-##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
 
 Lets do the same again by duplicating the ramps for the Running Double Jump of 16.5 meters. Make sure you name the new jump platforms in the **World Outliner**.
 
@@ -169,7 +173,7 @@ Lets do the same again by duplicating the ramps for the Running Double Jump of 1
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Now press the <kbd>Play</kbd> button  and make sure you are happy with the distances.  Tweak them nearer or further to your liking and upcate the **Gameplay Register** accordingly. After some trial and error I adjusted my platform lengths and register to:
 
@@ -186,12 +190,23 @@ Now press the <kbd>Play</kbd> button  and make sure you are happy with the dista
 
 https://user-images.githubusercontent.com/5504953/182212400-91eb85e5-945f-4a97-9e92-1a02a3289874.mp4
 
-![](../images/line2.png)
-
-##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit Content...**. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
+
 ![save all and submit to perforce](images/submitP4.png)
+
+![](../images/line2.png)
+
+##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Sometimes not all files get submitted to Unreal especially for files that don't show up in the editor.  It is good practice one you submit in **Unreal** and quit the game to right click on the top most project folder and select **Reconcile Offline Work...**.
+
+This will either give a message saying ther is nothing to reconcile or bring up a tab.  Make sure that these are **NOT** files in the **Intermediate** and **Saved** folders as these should be ignored from the `.p4ignore`.
+
+If the files are in **Content** or **Configuration** then press the <kbd>Reconcile</kbd> button.  Then submit the changes with a message and press the <kbd>Submit</kbd> button.
+
+![reconcile offline work](images/reconcile.png)
 
 ![](../images/line.png)
 
