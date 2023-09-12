@@ -218,13 +218,6 @@ If the files are in **Content** or **Configuration** then press the <kbd>Reconci
 
 ![reconcile offline work](images/Reconcile.png)
 
-![](../images/line2.png)
-
-
-##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
-
-
-
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Long Jump"> -->
