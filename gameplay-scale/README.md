@@ -119,26 +119,21 @@ Create a new cube that is a **Width** of `400`, **Depth** of `800` and **Height*
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets create a shape to cut a whole that is a **Width** of `775`, **Depth** of `408` and **Height** of `950`. Center it in the larger box shape.  Make sure both boxes have **Rotations** at `0`, `0`, `0` by setting **Aling to Normal** to `false`.
+Now lets delete the old smaller jump platform.  You will get a warning and you can **Prelace References** with the new object I creaetd which is **Boolean_507B** (yours will be different, you can right click on the new shape and select **Find in Content** to get the name and location).
 
-![create a new box that is 775 x 408 x 950](images/boxCutter.png)
+![delete the old shape and replace it](images/deleteReplace.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
-Now we will have it cut a hole in the larger shape by selecting both objects and then **PolyModel | MshBool**.  It will either be **Difference A-B** or **Difference B-A** depending on the order of selection.  When you have it correct press the <kbd>Accept</kbd> button.
-
-![cut hole out with bool](images/bool.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-Now lets delete the old smaller jump platform.  You will get a warning and you can **Prelace References** with the new object I creaetd which is **Boolean_507B** (yours will be different, you can right click on the new shape and select **Find in Content** to get the name and location).
 
-![delete the old shape and replace it](images/deleteReplace.png)
 
 ![](../images/line2.png)
 
