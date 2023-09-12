@@ -151,7 +151,7 @@ Our first jump platform we created was about 110 uu units high (1.1 meters).  Th
 |Single Jump | ~200 |
 |Double Jump | ~410|
 
-Lets create a platorm (**Shapes | Box**)with a 2 meter height so a **Width** of `400`, **Depth** of `800` and **Height** of `1300`.  Assign the **M_LDGrid_Local** material to it.  Then create another **Shaped | Box** for a hole that is a **Width** of `775`, **Depth** of `408` and **Height** of `750`.  Now do a **Difference** operation on **PolyModel | MshBool**. Press the <kbd>Accept</kbd> button after each stage.
+Lets create a platorm (**Shapes | Box**)with a 2 meter height so a **Width** of `400`, **Depth** of `800` and **Height** of `1300`.  Assign the **M_LDGrid_Local** material to it.  Then create another **Shaped | Box** for a hole that is a **Width** of `775`, **Depth** of `408` and **Height** of `850`.  Now do a **Difference** operation on **PolyModel | MshBool**. Press the <kbd>Accept</kbd> button after each stage. Place this platform to the right of the prior one. 
 
 Clean up the directory and name it `SM_JumpPlatform_Mid`. If the first jump was tricky - this jump is hard to make with a single jump but not impossible. Run the game and test your work.  In my case I can easily clear the platform with a single jump.
 
@@ -161,7 +161,7 @@ https://user-images.githubusercontent.com/5504953/182051619-0caaf950-2f97-465d-a
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now lets create a jump height of 4 meters.  Lets call it `BR_JumpPlatform_Tall`.  I will let you do this on its own.  Then press run and double jump over the platform.
+Now lets create a jump height of 4 meters.  Lets call it `BR_JumpPlatform_Tall`.  I will let you do this on its own.  Then press run and double jump over the platform. You need to ensure that you can only clear it with a double jumnp. Call it `SM_DoubleJumpPlatform`.
 
 https://user-images.githubusercontent.com/5504953/182051795-244c175e-b02e-4f50-9cbe-7679c60c098f.mp4
 
