@@ -143,18 +143,6 @@ https://user-images.githubusercontent.com/5504953/182050177-c135a839-cbd3-4b28-a
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
 Our first jump platform we created was about 110 uu units high (1.1 meters).  The player can easily clear it with a single jump. Now lets make two more jump platforms.  One that can just clear a single jump.  And one that can just clear a double jump. For these you will have to make positions that reflect our gameplay register.
 
 **Gameplay Register**
@@ -168,6 +156,18 @@ Lets create a platorm with a 2 meter height so a **Width** of `400`, **Depth** o
 Clean up the directory and name it `SM_JumpPlatform_Mid`. If the first jump was tricky - this jump is hard to make with a single jump but not impossible. Run the game and test your work.  In my case I can easily clear the platform with a single jump.
 
 https://user-images.githubusercontent.com/5504953/182051619-0caaf950-2f97-465d-a40f-d261ea3c0647.mp4
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+
 
 ![](../images/line2.png)
 
