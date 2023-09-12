@@ -169,7 +169,7 @@ https://user-images.githubusercontent.com/5504953/182051795-244c175e-b02e-4f50-9
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Create a new folder called **Jump Platforms** and move the three platofmrs in it.  Name them correctly in the **World Outliner**. Also, make sure you have the three meshes correclty named in the **Meshes** folder.
+Create a new folder called **Jump Platforms** and move the three platofmrs in it.  Name them correctly in the **World Outliner**. Also, make sure you have the three meshes correclty named in the **Meshes** folder. Delete all cutter and unused meshes you created.
 
 ![convert two brush platforms to static mesh](images/renamedJumpPlatforms.png)
 
