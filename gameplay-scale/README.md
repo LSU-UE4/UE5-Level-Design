@@ -151,7 +151,7 @@ Our first jump platform we created was about 110 uu units high (1.1 meters).  Th
 |Single Jump | ~200 |
 |Double Jump | ~410|
 
-Lets create a platorm with a 2 meter height so a **Width** of `400`, **Depth** of `800` and **Height** of `1300` with a hole that is still a **Width** of `775`, **Depth** of `408` and **Height** of `750`. 
+Lets create a platorm (**Shapes | Box**)with a 2 meter height so a **Width** of `400`, **Depth** of `800` and **Height** of `1300`.  Assign the **M_LDGrid_Local** material to it.  Then create another **Shaped | Box** for a hole that is a **Width** of `775`, **Depth** of `408` and **Height** of `750`.  Now do a **Difference** operation on **PolyModel | MshBool**. Press the <kbd>Accept</kbd> button after each stage.
 
 Clean up the directory and name it `SM_JumpPlatform_Mid`. If the first jump was tricky - this jump is hard to make with a single jump but not impossible. Run the game and test your work.  In my case I can easily clear the platform with a single jump.
 
