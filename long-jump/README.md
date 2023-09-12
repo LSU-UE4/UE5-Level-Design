@@ -64,6 +64,8 @@ Now select the new merged shape back in **Select Mode**.  Right click and choose
 
 ##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Assign `M_LDGrid_local` material on the jump platform so we can measure the length of it and see it in scale.  
+
 ![name and store new jump platform](images/AssignMaterial.png)
 
 
