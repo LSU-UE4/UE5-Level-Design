@@ -99,8 +99,6 @@ Now lets double jump and see if we have enough clearance without adjusting the c
 
 ![camera in default position clips with ceiling](images/camOverlap.png)
 
-
-
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
@@ -113,7 +111,7 @@ Lets fix this. Remake the first platform to be 1200 cm tall with a center 950 cm
 |Player Width | .84 m|
 |Double Jump Opening Height | 9.5 m|
 
-Create a new cube that is a **Width** of `400`, **Depth** of `800` and **Height** of `1200`.  Create an inner Assign the `M_LDGrid_Local` material to the box. Make sure the **Aling to Normal** is `false`. Press the <kbd>Accept</kbd> button. 
+Create a new cube that is a **Width** of `400`, **Depth** of `800` and **Height** of `1200` with **Align to Normal** set to `false`.  Create an inner box to cut away a hole with a **Width** of `775`, **Depth** of `408` and **Height** of `950`. Select **PolyModel | Mesh Bool** and subtract the inner shape.  Press the <kbd>Accept</kbd> button. Assign the `M_LDGrid_Local` material to the box.
 
 ![create a new jump platform that is 400 x 800 x 1200](images/redoFirstJumper.png)
 
@@ -121,18 +119,9 @@ Create a new cube that is a **Width** of `400`, **Depth** of `800` and **Height*
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-
-![create a new box that is 400 x 800 x 1200](images/newBoxSize.png)
-
-![](../images/line2.png)
-
-
-
 Now lets create a shape to cut a whole that is a **Width** of `775`, **Depth** of `408` and **Height** of `950`. Center it in the larger box shape.  Make sure both boxes have **Rotations** at `0`, `0`, `0` by setting **Aling to Normal** to `false`.
 
 ![create a new box that is 775 x 408 x 950](images/boxCutter.png)
-
 
 ![](../images/line2.png)
 
