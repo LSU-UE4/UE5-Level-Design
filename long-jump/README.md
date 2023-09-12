@@ -64,7 +64,7 @@ Now select the new merged shape back in **Select Mode**.  Right click and choose
 
 ##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Assign `M_LDGrid_local` material on the jump platform so we can measure the length of it and see it in scale.  
+Assign `M_LDGrid_Local` material on the jump platform so we can measure the length of it and see it in scale.  
 
 ![assign material](images/AssignMaterial.png)
 
@@ -104,7 +104,7 @@ https://user-images.githubusercontent.com/5504953/182170440-a4f2a526-232c-45a9-9
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-Duplicate the stairs and the platform for the other end of the jump and rotate it 180°. Place it the distance that your player jumps in a single leap. It is easiest to do the placment from the **Top** view. This time mine was 11 units (last time when I recorded the above video it was 8).
+Duplicate the stairs and the platform for the other end of the jump and rotate it 180°. Place it the distance that your player jumps in a single leap. It is easiest to do the placment from the **Top** view. This time mine was 11 units (last time when I recorded the above video it was 8). Rename the meshes in the **World Outliner** to match what they are, a short jump.
 
 ![duplicate and rotate jump platform](images/dupeAndRotate.png)
 
