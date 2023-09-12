@@ -135,7 +135,9 @@ Delete the old shapes from the **Content Drawer** and move the **Static Mesh** t
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
+Run the game and notice that we can now double jump and don't have the camera hit the top of the platform.  We are done with our low example.
 
+https://user-images.githubusercontent.com/5504953/182050177-c135a839-cbd3-4b28-ae7c-52bb49cabda8.mp4
 
 ![](../images/line2.png)
 
@@ -147,9 +149,7 @@ Delete the old shapes from the **Content Drawer** and move the **Static Mesh** t
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Run the game and notice that we can now double jump and don't have the camera hit the top of the platform.  We are done with our low example.
 
-https://user-images.githubusercontent.com/5504953/182050177-c135a839-cbd3-4b28-ae7c-52bb49cabda8.mp4
 
 ![](../images/line2.png)
 
