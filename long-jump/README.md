@@ -64,13 +64,16 @@ Now select the new merged shape back in **Select Mode**.  Right click and choose
 
 ##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now make sure the end of the platform matches a line marker on the ground.  We want to count the length in meters a player can jump.  Also rename the object to `LongJump1_Short` and place it in the **Long Jumps** folder in the **World Outliner**.
+![name and store new jump platform](images/AssignMaterial.png)
 
-![align jump platform and rename in world outliner](images/alignRename.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now make sure the end of the platform matches a line marker on the ground.  We want to count the length in meters a player can jump.  Also rename the object to `LongJump1_Short` and place it in the **Long Jumps** folder in the **World Outliner**.
+
+![align jump platform and rename in world outliner](images/alignRename.png)
 
 Now lets move the **Player Start** actor in front of the jump platform so it is facing dead on so we can make a jump.
 
