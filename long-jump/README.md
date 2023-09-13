@@ -122,7 +122,7 @@ https://user-images.githubusercontent.com/5504953/182174672-d14dcdab-427a-44ec-b
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now on your own calculate a running single jump and running double jump.  I ran up the stairs and jumped as late as possible.
+Now on your own calculate a running single jump and running double jump.  I ran up the stairs and jumped as late as possible. In my version I get 11.5 for the single jump and 15.5 in the double jump.
 
 Update the gameplay register.
 
@@ -132,8 +132,8 @@ Update the gameplay register.
 |Single Jump | 200 |
 |Double Jump | 324|
 |Standing Long Jump | ~800 | 
-|Running Single Jump | ~1100 | 
-|Running Double Jump | ~1650 | 
+|Running Single Jump | ~1150 | 
+|Running Double Jump | ~1550 | 
 
 ![single double jump](images/singleDouble.png)
 
