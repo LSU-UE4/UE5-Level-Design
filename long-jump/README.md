@@ -141,40 +141,6 @@ Update the gameplay register.
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Lets start with duplicating the ramps for the Running Single Jump of 11 meters.
-
-**Gameplay Register**
-|Element | Measure|
-|-------------|-------------|
-|Single Jump | 200 |
-|Double Jump | 324|
-|Standing Long Jump | ~800 | 
-|**Running Single Jump** | **~1100** | 
-|Running Double Jump | ~1650 | 
-
-![duplicate ramps for running jump of 1100 cm](images/runningJump.png)
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
-
-Lets do the same again by duplicating the ramps for the Running Double Jump of 16.5 meters. Make sure you name the new jump platforms in the **World Outliner**.
-
-**Gameplay Register**
-|Element | Measure|
-|-------------|-------------|
-|Single Jump | 200 |
-|Double Jump | 324|
-|Standing Long Jump | ~800 | 
-|Running Single Jump | ~1100 | 
-|**Running Double Jump** | **~1650** | 
-
-![duplicate ramps for running double jump of 1650 cm](images/runningDouble.png)
-
-![](../images/line2.png)
-
-##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
 Now press the <kbd>Play</kbd> button  and make sure you are happy with the distances.  Tweak them nearer or further to your liking and upcate the **Gameplay Register** accordingly. After some trial and error I adjusted my platform lengths and register to:
 
 **Gameplay Register**
@@ -190,7 +156,9 @@ Now press the <kbd>Play</kbd> button  and make sure you are happy with the dista
 
 https://user-images.githubusercontent.com/5504953/182212400-91eb85e5-945f-4a97-9e92-1a02a3289874.mp4
 
-##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+![](../images/line2.png)
+
+##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
 
 Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit Content...**. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
 
@@ -198,7 +166,7 @@ Select the **File | Save All** then press the <kbd>Source Control</kbd> button a
 
 ![](../images/line2.png)
 
-##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Sometimes not all files get submitted to Unreal especially for files that don't show up in the editor.  It is good practice one you submit in **Unreal** and quit the game to right click on the top most project folder and select **Reconcile Offline Work...**.
 
