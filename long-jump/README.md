@@ -143,17 +143,6 @@ Update the gameplay register.
 
 Now press the <kbd>Play</kbd> button  and make sure you are happy with the distances.  Tweak them nearer or further to your liking and upcate the **Gameplay Register** accordingly. After some trial and error I adjusted my platform lengths and register to:
 
-**Gameplay Register**
-|Element | Measure|
-|-------------|-------------|
-|Single Jump | 200 |
-|Double Jump | 324|
-|Standing Long Jump | ~800 | 
-|Running Single Jump | ~1000 | 
-|Running Double Jump | ~1400 | 
-
-![adjusted platform lengths](images/newDistances.png)
-
 https://user-images.githubusercontent.com/5504953/182212400-91eb85e5-945f-4a97-9e92-1a02a3289874.mp4
 
 ![](../images/line2.png)
@@ -163,6 +152,7 @@ https://user-images.githubusercontent.com/5504953/182212400-91eb85e5-945f-4a97-9
 Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit Content...**. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
 
 ![save all and submit to perforce](images/submitP4.png)
+
 
 ![](../images/line2.png)
 
