@@ -113,7 +113,7 @@ Duplicate the stairs and the platform for the other end of the jump and rotate i
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Run the game and jump.  Test the short jump ramp and make adjustments. I can just clear 11 meters perfectly from a standing jump.
+Run the game and jump.  Test the short jump ramp and make adjustments. I can just clear 9.5 meters perfectly from a standing jump.
 
 https://user-images.githubusercontent.com/5504953/182174672-d14dcdab-427a-44ec-ba3a-e8b7be0e6080.mp4
 
@@ -123,8 +123,6 @@ https://user-images.githubusercontent.com/5504953/182174672-d14dcdab-427a-44ec-b
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now on your own calculate a running single jump and running double jump.  I ran up the stairs and jumped as late as possible.
-
-![single double jump](images/singleDouble.png)
 
 Update the gameplay register.
 
@@ -136,6 +134,8 @@ Update the gameplay register.
 |Standing Long Jump | ~800 | 
 |Running Single Jump | ~1100 | 
 |Running Double Jump | ~1650 | 
+
+![single double jump](images/singleDouble.png)
 
 ![](../images/line2.png)
 
