@@ -15,7 +15,7 @@ Lets finish up the moving platform so it can go from beginning to end and back.
 
 ##### `Step 1.`\|`UE5LD`|:small_blue_diamond:
 
-We need to add a new event that sends the platform to one location to another. Click on the **Event Graph** tab where we will put the logic to move the platform. .  Right click on the empty graph and lets add a **Add Custom Event** node. Name this event: `Go to Location and Back`. This will be the event that moves the platform back and forth depending on the settings.
+We need to add a new event that sends the platform to one location to another. Go back to the  **Event Graph** tab. *Right click* on the empty graph and lets add a **Add Custom Event** node. Name this event: `Move Platform`. This will be the event that moves the platform back and forth depending on the settings.
 
 ![add custom event called Go to Location and Back](images/customEvent.png)
 
