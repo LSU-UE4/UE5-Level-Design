@@ -110,7 +110,7 @@ Now one thing I don't like is that there is no time to jump on the platform it m
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Drage the **Delay** variable onto the event graph right after the **Move Platform** node.  **Get** the variable.  Add a **Delay** node (different from your delay veraible) then plug the output of the **Delay** variable pin to the input of the **Delay** node method.
+Drage the **Delay** variable onto the event graph right after the **Move Platform** node.  **Get** the variable.  Add a **Delay** node (different from your delay veraible) then plug the output of the **Delay** variable pin to the input of the **Delay** node method. Highjack the execution pin and put the **Delay** node between **Move Platform** and **Move Component To**.
 
 ![add comment to begin play](images/delayThenStart.png)
 
