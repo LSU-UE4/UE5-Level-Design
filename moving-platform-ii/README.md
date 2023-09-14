@@ -70,7 +70,7 @@ https://github.com/maubanel/UE5-Level-Design/assets/5504953/304d0380-f4a6-4960-a
 
 ##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we want the platform to return to the begining of the game. So 
+Now we want the platform to return to the begining of the game. So drag a **Get | Starting Position** and right click and add a **SEt Actor Location** node.  Connect the output of the **Starting Position** pin and attach it to the **Set Actor Location | New Location** node.  Highjack the execution pins to put it before we call **Move Platform**.
 
 ![set platform to start](images/setActorLocation.png)
 
