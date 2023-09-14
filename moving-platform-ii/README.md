@@ -114,16 +114,22 @@ Drage the **Delay** variable onto the event graph right after the **Move Platfor
 
 ![add comment to begin play](images/delayThenStart.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+
+Press the <kbd>Play</kbd> button and notice there is a 3 second delay before the node moves to the end position so you have time to jump.
 
 https://github.com/maubanel/UE5-Level-Design/assets/5504953/86b1bb17-80da-4cc2-b1fa-9bdef1cb17ff
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Now we need to go back to the begining position of the static mesh.  So in **Begin Play**
+
+![add comment to begin play](images/returnToBegining.png)
 
 
 ![](../images/line2.png)
