@@ -86,7 +86,7 @@ Now select all the nodes around **Begin Play** and press the <kbd>C</kbd> key.  
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we don't want the static mesh to rotate if you did rotate it inside the blueprint component.  We would want it to stay at it's local rotation.
+Now we don't want the static mesh to rotate if you did rotate it inside the blueprint component.  We would want it to stay at it's local relative rotation. Pull off of the **Jump Platform** pin and select **Get Relative Rotation** and connect the output piin from this node to **Target Relative Rotation**.
 
 ![add comment to begin play](images/setRotationRelative.png)
 
