@@ -171,6 +171,8 @@ Now we need a function to set the ending position.  Right click on **SetStarting
 
 ##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Change the **Description** to `Set the ending position of the platform`. 
+
 ![change description of set end function](images/changeDescription.png)
 
 
@@ -178,6 +180,13 @@ Now we need a function to set the ending position.  Right click on **SetStarting
 
 ##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now you can go back to the game and move the platform to the ending location.  Press the **Set End Location** button and see the **EndLocation** variable update with the new **World Position**.
+
+
+
+![](../images/line2.png)
+
+##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
 
 Now we need another function to set the end position. 
 
@@ -194,6 +203,7 @@ Change the name to `Speed` and adjust the tooltip to `Speed to target in seconds
 The platform will do a single trip from beginning to end, unless it is set to looping.  This will have it go and back at infinitum.  Add another Variable called `bPlatform Is Looping?` and make it **Type** `Boolean`.  Set **Instance Editable** to `true`, **Private** to `true`, **Category** to `Platform` and **Tooltip** to `Keep going from starting to ending position and back`
 
 ![add a bPlatform Is Looping variable?](images/platfromLooping.png)
+
 
 We will need to use a boolean to set the starting and ending location.  Duplicate the previous **Boolean** twice and call it `bSet Start Position` and `bSet End Position` and change the **Description** to `Pressing this sets the start position in world space` and `Pressing this sets the start position in world space`.
 
@@ -223,12 +233,6 @@ Add a **Set Starting Position** as a **Set** node.  This sets the position to th
 Connect the execution pin from **Set Start Position** to the **Set Starting Position** node.  Then connect the **Return Value** pin to the **Starting Position** pin that stores the current position this actor is in.
 
 ![set actor position](images/connectSAL.png)
-
-
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
 
 Press the compile button in the **Blueprint** then press the <kbd>Play</kbd> button in the level.  Move the **BP_Platform** and press the **Set Starting Position** boolean.  Notice the **Starting Positin** vector now updates with the current position of the object in the room.
 
