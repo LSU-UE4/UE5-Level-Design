@@ -35,7 +35,7 @@ Go back to **Modeling Mode** and select a **Shapes | Disc**.  Set the **Radius**
 
 Now you can select **PolyModel | PolyEd** and select **Extrude**.  Now give the platform some depth and press the <kbd>Accept</kbd> button.
 
-![create polygroup out of all triangles](images/extrudePolys.png)
+![extrude face](images/extrudePolys.png)
 
 ![](../images/line2.png)
 
