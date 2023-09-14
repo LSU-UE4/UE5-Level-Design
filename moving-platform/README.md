@@ -60,7 +60,7 @@ Move the **PlayerStart** actor next to the platform with the red arrow pointing 
 
 Return to **Selection Mode** and run the game and you can jump on the platform.  Make any changes you see fit, but I am happy with mine! 
 
-![no collision on platform](images/jumpOnPlatform.png)
+https://github.com/maubanel/UE5-Level-Design/assets/5504953/3e171c6d-7bdf-4be4-b5c6-1ae68b98cfcd
 
 ![](../images/line2.png)
 
