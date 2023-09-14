@@ -117,12 +117,21 @@ We set a description as it allows us to get a tooltip when we highlight the vari
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![create startingPosition variable](images/createFunctionForSettingStart.png)
+Now we want to be able to place the platform in the level and set this starting position.  We will create a function to make this easier to do.  A function is like a factory, it will do a job for us and give us something back.  Press the **+** plus button next to **Functions** and call it **Set Start Position**.  This will open up another graph to program the logic for this function.
 
+Drag and drop the **Starting Position** variable and we want to read it so sselect **Get**.  Right clik on the open graph and select **Get Actor Location**.  This will allow us to access the current location of the platform and save it as the starting position!
+
+![create startingPosition variable](images/createFunctionForSettingStart.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Duplicate the **Starting Position** variable and call it `Ending Position` and change the tooltip to `Ending location of platform`.
 
@@ -137,10 +146,6 @@ Now we need a variable to set the speed the platform moves at in seconds.  Dupli
 Change the name to `Speed` and adjust the tooltip to `Speed to target in seconds`. 
 
 ![add speed variable](images/speed.png)
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 The platform will do a single trip from beginning to end, unless it is set to looping.  This will have it go and back at infinitum.  Add another Variable called `bPlatform Is Looping?` and make it **Type** `Boolean`.  Set **Instance Editable** to `true`, **Private** to `true`, **Category** to `Platform` and **Tooltip** to `Keep going from starting to ending position and back`
 
