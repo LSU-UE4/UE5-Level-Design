@@ -143,9 +143,9 @@ This new variable is of the correct type as we created from a pin that has an in
 
 ##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Go back to the editor and select **BP_Platform**.  Set **Platform is Looping?** to `true`.
+Now lets delay when it reaches the top.  So add another **Get Delay** node and another **Delay** function.  Connect it to the
 
-![set is looping to true](images/platformIsLooping.png)
+![set is looping to true](images/secondDelay.png)
 
 ![](../images/line2.png)
 
