@@ -15,6 +15,18 @@ Lets finish up the moving platform so it can go from beginning to end and back.
 
 ##### `Step 1.`\|`UE5LD`|:small_blue_diamond:
 
+We need to add a new event that sends the platform to one location to another. Click on the **Event Graph** tab where we will put the logic to move the platform. .  Right click on the empty graph and lets add a **Add Custom Event** node. Name this event: `Go to Location and Back`. This will be the event that moves the platform back and forth depending on the settings.
+
+![add custom event called Go to Location and Back](images/customEvent.png)
+
+![](../images/line2.png)
+
+##### `Step 2.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: 
+
+![](../images/line2.png)
+
+##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Now we need another function to set the end position. 
 
 Add a third variable that will affect how long the platform waits before it leaves and returns to its two locations.  Call it `Delay` and make it type **Float**.  Set **Private** to `true`, **Instance Editable** to `true`, **Category** to `Platform` and **Description** to `Delay between targets in seconds`.
@@ -81,9 +93,7 @@ Drag a **Set End Position** node to the graph and select **Set**.  Leave it as `
 
 ##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We need to add a new event that sends the platform to one location to another. Click on the **Event Graph** tab where we will put the logic to move the platform. .  Right click on the empty graph and lets add a **Add Custom Event** node. Name this event: `Go to Location and Back`. This will be the event that moves the platform back and forth depending on the settings.
 
-![add custom event called Go to Location and Back](images/customEvent.png)
 
 ![](../images/line2.png)
 
