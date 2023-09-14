@@ -31,6 +31,14 @@ Remove the **Event Tick** and **Event ActorBeginOverlap** event nodes as we will
 
 ![](../images/line2.png)
 
+
+##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+Right click on the open graph next to the custom event and add a **Move Component To** node.  Connect the execution pin to the **Go to Platform and Back** custom event execution pin.  Drag a reference of the **Static Mesh** component to the graph and attach it to the **Component** node.  This will move the platform mesh in this actor.
+
+![add move component to node and attach static mesh](images/moveComponentTo.png)
+
 ##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now we need another function to set the end position. 
@@ -107,13 +115,7 @@ Drag a **Set End Position** node to the graph and select **Set**.  Leave it as `
 
 
 
-![](../images/line2.png)
 
-##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
-
-Right click on the open graph next to the custom event and add a **Move Component To** node.  Connect the execution pin to the **Go to Platform and Back** custom event execution pin.  Drag a reference of the **Static Mesh** component to the graph and attach it to the **Component** node.  This will move the platform mesh in this actor.
-
-![add move component to node and attach static mesh](images/moveComponentTo.png)
 
 ![](../images/line2.png)
 
