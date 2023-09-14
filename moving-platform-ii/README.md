@@ -101,9 +101,9 @@ https://github.com/maubanel/UE5-Level-Design/assets/5504953/b1c1eb6c-6cc5-4d3c-a
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-Now one thing I don't like is that there is no time to jump on the platform it moves right away. Lets add a delay so there is a pause giving the player time to jump on or off the platform.
+Now one thing I don't like is that there is no time to jump on the platform it moves right away. Lets add a delay so there is a pause giving the player time to jump on or off the platform. *Right click* on the **Speed** variable and select **Duplicate**.  Call this new **Float** `Delay` and change the **Description** to `Delay Between Cycles in Seconds` and the **Default Value** to `3.0`. So it will wait three seconds to start.
 
-![add comment to begin play](images/setFirstDelay.png)
+![create Delay variable](images/setFirstDelay.png)
 
 ![](../images/line2.png)
 
@@ -111,7 +111,8 @@ Now one thing I don't like is that there is no time to jump on the platform it m
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 
-delayThenStart
+![add comment to begin play](images/delayThenStart.png)
+
 
 ![](../images/line2.png)
 
