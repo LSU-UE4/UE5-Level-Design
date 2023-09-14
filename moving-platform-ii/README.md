@@ -119,7 +119,7 @@ Drage the **Delay** variable onto the event graph right after the **Move Platfor
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-
+https://github.com/maubanel/UE5-Level-Design/assets/5504953/86b1bb17-80da-4cc2-b1fa-9bdef1cb17ff
 
 ![](../images/line2.png)
 
