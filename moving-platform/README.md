@@ -137,9 +137,24 @@ Please note that white triangles determines the execution order of the nodes (it
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Go back to the leven and delete the static mesh of the moving platform.  Replace it with **Blueprints | BP_MovingPlatform**.  It looks the same but in this case it has extra logic.
+
+![replace mesh with bp](images/replaceWithBlueprint.png)
+
+
+![](../images/line2.png)
+
+##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
+
+
+![](../images/line2.png)
+
+##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
 Duplicate the **Starting Position** variable and call it `Ending Position` and change the tooltip to `Ending location of platform`.
 
 ![duplicate starting position ot create end position](images/endingPos.png)
+
 
 Add a third variable that will affect how long the platform waits before it leaves and returns to its two locations.  Call it `Delay` and make it type **Float**.  Set **Private** to `true`, **Instance Editable** to `true`, **Category** to `Platform` and **Description** to `Delay between targets in seconds`.
 
@@ -155,20 +170,11 @@ The platform will do a single trip from beginning to end, unless it is set to lo
 
 ![add a bPlatform Is Looping variable?](images/platfromLooping.png)
 
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
-
 We will need to use a boolean to set the starting and ending location.  Duplicate the previous **Boolean** twice and call it `bSet Start Position` and `bSet End Position` and change the **Description** to `Pressing this sets the start position in world space` and `Pressing this sets the start position in world space`.
 
 Also make sure that the **Starting Position** and **Ending Position** variables are both in the **Platform** group.
 
 ![add a bSetStartPosition variable?](images/startEndPos.png)
-
-![](../images/line2.png)
-
-##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Go to the **Construction Script** tab and lets put logic to set the start and end position.  Add a **Branch** node by right clicking on the graph in an empty section and type in **Branch** in the search window.  Press **Select** and you should see a **Branch**.
 
