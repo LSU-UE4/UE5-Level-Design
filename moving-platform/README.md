@@ -84,12 +84,9 @@ Now open up **BP_MovingPlatforms**.  Sometimes when you open a blueprint you get
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Assign the **LD_** material so we can see the nice measurement grid.
+Assign the **LD_Grid_Local** material to **Element 0** so we can see the nice measurement grid on the sattic mesh.
 
 ![open blueprint and add component](images/assignMaterial.png)
-
-
-
 
 ![](../images/line2.png)
 
@@ -99,9 +96,9 @@ I like docking the blueprint next to the editor if I am on a single monitor. Put
 
 ![dock blueprint and put in moving platforms folder](images/bpPlatform.png)
 
-Rename the mesh to `SM_Platform` and move it to the **Meshes** folder.  Delete any extraneous meshes you might have created to make it.
+![](../images/line2.png)
 
-![turn actor to blueprint and call it BP_Platform](images/smPlatform.png)
+##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
 We need to locations for the platform to move **From** and to move **To**.  We will just be translating the object and are not rotating or scaling it.  So we need an **X**, **Y**, **Z** float to store the location.  There is a data structure called a **Vector** available to us in Unreal.  It is a **struct** that holds the three floats we need. We need to create a Variable to store it.
 
@@ -117,17 +114,12 @@ We set a description as it allows us to get a tooltip when we highlight the vari
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
+##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Duplicate the **Starting Position** variable and call it `Ending Position` and change the tooltip to `Ending location of platform`.
 
 ![duplicate starting position ot create end position](images/endingPos.png)
-
-![](../images/line2.png)
-
-
-##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Add a third variable that will affect how long the platform waits before it leaves and returns to its two locations.  Call it `Delay` and make it type **Float**.  Set **Private** to `true`, **Instance Editable** to `true`, **Category** to `Platform` and **Description** to `Delay between targets in seconds`.
 
