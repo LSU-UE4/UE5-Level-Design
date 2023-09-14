@@ -76,13 +76,17 @@ Go to the **Blueprints** folder and *right click* in an open area and add a **Bl
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-I like docking the blueprint next to the editor if I am on a single monitor. Put the **BP_Platform** actor in the **Moving Platform** folder to join the titles.
+Now open up **BP_MovingPlatforms**.  Sometimes when you open a blueprint you get just a partial display of the variables.  All you need to do is press the 
 
-![dock blueprint and put in moving platforms folder](images/bpPlatform.png)
+![open blueprint and add component](images/openBPAddComponent.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+I like docking the blueprint next to the editor if I am on a single monitor. Put the **BP_Platform** actor in the **Moving Platform** folder to join the titles.
+
+![dock blueprint and put in moving platforms folder](images/bpPlatform.png)
 
 Rename the mesh to `SM_Platform` and move it to the **Meshes** folder.  Delete any extraneous meshes you might have created to make it.
 
