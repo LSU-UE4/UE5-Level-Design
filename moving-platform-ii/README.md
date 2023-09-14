@@ -38,7 +38,22 @@ Right click on the open graph next to the custom event and add a **Move Componen
 
 ![add move component to node and attach static mesh](images/moveComponentTo.png)
 
-##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+![](../images/line2.png)
+
+##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now we need a variable to set the speed the platform moves at in seconds.  Duplicate by right clicking on the  **Delay** variable and selecting **Duplicate**.
+
+![](../images/line2.png)
+
+
+##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
+
+
+![](../images/line2.png)
+Change the name to `Speed` and adjust the tooltip to `Speed to target in seconds`. 
+
+![add speed variable](images/speed.png)
 
 Now we need another function to set the end position. 
 
@@ -46,11 +61,7 @@ Add a third variable that will affect how long the platform waits before it leav
 
 ![add delay variable](images/delayVariable.png)
 
-Now we need a variable to set the speed the platform moves at in seconds.  Duplicate by right clicking on the  **Delay** variable and selecting **Duplicate**.
 
-Change the name to `Speed` and adjust the tooltip to `Speed to target in seconds`. 
-
-![add speed variable](images/speed.png)
 
 The platform will do a single trip from beginning to end, unless it is set to looping.  This will have it go and back at infinitum.  Add another Variable called `bPlatform Is Looping?` and make it **Type** `Boolean`.  Set **Instance Editable** to `true`, **Private** to `true`, **Category** to `Platform` and **Tooltip** to `Keep going from starting to ending position and back`
 
