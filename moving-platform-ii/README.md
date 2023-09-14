@@ -42,7 +42,7 @@ Right click on the open graph next to the custom event and add a **Move Componen
 
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need a variable to set the speed the platform moves at in seconds.  Duplicate by right clicking on the  **EndingPosition** variable and selecting **Duplicate**. Call it `Speed` and set it to **Type** `Float` (a single fractional number).  Change the descriptiion to `Speed in cn/s`. In Unreal one unit is a centimeter, so our platform will move in cm per second.
+Now we need a variable to set the speed the platform moves at in seconds.  Duplicate by right clicking on the  **EndingPosition** variable and selecting **Duplicate**. Call it `Speed` and set it to **Type** `Float` (a single fractional number).  Change the descriptiion to `Speed in cm/s`. In Unreal one unit is a centimeter, so our platform will move in cm per second.
 
 ![create  speed variable](images/speedVar.png)
 
@@ -67,9 +67,12 @@ Select all the nodes connected to **Move Platform** then press the <kbd>C</kbd> 
 https://github.com/maubanel/UE5-Level-Design/assets/5504953/304d0380-f4a6-4960-ad67-b8c71f5ce070
 
 ![](../images/line2.png)
-Change the name to `Speed` and adjust the tooltip to `Speed to target in seconds`. 
 
-![add speed variable](images/speed.png)
+##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now we want the platform to return to the begining of the game. So 
+
+![set platform to start](images/setActorLocation.png)
 
 Now we need another function to set the end position. 
 
