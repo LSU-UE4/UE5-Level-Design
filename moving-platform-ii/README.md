@@ -42,7 +42,7 @@ Right click on the open graph next to the custom event and add a **Move Componen
 
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need a variable to set the speed the platform moves at in seconds.  Duplicate by right clicking on the  **Delay** variable and selecting **Duplicate**. Call it `Speed` and set it to **Type** `Float`.  Change the descriptiion to `Speed in cn/s`. In Unreal one unit is a centimeter, so our platform will move in cm per second.
+Now we need a variable to set the speed the platform moves at in seconds.  Duplicate by right clicking on the  **EndingPosition** variable and selecting **Duplicate**. Call it `Speed` and set it to **Type** `Float` (a single fractional number).  Change the descriptiion to `Speed in cn/s`. In Unreal one unit is a centimeter, so our platform will move in cm per second.
 
 ![create  speed variable](images/speedVar.png)
 
@@ -62,9 +62,7 @@ Drag a **Get Ending Positoin** and **Get Starting Position** getter for the two 
 
 ##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
 
-Right click on the empty graph and add a **Get Actor Rotation** node. Connect the output of the **Get Actor Rotation** it to the **Target Relative Rotation** node.
 
-![set the actor rotation](images/setRotation.png)
 
 ![](../images/line2.png)
 Change the name to `Speed` and adjust the tooltip to `Speed to target in seconds`. 
