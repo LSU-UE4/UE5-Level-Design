@@ -129,8 +129,7 @@ Drag and drop the **Starting Position** variable and we want to read it so selec
 
 Now lets finish up this function.  
 
-![create startingPosition variable](images/createFunctionForSettingStart.png)
-finishUpFunction
+![create startingPosition variable](images/finishUpFunction.png)
 
 ![](../images/line2.png)
 
