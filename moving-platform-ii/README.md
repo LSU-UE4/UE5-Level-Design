@@ -23,6 +23,12 @@ We need to add a new event that sends the platform to one location to another. G
 
 ##### `Step 2.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: 
 
+We will call the custom event as soon as the game starts.  This is accomplished throught the **Begin Play** event that runs only one time when the game is started.
+
+Remove the **Event Tick** and **Event ActorBeginOverlap** event nodes as we will not use these. Go to **Begin Play** and pull off of the execution pin and call the above custom event  by adding a node to trigger the event we just created **Go to Location and Back**.  This will run this function when you press the **Play** button.  It will run the **Event Begin Play** execution node once.
+
+![call go to location and back from begin play](images/startMovement.png)
+
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
@@ -99,11 +105,7 @@ Drag a **Set End Position** node to the graph and select **Set**.  Leave it as `
 
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We will call the custom event as soon as the game starts.  This is accomplished throught the **Begin Play** event that runs only one time when the game is started.
 
-Remove the **Event Tick** and **Event ActorBeginOverlap** event nodes as we will not use these. Go to **Begin Play** and pull off of the execution pin and call the above custom event  by adding a node to trigger the event we just created **Go to Location and Back**.  This will run this function when you press the **Play** button.  It will run the **Event Begin Play** execution node once.
-
-![call go to location and back from begin play](images/startMovement.png)
 
 ![](../images/line2.png)
 
