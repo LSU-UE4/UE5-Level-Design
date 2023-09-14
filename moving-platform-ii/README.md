@@ -78,7 +78,7 @@ Now we want the platform to start at the begining of when the game is started. S
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now select all the nodes around **Begin Play** and press the <kbd>C</kbd> key.  Add a title at the top `Resets Platform's Starting Location then Starts Moving`.  
+Now select all the nodes around **Begin Play** and press the <kbd>C</kbd> key.  Add a title at the top `Resets Platform's Starting Location then Starts Moving`.  If it doesn't animate at all check to see that your **StartingPosition** and **EndingPosition** are correct. 
 
 ![add comment to begin play](images/commentBeginPlay.png)
 
@@ -96,158 +96,28 @@ Now when you press the <kbd>Play</kbd> button you will see that the platform mov
 
 https://github.com/maubanel/UE5-Level-Design/assets/5504953/b1c1eb6c-6cc5-4d3c-a7fc-249d58e83f08
 
-Now we need another function to set the end position. 
-
-Add a third variable that will affect how long the platform waits before it leaves and returns to its two locations.  Call it `Delay` and make it type **Float**.  Set **Private** to `true`, **Instance Editable** to `true`, **Category** to `Platform` and **Description** to `Delay between targets in seconds`.
-
-![add delay variable](images/delayVariable.png)
-
-
-
-The platform will do a single trip from beginning to end, unless it is set to looping.  This will have it go and back at infinitum.  Add another Variable called `bPlatform Is Looping?` and make it **Type** `Boolean`.  Set **Instance Editable** to `true`, **Private** to `true`, **Category** to `Platform` and **Tooltip** to `Keep going from starting to ending position and back`
-
-![add a bPlatform Is Looping variable?](images/platfromLooping.png)
-
-
-We will need to use a boolean to set the starting and ending location.  Duplicate the previous **Boolean** twice and call it `bSet Start Position` and `bSet End Position` and change the **Description** to `Pressing this sets the start position in world space` and `Pressing this sets the start position in world space`.
-
-Also make sure that the **Starting Position** and **Ending Position** variables are both in the **Platform** group.
-
-![add a bSetStartPosition variable?](images/startEndPos.png)
-
-Go to the **Construction Script** tab and lets put logic to set the start and end position.  Add a **Branch** node by right clicking on the graph in an empty section and type in **Branch** in the search window.  Press **Select** and you should see a **Branch**.
-
-The branch node takes a boolean (true or false) as an input and will run different execution pins if the value it **True** or **False**. Grab the **bSetStartPosition** boolean and select **Get**.  Drag the output of the **SetStartPosition** node to the **Condition** pin in the **Branch** node. 
-
-Connnect the **Execution** pin from **Construction Script** to the **Branch** node.
-
-![connect to construction script](images/setStartPosition.png)
-
-
-Drag a **Set Starting Position** node and now select **Set Starting Position** and connect it to the **True** execution pin from the **Branch** node. Make sure it is set to `false` - it is hard to see but there is a tick box right next to the text in the **Set** node. 
-
-So this means that in the game when we press the **Set Starting Positipon** that it will be false again, and next we will actually set it with the current value in the room.
-
-![change set starting position to false](images/setFalseSP.png)
-
-Add a **Set Starting Position** as a **Set** node.  This sets the position to the current position of the actor in the room. Right click on the open graph and type **Get Actor Location**.
-
-![set actor location](images/setActorLocation.png)
-
-Connect the execution pin from **Set Start Position** to the **Set Starting Position** node.  Then connect the **Return Value** pin to the **Starting Position** pin that stores the current position this actor is in.
-
-![set actor position](images/connectSAL.png)
-
-Press the compile button in the **Blueprint** then press the <kbd>Play</kbd> button in the level.  Move the **BP_Platform** and press the **Set Starting Position** boolean.  Notice the **Starting Positin** vector now updates with the current position of the object in the room.
-
-https://user-images.githubusercontent.com/5504953/182248453-137c76ae-0cc9-436a-a816-6f7f34656f56.mp4
-
-Drag a reference to **bSertEndPosition** to the graph and select **Get**.  Right click on the open graph and select another **Branch** node.  Send the output execution pin from the first **Branch Node | False** to the second **Branch Node** input.  This means that if you are not pushing the **Set Starting Position** variable maybe you are pushing the **Set Ending Position**.  Then attach the red output pin of **Set End Position** to the **Branch | Condition** pin.
-
-![add set ending position and branch node](images/getSetEnd.png)
-
-![](../images/line2.png)
-
-##### `Step 2.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: 
-
-Drag a **Set End Position** node to the graph and select **Set**.  Leave it as `false` (the box right next to the text).  Connect the execuation pin to the **Branch | True** output.  Drag a **Set Ending Position** node and connect it to the output of the previous **Set** node.  Connect the **Return Value** from the **Get Actor Node** to the **Ending Position** pin.
-
-![alt text](images/setEndPos2.png)
-
-![](../images/line2.png)
-
-##### `Step 3.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
-![](../images/line2.png)
-
-##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
-
-
-![](../images/line2.png)
-
-##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
-
-Add a **Get Ending Position** node and put it into the **Target Relative Location** pin.  Connect the output of the **Ending Position** pin to the **Target Relative Location** in the **Move Component To** node.
-
-Add a **Get Speed** node and connect it to the **Over Time** pin in the **Move Component To** node. 
-
-![alt text](images/timeSpeed.png)
-
-![](../images/line2.png)
-
-##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Right click on the empty graph and add a **Get Actor Rotation** node. Connect the output of the **Get Actor Rotation** it to the **Target Relative Rotation** node.
-
-![set the actor rotation](images/setRotation.png)
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now we need to make sure the platform starts the game at its starting position. In the **Event Begin Play** section add a **Set Actor Location** node.  Drag a copy of the **Get Starting Position** node and connect it to the **New Location** pin.  Now highjack the execution pin from **Event Begin Play** to **Set Actor Location** onto **Go to Platform and Back**.
-
-![alt text](images/setInitialLocation.png)
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Press **Compile** on the blueprint and make sure there are no errors. Go back to the editor and select a starting and ending point for the platform.  Set the **Speed** to `5` seconds.
-
-![game settings for platform](images/setStartEnd.png)
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
-
-Press the <kbd>Play</kbd> button and see the platform go from the begining to the end position.
-
-https://user-images.githubusercontent.com/5504953/182253712-6ffb3a80-27ad-401f-8396-eb3550b8a9fc.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
-Now when you press the <kbd>Play</kbd> button you will see that the platform moves from the begining to the end position.
 
-
-
-![](../images/line2.png)
-
-Now go back to **BP_Platform** to the **Custom Event** section.  Lets add a delay for the platform to start for the first time.  Right click on the open graph and add a **Delay** function node.  Then drag a **Get Delay** variable and connect the output pin the **Duration** pin on the **Delay** node.  Set the **Default** value for the **Delay** variable to `2` seconds. Highjack the execution pins from **Go to Plaform and Back** to **Delay** then to **Move Compent To**.
-
-![alt text](images/delayNode.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Press the <kbd>Play</kbd> button and there a short 2 second delay before the platform goes up.
-
-https://user-images.githubusercontent.com/5504953/182275878-8e5e5f22-9acc-40ce-9294-d3a8fed77ac2.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now we need to go back and forth if looping is turned on.  Drag a **Get Platform is Looping** onto the graph.  Drag the output pin and select a **Branch** node.  Connect the execution pin from **Move Component To** to the **Branch** node.
-
-![add platform is looping and branch node](images/platforLooping.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now copy and paste all the nodes attached to **Move Components To** and the **Delay** nodes and paset them after the **Branch** node added above.  Connect the execution pin from the **Branch** node to the **Delay** node.
-
-![copy and paste move components to](images/copyNodesMoveComponent.png)
 
 ![](../images/line2.png)
 
