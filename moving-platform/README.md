@@ -155,14 +155,29 @@ https://github.com/maubanel/UE5-Level-Design/assets/5504953/f55d7447-a826-4c5f-8
 
 ##### `Step 16.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Duplicate the **Starting Position** variable and call it `Ending Position` and change the tooltip to `Ending location of the platform`. Otherwise everything else can stay the same.  This will store the ending location so the platform will move between the starting and ending position we set.
+Duplicate the **Starting Position** variable and call it `EndingPosition` and change the tooltip to `Ending location of the platform`. Otherwise everything else can stay the same.  This will store the ending location so the platform will move between the starting and ending position we set.
 
 ![duplicate starting position ot create end position](images/endingPos.png)
-
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![duplicate function to set ending position](images/dupeFunction.png)
+
+![](../images/line2.png)
+
+##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+[change description of set end function](images/changeDescription.png)
+
+
+![](../images/line2.png)
+
+##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+Now we need another function to set the end position. 
 
 Add a third variable that will affect how long the platform waits before it leaves and returns to its two locations.  Call it `Delay` and make it type **Float**.  Set **Private** to `true`, **Instance Editable** to `true`, **Category** to `Platform` and **Description** to `Delay between targets in seconds`.
 
@@ -192,26 +207,16 @@ Connnect the **Execution** pin from **Construction Script** to the **Branch** no
 
 ![connect to construction script](images/setStartPosition.png)
 
+
 Drag a **Set Starting Position** node and now select **Set Starting Position** and connect it to the **True** execution pin from the **Branch** node. Make sure it is set to `false` - it is hard to see but there is a tick box right next to the text in the **Set** node. 
 
 So this means that in the game when we press the **Set Starting Positipon** that it will be false again, and next we will actually set it with the current value in the room.
 
 ![change set starting position to false](images/setFalseSP.png)
 
-
-![](../images/line2.png)
-
-##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Add a **Set Starting Position** as a **Set** node.  This sets the position to the current position of the actor in the room. Right click on the open graph and type **Get Actor Location**.
 
 ![set actor location](images/setActorLocation.png)
-
-
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Connect the execution pin from **Set Start Position** to the **Set Starting Position** node.  Then connect the **Return Value** pin to the **Starting Position** pin that stores the current position this actor is in.
 
