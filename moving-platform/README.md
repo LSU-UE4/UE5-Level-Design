@@ -43,6 +43,8 @@ Now you can select **PolyModel | PolyEd** and select **Extrude**.  Now give the 
 
 
 
+![Add material to disc](images/addMaterial.png)
+
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
