@@ -49,7 +49,7 @@ Another way of adding a material is to drag it on the static mesh.  Drag and dro
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
-Move the **PlayerStart** actor next to the platform with the red arrow pointing at it.
+Move the **PlayerStart** actor next to the platform with the red arrow pointing at it. Now rename the disc to `SM_MovingPlatform` and drag it into the **Meshes** folder.
 
 ![move player start next to platform](images/playerStart.png)
 
@@ -58,7 +58,7 @@ Move the **PlayerStart** actor next to the platform with the red arrow pointing 
 
 ##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
 
-Run the game and you can jump on the platform.  Make any changes you see fit, but I am happy with mine! I see a red error and switch back to **Select Mode**.
+Return to **Selection Mode** and run the game and you can jump on the platform.  Make any changes you see fit, but I am happy with mine! 
 
 ![no collision on platform](images/jumpOnPlatform.png)
 
