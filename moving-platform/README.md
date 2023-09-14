@@ -49,7 +49,7 @@ Another way of adding a material is to drag it on the static mesh.  Drag and dro
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
-Move the **PlayerStart** actor next to the platform with the red arrow pointing at it. Now rename the disc to `SM_MovingPlatform` and drag it into the **Meshes** folder.
+Move the **PlayerStart** actor next to the platform with the red arrow pointing at it. Now rename the disc to `SM_MovingPlatform` and drag it into the **Meshes** folder. Then rename the platform and move it into the correct folder in the **World Outliner**.
 
 ![move player start next to platform](images/playerStart.png)
 
@@ -68,7 +68,9 @@ https://github.com/maubanel/UE5-Level-Design/assets/5504953/3e171c6d-7bdf-4be4-b
 
 Now we don't want to create a single platform in this level.  We want to create a game actor that we can use multiple times in multiple levels.  In Unity these are called **Prefabs**, in Unreal we use **Blueprints**.  
 
-Go to the **Blueprints** folder and *right click* in an open area and add a **Blueprint Graph**. select . Go back to the **World Outliner** and and select **Disc** you made.  You will see a button **Blueprint/Add Script**.  Highlight the platform and press the <kbd>Blueprint/Add Script</kbd> button.  Name the blueprint `BP_Platform` and keep the default **New Subclass**. Put it in the new **Blueprints** folder. Press the <kbd>Select</kbd> button. 
+Go to the **Blueprints** folder and *right click* in an open area and add a **Blueprint Class**. select . Now select an **Actor** blueprint (this is the base class for any object to appear in a level). 
+
+Go back to the **World Outliner** and and select **Disc** you made.  You will see a button **Blueprint/Add Script**.  Highlight the platform and press the <kbd>Blueprint/Add Script</kbd> button.  Name the blueprint `BP_Platform` and keep the default **New Subclass**. Put it in the new **Blueprints** folder. Press the <kbd>Select</kbd> button. 
 
 ![turn actor to blueprint and call it BP_Platform](images/createBP.png)
 
