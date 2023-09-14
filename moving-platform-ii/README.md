@@ -57,6 +57,14 @@ Drag a **Get Ending Positoin** and **Get Starting Position** getter for the two 
 
 ![setting the end location in local space](images/setEndingLocation.png)
 
+![](../images/line2.png)
+
+
+##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
+
+Right click on the empty graph and add a **Get Actor Rotation** node. Connect the output of the **Get Actor Rotation** it to the **Target Relative Rotation** node.
+
+![set the actor rotation](images/setRotation.png)
 
 ![](../images/line2.png)
 Change the name to `Speed` and adjust the tooltip to `Speed to target in seconds`. 
