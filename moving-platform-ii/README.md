@@ -161,7 +161,7 @@ Select all the nodes before the delay and copy and paste them.  We will use them
 
 ##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to loop, so all we need to do is recurse this custom event.  After the second delay, add a call back to **Go to Plaform and Back** custom event and attach the execution pin. This will keep rercursively calling itself and loop as long as the game is running.
+Now we need to loop, so all we need to do is recurse this custom event.  After the second delay, add a call back to **Move Platform** custom event and attach the execution pin. This will keep rercursively calling itself and loop as long as the game is running.
 
 ![call back infinite loop](images/CallOneself.png)
 
@@ -171,7 +171,6 @@ Now we need to loop, so all we need to do is recurse this custom event.  After t
 
 Press the <kbd>Play</kbd> button and now we have the final functionality of the platform as it loops endlessly.  We will end it here for this walk through.  Now go build a diller platforming level!
 
-https://user-images.githubusercontent.com/5504953/182279129-bc0f98b6-85ca-4ad1-8b01-715f6ce35007.mp4
 
 ![](../images/line2.png)
 
@@ -183,6 +182,17 @@ Select the **File | Save All** then press the <kbd>Source Control</kbd> button a
 
 ![](../images/line2.png)
 
+![](../images/line2.png)
+
+##### `Step 21.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
+Sometimes not all files get submitted to Unreal especially for files that don't show up in the editor.  It is good practice one you submit in **Unreal** and quit the game to right click on the top most project folder and select **Reconcile Offline Work...**.
+
+This will either give a message saying ther is nothing to reconcile or bring up a tab.  Make sure that these are **NOT** files in the **Intermediate** and **Saved** folders as these should be ignored from the `.p4ignore`.
+
+If the files are in **Content** or **Configuration** then press the <kbd>Reconcile</kbd> button.  Then submit the changes with a message and press the <kbd>Submit</kbd> button.
+
+![Reconcile Offline Work](images/reconcile.png)
 
 | `level.design`\|`THE END`| 
 | :--- |
