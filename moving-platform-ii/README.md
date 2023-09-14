@@ -51,6 +51,8 @@ Now we need a variable to set the speed the platform moves at in seconds.  Dupli
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
+![setting the end location in local space](images/setEndingLocation.png)
+
 
 ![](../images/line2.png)
 Change the name to `Speed` and adjust the tooltip to `Speed to target in seconds`. 
