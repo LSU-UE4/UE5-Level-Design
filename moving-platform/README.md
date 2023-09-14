@@ -119,15 +119,18 @@ We set a description as it allows us to get a tooltip when we highlight the vari
 
 Now we want to be able to place the platform in the level and set this starting position.  We will create a function to make this easier to do.  A function is like a factory, it will do a job for us and give us something back.  Press the **+** plus button next to **Functions** and call it **Set Start Position**.  This will open up another graph to program the logic for this function.
 
-Drag and drop the **Starting Position** variable and we want to read it so sselect **Get**.  Right clik on the open graph and select **Get Actor Location**.  This will allow us to access the current location of the platform and save it as the starting position!
+Drag and drop the **Starting Position** variable and we want to read it so select **Get**.  Right clik on the open graph and select **Get Actor Location**.  This will allow us to access the current location of the platform and save it as the starting position!
 
-![create startingPosition variable](images/createFunctionForSettingStart.png)
+![create a new function called set start position](images/createFunctionForSettingStart.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Now lets finish up this function.  
 
+![create startingPosition variable](images/createFunctionForSettingStart.png)
+finishUpFunction
 
 ![](../images/line2.png)
 
