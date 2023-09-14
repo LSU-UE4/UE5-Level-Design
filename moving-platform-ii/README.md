@@ -171,6 +171,7 @@ Now we need to loop, so all we need to do is recurse this custom event.  After t
 
 Press the <kbd>Play</kbd> button and now we have the final functionality of the platform as it loops endlessly.  We will end it here for this walk through.  Now go build a diller platforming level!
 
+https://github.com/maubanel/UE5-Level-Design/assets/5504953/bee113b0-3873-40c0-8c5a-04b569077fb5
 
 ![](../images/line2.png)
 
