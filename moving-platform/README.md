@@ -127,7 +127,9 @@ Drag and drop the **Starting Position** variable and we want to read it so selec
 
 ##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now lets finish up this function.  
+Now lets finish up this function.  Grab the execution pin from **Set Starting Position** and connect it to the **Set | Starting Position** node.  Then take the vector output **Get Actor Location | Return Value** to the **Set | Starting Position** input pin. 
+
+Please note that white triangles determines the execution order of the nodes (it is not where it is positioned on the graph).  The colored dots is data coming out (right hand side) and into (left hand side) nodes.  Each color represents a different data type.  In this case yellow represents a vector.
 
 ![create startingPosition variable](images/finishUpFunction.png)
 
