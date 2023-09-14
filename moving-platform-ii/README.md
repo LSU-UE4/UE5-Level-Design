@@ -135,6 +135,7 @@ Now we need to go back to the begining position of the static mesh.  So in **Beg
 
 ##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
 
+This new variable is of the correct type as we created from a pin that has an inherit type of **Vector** (three floats).  Call it `Relative Location` and add a **Description** of `Save original location of component in local space`.  Change it to **Private** and put it in group **Moving Platform**.  Now we do NOT want to make it instance editable as it will always go back to where it was set in the static mesh **local** space inside this blueprint regardless of where you place it in the level.
 
 ![add starting position node](images/SetUpOriginalPositionRelative.png)
 
