@@ -70,9 +70,25 @@ https://github.com/maubanel/UE5-Level-Design/assets/5504953/304d0380-f4a6-4960-a
 
 ##### `Step 7.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we want the platform to return to the begining of the game. So drag a **Get | Starting Position** and right click and add a **SEt Actor Location** node.  Connect the output of the **Starting Position** pin and attach it to the **Set Actor Location | New Location** node.  Highjack the execution pins to put it before we call **Move Platform**.
+Now we want the platform to start at the begining of when the game is started. So drag a **Get | Starting Position** and right click and add a **Set Actor Location** node.  Connect the output of the **Starting Position** pin and attach it to the **Set Actor Location | New Location** node.  Highjack the execution pins to put it before we call **Move Platform**. This ensures that the actor's component is actually in its starting position.
 
 ![set platform to start](images/setActorLocation.png)
+
+![](../images/line2.png)
+
+##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now select all the nodes around **Begin Play** and press the <kbd>C</kbd> key.  Add a title at the top `Resets Platform's Starting Location then Starts Moving`.  
+
+![add comment to begin play](images/commentBeginPlay.png)
+
+![](../images/line2.png)
+
+##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now we don't want the static mesh to rotate if you did rotate it inside the blueprint component.  We would want it to stay at it's local rotation.
+
+![add comment to begin play](images/setRotationRelative.png)
 
 Now we need another function to set the end position. 
 
