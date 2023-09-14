@@ -184,63 +184,6 @@ Now you can go back to the game and move the platform to the ending location.  P
 
 https://github.com/maubanel/UE5-Level-Design/assets/5504953/d72065b1-f4f7-4f22-843b-fb52c4c0c132
 
-![](../images/line2.png)
-
-##### `Step 20.`\|`UE5LD`| :large_blue_diamond: :large_blue_diamond:
-
-Now we need another function to set the end position. 
-
-Add a third variable that will affect how long the platform waits before it leaves and returns to its two locations.  Call it `Delay` and make it type **Float**.  Set **Private** to `true`, **Instance Editable** to `true`, **Category** to `Platform` and **Description** to `Delay between targets in seconds`.
-
-![add delay variable](images/delayVariable.png)
-
-Now we need a variable to set the speed the platform moves at in seconds.  Duplicate by right clicking on the  **Delay** variable and selecting **Duplicate**.
-
-Change the name to `Speed` and adjust the tooltip to `Speed to target in seconds`. 
-
-![add speed variable](images/speed.png)
-
-The platform will do a single trip from beginning to end, unless it is set to looping.  This will have it go and back at infinitum.  Add another Variable called `bPlatform Is Looping?` and make it **Type** `Boolean`.  Set **Instance Editable** to `true`, **Private** to `true`, **Category** to `Platform` and **Tooltip** to `Keep going from starting to ending position and back`
-
-![add a bPlatform Is Looping variable?](images/platfromLooping.png)
-
-
-We will need to use a boolean to set the starting and ending location.  Duplicate the previous **Boolean** twice and call it `bSet Start Position` and `bSet End Position` and change the **Description** to `Pressing this sets the start position in world space` and `Pressing this sets the start position in world space`.
-
-Also make sure that the **Starting Position** and **Ending Position** variables are both in the **Platform** group.
-
-![add a bSetStartPosition variable?](images/startEndPos.png)
-
-Go to the **Construction Script** tab and lets put logic to set the start and end position.  Add a **Branch** node by right clicking on the graph in an empty section and type in **Branch** in the search window.  Press **Select** and you should see a **Branch**.
-
-The branch node takes a boolean (true or false) as an input and will run different execution pins if the value it **True** or **False**. Grab the **bSetStartPosition** boolean and select **Get**.  Drag the output of the **SetStartPosition** node to the **Condition** pin in the **Branch** node. 
-
-Connnect the **Execution** pin from **Construction Script** to the **Branch** node.
-
-![connect to construction script](images/setStartPosition.png)
-
-
-Drag a **Set Starting Position** node and now select **Set Starting Position** and connect it to the **True** execution pin from the **Branch** node. Make sure it is set to `false` - it is hard to see but there is a tick box right next to the text in the **Set** node. 
-
-So this means that in the game when we press the **Set Starting Positipon** that it will be false again, and next we will actually set it with the current value in the room.
-
-![change set starting position to false](images/setFalseSP.png)
-
-Add a **Set Starting Position** as a **Set** node.  This sets the position to the current position of the actor in the room. Right click on the open graph and type **Get Actor Location**.
-
-![set actor location](images/setActorLocation.png)
-
-Connect the execution pin from **Set Start Position** to the **Set Starting Position** node.  Then connect the **Return Value** pin to the **Starting Position** pin that stores the current position this actor is in.
-
-![set actor position](images/connectSAL.png)
-
-Press the compile button in the **Blueprint** then press the <kbd>Play</kbd> button in the level.  Move the **BP_Platform** and press the **Set Starting Position** boolean.  Notice the **Starting Positin** vector now updates with the current position of the object in the room.
-
-https://user-images.githubusercontent.com/5504953/182248453-137c76ae-0cc9-436a-a816-6f7f34656f56.mp4
-
-
-![](../images/line2.png)
-
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=COMPLETE!"> -->
 ![next up next tile](images/banner.png)
 
