@@ -76,13 +76,24 @@ Go to the **Blueprints** folder and *right click* in an open area and add a **Bl
 
 ##### `Step 8.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now open up **BP_MovingPlatforms**.  Sometimes when you open a blueprint you get just a partial display of the variables.  All you need to do is press the 
+Now open up **BP_MovingPlatforms**.  Sometimes when you open a blueprint you get just a partial display of the variables.  All you need to do is press the **Open Full Blueprint Editor**.  Now go to the **Viewport** tab and press the **+ Add** component button.  Select a **Static Mesh** component and rename it to `Jump Platform`.
 
 ![open blueprint and add component](images/openBPAddComponent.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Assign the **LD_** material so we can see the nice measurement grid.
+
+![open blueprint and add component](images/assignMaterial.png)
+
+
+
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
 I like docking the blueprint next to the editor if I am on a single monitor. Put the **BP_Platform** actor in the **Moving Platform** folder to join the titles.
 
@@ -91,10 +102,6 @@ I like docking the blueprint next to the editor if I am on a single monitor. Put
 Rename the mesh to `SM_Platform` and move it to the **Meshes** folder.  Delete any extraneous meshes you might have created to make it.
 
 ![turn actor to blueprint and call it BP_Platform](images/smPlatform.png)
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
 
 We need to locations for the platform to move **From** and to move **To**.  We will just be translating the object and are not rotating or scaling it.  So we need an **X**, **Y**, **Z** float to store the location.  There is a data structure called a **Vector** available to us in Unreal.  It is a **struct** that holds the three floats we need. We need to create a Variable to store it.
 
