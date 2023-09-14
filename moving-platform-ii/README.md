@@ -90,6 +90,12 @@ Now we don't want the static mesh to rotate if you did rotate it inside the blue
 
 ![add comment to begin play](images/setRotationRelative.png)
 
+##### `Step 10.`\|`UE5LD`| :large_blue_diamond:
+
+Now when you press the <kbd>Play</kbd> button you will see that the platform moves from the begining to the end position.
+
+
+
 Now we need another function to set the end position. 
 
 Add a third variable that will affect how long the platform waits before it leaves and returns to its two locations.  Call it `Delay` and make it type **Float**.  Set **Private** to `true`, **Instance Editable** to `true`, **Category** to `Platform` and **Description** to `Delay between targets in seconds`.
