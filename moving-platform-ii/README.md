@@ -62,6 +62,8 @@ Drag a **Get Ending Positoin** and **Get Starting Position** getter for the two 
 
 ##### `Step 6.`\|`UE5LD`| :small_orange_diamond: :small_blue_diamond:
 
+Select all the nodes connected to **Move Platform** then press the <kbd>C</kbd> key to add a comment around the nodes.  Add a comment at the top `Move Platform From Starting to End Platforms`.  Press the color picker and give the comment box a translucent color.  This will allow you to drag the comment box and all the nodes will move with it making it easier to keep a clean node chart.
+
 https://github.com/maubanel/UE5-Level-Design/assets/5504953/304d0380-f4a6-4960-ad67-b8c71f5ce070
 
 ![](../images/line2.png)
