@@ -41,7 +41,7 @@ Now you can select **PolyModel | PolyEd** and select **Extrude**.  Now give the 
 
 ##### `Step 4.`\|`UE5LD`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+Another way of adding a material is to drag it on the static mesh.  Drag and drop **MD_LDGrid_Local** on the disc to give it the scaled material.
 
 ![Add material to disc](images/addMaterial.png)
 
