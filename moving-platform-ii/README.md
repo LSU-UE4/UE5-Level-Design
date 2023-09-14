@@ -151,7 +151,7 @@ Now lets delay when it reaches the top.  So add another **Get Delay** node and a
 
 ##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select all the nodes before the delay and copy and paste them.  We will use them to return the disc to its original position.
+Select all the nodes before the delay and copy and paste them.  We will use them to return the disc to its original position. Delete the **Custom Event** and **Delay** nodes (both).  Delete all the nodes going into the **Target Relative Location** as we will plug the original position there instead.
 
 ![copy nodes](images/CopyNodes.png)
 
@@ -161,9 +161,9 @@ Select all the nodes before the delay and copy and paste them.  We will use them
 
 ##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to loop, so all we need to do is recurse this custom event.  We add a **Get Delay** variable and a **Delay** function node. Attach the execution pin from the **Move Component To | Completed** node to the **Delay Node**.  Add a call back to **Go to Plaform and Back** custom event and attach the execution pin.
+Now we need to loop, so all we need to do is recurse this custom event.  After the second delay, add a call back to **Go to Plaform and Back** custom event and attach the execution pin. This will keep rercursively calling itself and loop as long as the game is running.
 
-![alt text](images/recurse.png)
+![call back infinite loop](images/CallOneself.png)
 
 ![](../images/line2.png)
 
