@@ -117,6 +117,13 @@ We set a description as it allows us to get a tooltip when we highlight the vari
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+![create startingPosition variable](images/createFunctionForSettingStart.png)
+
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
 Duplicate the **Starting Position** variable and call it `Ending Position` and change the tooltip to `Ending location of platform`.
 
 ![duplicate starting position ot create end position](images/endingPos.png)
@@ -124,11 +131,6 @@ Duplicate the **Starting Position** variable and call it `Ending Position` and c
 Add a third variable that will affect how long the platform waits before it leaves and returns to its two locations.  Call it `Delay` and make it type **Float**.  Set **Private** to `true`, **Instance Editable** to `true`, **Category** to `Platform` and **Description** to `Delay between targets in seconds`.
 
 ![add delay variable](images/delayVariable.png)
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
 
 Now we need a variable to set the speed the platform moves at in seconds.  Duplicate by right clicking on the  **Delay** variable and selecting **Duplicate**.
 
