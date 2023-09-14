@@ -94,7 +94,7 @@ Now we don't want the static mesh to rotate if you did rotate it inside the blue
 
 Now when you press the <kbd>Play</kbd> button you will see that the platform moves from the begining to the end position.
 
-
+https://github.com/maubanel/UE5-Level-Design/assets/5504953/b1c1eb6c-6cc5-4d3c-a7fc-249d58e83f08
 
 Now we need another function to set the end position. 
 
