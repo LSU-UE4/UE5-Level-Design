@@ -182,7 +182,7 @@ Change the **Description** to `Set the ending position of the platform`.
 
 Now you can go back to the game and move the platform to the ending location.  Press the **Set End Location** button and see the **EndLocation** variable update with the new **World Position**.
 
-
+https://github.com/maubanel/UE5-Level-Design/assets/5504953/d72065b1-f4f7-4f22-843b-fb52c4c0c132
 
 ![](../images/line2.png)
 
