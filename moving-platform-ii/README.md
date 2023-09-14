@@ -101,13 +101,17 @@ https://github.com/maubanel/UE5-Level-Design/assets/5504953/b1c1eb6c-6cc5-4d3c-a
 
 ##### `Step 11.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: 
 
+Now one thing I don't like is that there is no time to jump on the platform it moves right away. Lets add a delay so there is a pause giving the player time to jump on or off the platform.
 
+![add comment to begin play](images/setFirstDelay.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+
+delayThenStart
 
 ![](../images/line2.png)
 
