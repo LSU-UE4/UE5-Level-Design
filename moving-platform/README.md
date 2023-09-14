@@ -137,7 +137,7 @@ Please note that white triangles determines the execution order of the nodes (it
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go back to the leven and delete the static mesh of the moving platform.  Replace it with **Blueprints | BP_MovingPlatform**.  It looks the same but in this case it has extra logic.
+Go back to the leven and delete the static mesh of the moving platform.  Replace it with **Blueprints | BP_MovingPlatform**.  It looks the same but in this case it has extra logic. Move it into the **Moving Platform** folder in the **World Outliner**. Ntotice the **Starting Position** variable gets the current **World Position** of the platform. 
 
 ![replace mesh with bp](images/replaceWithBlueprint.png)
 
@@ -145,7 +145,7 @@ Go back to the leven and delete the static mesh of the moving platform.  Replace
 
 ##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
 
-Now go into the game and adjust the platform to an appropriate starting position and press the **Set Starting Position** button that is exposed in the editor.
+Now go into the game and adjust the platform to an appropriate starting position and press the **Set Starting Position** button that is exposed in the editor. Remember the only way you can get access to this function in the **World Outliner** is to turn **Call in Editor** to true in the function as we did above.
 
 https://github.com/maubanel/UE5-Level-Design/assets/5504953/f55d7447-a826-4c5f-83d0-2d924f2f4ec0
 
