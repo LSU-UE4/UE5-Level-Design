@@ -127,18 +127,16 @@ https://github.com/maubanel/UE5-Level-Design/assets/5504953/86b1bb17-80da-4cc2-b
 
 ##### `Step 14.`\|`UE5LD`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now we need to go back to the begining position of the static mesh.  So in **Begin Play**
+Now we need to go back to the begining position of the static mesh.  So in **Begin Play** add some space to the right and grab a reference to the **Jump Platform** component.  Drag off of the **Jump Platform** pihn and select **Get Relative Location**.  Right click on the output of the **Relative Location** pihn and select **Promote to Variable**.  This way we will save our original relative starting position (not related to the world position we set).
 
 ![add comment to begin play](images/returnToBegining.png)
-
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: 
 
-Now delete the **Ending Position** node and replace it with a **Get Starting Position**.  We want the platform to go from the end back to the begining. Attach it to **Target Relative Location**.
 
-![add starting position node](images/backToStart.png)
+![add starting position node](images/SetUpOriginalPositionRelative.png)
 
 ![](../images/line2.png)
 
