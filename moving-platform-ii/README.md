@@ -51,6 +51,10 @@ Now we need a variable to set the speed the platform moves at in seconds.  Dupli
 
 ##### `Step 5.`\|`UE5LD`| :small_orange_diamond:
 
+Now our locations in the game are in world space.  Our **Move Component To** node is looking for a *Target Relative Location*.  It is beyond the scope of this walk through to get into the conversion but it is quite simple vector arithmetic.
+
+Drag a **Get Ending Positoin** and **Get Starting Position** getter for the two vector variables.  Add a **Subtraction (-)** node and subtract the starting position from the ending position.  Connect the output of this subtraction to the **Move Component To | Target Relative Location** pin.
+
 ![setting the end location in local space](images/setEndingLocation.png)
 
 
