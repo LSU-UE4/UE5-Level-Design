@@ -163,6 +163,7 @@ Duplicate the **Starting Position** variable and call it `EndingPosition` and ch
 
 ##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now we need a function to set the ending position.  Right click on **StartingPosition** function and select **Duplicate**.  Call this new function 
 ![duplicate function to set ending position](images/dupeFunction.png)
 
 ![](../images/line2.png)
