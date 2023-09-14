@@ -163,14 +163,15 @@ Duplicate the **Starting Position** variable and call it `EndingPosition` and ch
 
 ##### `Step 17.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need a function to set the ending position.  Right click on **StartingPosition** function and select **Duplicate**.  Call this new function 
+Now we need a function to set the ending position.  Right click on **SetStartingPosition** function and select **Duplicate**.  Call this new function `SetEndingPosition`.  Now we need to right click on the **Set | Starting Position** and select `Replace variable 'Staring Position' with ... > | EndingPosition`. 
+
 ![duplicate function to set ending position](images/dupeFunction.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5LD`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-[change description of set end function](images/changeDescription.png)
+![change description of set end function](images/changeDescription.png)
 
 
 ![](../images/line2.png)
